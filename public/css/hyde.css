@@ -103,6 +103,13 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+.sidebar .social-icons {
+  margin-top: 2rem;
+}
+.sidebar .social-icon img {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
 
 /* Sticky sidebar
  *
