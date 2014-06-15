@@ -6,4 +6,4 @@ weight: 1
 title: Working in Schools
 ---
 
-All about times tables
+This is my stuff about my work for Services for Education music department in Birmingham schools.
