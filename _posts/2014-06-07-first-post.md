@@ -1,6 +1,7 @@
 ---
 layout: post
-category: general
+category: blog
+section: blog
 post_date: true
 title: This is Bakertunes
 ---
