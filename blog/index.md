@@ -6,5 +6,5 @@ weight: 3
 title: Blog
 ---
 
-This is the Bakertunes blog, the place for everything that doesn't fit somewhere else.
+This is the Bakertunes blog, where I post things I come across that I find inspirational or interesting.
 
