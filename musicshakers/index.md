@@ -3,11 +3,11 @@ layout: section
 category: musicshakers
 post_date: true
 weight: 1
-title: Musicshakers
+title: Music Shakers
 ---
 <aside class="inset right">[![Music Shaker](http://www.musicshakers.com/musicshakerslogo.jpg)](http://www.musicshakers.com/)</aside>
 
-Part of my work is for [Music Shakers](http://www.musicshakers.com/), music and movement classes for pre-school children.
+Part of my work is for [Music Shakers](http://www.musicshakers.com/), music and movement classes for pre-school children. Over the last 5 years I've worked on arranging and producing 5 albums of music for the Music Shakers classes, one for each of the terms. I'm currently working on number 6!
 
 {% assign pages_list = site.pages %}
 
