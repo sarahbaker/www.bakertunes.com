@@ -13,3 +13,5 @@ Music clearly affects our emotions very deeply, but I've long thought, and notic
 In this video Robin talks about her daughter, who struggled with short term memory. To help her daughter overcome these problems, Robin decided to sing her daughter the facts she needed to know, and amazingly her daughter was able to remember.
 
 I have seen this at first hand, where even very young children are able to learn several verses of a song from memory (seemingly effortlessly!). It was reasons just like this that inspired me to [set the challenging times tables to music](/tables) and to make them fun and enjoyable to remember.
+
+
