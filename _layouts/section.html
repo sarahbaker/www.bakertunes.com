@@ -13,7 +13,7 @@ layout: default
   {% if node.section == page.category %}
   {% if node.title != null %}
   <article>
-  <h3><a class="section-list" href="{{ node.url }}">{{ node.title }}</a></h3>
+  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
   {% if page.post_date != false %}
   <span class="post-date">{{ node.date | date_to_string }}</span>
   {% endif %}
@@ -21,6 +21,7 @@ layout: default
   {% if forloop.first %}
   {{ node.excerpt }}
   {% endif %}
+  <a href="{{ node.url }}">More »</a>
 
   </article>
   {% endif %}
