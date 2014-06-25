@@ -5,6 +5,7 @@ post_date: true
 weight: 1
 title: Musicshakers
 ---
+<aside class="inset right">[![Music Shaker](http://www.musicshakers.com/musicshakerslogo.jpg)](http://www.musicshakers.com/)</aside>
 
 Part of my work is for [Music Shakers](http://www.musicshakers.com/), music and movement classes for pre-school children.
 
