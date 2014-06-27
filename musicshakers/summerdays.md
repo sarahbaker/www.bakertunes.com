@@ -1,8 +1,6 @@
 ---
 layout: page
 category: musicshakers
-section: musicshakers
-post_date: false
 image: http://a2.mzstatic.com/us/r30/Music/v4/80/91/0d/80910d84-7bbd-ee32-b6d6-42c3717ff0b5/EMU_EMU130391.170x170-75.jpg
 title: Summer Days & Insect Ways
 ---

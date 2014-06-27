@@ -1,8 +1,6 @@
 ---
 layout: page
 category: musicshakers
-section: musicshakers
-post_date: false
 image: http://a1.mzstatic.com/us/r30/Music/df/e0/e1/mzi.rtsdkqhf.170x170-75.jpg
 title: Winter Chimes & Animal Rhymes
 ---

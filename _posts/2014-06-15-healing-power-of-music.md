@@ -1,7 +1,6 @@
 ---
 layout: post
 category: blog
-section: blog
 post_date: true
 title: The Healing Power of Music
 ---

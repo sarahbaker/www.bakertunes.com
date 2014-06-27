@@ -10,7 +10,7 @@ layout: default
   {% assign pages_list = site.posts %}
 
   {% for node in pages_list %}
-  {% if node.section == page.category %}
+  {% if node.category == page.category %}
   {% if node.title != null %}
   <article>
   <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>

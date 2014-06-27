@@ -1,8 +1,6 @@
 ---
 layout: page
 category: musicshakers
-section: musicshakers
-post_date: false
 image: http://a3.mzstatic.com/us/r30/Music/35/83/b2/mzi.latbbgzg.170x170-75.jpg
 title: Song Birds & Rhyming Words
 ---
