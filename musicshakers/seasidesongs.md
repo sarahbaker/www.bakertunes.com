@@ -1,7 +1,7 @@
 ---
 layout: page
 category: musicshakers
-image: http://a1.mzstatic.com/us/r30/Music/v4/30/8f/f5/308ff5cc-256e-506c-61b9-ae7d1dc494da/13931.170x170-75.jpg
+image: http://a5.mzstatic.com/us/r30/Music6/v4/53/1c/c0/531cc024-bf82-c326-1291-b24d08e6b4e7/dj.ttmaqlwz.170x170-75.jpg
 title: Seaside Songs to Sing Along
 ---
 
