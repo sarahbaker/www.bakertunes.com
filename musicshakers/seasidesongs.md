@@ -6,7 +6,7 @@ title: Seaside Songs to Sing Along
 ---
 
 <aside class="inset right">
-![Seaside Songs to Sing Along album cover](http://a1.mzstatic.com/us/r30/Music/v4/30/8f/f5/308ff5cc-256e-506c-61b9-ae7d1dc494da/13931.170x170-75.jpg)
+![Seaside Songs to Sing Along album cover](http://a5.mzstatic.com/us/r30/Music6/v4/53/1c/c0/531cc024-bf82-c326-1291-b24d08e6b4e7/dj.ttmaqlwz.170x170-75.jpg)
 </aside>
 
 *Seaside Songs to Sing Along* is a rollicking collection of summer tunes inspired by sunshine and holidays,  with familiar childhood favourites and catchy new rhymes to learn. Sing, clap, dance, rest and play along to jazz music, rock ’n’ roll jives, country and western songs, sea shanties and calming lullabies. This unique selection of fun-filled summer songs will delight children of all ages.
