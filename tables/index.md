@@ -6,7 +6,7 @@ weight: 2
 title: Tuning the Tables
 ---
 
-<aside class="inset left">![Tuning the Tables album cover](http://a4.mzstatic.com/us/r30/Music/v4/e5/6a/24/e56a244a-5f67-aaa2-acda-a986ec814180/EMU_EMU130460.170x170-75.jpg "Tuning the Tables")</aside>
+<aside class="inset left"><img src="http://a4.mzstatic.com/us/r30/Music/v4/e5/6a/24/e56a244a-5f67-aaa2-acda-a986ec814180/EMU_EMU130460.170x170-75.jpg" title="Tuning the Tables album cover"></aside>
 It's much more fun singing the sum! Tuning The Tables is a diverse collection of original songs, written to help children learn all the times tables from 2s to 12s. Written with catchy tunes, repetition and a unique mixture of both sums and sequences, these songs draw on my 20 years' experience of teaching primary age children and how music can make difficult or complex subjects fun and memorable. 
 
 <aside class="inset right">
