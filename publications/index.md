@@ -1,16 +1,17 @@
 ---
 layout: section
 category: publications
-weight: 0
+weight: 1
 title: Publications
 ---
 
 
 {% assign pages_list = site.pages %}
-
+{% for weight in (0..10) %}
 <section>
 {% for node in pages_list %}
   {% if node.layout != 'section' %}
+  {% if node.weight == weight %}
   {% if node.title != null %}
     {% if node.category == "publications" %}
   <article>
@@ -21,5 +22,7 @@ title: Publications
     {% endif %}
   {% endif %}
   {% endif %}
+  {% endif %}
+{% endfor %}
 {% endfor %}
 </section>

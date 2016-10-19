@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  
+  <aside class="inset right">
+  <a href="{{ page.publication_url }}" title="{{ page.title }}" target="_blank"><img src="{{ page.image }}" title="{{ page.title }} resource" width="250" class="border"></a>
+  </aside>
+  
+  {{ content }}
+  
+{% if page.publication_url %}<h2>Get <a href="{{ page.publication_url }}" target="_blank">{{ page.title }} at {{ page.publisher }}</a></h2>{% endif %}
+  
+</div>
