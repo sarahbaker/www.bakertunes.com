@@ -6,7 +6,9 @@ title: Music Shakers
 ---
 <aside class="inset right"><a href="http://www.musicshakers.com/" title="Music Shakers site"><img src="http://www.musicshakers.com/musicshakerslogo.jpg" title="Music Shakers logo"></a></aside>
 
-Part of my work is for [Music Shakers](http://www.musicshakers.com/), music and movement classes for pre-school children. Over the last 5 years I've worked on arranging and producing 5 albums of music for the Music Shakers classes, one for each of the terms. I'm currently working on number 6!
+[Music Shakers](http://www.musicshakers.com/) has been a very important part of my musical work. I have produced seven albums full of the amazingly varied songs and rhymes of the Music Shakers classes. This was a large, collaborative project that took several years to complete: Marcella Erskine collected the songs, I arranged and composed them and, together with Fiona Howe, we recorded them with a choir of local Birmingham children. 
+
+I'm very proud of the final products and think they are a wonderful resource for children and families.
 
 {% assign pages_list = site.pages %}
 
