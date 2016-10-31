@@ -5,10 +5,6 @@ image: https://images-eu.ssl-images-amazon.com/images/I/61VJ9guvrrL._SS500.jpg
 title: Songs of Transportation and Exploration
 ---
 
-<aside class="inset right">
-<img src="{{ page.image }}" title="{{ page.title }} cover" width="250" class="border">
-</aside>
-
 *Songs of Transportation and Exploration* Take off on a musical adventure, riding on trains, planes, boats, bicycles and rocket ships to travel to far-away lands.
 
 On your voyage you’ll hear chants from Africa, soothing lullabies from Canada, well-loved folk songs from the United States, fun jigs from Ireland and much more.

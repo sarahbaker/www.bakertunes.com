@@ -4,5 +4,18 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.tags %}
+  <div class="page-tags tags">
+  {% for tag in page.tags %}
+  <span class="badge">{{ tag }}</span>
+  {% endfor %}
+  </div>
+  {% endif %}
+  
+  {% if page.image %}
+    <aside class="inset right">
+  <img src="{{ page.image }}" title="{{ page.title }} resource" width="250" class="border">
+  </aside>
+  {% endif %}
   {{ content }}
 </div>

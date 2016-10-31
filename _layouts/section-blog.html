@@ -13,30 +13,23 @@ layout: default
   {{ content }}
 
   <section>
-  {% assign pages_list = site.pages %}
+  {% assign pages_list = site.posts %}
 
   {% for node in pages_list %}
-  {% if node.layout == 'page' %}
   {% if node.category == page.category %}
   {% if node.title != null %}
   <article>
-  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}{% if node.image %}
-    <img src="{{ node.image }}" title="{{ node.title }} album cover" width="250">{% endif %}</h3></a>
+  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
+  {% if page.post_date != false %}
+  <span class="post-date">{{ node.date | date_to_string }}</span>
+  {% endif %}
 
   {% if forloop.first %}
   {{ node.excerpt }}
   {% endif %}
-  {% if node.tags %}
-  <div class="tags">
-  {% for tag in node.tags %}
-  <span class="badge">{{ tag }}</span>
-  {% endfor %}
-  </div>
-  {% endif %}
   <a href="{{ node.url }}">More »</a>
 
   </article>
-  {% endif %}
   {% endif %}
   {% endif %}
   {% endfor %}

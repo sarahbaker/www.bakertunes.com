@@ -4,9 +4,6 @@ category: musicshakers
 image: http://a3.mzstatic.com/us/r30/Music/v4/db/0b/f3/db0bf30e-800b-b27f-ca13-71b0d286f55f/EMU_EMU120471.170x170-75.jpg
 title: Rain or Sun, Singing Fun
 ---
-<aside class="inset right">
-<img src="{{ page.image }}" title="{{ page.title }} cover" width="250" class="border">
-</aside>
 
 *Rain or Sun, Singing Fun* provides a colourful mix of multicultural, traditional and original songs and arrangements. Bright and animated music about storm clouds, rainbows and sunshine lift the mood no matter the weather. Children and adults alike will be entertained by the lively folk dances, close harmonies, jazz riffs, frolicking sea shanties, mariachi melodies, enchanting rhymes and serene lullabies, providing a joyful experience for everyone.
 

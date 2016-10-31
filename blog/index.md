@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: section-blog
 category: blog
 weight: 3
 title: Blog

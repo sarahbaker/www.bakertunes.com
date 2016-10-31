@@ -17,7 +17,7 @@
       {% for node in pages_list %}
         {% if node.weight == weight %}
         {% if node.title != null %}
-          {% if node.layout == "section" %}
+          {% if (node.layout == "section") or (node.layout == "section-blog") %}
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
               <a href="{{ node.url }}">{{ node.title }}</a>
             </li>

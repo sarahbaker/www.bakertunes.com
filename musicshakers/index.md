@@ -10,6 +10,7 @@ title: Music Shakers
 
 I'm very proud of the final products and think they are a wonderful resource for children and families.
 
+<!-- 
 {% assign pages_list = site.pages %}
 
 <section>
@@ -27,3 +28,4 @@ I'm very proud of the final products and think they are a wonderful resource for
   {% endif %}
 {% endfor %}
 </section>
+ -->
