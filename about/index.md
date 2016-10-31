@@ -6,4 +6,6 @@ weight: 0
 title: About Bakertunes
 ---
 
-Some stuff that is all about Bakertunes.
+Bakertunes is a growing collection of music composed by Sarah Baker. 
+
+With compositions for primary schools and choirs, pre-schoolers, pianists and those who love to listen, I hope this collection will be enjoyed by everyone who comes to the site.

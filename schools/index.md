@@ -6,4 +6,4 @@ weight: 1
 title: Working in Schools
 ---
 
-This is my stuff about my work for Services for Education music department in Birmingham schools.
+Services For Education Music Services are a Birmingham based company with charitable status. They provide an amazing service to the young people of Birmingham through teaching, playing and learning music. I have worked with them for over twenty years and am amazed at the dedication of all the staff to bring a powerful musical experience to the children encountered each week. 
