@@ -1,6 +1,6 @@
 ---
 layout: page
-category: instrumentalmusic
+category: pianomusic
 title: Evening Tune
 tags:
   - Instrumental Performance

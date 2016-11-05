@@ -1,6 +1,6 @@
 ---
 layout: page
-category: instrumentalmusic
+category: pianomusic
 title: Morning Sun
 tags:
   - Instrumental Performance

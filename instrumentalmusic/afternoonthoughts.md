@@ -1,6 +1,6 @@
 ---
 layout: page
-category: instrumentalmusic
+category: pianomusic
 title: Afternoon Thoughts
 tags:
   - Instrumental Performance

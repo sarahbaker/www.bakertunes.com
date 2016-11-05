@@ -1,9 +1,9 @@
 ---
 layout: section
-category: instrumentalmusic
+category: pianomusic
 image: /public/images/piano-score.jpg
 weight: 1
-title: Instrumental Music
+title: Piano Music
 ---
 
 I've loved composing since I got my first Casio keyboard for Christmas when I was eight. Through my piano teaching and arranging work I have loads of opportunities to hear new pieces and enjoy seeing pupils experimenting with different styles.
