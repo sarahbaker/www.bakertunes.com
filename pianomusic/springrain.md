@@ -3,7 +3,7 @@ layout: page
 category: pianomusic
 title: Spring Rain
 tags:
-  - Instrumental Performance
+  - Instrumental Improvisation
 ---
 
 An evening's improvisation some time in spring 2016. 
