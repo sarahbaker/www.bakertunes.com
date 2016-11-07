@@ -14,5 +14,9 @@ I have been inspired to write some short pieces for piano in a similar style for
 
 My intention is to keep the pieces within a fairly small range and to use the broken chord accompaniment style that gives the works a flowing quality. Melody lines are simple but require a good projected sound.
 
-Please feel free to download the scores and share.
+Please feel free to download the scores for these and share.
+
+You will also find some improvisations that I've done when, on that rare occasion, I find myself with time to spare.
+
+
 
