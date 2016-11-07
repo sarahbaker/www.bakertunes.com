@@ -12,3 +12,9 @@ I was delighted to see her playing the right hand melody of this piece on her vi
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IyeDEIIW5mo" frameborder="0" allowfullscreen></iframe>
+
+&nbsp;
+
+[Download the score (PDF)](/public/files/morning-sun.pdf)
+
+![Afternoon Thoughts score example](/public/images/scores/morning-sun.jpg){:width="100%"}

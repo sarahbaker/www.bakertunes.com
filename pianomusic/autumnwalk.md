@@ -13,3 +13,9 @@ My husband, daughter and I walked along a stretch of canal near Hockley Heath an
 This piano piece reflects the peacefully and tranquility of that walk.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OJfpvy0uoBo" frameborder="0" allowfullscreen></iframe>
+
+&nbsp;
+
+[Download the score (PDF)](/public/files/autumn-walk.pdf)
+
+![Afternoon Thoughts score example](/public/images/scores/autumn-walk.jpg){:width="100%"}

@@ -15,3 +15,9 @@ This work uses a broken chord pattern in the left hand, supporting the melody in
 There are subtle changes throughout the piece, just as a reflection is often slightly different from the original.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uehdeufy0f0" frameborder="0" allowfullscreen></iframe>
+
+&nbsp;
+
+[Download the score (PDF)](/public/files/reflections.pdf)
+
+![Afternoon Thoughts score example](/public/images/scores/reflections.jpg){:width="100%"}
