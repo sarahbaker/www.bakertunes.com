@@ -4,6 +4,7 @@ category: pianomusic
 title: Reflections
 tags:
   - Instrumental Performance
+  - Score
 ---
 
 Reflections is a piano piece in the key of D minor. 

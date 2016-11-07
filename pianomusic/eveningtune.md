@@ -4,6 +4,7 @@ category: pianomusic
 title: Evening Tune
 tags:
   - Instrumental Performance
+  - Score
 ---
 
 Evening Tune is the first of my piano works for older beginners. 

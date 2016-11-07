@@ -4,6 +4,7 @@ category: pianomusic
 title: Afternoon Thoughts
 tags:
   - Instrumental Performance
+  - Score
 ---
 
 This is the second of my compositions for older beginners. 

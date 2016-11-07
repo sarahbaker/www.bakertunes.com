@@ -4,6 +4,7 @@ category: pianomusic
 title: Morning Sun
 tags:
   - Instrumental Performance
+  - Score
 ---
 
 This piece was written for my daughter, Estelle, who is 11. She's learning the piano and plays the viola. 
