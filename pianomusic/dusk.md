@@ -5,6 +5,7 @@ title: Dusk
 tags:
   - Instrumental Performance
   - Score
+  - Intermediate Piano
 ---
 The word 'Dusk' speaks to me of reflection and meditation. 
 
@@ -22,4 +23,4 @@ There is hope of rest and maybe the company of friends round the table for a mea
 
 [Download the score (PDF)](/public/files/dusk.pdf)
 
-![Afternoon Thoughts score example](/public/images/scores/dusk.jpg){:width="100%"}
+![Dusk score example](/public/images/scores/dusk.jpg){:width="100%"}

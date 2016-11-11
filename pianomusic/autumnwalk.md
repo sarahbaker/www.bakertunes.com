@@ -5,6 +5,7 @@ title: Autumn Walk
 tags:
   - Instrumental Performance
   - Score
+  - Easy Piano
 ---
 
 Yesterday was a cold but sunny day here in Birmingham. We are lucky enough to have a canal network that takes the walker into hidden parts of Birmingham very quickly. 

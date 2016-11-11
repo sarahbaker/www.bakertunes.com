@@ -5,6 +5,7 @@ title: Afternoon Thoughts
 tags:
   - Instrumental Performance
   - Score
+  - Easy Piano
 ---
 
 This is the second of my compositions for older beginners. 

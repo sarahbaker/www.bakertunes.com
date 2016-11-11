@@ -5,6 +5,7 @@ title: Reflections
 tags:
   - Instrumental Performance
   - Score
+  - Easy Piano
 ---
 
 Reflections is a piano piece in the key of D minor. 
@@ -21,4 +22,4 @@ There are subtle changes throughout the piece, just as a reflection is often sli
 
 [Download the score (PDF)](/public/files/reflections.pdf)
 
-![Afternoon Thoughts score example](/public/images/scores/reflections.jpg){:width="100%"}
+![Reflections score example](/public/images/scores/reflections.jpg){:width="100%"}

@@ -5,6 +5,7 @@ title: The Journey
 tags:
   - Instrumental Performance
   - Score
+  - Easy Piano
 ---
 
 When I'm composing I often have images in my mind.
@@ -23,4 +24,4 @@ Although his body is tired, his mind is still able to wonder and he remembers th
 
 [Download the score (PDF)](/public/files/thejourney.pdf)
 
-![Afternoon Thoughts score example](/public/images/scores/thejourney.jpg){:width="100%"}
+![The Journey score example](/public/images/scores/thejourney.jpg){:width="100%"}

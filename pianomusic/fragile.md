@@ -5,6 +5,7 @@ title: Fragile
 tags:
   - Instrumental Performance
   - Score
+  - Intermediate Piano
 ---
 
 I have tried in this piece to express the fragility of beauty found in unexpected places. 
@@ -19,4 +20,4 @@ It may be a fragment of something once much larger, a lingering sense of what wa
 
 [Download the score (PDF)](/public/files/fragile.pdf)
 
-![Afternoon Thoughts score example](/public/images/scores/fragile.jpg){:width="100%"}
+![Fragile score example](/public/images/scores/fragile.jpg){:width="100%"}

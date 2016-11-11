@@ -5,6 +5,7 @@ title: Morning Sun
 tags:
   - Instrumental Performance
   - Score
+  - Easy Piano
 ---
 
 This piece was written for my daughter, Estelle, who is 11. She's learning the piano and plays the viola. 
@@ -18,4 +19,4 @@ I was delighted to see her playing the right hand melody of this piece on her vi
 
 [Download the score (PDF)](/public/files/morning-sun.pdf)
 
-![Afternoon Thoughts score example](/public/images/scores/morning-sun.jpg){:width="100%"}
+![Morning Sun score example](/public/images/scores/morning-sun.jpg){:width="100%"}
