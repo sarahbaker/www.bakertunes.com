@@ -21,12 +21,14 @@ title: Home
     {% for node in pages_list %}
       {% if node.category == 'musicshakers' or node.category == 'publications' %}
       {% if node.promoted %}
+      {% if forloop.index <= 3 %}
       <article class="col-sm-4 equal-height">
       <a class="section-list" href="{{ node.url }}">
         <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">
         <h3>{{ node.title }}</h3>
       </a>
       </article>
+      {% endif %}
       {% endif %}
       {% endif %}
     {% endfor %}
@@ -38,6 +40,7 @@ title: Home
     {% for node in pages_list %}
       {% if node.category == 'pianomusic' %}
       {% if node.promoted %}
+      {% if forloop.index <= 3 %}
     <article>
       <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
       {% if node.tags %}
@@ -48,6 +51,7 @@ title: Home
       </div>
       {% endif %}
     </article>
+      {% endif %}
       {% endif %}
       {% endif %}
     {% endfor %}
