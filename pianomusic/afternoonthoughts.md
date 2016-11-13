@@ -8,7 +8,7 @@ tags:
   - Easy Piano
 ---
 
-This is the second of my compositions for older beginners. 
+This is the second of my piano compositions for older beginners. 
 
 I have tried to use repetition to make the work easier to learn, but to provide musical interest in small changes through the piece. 
 

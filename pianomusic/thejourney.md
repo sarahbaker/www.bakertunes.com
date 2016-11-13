@@ -8,7 +8,7 @@ tags:
   - Easy Piano
 ---
 
-When I'm composing I often have images in my mind.
+When I'm composing I often have images in my mind. This piano piece was written in this way.
 
 For The Journey, I imagined a landscape that was open, dusty and rocky, with a traveller making his way towards an unknown destination.
 
