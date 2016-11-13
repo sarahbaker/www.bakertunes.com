@@ -19,7 +19,7 @@ title: Home
   <section class="col-xs-12">
     <div class="row">
     {% assign count = 0 %}
-    {% for node in pages_list %}
+    {% for node in pages_list | sort:"date" | reverse %}
       {% if node.category == 'musicshakers' or node.category == 'publications' %}
       {% if node.promoted %}
       {% if count <= 3 %}
@@ -40,7 +40,7 @@ title: Home
   <section class="col-md-6">
     <h2>Piano music</h2>
     {% assign count = 0 %}
-    {% for node in pages_list %}
+    {% for node in pages_list | sort:"date" | reverse %}
       {% if node.category == 'pianomusic' %}
       {% if node.promoted %}
       {% if count <= 3 %}
