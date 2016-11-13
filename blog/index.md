@@ -5,4 +5,4 @@ weight: 3
 title: Blog
 ---
 
-_My musical experiences as they happen_
+_My musical experiences, as they happen_

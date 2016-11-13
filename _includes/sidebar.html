@@ -1,35 +1,48 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <a href="/"><h1>{{ site.title }}</h1></a>
-      <p class="lead">{{ site.tagline }}</p>
+<div class="sidebar-inner">
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/"><h1>{{ site.title }}</h1></a>
+          <p class="lead">{{ site.tagline }}</p>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="collapse navbar-collapse" id="sidebar-nav">
+          <ul class="nav">
+          {% comment %}
+            The code below dynamically generates a sidebar nav of pages with
+            `layout: page` in the front-matter. See readme for usage.
+          {% endcomment %}
+
+          {% assign pages_list = site.pages %}
+          {% for weight in (0..10) %}
+          {% for node in pages_list %}
+            {% if node.weight == weight %}
+            {% if node.title != null %}
+              {% if (node.layout == "section") or (node.layout == "section-blog") %}
+                <li class="{% if page.url == node.url %} active{% endif %} col-sm-12 col-xs-6">
+                  <a href="{{ node.url }}">{{ node.title }}</a>
+                </li>
+              {% endif %}
+            {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% endfor %}
+          </ul>
+          <div class="social-icons">
+            <span class="social-icon twitter"><a href="https://twitter.com/bakertunes"><img src="/public/images/twitter_icon_white.png" class="img-responsive" /></a></span>
+            <span class="social-icon soundcloud"><a href="https://soundcloud.com/sarah-baker-10"><img src="/public/images/soundcloud_icon.png" class="img-responsive" /></a></span>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <ul class="sidebar-nav">
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for weight in (0..10) %}
-      {% for node in pages_list %}
-        {% if node.weight == weight %}
-        {% if node.title != null %}
-          {% if (node.layout == "section") or (node.layout == "section-blog") %}
-            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
-              <a href="{{ node.url }}">{{ node.title }}</a>
-            </li>
-          {% endif %}
-        {% endif %}
-        {% endif %}
-      {% endfor %}
-      {% endfor %}
-    </ul>
-    <div class="social-icons">
-      <span class="social-icon twitter"><a href="https://twitter.com/bakertunes"><img src="/public/images/twitter_icon_white.png" /></a></span>
-      <span class="social-icon soundcloud"><a href="https://soundcloud.com/sarah-baker-10"><img src="/public/images/soundcloud_icon.png" /></a></span>
-    </div>
-  </div>
+  </nav>
 </div>

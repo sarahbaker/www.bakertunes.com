@@ -4,40 +4,22 @@
   {% include head.html %}
 
   <body>
-
-    {% include sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
-
-
-      <div class="attribution">
-        <div class="licence">
-          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+    <div class="container-fluid main-container">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 match-height sidebar">
+          {% include sidebar.html %}
         </div>
-        <p class="blurb">
-          Unless otherwise specified <a xmlns:cc="http://creativecommons.org/ns#" href="http://bakertunes.com" property="cc:attributionName" rel="cc:attributionURL">Bakertunes</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://bakertunes.com" rel="dct:source">bakertunes.com</a>.
-        </p>
-        </p>
+
+        <div class="col-md-9 col-sm-8 col-md-offset-3 col-sm-offset-4 match-height content">
+          <div class="content-inner">
+            {{ content }}
+
+            <div class="footer">
+            {% include footer.html %}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-51920187-1', 'bakertunes.com');
-      ga('send', 'pageview');
-
-    </script>
-    <script src="/public/js/fluidvids.min.js"></script>
-    <script>
-      fluidvids.init({
-        selector: ['iframe'],
-        players: ['www.youtube.com', 'player.vimeo.com']
-      });
-    </script>
   </body>
 </html>

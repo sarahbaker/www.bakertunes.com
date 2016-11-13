@@ -1,7 +1,7 @@
 ---
 layout: page
 category: musicshakers
-image: http://a5.mzstatic.com/us/r30/Music6/v4/53/1c/c0/531cc024-bf82-c326-1291-b24d08e6b4e7/dj.ttmaqlwz.170x170-75.jpg
+image: https://images-eu.ssl-images-amazon.com/images/I/61t%2BWIFNCiL._SS500.jpg
 title: Seaside Songs to Sing Along
 ---
 
@@ -12,3 +12,4 @@ title: Seaside Songs to Sing Along
 You can buy *Seaside Songs to Sing Along* from:
 
 - [iTunes](https://itunes.apple.com/gb/album/seaside-songs-to-sing-along/id893186379)
+- [Amazon](http://amzn.eu/f5f1jHp)

@@ -6,13 +6,13 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 
-  <section>
+  <section class="row">
   {% assign pages_list = site.posts %}
 
   {% for node in pages_list %}
   {% if node.section == page.category %}
   {% if node.title != null %}
-  <article>
+  <article class="col-md-4 col-sm-6 match-height">
   <h3><a class="section-list" href="{{ node.url }}">{{ node.title }}</a></h3>
   {% if page.post_date != false %}
   <span class="post-date">{{ node.date | date_to_string }}</span>

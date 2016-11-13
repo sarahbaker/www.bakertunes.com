@@ -12,21 +12,20 @@ layout: default
   
   {{ content }}
 
-  <section>
+  <section> 
   {% assign pages_list = site.posts %}
 
   {% for node in pages_list %}
   {% if node.category == page.category %}
   {% if node.title != null %}
-  <article>
+  <article class="">
   <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
   {% if page.post_date != false %}
   <span class="post-date">{{ node.date | date_to_string }}</span>
   {% endif %}
-
-  {% if forloop.first %}
+  
   {{ node.excerpt }}
-  {% endif %}
+  
   <a href="{{ node.url }}">More »</a>
 
   </article>
