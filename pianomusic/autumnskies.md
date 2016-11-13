@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Autumn Skies
+promoted: true
 tags:
   - Instrumental Performance
   - Score
