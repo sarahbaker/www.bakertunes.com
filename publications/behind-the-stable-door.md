@@ -7,6 +7,7 @@ publication_url: http://www.edgyproductions.com/shop/behind-the-stable-door/
 publication_type: Musical
 publisher: Edgy Productions
 weight: 2
+promoted: true
 ---
 
 <small>**By Sarah Baker & Andrew Oxspring**</small>
