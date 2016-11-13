@@ -8,7 +8,7 @@ layout: default
   <div class=" clearfix">
   <div class="page-tags tags">
   {% for tag in page.tags %}
-  <span class="label label-default">{{ tag }}</span>
+  <small><span class="badge">{{ tag }}</span></small>
   {% endfor %}
   </div>
   </div>
@@ -16,7 +16,7 @@ layout: default
   
   {% if page.image %}
     <aside class="pull-right">
-  <img src="{{ page.image }}" title="{{ page.title }} resource" width="250" class="border">
+  <img src="{{ page.image }}" title="{{ page.title }} resource" class="img-thumbnail img-responsive">
   </aside>
   {% endif %}
   {{ content }}

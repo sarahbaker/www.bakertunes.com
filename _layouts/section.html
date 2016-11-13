@@ -5,8 +5,8 @@ layout: default
 <div class="page clearfix">
   <h1 class="page-title">{{ page.title }}</h1>
   {% if page.image %}
-    <aside class="inset right">
-  <img src="{{ page.image }}" title="{{ page.title }} resource" width="250" class="border">
+    <aside class="pull-right">
+  <img src="{{ page.image }}" title="{{ page.title }} resource" class="img-thumbnail img-responsive">
   </aside>
   {% endif %}
   
@@ -29,7 +29,7 @@ layout: default
   {% if node.tags %}
   <div class="tags">
   {% for tag in node.tags %}
-  <span class="label label-default">{{ tag }}</span>
+  <small><span class="badge">{{ tag }}</span></small>
   {% endfor %}
   </div>
   {% endif %}
