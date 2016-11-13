@@ -6,7 +6,7 @@ tags:
   - Instrumental Improvisation
 ---
 
-An evening's improvisation some time in spring 2016. 
+An evening's improvisation on the piano some time in spring 2016. 
 
 At the end of a work day when I had taught most of the time, I enjoyed taking some time out to wallow in my own musical meditations.
 
