@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Autumn Walk
+promoted: true
 tags:
   - Instrumental Performance
   - Score
