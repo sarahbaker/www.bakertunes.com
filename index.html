@@ -18,10 +18,12 @@ title: Home
   {% assign pages_list = site.pages %}
   <section class="col-xs-12">
     <div class="row">
+    {% assign count = 0 %}
     {% for node in pages_list %}
       {% if node.category == 'musicshakers' or node.category == 'publications' %}
       {% if node.promoted %}
-      {% if forloop.index <= 3 %}
+      {% if count <= 3 %}
+      {% assign count = count | plus: 1 %}
       <article class="col-sm-4 equal-height">
       <a class="section-list" href="{{ node.url }}">
         <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">
@@ -37,10 +39,12 @@ title: Home
   
   <section class="col-md-6">
     <h2>Piano music</h2>
+    {% assign count = 0 %}
     {% for node in pages_list %}
       {% if node.category == 'pianomusic' %}
       {% if node.promoted %}
-      {% if forloop.index <= 3 %}
+      {% if count <= 3 %}
+      {% assign count = count | plus: 1 %}
     <article>
       <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
       {% if node.tags %}
