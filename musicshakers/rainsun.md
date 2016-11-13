@@ -1,7 +1,7 @@
 ---
 layout: page
 category: musicshakers
-image: http://a3.mzstatic.com/us/r30/Music/v4/db/0b/f3/db0bf30e-800b-b27f-ca13-71b0d286f55f/EMU_EMU120471.170x170-75.jpg
+image: https://images-eu.ssl-images-amazon.com/images/I/51FgyrcwT-L._SS500.jpg
 title: Rain or Sun, Singing Fun
 ---
 

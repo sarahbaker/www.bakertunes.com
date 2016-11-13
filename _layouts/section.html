@@ -12,16 +12,16 @@ layout: default
   
   {{ content }}
 
-  <section>
+  <section class="row">
   {% assign pages_list = site.pages %}
 
   {% for node in pages_list %}
   {% if node.layout == 'page' %}
   {% if node.category == page.category %}
   {% if node.title != null %}
-  <article>
-  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}{% if node.image %}
-    <img src="{{ node.image }}" title="{{ node.title }} album cover" width="250">{% endif %}</h3></a>
+  <article class="col-sm-6 col-lg-4 match-height">
+  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}{% if node.image %}</h3>
+    <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}</a>
 
   {% if forloop.first %}
   {{ node.excerpt }}
@@ -29,11 +29,10 @@ layout: default
   {% if node.tags %}
   <div class="tags">
   {% for tag in node.tags %}
-  <span class="badge">{{ tag }}</span>
+  <span class="label label-default">{{ tag }}</span>
   {% endfor %}
   </div>
   {% endif %}
-  <a href="{{ node.url }}">More »</a>
 
   </article>
   {% endif %}
