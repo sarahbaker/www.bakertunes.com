@@ -1,7 +1,7 @@
 ---
 layout: section
 category: instrumentalmusic
-image: /public/images/piano-score.jpg
+image: /public/images/recording-evening-work.jpg
 weight: 1
 title: Instrumental Music
 ---
