@@ -3,35 +3,74 @@ layout: default
 title: Home
 ---
 
-<section class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
+<div class="jumbotron clearfix">
+  <aside class="pull-right">
+    <img src="/public/images/seb.jpg" class="img-responsive img-rounded">
+  </aside>
+  <h1>Hello</h1>
+  <p><strong>Bakertunes</strong> is the music composed and arranged by <strong>Sarah Baker</strong>, composer-in-residence for <a href="http://servicesforeducation.co.uk/index.php/Music-Services/music-services.html" target="_blank">Services for Education, Music Services</a>.</p>
+  <p>I compose and arrange songs for primary and secondary education, some of which is published by <a href="https://www.starshine.co.uk/" target="_blank">Starshine Music</a> and by <a href="http://www.edgyproductions.com/" target="_blank">Edgy Productions</a>.</p>
+  <p>I am also a private piano teacher. I compose songs and studies for people learning piano and working towards ABRSM grade exams, many of which are available to download for free in the <a href="/pianomusic/">Piano Music</a> section of this site.</p>
+</div>
+
+<div class="row">
+  
+  {% assign pages_list = site.pages %}
+  <section class="col-xs-12">
+    <div class="row">
+    {% for node in pages_list %}
+      {% if node.category == 'musicshakers' or node.category == 'publications' %}
+      {% if node.promoted %}
+      <article class="col-sm-4 equal-height">
+      <a class="section-list" href="{{ node.url }}">
+        <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">
+        <h3>{{ node.title }}</h3>
       </a>
-    </h1>
+      </article>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </section>
+  
+  <section class="col-md-6">
+    <h2>Piano music</h2>
+    {% for node in pages_list %}
+      {% if node.category == 'pianomusic' %}
+      {% if node.promoted %}
+    <article>
+      <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
+      {% if node.tags %}
+      <div class="tags">
+      {% for tag in node.tags %}
+      <small><span class="badge">{{ tag }}</span></small>
+      {% endfor %}
+      </div>
+      {% endif %}
+    </article>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+  </section>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <section class="col-md-6">
+    <h2>Blog</h2>
 
-    {{ post.excerpt }}
-  </div>
-  {% endfor %}
-</section>
-
-<div class="pagination btn-group" role="group">
-  {% if paginator.next_page %}
-    <a class="pagination-item older btn btn-default" href="{{paginator.next_page_path}}" role="button">Older</a>
-  {% else %}
-    <span class="pagination-item older btn btn-default" role="button">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer btn btn-default" href="/" role="button">Newer</a>
-    {% else %}
-      <a class="pagination-item newer btn btn-default" href="{{paginator.previous_page_path}}" role="button">Newer</a>
+    {% assign pages_list = site.posts %}
+    {% for blog in pages_list %}
+    {% if blog.category == 'blog' %}
+    {% if forloop.index <= 3 %}
+    {% if blog.title != null %}
+    <article>
+      <a class="section-list" href="{{ node.url }}"><h3>{{ blog.title }}</h3></a>
+      {% if blog.post_date != false %}
+      <span class="post-date">{{ blog.date | date_to_string }}</span>
+      {% endif %}
+    </article>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer btn btn-default" role="button">Newer</span>
-  {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </section>
+  
 </div>

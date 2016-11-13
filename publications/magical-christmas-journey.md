@@ -7,6 +7,7 @@ publication_type: Musical
 publication_url: https://www.starshine.co.uk/magical-christmas-journey
 publisher: Starshine Music
 weight: 1
+promoted: true
 ---
 
 **_Magical Christmas Journey_ is a nativity musical full of character, warmth and humour. The story is clear and simple, the songs are exceptionally easy to learn and the script is easy to follow. With lots of actions provided for the songs and a good pace to the dialogue, there is plenty to keep the children engaged. An easy narrated version is also included.**
