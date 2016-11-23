@@ -29,7 +29,7 @@
             {% if node.title != null %}
               {% if (node.layout == "section") or (node.layout == "section-blog") %}
                 <li class="{% if page.url == node.url %} active{% endif %} col-sm-12 col-xs-6">
-                  <a href="{{ node.url }}">{{ node.title }}</a>
+                  <a href="{{ node.url }}">{% if node.nav_title %}{{ node.nav_title }}{% else %}{{ node.title }}{% endif %}</a>
                 </li>
               {% endif %}
             {% endif %}
