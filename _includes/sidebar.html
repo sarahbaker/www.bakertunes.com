@@ -16,7 +16,7 @@
       </div>
       <div class="row">
         <div class="collapse navbar-collapse" id="sidebar-nav">
-          <ul class="nav">
+          <ul class="nav nav-stacked">
           {% comment %}
             The code below dynamically generates a sidebar nav of pages with
             `layout: page` in the front-matter. See readme for usage.
@@ -28,7 +28,7 @@
             {% if node.weight == weight %}
             {% if node.title != null %}
               {% if (node.layout == "section") or (node.layout == "section-blog") %}
-                <li class="{% if page.url == node.url %} active{% endif %} col-sm-12 col-xs-6">
+                <li class="col-sm-12 col-xs-6{% if (page.url == node.url) or (page.category == node.category) %} active{% endif %}">
                   <a href="{{ node.url }}">{% if node.nav_title %}{{ node.nav_title }}{% else %}{{ node.title }}{% endif %}</a>
                 </li>
               {% endif %}

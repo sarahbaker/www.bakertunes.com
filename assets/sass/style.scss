@@ -22,6 +22,12 @@ body {
   a:active {
     color: rgba(59,66,69,1);
   }
+  .active {
+  	a {
+  		background-color: $title-color;
+  	}
+  }
+  
   
   .icon-bar {
     background-color: rgba(255,255,255,.5);
