@@ -21,7 +21,7 @@ layout: default
   <article class="">
   <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
   {% if page.post_date != false %}
-  <div class="post-date text-muted">{{ node.date | date_to_long_string }}</div>
+  <p class="post-date text-muted"><small>{{ node.date | date_to_long_string }}</small></p>
   {% endif %}
   
   {{ node.excerpt }}
