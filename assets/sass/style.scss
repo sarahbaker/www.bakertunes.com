@@ -78,15 +78,9 @@ body {
 /* Blog post or page title */
 .post-title {
   color: $title-color;
-  a {
-    color: $title-color;
-  }
 }
 
 article {
-  a.section-list {
-    color: $title-color;
-  }
 }
 
 aside.pull-right {
