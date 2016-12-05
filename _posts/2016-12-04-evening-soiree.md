@@ -17,5 +17,5 @@ So last night, at 7pm, we all crowded into my teaching room with a glass of mull
 
 Afterwards, over cheese and wine, there was plenty of opportunity to chat about pieces and learning experiences with ideas shared in an open and natural way.
 
-So, as I closed the door when the last person left, I really happy last night, feeling good about providing this opportunity which seemed to be such a positive one, and looking forward to the next.
+So, as I closed the door when the last person left, I felt really happy last night, feeling good about providing this opportunity which seemed to be such a positive one, and looking forward to the next.
 
