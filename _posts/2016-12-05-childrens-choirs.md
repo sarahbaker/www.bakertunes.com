@@ -7,7 +7,7 @@ title: Children's Christmas Choirs
 
 The fairy lights are sparkling, the stage is set, the music is ready...so where is my choir? I suppose I have got 2 minutes to go before 4pm and we did say meet at the stage in the playground then. Ah, here they come, laden with teddies and sweet jars already purchased from the fair.
 
-Mums and Dad quickly hurry their children onto the stage and, amazingly, I suddenly have a choir. Yes, 4 rows of children, all standing, expectantly, waiting for me to raise my arms and bring them in. The miracle has happened. I have forty children all ready to sing, and looking really happy about it!
+Mums and Dads quickly hurry their children onto the stage and, amazingly, I suddenly have a choir. Yes, 4 rows of children, all standing, expectantly, waiting for me to raise my arms and bring them in. The miracle has happened. I have forty children all ready to sing, and looking really happy about it!
 
 It's the [Colmore Infant](http://www.colmoreinf.co.uk/) and [Colmore Junior](http://www.colmorej.co.uk/) schools Christmas Fair and the choirs have been asked to sing. Part of my work for [Services For Education](http://servicesforeducation.co.uk/) is to conduct choirs in the schools I work in and I am often asked to be involved in the schools' events.
 
