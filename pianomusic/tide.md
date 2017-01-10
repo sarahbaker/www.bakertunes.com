@@ -20,4 +20,4 @@ Tide is a gentle piece that reminds me of the gentle lapping of the tide against
 
 [Download the score (PDF)](/public/files/tide.pdf)
 
-![tide score example](/public/images/scores/tide.jpg){:width="100%"}
+![tide score example](/public/images/scores/tide_1.jpg){:width="100%"}
