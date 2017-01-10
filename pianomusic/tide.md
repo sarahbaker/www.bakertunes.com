@@ -19,4 +19,4 @@ Tide is a gentle piece that reminds me of the gentle lapping of the tide against
 
 [Download the score (PDF)](/public/files/tide.pdf)
 
-![The Journey score example](/public/images/scores/tide.jpg){:width="100%"}
+![Tide score example](/public/images/scores/tide.jpg){:width="100%"}
