@@ -7,6 +7,7 @@ tags:
   - Score
   - Intermediate Piano
 ---
+&nbsp;
 
 I have recently been teaching the second movement of Beethoven's Pathetique sonata Op.13 no.8. 
 
