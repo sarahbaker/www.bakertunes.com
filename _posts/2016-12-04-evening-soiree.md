@@ -5,7 +5,7 @@ post_date: true
 title: Evening Soirée
 ---
 <aside class="pull-right">
-  <img src="/public/images/evening-soiree.jpg" class="img-responsive img-rounded">
+  <img src="/public/images/evening-soiree-1.jpg" class="img-responsive img-rounded">
 </aside>
 
 
