@@ -21,4 +21,4 @@ My piano piece, Memories, starts with a tiny echo of this masterpiece for me. It
 
 [Download the score (PDF)](/public/files/memories.pdf)
 
-![Morning Sun score example](/public/images/scores/memories.jpg){:width="100%"}
+![Memories score example](/public/images/scores/memories.jpg){:width="100%"}
