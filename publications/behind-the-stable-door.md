@@ -6,7 +6,7 @@ image: http://www.edgyproductions.com/wp/wp-content/uploads/2016/07/Behind-The-S
 publication_url: http://www.edgyproductions.com/shop/behind-the-stable-door/
 publication_type: Musical
 publisher: Edgy Productions
-weight: 2
+weight: 4
 promoted: true
 ---
 

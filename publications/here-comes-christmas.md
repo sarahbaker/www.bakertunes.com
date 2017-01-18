@@ -6,7 +6,7 @@ image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/ma
 publication_type: Songbook
 publication_url: https://www.starshine.co.uk/here-comes-christmas
 publisher: Starshine Music
-weight: 1
+weight: 3
 ---
 
 **_Here Comes Christmas_ is packed with sparkling songs that children will love to sing, with great new repertoire as well as some previously unfeatured favourites from within the Starshine catalogue.**

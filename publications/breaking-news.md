@@ -6,7 +6,7 @@ image: https://d1e4pidl3fu268.cloudfront.net/1f7f8dbf-e031-41a6-89ea-99843963786
 publication_type: Musical
 publication_url: https://www.tes.com/teaching-resource/breaking-news-in-bethlehem-a-musical-nativity-by-sarah-baker-11394913
 publisher: TES Resources
-weight: 0
+weight: 3
 ---
 
 Herod Merdock, mayor of Bethlehem, loves his bling and holds the sleepy town of Bethlehem in his sparkling fist. Chris Card, Editor-in-chief of the Bethlehem Broadcasting Corporation, likes an easy life. But strange things start to happen in Bethlehem and Chris has to choose between keeping Herod happy and broadcasting the truth...

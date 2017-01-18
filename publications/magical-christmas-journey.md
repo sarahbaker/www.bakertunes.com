@@ -6,7 +6,7 @@ image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/ma
 publication_type: Musical
 publication_url: https://www.starshine.co.uk/magical-christmas-journey
 publisher: Starshine Music
-weight: 1
+weight: 3
 promoted: true
 ---
 
