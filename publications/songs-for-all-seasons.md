@@ -6,7 +6,7 @@ image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/ma
 publication_type: Songbook
 publication_url: https://www.starshine.co.uk/songs-for-all-seasons
 publisher: Starshine Music
-weight: 3
+weight: 1
 ---
 
 **This fantastic collection of songs for Spring, Summer, Autumn and Winter written by Starshine writers is an excellent addition to Primary phase repertoire, with catchy songs in widely ranging styles designed to appeal to KS1 and KS2.**
