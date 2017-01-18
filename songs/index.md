@@ -1,7 +1,7 @@
 ---
 layout: section
 category: songs
-weight: 1
+weight: 2
 title: Songs
 ---
 
