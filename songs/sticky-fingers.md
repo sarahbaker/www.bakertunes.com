@@ -4,6 +4,8 @@ category: songs
 title: Sticky Fingers
 tags:
   - Early Years
+  - SoundTots
+  - Pre-school
 ---
 
 This is a song I have written for SoundTots, a new programme run by [Services For Education](www.servicesforeducation.co.uk) for nurseries and reception classes in Birmingham.
