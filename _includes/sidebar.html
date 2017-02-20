@@ -27,7 +27,7 @@
           {% for node in pages_list %}
             {% if node.weight == weight %}
             {% if node.title != null %}
-              {% if (node.layout == "section") or (node.layout == "section-blog") %}
+              {% if (node.layout == "section") %}
                 <li class="col-sm-12 col-xs-6{% if (page.url == node.url) or (page.category == node.category) %} active{% endif %}">
                   <a href="{{ node.url }}">{% if node.nav_title %}{{ node.nav_title }}{% else %}{{ node.title }}{% endif %}</a>
                 </li>
@@ -36,6 +36,7 @@
             {% endif %}
           {% endfor %}
           {% endfor %}
+          	<li class="col-sm-12 col-xs-6"><a href="https://medium.com/bakertunes">Blog</a></li>
           </ul>
           <div class="social-icons">
             <span class="social-icon twitter"><a href="https://twitter.com/bakertunes"><img src="/public/images/twitter_icon_white.png" class="img-responsive" /></a></span>
