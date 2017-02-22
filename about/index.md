@@ -43,7 +43,7 @@ I am passionate about music and arts education and believe that the performing a
 
 #### Forthcoming
 
-- *Little Caterpillar Loses His Feet*
+- A new musical for foundation and key stage 1
 	- 2017
 
 #### 2016
