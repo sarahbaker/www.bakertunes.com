@@ -14,11 +14,11 @@ nav_title: About Me
 I have over twenty years of experience in music education and over thirty five years' experience as a musician. I specialise in conducting and leading choirs with particular expertise in Key Stages 1 and 2.
 I have worked in many schools in Birmingham in a broad variety of social and cultural contexts.
 
-I have taught private piano pupils for over thirty years, with pupils from six years to mature adults, from beginners to diploma level. I teach theory and aural at all levels.
+I have taught private piano pupils for over thirty years, with pupils from six years to mature adults, from beginners to diploma level. This includes teaching theory and aural at all levels.
 
-I have composed songs for over thirty years and have been an arranger since 2006.  I have composed several musicals for primary age and taken song commissions for mass primary choral events. I have worked extensively on compositions and arrangements for pre-school music and movement classes.
+I have composed songs for over thirty years and have been an arranger since 2006.  My compositions include several musicals for primary age and song commissions for mass primary choral events. I have worked extensively on compositions and arrangements for pre-school music and movement classes.
 
-I am passionate about music and arts education. I believe that the performing arts uniquely support children's educational success and achievement.
+I am passionate about music and arts education and believe that the performing arts uniquely support children's educational success and achievement.
 
 ## Work
 
@@ -98,7 +98,7 @@ Bakertunes is a growing collection of music composed by Sarah Baker.
 
 Music has been in my family for many generations.
 
-My great-grandmother was a pianist for black and white movies (how cool is that?) and my grandparents, aunts and uncles, parents, cousins, brothers and sister all sing or play an instrument. 
+My great-grandmother was a pianist for black and white movies and my grandparents, aunts and uncles, parents, cousins, brothers and sister all sing or play an instrument. 
 
 I started composing when I was about eight, having had piano lessons for a couple of years. I still remember my first piece now, based on a broken chord pattern and repetitive melody. Many hours of my childhood was spent playing duets with a friend, and then as a young teenager I started to write songs that I often sang in our local church services.
 
