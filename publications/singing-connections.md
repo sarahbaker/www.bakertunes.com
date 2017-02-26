@@ -7,6 +7,7 @@ publication_url: http://servicesforeducation.co.uk/index.php/Music-Services/prim
 publication_type: Songbook
 publisher: Services for Education
 weight: 1
+promoted: true
 ---
 
 **These songs are designed to promote fundamental human and British values through singing, as part of schools' collective worship. Composed in close connection with the Birmingham Agreed Syllabus for Religious Education 2007, the songs explore many aspects of behaving and being which help to build happy and fulfilled communities. It is hoped that, through learning these songs and enjoying performing them, children will have the opportunity to think about and connect with what it is to be part of their school and wider community and how their own ac ons can make a valuable contribution.**

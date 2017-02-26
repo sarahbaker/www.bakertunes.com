@@ -3,7 +3,7 @@ layout: page
 category: musicshakers
 image: https://images-eu.ssl-images-amazon.com/images/I/61T7hn3ooNL._SS500.jpg
 title: Autumn Beat and Dancing Feet
-promoted: true
+promoted: false
 ---
 
 *Autumn Beat and Dancing Feet* Get set to dance and sing along with this colourful collection of autumnal songs from Music Shakers.
