@@ -1,7 +1,7 @@
 ---
 layout: page
 category: instrumentalmusic
-title: Ripples
+title: Hidden
 tags:
   - Incidental Music
 ---
