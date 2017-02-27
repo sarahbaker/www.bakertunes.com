@@ -2,6 +2,9 @@
 layout: default
 title: Home
 ---
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="/assets/js/jquery.rss.min.js"></script>
+<script src="/assets/js/moment.min.js"></script>
 
 <div class="jumbotron clearfix">
   <aside class="pull-right">
@@ -63,7 +66,17 @@ title: Home
 
   <section class="col-md-6">
     <h2>Blog</h2>
+    <div id="blog-feed"></div>
+		<script>
+		$("#blog-feed").rss("https://medium.com/feed/bakertunes", {
+			limit: 3,
+			layoutTemplate: '{entries}',
+			entryTemplate: '<article><a href="{url}"><h3>{title}</h3></a><span class="post-date">{date}</span></article>',
+			dateFormat: 'DD MMM YYYY'
+		});
+		</script>
 
+<!-- 
     {% assign pages_list = site.posts %}
     {% for blog in pages_list %}
     {% if blog.category == 'blog' %}
@@ -79,6 +92,7 @@ title: Home
     {% endif %}
     {% endif %}
     {% endfor %}
+ -->
   </section>
   
 </div>
