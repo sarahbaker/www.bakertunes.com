@@ -8,11 +8,13 @@ tags:
   - Intermediate Piano
 ---
 
-I have tried to express in this piano piece the fragility of beauty found in unexpected places. 
+&nbsp;
+
+I have tried to express in this piano piece the fragility of beauty found in unexpected places.
 
 Sometimes it goes unnoticed, sometimes it is a fleeting thing, momentarily present and then gone.
 
-It may be a fragment of something once much larger, a lingering sense of what was.
+It may be a fragment of something much larger, a lingering sense of what was.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dwrHj99RWOs" frameborder="0" allowfullscreen></iframe>
 
