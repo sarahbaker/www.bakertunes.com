@@ -9,7 +9,7 @@ tags:
 
 &nbsp;
 
-Increasingly I am aware of friends and family who are struggling to believe that they have worth and value.
+Increasingly, I am aware of friends and family who are struggling to believe that they have worth and value.
 
 I have written this song for them and for anyone else who feels that they are not noticed or that they have nothing to give. 
 
