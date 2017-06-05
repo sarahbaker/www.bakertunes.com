@@ -11,8 +11,7 @@ nav_title: About Me
   <img src="/public/images/seb.jpg" class="img-responsive img-rounded">
 </aside>
 
-I have over twenty years of experience in music education and over thirty five years' experience as a musician. I specialise in conducting and leading choirs with particular expertise in Key Stages 1 and 2.
-I have worked in many schools in Birmingham in a broad variety of social and cultural contexts.
+I have over twenty years of experience in music education and over thirty five years' experience as a musician. I specialise in conducting and leading choirs with particular expertise in Key Stages 1 and 2 and have worked in many schools in Birmingham in a broad variety of social and cultural contexts.
 
 I have taught private piano pupils for over thirty years, with pupils from six years to mature adults, from beginners to diploma level. This includes teaching theory and aural at all levels.
 
