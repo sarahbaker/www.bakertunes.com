@@ -1,7 +1,6 @@
 ---
 layout: section
 category: about
-post_date: true
 weight: 0
 title: Sarah Baker
 nav_title: About Me
@@ -101,7 +100,7 @@ My great-grandmother was a pianist for black and white movies and my grandparent
 
 I started composing when I was about eight, having had piano lessons for a couple of years. I still remember my first piece now, based on a broken chord pattern and repetitive melody. Many hours of my childhood was spent playing duets with a friend, and then as a young teenager I started to write songs that I often sang in our local church services.
 
-My first experience of recording for film came when I was sixteen. My Dad had made an animated video that was published by the Bible Society and I did all the background music and songs on a keyboard in one of our bedrooms at home. I loved the creativity and was totally absorbed in it all.
+My first experience of recording for film came when I was sixteen. My Dad had made an animated video that was published by the _Bible Society_ and I did all the background music and songs on a keyboard in one of our bedrooms at home. I loved the creativity and was totally absorbed in it all.
 
 From 1991-1994 I did a  Bmus degree at Birmingham University and had piano lessons with Alison Pottinger at the Birmingham Conservatoire. During these three years I specialised in performance, electronic composition and orchestration, going on to do a Masters in Performance Studies at the Conservatoire from 1995-1997. I already had work with the Birmingham Music Services as a pianist in a school and my vocal teaching in the primary classroom developed from there.
 
