@@ -15,7 +15,7 @@ I have over twenty years of experience in music education and over thirty five y
 
 I have taught private piano pupils for over thirty years, with pupils from six years to mature adults, from beginners to diploma level. This includes teaching theory and aural at all levels and, more recently, working as an Examiner for [ABRSM](http://abrsm.org)
 
-I am the Vocal Composer in Residence for [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) and compose songs and musicals for primary schools and massed-choral events. I have also worked extensively on compositions and arrangements for pre-school music and movement classes, producing the curriculum CDs for [Musicshakers](http://musicshakers.com)
+I am the Vocal Composer in Residence for [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) and compose songs and musicals for primary schools and massed-choral events. I have also worked extensively on compositions and arrangements for pre-school music and movement classes, producing the curriculum CDs for [Musicshakers](http://musicshakers.com).
 
 I am passionate about music and arts education and believe that the performing arts uniquely support children's educational success and achievement.
 
