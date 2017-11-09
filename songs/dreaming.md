@@ -16,4 +16,4 @@ Dreaming is a song that I have written for young choirs. It is a song about dayd
 
 &nbsp;
 
-![Dreaming score example](/public/images/scores/dreaming.jpg){:width="100%"}
+[Download the score (PDF)](/public/files/score.pdf)
