@@ -8,7 +8,8 @@ tags:
 ---
 &nbsp;
 
-Dreaming is a song that I have written for young choirs. It is a song about daydreaming and came to me unexpectedly - I wasn't expecting to write about this at all! It has a dreamy feel and simple two-part harmonies.
+Dreaming is a song that I have written for young choirs. It is a song about daydreaming and came to me unexpectedly - I wasn't expecting to write about this at all! Maybe I needed a bit of escapism myself.
+It has a dreamy feel and simple two-part harmonies. 
 
 &nbsp;
 
