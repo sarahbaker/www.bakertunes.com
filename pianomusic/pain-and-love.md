@@ -21,7 +21,7 @@ The piece uses dissonance and resolution to capture some of these mixed emotions
 
 [Download the score (PDF)](/public/files/pain-and-love.pdf)
 
-![Pain and Love score example](/public/images/scores/autumnskies.jpg){:width="100%"}
+![Pain and Love score example](/public/images/scores/pain-and-love.jpeg){:width="100%"}
 
 
 
