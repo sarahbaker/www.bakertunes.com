@@ -4,7 +4,7 @@ category: publications
 title: Flutterpillar
 image: 
 https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/main/-hidden-product-category-images/all-year-round-primary-school-musicals-Flutterpillar-300x370.png
-publication_type: musical
+publication_type: Musical
 publication_url: https://www.starshine.co.uk/flutterpillar
 publisher: Starshine Music
 weight: 3
