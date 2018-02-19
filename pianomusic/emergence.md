@@ -21,4 +21,4 @@ The main theme of the piano music gradually develops to mirror this emergence.
 
 [Download the score (PDF)](/public/files/emergence.pdf)
 
-![Emergence score example](/public/images/scores/hidden.jpg){:width="100%"}
+![Emergence score example](/public/images/scores/emergence.jpg){:width="100%"}
