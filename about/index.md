@@ -65,10 +65,10 @@ I am passionate about music and arts education and believe that the performing a
 #### 2014
 
 - *Metamorphosis* and *Easter’s Coming!*
-	- in the compilation book *Songs For All Seasons* published by Starshine Music 
+	- in the compilation book *[Songs For All Seasons](https://www.starshine.co.uk/songs-for-all-seasons)* published by Starshine Music 
 - *Prince of Peace* and *Give A Little Love*
-	- in the compilation book Here Comes Christmas Published by Starshine Music
-- *Magical Christmas Journey*
+	- in the compilation book *[Here Comes Christmas](https://www.starshine.co.uk/here-comes-christmas)* Published by Starshine Music
+- *[Magical Christmas Journey](https://www.starshine.co.uk/magical-christmas-journey)*
 	- A Christmas Nativity Musical published by Starshine Music.
 - *Together* and *I Will Sing A Song*
 	- Commissioned by the West Midlands Singing Consortium for use in February 2014 for Music Mark Midlands Singing day
