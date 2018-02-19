@@ -39,10 +39,13 @@ I am passionate about music and arts education and believe that the performing a
 
 ## Publications and Commissions
 
-#### Forthcoming
+#### 2018
 
-- A new musical for foundation and key stage 1
-	- 2017
+- *[Flutterpillar](https://www.starshine.co.uk/flutterpillar)*
+	- A dream comes true for one little caterpillar
+	
+- *[The Backwater Pirate and His Hairy Chest](https://www.lindsaymusic.co.uk/acatalog/More_Music_Stories.html)*
+  - The 2017 ISM-Schools Music Association prize winning story of a pirate who rediscovers his courage.
 
 #### 2016
 
