@@ -76,20 +76,21 @@ I am passionate about music and arts education and believe that the performing a
 #### 2010 -2015
 
 - Children’s traditional songs and rhymes available on-line and commissioned and published by Musicshakers.com
-	- Winter Chimes and Animal Rhymes
-	- Songbirds and Rhyming Words
-	- Rain or Sun Singing Fun
-	- Summer Days And Insect Ways
-	- Songs Of Transportation and Exploration
-	- Autumn Beat and Dancing Feet
-	- Seaside Songs To Sing Along
+	- *[Winter Chimes and Animal Rhymes](https://itunes.apple.com/gb/album/winter-chimes-animal-rhymes/368007674)*
+	- *[Songbirds and Rhyming Words](https://itunes.apple.com/gb/album/song-birds-rhyming-words/420573626)*
+	- *[Rain or Sun Singing Fun](https://itunes.apple.com/gb/album/rain-or-sun-singing-fun/541920985)*
+	- *[Summer Days And Insect Ways](https://itunes.apple.com/gb/album/summer-days-insect-ways-pt-1/633505935)*
+	- *[Songs Of Transportation and Exploration](https://itunes.apple.com/gb/album/songs-of-transportation-and-exploration/927539227)*
+	- *[Autumn Beat and Dancing Feet](https://itunes.apple.com/gb/album/autumn-beat-and-dancing-feet/981147343)*
+	- *[Seaside Songs To Sing Along](https://itunes.apple.com/gb/album/seaside-songs-to-sing-along/893186379)*
 
 #### 2013	
 
-- Tuning The Tables – Musical Multiplications
+- *[Tuning The Tables – Musical Multiplications](https://itunes.apple.com/gb/album/tuning-the-tables-musical-multiplications/636510821)*
 	- by Bakertunes
 	- Published through Emubands.
-	- An album of times table songs, available on iTunes and Amazon.
+	- An album of times table songs in different genres.
+	- Also available on Spotify
 
 
 
