@@ -8,7 +8,7 @@ title: Piano Music
 
 I've loved composing since I got my first Casio keyboard for Christmas when I was eight. Through my piano teaching and arranging work I have loads of opportunities to hear new pieces and enjoy seeing pupils experimenting with different styles.
 
-I have noticed that composers such as Einaudi and Yiruma are writing music that seems to appeal to many. Several of my teenage pupils really enjoy playing their music and will come to lessons having discovered new pieces which they want to learn. 
+I have noticed that composers such as Einaudi and Yiruma are writing music that seems to appeal to many young musicians. Several of my teenage pupils really enjoy playing their music and will come to lessons having discovered new pieces which they want to learn. 
 
 I was inspired to write some short pieces for piano in a similar style for my own, slightly older pupils.
 
