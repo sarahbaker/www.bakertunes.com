@@ -31,4 +31,4 @@ sass:
 github:
   repo:           https://github.com/poole/hyde
   
-gems:             [jekyll-paginate]
+plugins:          [jekyll-paginate]
