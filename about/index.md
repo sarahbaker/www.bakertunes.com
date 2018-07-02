@@ -7,7 +7,7 @@ nav_title: About Me
 ---
 
 <aside class="pull-right">
-  <img src="/public/images/seb.jpg" class="img-responsive img-rounded">
+  <img src="/public/images/sarah_in_park_b+w.jpg" class="img-responsive img-rounded">
 </aside>
 
 I have over twenty years of experience in music education and over thirty five years' experience as a musician. I specialise in conducting and leading choirs with particular expertise in Key Stages 1 and 2 and have worked in many schools in Birmingham in a broad variety of social and cultural contexts.
