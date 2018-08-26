@@ -22,7 +22,7 @@ title: Home
   <section class="col-xs-12">
     <div class="row">
     {% assign count = 0 %}
-    {% for node in pages_list %}
+    {% for node in pages_list  reversed %}
       {% if node.category == 'musicshakers' or node.category == 'publications' %}
       {% if node.promoted %}
       {% if count <= 3 %}
