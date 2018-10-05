@@ -35,5 +35,6 @@ plugins:          [jekyll-paginate]
 
 # Collections
 collections:
-  - pianomusic
+  pianomusic:
+    output: true
     

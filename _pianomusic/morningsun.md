@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Morning Sun
+date: 2016-11-05
 tags:
   - Instrumental Performance
   - Score

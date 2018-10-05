@@ -20,7 +20,7 @@ layout: default
   {% if node.category == page.category %}
   {% if node.title != null %}
   <article class="col-sm-6 col-lg-4 match-height">
-  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}{% if node.image %}</h3>
+  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3>{% if node.image %}
     <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}</a>
 
   {% if forloop.first %}

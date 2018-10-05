@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Hidden
+date: 2017-07-01
 tags:
   - Instrumental Performance
   - Score

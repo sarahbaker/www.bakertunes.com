@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Evening Mist
+date: 2017-07-29
 tags:
   - Instrumental Performance
   - Score

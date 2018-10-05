@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Afternoon Thoughts
+date: 2016-11-17
 tags:
   - Instrumental Performance
   - Score

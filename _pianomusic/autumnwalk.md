@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Autumn Walk
+date: 2016-11-06
 promoted: true
 tags:
   - Instrumental Performance

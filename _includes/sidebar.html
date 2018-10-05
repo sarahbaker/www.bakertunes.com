@@ -21,8 +21,11 @@
             The code below dynamically generates a sidebar nav of pages with
             `layout: page` in the front-matter. See readme for usage.
           {% endcomment %}
-
+          {% assign pianomusic_list = site.pianomusic %}
           {% assign pages_list = site.pages %}
+          {% for pm in pianomusic_list %}
+            {% assign pages_list = pages_list | push: pm %}
+          {% endfor %}
           {% for weight in (0..10) %}
           {% for node in pages_list %}
             {% if node.weight == weight %}

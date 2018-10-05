@@ -2,7 +2,7 @@
 layout: page
 category: pianomusic
 title: Pain and Love
-promoted: true
+date: 2018-01-16
 tags:
   - Instrumental Performance
   - Score

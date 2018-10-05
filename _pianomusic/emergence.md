@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Emergence
+date: 2018-02-19
 tags:
   - Instrumental Performance
   - Score

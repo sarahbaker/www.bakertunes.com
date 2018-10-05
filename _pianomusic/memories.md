@@ -2,6 +2,7 @@
 layout: page
 category: pianomusic
 title: Memories
+date: 2017-01-10
 tags:
   - Instrumental Performance
   - Score
