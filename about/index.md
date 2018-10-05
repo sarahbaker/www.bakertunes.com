@@ -10,13 +10,15 @@ nav_title: About Me
   <img src="/public/images/sarah_in_park_b+w.jpg" class="img-responsive img-rounded">
 </aside>
 
-I have over twenty years of experience in music education and over thirty five years' experience as a musician. I specialise in conducting and leading choirs with particular expertise in Key Stages 1 and 2 and have worked in many schools in Birmingham in a broad variety of social and cultural contexts.
+I am passionate about music and arts education and believe that the performing arts uniquely support children's educational success and achievement. I love music from many genres and write music to encourage and support learning, as well as to simply listen to and enjoy.
 
-I have taught private piano pupils for over thirty years, with pupils from six years to mature adults, from beginners to diploma level. This includes teaching theory and aural at all levels and working as an examiner for [ABRSM](http://abrsm.org)
+I specialise in conducting and leading choirs with particular expertise in Key Stages 1 and 2 and have worked in many schools in Birmingham in a broad variety of social and cultural contexts since 1996.
+
+I have a thriving private piano teaching business, with pupils from six years to mature adults, from beginners to diploma level. This includes teaching theory and aural at all levels and working as an examiner for [ABRSM](http://abrsm.org)
 
 I am the Vocal Composer in Residence for [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) and compose songs and musicals for primary schools and massed-choral events. I have also worked extensively on compositions and arrangements for pre-school music and movement classes, producing the curriculum CDs for [Musicshakers](http://musicshakers.com).
 
-I am passionate about music and arts education and believe that the performing arts uniquely support children's educational success and achievement.
+
 
 ## Work
 
@@ -26,6 +28,7 @@ I am passionate about music and arts education and believe that the performing a
 - Tutor, Birmingham Schools Singers
 - Piano teacher
 - Composer, producer and arranger
+- Examiner for [ABRSM](https://gb.abrsm.org/en/home) 
 
 ## Training
 
