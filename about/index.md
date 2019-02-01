@@ -23,12 +23,13 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 ## Work
 
 - Vocal Composer in Residence, [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)
+- Examiner for [ABRSM](https://gb.abrsm.org/en/home) 
+- Composer, producer and arranger
 - Peripatetic and classroom music teacher
 - Conductor, primary and secondary school choirs
 - Tutor, Birmingham Schools Singers
 - Piano teacher
-- Composer, producer and arranger
-- Examiner for [ABRSM](https://gb.abrsm.org/en/home) 
+
 
 ## Training
 
