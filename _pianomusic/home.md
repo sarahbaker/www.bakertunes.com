@@ -19,4 +19,4 @@ A gentle and relaxing piano piece, mindful of the restoration that comes when re
 
 [Download the score (PDF)](/public/files/home.pdf)
 
-![Home score example](/public/images/scores/home.jpg){:width="100%"}
+![Home score example](/public/images/scores/home.jpg){:width="100%"} 
