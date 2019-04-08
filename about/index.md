@@ -43,7 +43,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 
 ## Publications and Commissions
 
-####2019
+#### 2019
 
 - *[Croak](https://www.outoftheark.co.uk/croak.html)*
 	- Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try.
