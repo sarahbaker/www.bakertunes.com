@@ -43,6 +43,17 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 
 ## Publications and Commissions
 
+####2019
+
+- *[Croak](https://www.outoftheark.co.uk/croak.html)*
+	- Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try.
+
+- *[Sing A Celebration!](https://www.servicesforeducation.co.uk)
+	- A collection of 12 original songs in parts for 7-13s. The songs are inspired by seasonal themes and singing in community.
+
+- *[People I Know, and SongSenses](https://www.servicesforeducation.co.uk)
+	- These booklets are the first in a number of song collections for SoundTots, the SFE's pioneering music programme for Early Years. The songs are simple to learn and with opportunity for children to add their own ideas, supporting language development and communication skills.
+
 #### 2018
 
 - *[Flutterpillar](https://www.starshine.co.uk/flutterpillar)*
