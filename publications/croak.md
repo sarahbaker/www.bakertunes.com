@@ -2,7 +2,7 @@
 layout: publication
 category: publications
 title: Croak!
-image: https://www.outoftheark.co.uk/library/images/large/8/_3A_2C3_40W._25_5CX_2C_23_3CT_2CSDT.35P.3ES_3CV_5CS_2C_23_3CW_2CC_3C_60_0A_60_0A.jpg
+image: https://www.outoftheark.co.uk/library/images/massive/8/_3C_2C3_40W._25_5CR_2C30Q-34X_2CC0W-7_21N_3BFXP_3C_27_2CQ-G_29N-_60_60_60_0A_60_0A.jpg
 publication_url: https://www.outoftheark.co.uk/croak.html
 publication_type: Musical
 publisher: Out Of The Ark Music
