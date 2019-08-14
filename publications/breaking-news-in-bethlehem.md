@@ -2,7 +2,7 @@
 layout: publication
 category: publications
 title: Breaking News In Bethlehem!
-image: /public/images/scores/breaking_news_cover.jpg
+image: /public/images/resources/breaking_news_cover.jpg
 publication_url: https://www.tes.com/teaching-resource/breaking-news-in-bethlehem-a-christmas-musical-12167162
 publication_type: Musical
 publisher: Bakertune via Tes
