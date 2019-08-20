@@ -46,8 +46,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 #### 2019
 
 - *[Croak](https://www.outoftheark.co.uk/croak.html)*
-	- Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try. 
-	 A musical inspired by childhood memories of pond watching and summer evenings in the garden.
+	- Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try.                       A musical inspired by childhood memories of pond watching and summer evenings in the garden.
 
 - *[Sing A Celebration!](https://www.servicesforeducation.co.uk/our-offer/sing-a-celebration/)*
 	- A collection of 12 original songs in parts for 7-13s. The songs are inspired by seasonal themes and singing in community.
@@ -59,8 +58,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 #### 2018
 
 - *[Flutterpillar](https://www.starshine.co.uk/flutterpillar)*
-	- A dream comes true for one little caterpillar. 
-	 A summer musical for 4-7 years.
+	- A dream comes true for one little caterpillar.                                                                                         A summer musical for 4-7 years.
 	
 - *[The Backwater Pirate and His Hairy Chest](https://www.lindsaymusic.co.uk/acatalog/More_Music_Stories.html)*
   - The 2017 ISM-Schools Music Association prize winning musical story of a pirate who rediscovers his courage.
