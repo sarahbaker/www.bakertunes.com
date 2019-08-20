@@ -48,10 +48,11 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 - *[Croak](https://www.outoftheark.co.uk/croak.html)*
 	- Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try.
 
-- *[Sing A Celebration!](https://www.servicesforeducation.co.uk)*
+- *[Sing A Celebration!](https://https://www.servicesforeducation.co.uk/our-offer/sing-a-celebration/)*
 	- A collection of 12 original songs in parts for 7-13s. The songs are inspired by seasonal themes and singing in community.
 
-- *[People I Know, and SongSenses](https://www.servicesforeducation.co.uk)*
+- *[People I Know](https://www.servicesforeducation.co.uk/our-offer/soundtots-people-i-know/)*
+- *[Songsenses](https://www.servicesforeducation.co.uk/our-offer/soundtots-songsenses/)*
 	- These booklets are the first in a number of song collections for SoundTots, the SFE's pioneering music programme for Early Years. The songs are simple to learn and with opportunity for children to add their own ideas, supporting language development and communication skills.
 
 #### 2018
@@ -64,7 +65,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 
 #### 2016
 
-- *[Breaking News In Bethlehem!](https://www.tes.com/teaching-resource/breaking-news-in-bethlehem-a-musical-nativity-by-sarah-baker-11394913)*
+- *[Breaking News In Bethlehem!](https://www.tes.com/teaching-resource/breaking-news-in-bethlehem-a-christmas-musical-12167162)*
 	- Self-published on [tes.com](https://www.tes.com/)
 
 #### 2015
