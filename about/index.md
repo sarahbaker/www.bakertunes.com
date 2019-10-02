@@ -28,18 +28,9 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 - Peripatetic and classroom music teacher
 - Conductor, primary and secondary school choirs
 - Tutor, Birmingham Schools Singers
-- Piano teacher
+- Piano and vocal specialist teaching
 
 
-## Training
-
-- Intermediate 1 Conducting, [Sing for Pleasure](https://www.singforpleasure.org.uk/)
-- Essential Musicianship for Teachers, [Voices Foundation](http://www.voices.org.uk/courses/extended-courses/)
-- Associate Diploma, [Birmingham Conservatoire](http://www.bcu.ac.uk/conservatoire) (Piano)
-- MA, Performance Studies, [Birmingham Conservatoire](http://www.bcu.ac.uk/conservatoire)
-- BMus (Hons), Music, [Birmingham University](http://www.birmingham.ac.uk/)
-
-**Instrument specialisms:** piano; cello; voice; treble recorder
 
 ## Publications and Commissions
 
