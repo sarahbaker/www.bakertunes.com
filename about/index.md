@@ -113,7 +113,7 @@ I started composing when I was about eight, having had piano lessons for a coupl
 
 My first experience of recording for film came when I was sixteen. My Dad had made an animated video that was published by the _Bible Society_ and I did all the background music and songs on a keyboard in one of our bedrooms at home. I loved the creativity and was totally absorbed in it all.
 
-From 1991-1994 I did a  Bmus degree at Birmingham University and had piano lessons with Alison Pottinger at the Birmingham Conservatoire. During these three years I specialised in performance, electronic composition and orchestration, going on to do a Masters in Performance Studies at the Conservatoire from 1995-1997. I already had work with the Birmingham Music Services as a pianist in a school and my vocal teaching in the primary classroom developed from there.
+From 1991-1994 I took a Bmus degree at Birmingham University and studied piano with Alison Pottinger at the Birmingham Conservatoire. During these three years I specialised in performance, electronic composition and orchestration, going on to do a Masters in Performance Studies at the Birmingham Conservatoire from 1995-1997. During this time I performed in master classes, including those with Peter Donohoe and Philip Martin, and was a finalist in several competitions. 
 
 I have now worked in music education for over twenty years and have gradually developed my skills as a songwriter and arranger. The [Music Shakers](www.musicshakers.com) CD project was a great opportunity to try new styles and technologies, and I am really pleased to have worked with [Starshine Music](www.starshinemusic.co.uk) and [Edgy Productions](www.edgyproductions.com) more recently. 
 
