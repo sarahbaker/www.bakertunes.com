@@ -6,7 +6,7 @@ image: https://images-eu.ssl-images-amazon.com/images/I/51miNTfOh4L._SS500.jpg
 publication_type: Audio
 publisher: Emubands/Bakertunes
 weight: 1
-promoted: true
+promoted: false
 ---
 
 It's much more fun singing the sum! Tuning The Tables is a diverse collection of original songs, written to help children learn all the times tables from 2s to 12s. Written with catchy tunes, repetition and a unique mixture of both sums and sequences, these songs draw on my 20 years' experience of teaching primary age children and how music can make difficult or complex subjects fun and memorable.
