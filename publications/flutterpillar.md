@@ -7,6 +7,8 @@ publication_type: Musical
 publication_url: https://www.starshine.co.uk/flutterpillar
 publisher: Starshine Music
 weight: 1
+promoted: true
+
 ---
 **_Flutterpillar_ is an adorable little musical about a caterpillar who wishes she could be a butterfly.  She tries fluttering her legs, but that just makes the animals laugh. ‘You’ll never be a butterfly,’ they say. ‘You’ve got no wings!’  Trying to be kind, they suggest that perhaps she’s a ‘flutterpillar’, although of course there is no such thing.**
 
