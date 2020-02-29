@@ -2,7 +2,7 @@
 layout: publication
 category: publications
 title: Singing Connections
-image: /public/images/resources/singing_connections_cover.jpg
+image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/singing-connections-music-service-services-for-education-600x600.jpg
 publication_url: http://servicesforeducation.co.uk/index.php/Music-Services/primary-schools.html#singing-connections
 publication_type: Songbook
 publisher: Services for Education
