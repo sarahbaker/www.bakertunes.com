@@ -7,7 +7,7 @@ publication_url: https://www.servicesforeducation.co.uk/our-offer/sing-a-celebra
 publication_type: Performance songs for young choirs
 publisher: Services For Education
 weight: 4
-promoted: true
+promoted: false
 ---
 
 <small>**By Sarah Baker**</small>
