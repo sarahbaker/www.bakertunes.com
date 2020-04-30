@@ -2,7 +2,7 @@
 layout: publication
 category: publications
 title: Change The World Together
-image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/main/all-year-round/primary-school-musicals/Change-The-World-Together%20for%20website.png
+image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/main/-hidden-product-category-images/all-year-round-primary-school-musicals-CTWT-3D-image---light-300x370.png
 publication_url: https://www.starshine.co.uk/change-the-world-together
 publication_type: Musical
 publisher: Starshine Music
