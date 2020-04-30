@@ -4,22 +4,23 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-  {% if page.tags %}
-  <div class=" clearfix">
-  <div class="page-tags tags">
-  {% for tag in page.tags %}
-  <small><span class="badge">{{ tag }}</span></small>
-  {% endfor %}
-  </div>
-  </div>
-  {% endif %}
-  
-  {% if page.image %}
-    <aside class="pull-right">
-  <img src="{{ page.image }}" title="{{ page.title }} resource" class="img-thumbnail img-responsive">
-  </aside>
-  {% endif %}
-  {{ content }}
+    {% if page.tags %}
+    <div class="clearfix">
+      <div class="page-tags tags">
+      {% for tag in page.tags %}
+      <small><span class="badge">{{ tag }}</span></small>
+      {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    <div class="page-copy">
+      {% if page.image %}
+        <aside class="pull-right">
+      <img src="{{ page.image }}" title="{{ page.title }} resource" class="img-thumbnail img-responsive">
+      </aside>
+      {% endif %}
+      {{ content }}
+    </div>
 </div>
 
 <!-- AddToAny BEGIN -->

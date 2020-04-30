@@ -29,10 +29,7 @@ You will also see some improvisations that I've done when, on that rare occasion
   <article class="col-sm-6 col-lg-4 match-height">
   <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3>{% if node.image %}
     <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}</a>
-
-  {% if forloop.first %}
-  {{ node.excerpt }}
-  {% endif %}
+    
   {% if node.tags %}
   <div class="tags">
   {% for tag in node.tags %}
