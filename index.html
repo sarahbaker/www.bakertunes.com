@@ -52,16 +52,18 @@ title: Home
         {% if count <= 3 %}
         {% assign count = count | plus: 1 %}
       <article class="list-item">
-        <div class="top-bar">
-        {% if node.tags %}
-        <div class="tags">
-        {% for tag in node.tags %}
-        <small>{{ tag }}</small>
-        {% endfor %}
+        <div class="item-inner">
+          <div class="top-bar">
+            {% if node.tags %}
+            <div class="tags">
+            {% for tag in node.tags %}
+            <small>{{ tag }}</small>
+            {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+          <a class="list-item-link" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
         </div>
-        {% endif %}
-      </div>
-        <a class="list-item-link" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
       </article>
         {% endif %}
         {% endif %}
@@ -77,7 +79,7 @@ title: Home
       $("#blog-feed").rss("https://medium.com/feed/bakertunes", {
         limit: 3,
         layoutTemplate: '{entries}',
-        entryTemplate: '<article><a href="{url}"><h3>{title}</h3></a><span class="post-date">{date}</span></article>',
+        entryTemplate: '<article class="list-item"><div class="item-inner"><div class="top-bar"><small class="post-date">{date}</small></div><a href="{url}"><h3>{title}</h3></a><p>{shortBodyPlain}…</p></div></article>',
         dateFormat: 'DD MMM YYYY',
         ssl: true
       });

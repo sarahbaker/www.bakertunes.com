@@ -12,16 +12,25 @@
         margin-bottom: 1em;
     }
 }
+.page {
+    .section-list {
+        margin: 30px 0;
+    }
+}
 
 .list-item {
-    padding: 2em 0;
+    .item-inner {
+        margin: 0 0 3em;
+    }
+    h3 {
+        margin-top: 10px;
+    }
 
     .top-bar {
         border-top: 5px solid $cape-cod;
         height: 22px;
         color: $cape-cod;
-        margin: -15px -15px 0;
-        padding: 0 15px;
+        text-align: right;
     }
 }
 

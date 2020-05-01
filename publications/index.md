@@ -19,11 +19,15 @@ title: Publications
         {% assign mod2 = i | modulo: 2 %}
         {% assign mod3 = i | modulo: 3 %}
         <article class="col-md-4 col-sm-6 equal-height list-item">
-          <div class="inner">
+          <div class="item-inner">
+          <div class="top-bar">
+            <div class="tags">
+            {{ node.publication_type }}
+            </div>
+          </div>
             <a class="list-item-link" href="{{ node.url }}">
               <h2>{{ node.title }}</h2>
             </a>
-            <p>({{ node.publication_type}})</p>
             <div class="img-container">
               <img src="{{ node.image }}" title="{{ node.title }} resource" class="img-thumbnail img-responsive" />
             </div>

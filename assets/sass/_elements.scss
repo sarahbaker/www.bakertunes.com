@@ -18,6 +18,10 @@
       font-weight: 700;
   }
 
+  h1.page-title  {
+    margin-bottom: 3 * $unit-margin;
+  }
+
   a {
     text-decoration: none;
     border-bottom: 0;
@@ -29,6 +33,14 @@
     }
   }
   
+
+dl {
+  dt {
+  }
+  dd {
+    margin-bottom: $unit-margin;
+  }
+}
 
   .content {
       background: $warm-grey-light;
