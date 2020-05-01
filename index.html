@@ -11,7 +11,7 @@ title: Home
     <img src="/public/images/sarah_in_park_b+w.jpg" class="img-responsive img-rounded">
   </aside>
   <h1>Hello</h1>
-  <p><strong>Bakertunes</strong> is a collection of the music composed and arranged by <strong>Sarah Baker</strong>, composer-in-residence for <a href="http://servicesforeducation.co.uk/index.php/Music-Services/music-services.html" target="_blank">Services for Education Music Services</a> </strong>and examiner for</strong> <a href="https://gb.abrsm.org/en/home.html" target="_blank">ABRSM</a>.</p>
+  <p><strong>Bakertunes</strong> is a collection of the music composed and arranged by <strong>Sarah Baker</strong>, Composer in Residence for <a href="http://servicesforeducation.co.uk/index.php/Music-Services/music-services.html" target="_blank">Services for Education Music Services</a> </strong>and examiner for</strong> <a href="https://gb.abrsm.org/en/home.html" target="_blank">ABRSM</a>.</p>
   </div>
 
 <div class="row">
@@ -79,7 +79,7 @@ title: Home
       $("#blog-feed").rss("https://medium.com/feed/bakertunes", {
         limit: 3,
         layoutTemplate: '{entries}',
-        entryTemplate: '<article class="list-item"><div class="item-inner"><div class="top-bar"><small class="post-date">{date}</small></div><a href="{url}"><h3>{title}</h3></a><p>{shortBodyPlain}…</p></div></article>',
+        entryTemplate: '<article class="list-item"><div class="item-inner"><div class="top-bar"><small class="post-date">{date}</small></div><a href="{url}"><h3>{title}</h3></a><p>{shortBody}…</p></div></article>',
         dateFormat: 'DD MMM YYYY',
         ssl: true
       });
