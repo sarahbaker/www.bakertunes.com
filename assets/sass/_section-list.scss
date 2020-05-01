@@ -1,0 +1,53 @@
+
+.section-list {
+    margin-bottom: 30px;
+
+    .inner {
+        padding: 15px;
+        background: $white;
+        border-radius: $border-radius;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+    }
+}
+.page {
+    .section-list {
+        margin: 30px 0;
+    }
+}
+
+.list-item {
+    .item-inner {
+        margin: 0 0 3em;
+    }
+    h3 {
+        margin-top: 10px;
+    }
+
+    .top-bar {
+        border-top: 5px solid $cape-cod;
+        height: 22px;
+        color: $cape-cod;
+        text-align: right;
+    }
+}
+
+.publications-list {
+    width: 100%; /* Set full-width to expand the whole page */
+
+    .img-thumbnail {
+        max-height: 370px;
+    }
+}
+
+.page {
+    .publications-list {
+        .list-item {
+            .inner {
+                padding: 0 15px;
+            }
+        }
+    }
+}

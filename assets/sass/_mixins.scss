@@ -1,0 +1,48 @@
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($breakpoint) {
+    @media screen and #{$breakpoint} {
+        @content;
+    }
+}
+
+@mixin hide-text {
+  overflow: hidden;
+  text-indent: -9000px;
+  display: block;
+  height: 0;
+}
+
+@mixin no-spacing {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin clearfix {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+@mixin font-primary() {
+    .fonts-loaded & {
+      font-family: $font-family-primary;
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
+  
+  @mixin font-secondary() {
+    .fonts-loaded & {
+      font-family: $font-family-secondary;
+      font-weight: normal;
+      font-style: normal;
+    }
+  }

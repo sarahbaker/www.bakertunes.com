@@ -1,0 +1,65 @@
+* {
+    @include no-spacing;
+    box-sizing: border-box;
+  }
+  
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+
+  body {
+    @include font-primary;
+    font-size: 16px;
+  }
+  
+  
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+  }
+
+  h1.page-title  {
+    margin-bottom: 3 * $unit-margin;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 0;
+    color: inherit;
+    &:hover,
+    &:focus {
+      color: $denim;
+      border-bottom: 1px solid;
+    }
+  }
+
+ol, ul {
+  padding-inline-start: 2 * $unit-margin;
+  margin-bottom: 10px;
+  margin-block-end: 10px;
+}
+  
+
+dl {
+  dt {
+  }
+  dd {
+    margin-bottom: $unit-margin;
+  }
+}
+
+  .content {
+      background: $warm-grey-light;
+
+      .page {
+          background: $white;
+          padding: 30px;
+          border-radius: $border-radius;
+      }
+  }
+  
+
+  .jumbotron {
+      background: $white;
+      border-radius: $border-radius;
+  }

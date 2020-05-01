@@ -19,7 +19,7 @@ layout: default
   {% if node.category == page.category %}
   {% if node.title != null %}
   <article class="">
-  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
+  <a class="section-list-item" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
   {% if page.post_date != false %}
   <p class="post-date text-muted"><small>{{ node.date | date_to_long_string }}</small></p>
   {% endif %}

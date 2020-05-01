@@ -12,33 +12,42 @@ layout: default
   
   {{ content }}
 
-  <section class="row">
+  <div class="clearfix"></div>
+
+  <section class="section-list"> 
+    <div class="row">
   {% assign pages_list = site.pages %}
 
-  {% for node in pages_list %}
-  {% if node.layout == 'page' %}
-  {% if node.category == page.category %}
-  {% if node.title != null %}
-  <article class="col-sm-6 col-lg-4 match-height">
-  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3>{% if node.image %}
-    <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}</a>
+    {% for node in pages_list %}
+    {% if node.layout == 'page' %}
+    {% if node.category == page.category %}
+    {% if node.title != null %}
+    <article class="col-sm-6 col-lg-4 match-height list-item">
+      <div class="item-inner">
+        <div class="top-bar">
+          {% if node.tags %}
+          <div class="tags">
+          {% for tag in node.tags %}
+          <small>{{ tag }}</small>
+          {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        <a class="section-list" href="{{ node.url }}">
+          <h3>{{ node.title }}</h3>
+          {% if node.image %}<img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}
+        </a>
 
-  {% if forloop.first %}
-  {{ node.excerpt }}
-  {% endif %}
-  {% if node.tags %}
-  <div class="tags">
-  {% for tag in node.tags %}
-  <small><span class="badge">{{ tag }}</span></small>
-  {% endfor %}
-  </div>
-  {% endif %}
-
-  </article>
-  {% endif %}
-  {% endif %}
-  {% endif %}
-  {% endfor %}
+        {% if forloop.first %}
+        {{ node.excerpt }}
+        {% endif %}
+      </div>
+    </article>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    </div>
   </section>
   
 <!-- AddToAny BEGIN -->

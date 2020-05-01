@@ -1,0 +1,21 @@
+// Typography
+$font-family-primary: "PT Sans", sans-serif;
+$font-family-secondary: "Abril Fatface", cursive;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.4;
+
+// Colours
+$white: rgba(255,255,255,1);
+$mine-shaft: rgba(48, 48, 48, 1);
+$cape-cod:  rgba(69,69,69,1);
+$warm-grey-light: rgba(238, 230, 220, 1);
+$denim: rgba(19, 123, 206, 1);
+
+$link: $white;
+$link-active: $cape-cod;
+
+// Sizes
+$border-radius: 6px;
+$unit-margin: 15px;

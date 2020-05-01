@@ -1,0 +1,11 @@
+.tags {
+    text-align: right;
+    small {
+        padding-right: 0.5em;
+        border-right: 1px solid $cape-cod;
+        &:last-child {
+            padding-right: 0;
+            border-right: 0;
+        }
+    }
+}

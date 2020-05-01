@@ -22,24 +22,30 @@ You will also see some improvisations that I've done when, on that rare occasion
 {% assign sorted_pianomusic = site.pianomusic | sort: 'date' %}
 {% assign sorted_pianomusic_rev = sorted_pianomusic | reverse %}
 
-<section class="row">
-{% for node in sorted_pianomusic_rev %}
+<section class="section-list">
+  <div class="row">
+  {% for node in sorted_pianomusic_rev %}
   {% if node.layout == 'page' %}
   {% if node.title != null %}
-  <article class="col-sm-6 col-lg-4 match-height">
-  <a class="section-list" href="{{ node.url }}"><h3>{{ node.title }}</h3>{% if node.image %}
-    <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}</a>
-    
-  {% if node.tags %}
-  <div class="tags">
-  {% for tag in node.tags %}
-  <small><span class="badge">{{ tag }}</span></small>
-  {% endfor %}
-  </div>
-  {% endif %}
-
+  <article class="col-sm-6 col-lg-4 match-height list-item">
+    <div class="item-inner">
+      <div class="top-bar">
+        {% if node.tags %}
+        <div class="tags">
+        {% for tag in node.tags %}
+        <small>{{ tag }}</small>
+        {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <a class="section-list" href="{{ node.url }}">
+        <h3>{{ node.title }}</h3>
+        {% if node.image %}<img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}
+      </a>
+    </div>
   </article>
   {% endif %}
   {% endif %}
   {% endfor %}
+  </div>
 </section>
