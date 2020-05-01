@@ -1,76 +1,15 @@
-$title-color: #303030;
+@charset "utf-8";
 
-body {
-  font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-}
-
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-}
-
-.sidebar {
-  color: rgba(255,255,255,.5);
-  background-color: rgba(59,66,69,1);
-  
-  a:link,
-  a:visited {
-    color: rgba(255,255,255,1);
-  }
-  a:hover,
-  a:active {
-    color: rgba(59,66,69,1);
-  }
-  .active {
-  	a {
-  		background-color: $title-color;
-  	}
-  }
-  
-  
-  .icon-bar {
-    background-color: rgba(255,255,255,.5);
-  }
-  /* About section */
-  h1 {
-    color: #fff;
-    margin-top: 0;
-    font-family: "Abril Fatface", serif;
-    font-size: 1.2rem;
-    text-indent: -9999px;
-    line-height: 80px;
-    background: url(/public/images/logo.png);
-    background-size:   contain;
-    background-repeat: no-repeat;
-  }
-  .social-icons {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    
-    img {
-      display: inline-block;
-      margin-right: 0.25rem;
-    }
-  }
-  .sidebar-inner {
-    padding-top: 1em;
-  }
-  
-  @media (min-width: 768px) {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-    .sidebar-inner {
-      padding-top: 0;
-      position: absolute;
-      top: 5em;
-      left: 1em;
-      right: 1em;
-    }
-  }
-}
+@import
+  "variables",
+  "mixins",
+  "normalize",
+  "elements",
+  "formatted-text",
+  "sidebar",
+  "tags",
+  "section-list"
+;
 
 .content-inner {
   @media (min-width: 768px) {
@@ -83,7 +22,7 @@ body {
 
 /* Blog post or page title */
 .post-title {
-  color: $title-color;
+  color: $cape-cod;
 }
 
 article {

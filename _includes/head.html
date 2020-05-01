@@ -1,9 +1,8 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <title>
     {% if page.title %}
@@ -20,9 +19,18 @@
   <!-- Optional theme -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="preload" href="/assets/css/style.css?v={{ site.time | date: '%s' }}" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/style.css?v={{ site.time | date: '%s' }}">
+  </noscript>
 
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Abril+Fatface">
+  <script>
+    {% include loadCSS.js %}
+    {% include cssrelpreload.js %}
+  </script>
+
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -30,5 +38,26 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <script>
+    (function() {
+  
+      if( sessionStorage.foutFontsLoaded ) {
+        document.documentElement.className += " fonts-loaded";
+        return;
+      }
+  
+     {% include fontfaceobserver.js %}
+  
+      var fontA = new FontFaceObserver('PT Sans');
+      var fontB = new FontFaceObserver('Abril Fatface');
+  
+      Promise.all([fontA.load(), fontB.load()]).then(function () {
+        document.documentElement.className += " fonts-loaded";
+  
+        sessionStorage.foutFontsLoaded = true;
+      });
+    })();
+    </script>
 
 </head>

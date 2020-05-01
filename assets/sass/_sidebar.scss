@@ -1,0 +1,76 @@
+.sidebar {
+    color: $white;
+    background-color: $cape-cod;
+    
+    a:link,
+    a:visited {
+      color: $white;
+    }
+    a:hover,
+    a:active {
+      color: $cape-cod;
+    }
+    .active {
+        a {
+            background-color: $cape-cod;
+        }
+    }
+    
+    
+    .icon-bar {
+      background-color: $white;
+    }
+    .site-header__logo {
+        width: 315px;
+        float: left;
+    }
+    .site-logo {
+        overflow: hidden;
+        text-indent: -9000px;
+        display: block;
+        height: 0;
+        background: url(/public/images/logo.png) 0 0 no-repeat;
+        background-size: contain;
+        padding-bottom: 25%;
+        border-bottom: none;
+        margin-bottom: 1em;
+    }
+    /* About section */
+    h1 {
+      color: $white;
+      @include font-secondary;
+    //   font-size: 1.2rem;
+    //   text-indent: -9999px;
+      line-height: 80px;
+      margin-top: 0;
+    //   background: url(/public/images/logo.png);
+    //   background-size:   cover;
+    //   width: 100%;
+    }
+    .social-icons {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      
+      img {
+        display: inline-block;
+        margin-right: 0.25rem;
+      }
+    }
+    .sidebar-inner {
+      padding-top: 1em;
+    }
+    
+    @media (min-width: 768px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+      .sidebar-inner {
+        padding-top: 0;
+        position: absolute;
+        top: 5em;
+        left: 1em;
+        right: 1em;
+      }
+    }
+  }
