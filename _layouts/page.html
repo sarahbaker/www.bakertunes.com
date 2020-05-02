@@ -3,24 +3,24 @@ layout: default
 ---
 
 <div class="page">
+  {% if page.tags %}
+  <div class="top-bar">
+    <div class="page-tags tags">
+    {% for tag in page.tags %}
+    <small>{{ tag }}</small>
+    {% endfor %}
+    </div>
+  </div>
+  {% endif %}
   <h1 class="page-title">{{ page.title }}</h1>
-    {% if page.tags %}
-    <div class="clearfix">
-      <div class="page-tags tags">
-      {% for tag in page.tags %}
-      <small><span class="badge">{{ tag }}</span></small>
-      {% endfor %}
-      </div>
-    </div>
+  <div class="page-copy">
+    {% if page.image %}
+      <aside class="pull-right">
+    <img src="{{ page.image }}" title="{{ page.title }} resource" class="img-thumbnail img-responsive">
+    </aside>
     {% endif %}
-    <div class="page-copy">
-      {% if page.image %}
-        <aside class="pull-right">
-      <img src="{{ page.image }}" title="{{ page.title }} resource" class="img-thumbnail img-responsive">
-      </aside>
-      {% endif %}
-      {{ content }}
-    </div>
+    {{ content }}
+  </div>
 </div>
 
 <!-- AddToAny BEGIN -->
