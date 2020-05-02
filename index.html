@@ -26,7 +26,7 @@ title: Home
         {% if node.promoted %}
         {% if count <= 3 %}
         {% assign count = count | plus: 1 %}
-        <article class="col-sm-4 equal-height">
+        <article class="col-sm-4 equal-height list-item">
         <a class="list-item-link" href="{{ node.url }}">
           <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">
           <h3>{{ node.title }}</h3>
@@ -39,6 +39,9 @@ title: Home
       </div>
     </div>
   </section>
+
+</div>
+<div class="row">
   
   {% assign sorted_pianomusic = site.pianomusic | sort: 'date' %}
   {% assign sorted_pianomusic_rev = sorted_pianomusic | reverse %}
