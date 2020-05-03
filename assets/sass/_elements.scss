@@ -11,6 +11,7 @@
   body {
     @include font-primary;
     font-size: 16px;
+    background-color: $warm-grey-light;
   }
   
   
@@ -49,8 +50,6 @@ dl {
 }
 
   .content {
-      background: $warm-grey-light;
-
       .page {
           background: $white;
           padding: 30px;
