@@ -9,7 +9,7 @@ tags:
   - Advanced Piano
 ---
 
-I wrote this piece for solo piano during the period of lockdown caused by the Coronavirus pandemic, April 2020. It was a period in which my emotions varied from feelings of sadness and loss, to those of hope and wonder as the beauty of nature emerged around me. Time feels like it is both standing still and relentlessly moving forward.
+I wrote this piece for solo piano during the period of lockdown caused by the Coronavirus pandemic, April 2020. It was a period in which my emotions varied from feelings of sadness and loss, to those of hope and wonder as the beauty of nature emerged around me. Time feels like it is both standing still and yet relentlessly rampaging onwards, blissfully unaware.
 
 The music reflects these thoughts and feelings in the way in which repetition and thematic development interweave in the piece.
 
