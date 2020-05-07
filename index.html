@@ -21,19 +21,19 @@ title: Home
     <div class="inner">
       <div class="row">
       {% assign count = 0 %}
-      {% for node in pages_list  reversed %}
+      {% for node in pages_list %}
         {% if node.category == 'musicshakers' or node.category == 'publications' %}
         {% if node.promoted %}
         {% if count <= 5 %}
         {% assign mod2 = count | modulo: 2 %}
         {% assign mod3 = count | modulo: 3 %}
-        <article class="col-md-4 col-sm-6 equal-height list-item">
+        <article class="col-md-4 col-xs-6 equal-height list-item">
         <a class="list-item-link" href="{{ node.url }}">
           <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">
           <h3>{{ node.title }}</h3>
         </a>
         </article>
-        {% if mod2 == 1 %}<div class="clearfix visible-sm-block"></div>{% endif %}
+        {% if mod2 == 1 %}<div class="clearfix visible-xs-block visible-sm-block"></div>{% endif %}
         {% if mod3 == 2 %}<div class="clearfix visible-md-block visible-lg-block"></div>{% endif %}
         {% assign count = count | plus: 1 %}
         {% endif %}

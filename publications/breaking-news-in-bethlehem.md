@@ -7,7 +7,7 @@ publication_url: https://www.tes.com/teaching-resource/breaking-news-in-bethlehe
 publication_type: Musical
 publisher: Bakertunes via Tes
 weight: 4
-promoted: true
+promoted: false
 ---
 
 <small>**By Sarah Baker**</small>
