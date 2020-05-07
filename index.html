@@ -41,6 +41,9 @@ title: Home
         {% endif %}
       {% endfor %}
       </div>
+      <div class="row">
+        <div class="col-xs-12"><a href="/publications/" class="pull-right">More »</a></div>
+      </div>
     </div>
   </section>
 
@@ -52,7 +55,7 @@ title: Home
   
   <section class="col-md-6 section-list">
     <div class="inner">
-      <h2>Piano music</h2>
+      <h2><a href="/pianomusic/">Piano music</a></h2>
       {% assign count = 0 %}
       {% for node in sorted_pianomusic_rev %}
         {% if node.category == 'pianomusic' %}
@@ -75,12 +78,16 @@ title: Home
         {% endif %}
         {% endif %}
       {% endfor %}
+      <p>
+        <a href="/pianomusic/" class="pull-right">More »</a>
+      </p>
+      <div class="clearfix"></div>
     </div>
   </section>
 
   <section class="col-md-6 section-list">
     <div class="inner">
-      <h2>Blog</h2>
+      <h2><a href="https://blog.bakertunes.com/">Blog</a></h2>
       <div id="blog-feed"></div>
       <script>
       $("#blog-feed").rss("https://medium.com/feed/bakertunes", {
@@ -109,6 +116,11 @@ title: Home
       {% endif %}
       {% endfor %}
   -->
+
+      <p>
+        <a href="https://blog.bakertunes.com/" class="pull-right">More »</a>
+      </p>
+      <div class="clearfix"></div>
     </div>
   </section>
 
