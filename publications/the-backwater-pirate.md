@@ -7,6 +7,7 @@ publication_url: https://www.lindsaymusic.co.uk/cgi-bin/sh000001.pl?REFPAGE=http
 publication_type: Musical
 publisher: Lindsay Music
 weight: 1
+promoted: true
 ---
 
 **This musical is the winning entry in a competition organised in 2016-17 by the Schools Music Association of Great Britain (SMA) (part of The Incorporated Society of Musicians) (ISM).
