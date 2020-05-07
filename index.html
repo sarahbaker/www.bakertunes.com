@@ -24,7 +24,7 @@ title: Home
       {% for node in pages_list  reversed %}
         {% if node.category == 'musicshakers' or node.category == 'publications' %}
         {% if node.promoted %}
-        {% if count <= 6 %}
+        {% if count <= 5 %}
         {% assign count = count | plus: 1 %}
         <article class="col-sm-4 equal-height list-item">
         <a class="list-item-link" href="{{ node.url }}">
