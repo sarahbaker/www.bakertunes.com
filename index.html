@@ -27,7 +27,7 @@ title: Home
         {% if count <= 5 %}
         {% assign mod2 = count | modulo: 2 %}
         {% assign mod3 = count | modulo: 3 %}
-        <article class="col-sm-4 equal-height list-item">
+        <article class="col-md-4 col-sm-6 equal-height list-item">
         <a class="list-item-link" href="{{ node.url }}">
           <img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">
           <h3>{{ node.title }}</h3>
