@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="/assets/css/style.css?v={{ site.time | date: '%s' }}">
   </noscript>
 
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include tagmanager-head.html %}
+  {% endif %}
+
   <script>
     {% include loadCSS.js %}
     {% include cssrelpreload.js %}

@@ -4,6 +4,9 @@
   {% include head.html %}
 
   <body>
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include tagmanager-body.html %}
+    {% endif %}
     <div class="container-fluid main-container">
       <div class="row">
         <div class="col-md-3 col-sm-4 match-height sidebar">
