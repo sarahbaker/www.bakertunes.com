@@ -93,7 +93,7 @@ title: Home
       $("#blog-feed").rss("https://medium.com/feed/bakertunes", {
         limit: 3,
         layoutTemplate: '{entries}',
-        entryTemplate: '<article class="list-item"><div class="item-inner"><div class="top-bar"><small class="post-date">{date}</small></div><a href="{url}"><h3>{title}</h3></a><p>{shortBody}…</p></div></article>',
+        entryTemplate: '<article class="list-item"><div class="item-inner"><div class="top-bar"><small class="post-date">{date}</small></div><a href="{url}"><h3>{title}</h3></a><p>{shortBodyPlain}…</p></div></article>',
         dateFormat: 'DD MMM YYYY',
         ssl: true
       });
