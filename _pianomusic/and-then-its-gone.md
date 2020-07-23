@@ -1,7 +1,7 @@
 ---
 layout: page
 category: pianomusic
-title: … and it's gone.
+title: … and then it's gone.
 date: 2020-07-22
 tags:
   - Instrumental Performance
@@ -17,6 +17,6 @@ This musical miniature pairs with my last piece,  _A moment …_ The harmonic la
 
 &nbsp;
 
-[Download the score (PDF)](/public/files/and-its-gone.pdf)
+[Download the score (PDF)](/public/files/and-then-its-gone.pdf)
 
-![and so it goes on score example](/public/images/scores/and-its-gone.jpg){:width="100%"}
+![and then it's gone score example](/public/images/scores/and-then-its-gone.jpg){:width="100%"}
