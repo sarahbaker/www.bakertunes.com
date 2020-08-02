@@ -34,6 +34,16 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 
 ## Publications and Commissions
 
+#### 2020
+
+- *Two instrumental pieces to provide a framework for classroom composition work, commissioned by West Midlands Music*
+	- These pieces were written specifically for use in the classroom post Covid-19 lockdown, to ensure that composition could take place in an environment where singing and shared instrumental work could be difficult. The pieces are clearly structured and provided with a detailed plan of what could be added/improvised by pupils in the classroom.
+
+- *Bespoke instrumental theme for Anvil Trust podcast*
+
+- *Hey You! Many Voices Sing As One*
+	- An instrumental and choral piece commissioned by Services For Education Music Service for the Youth Proms 50th birthday celebrations at the Royal Albert Hall in November 2020. The piece was written for 700 young people, both instrumentalists and singers, and took the theme of a journey through Birmingham to highlight the different ensembles and music making that SFE young people do within the city. Unfortunatley Covid-19 meant that the piece has yet to be performed, but we are hopeful that it will be used at a later date.
+
 #### 2019
 
 - *[Croak](https://www.outoftheark.co.uk/croak.html)*
@@ -42,22 +52,37 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 - *[Sing A Celebration!](https://www.servicesforeducation.co.uk/our-offer/sing-a-celebration/)*
 	- A collection of 12 original songs in parts for 7-13s. The songs are inspired by seasonal themes and singing in community.
 
+- *[Give Someone A Smile](https://permissiontosmile.org/)*
+	- Song written for SFE's Primary Choirs for the Prom celebration concerts at Symphony Hall in July. The song was inspired by Birmingham's *Permission To Smile* campaign.	
+
 - *[People I Know](https://www.servicesforeducation.co.uk/our-offer/soundtots-people-i-know/)*
 - *[Songsenses](https://www.servicesforeducation.co.uk/our-offer/soundtots-songsenses/)*
 	- These booklets are the first in a number of song collections for SoundTots, the SFE's pioneering music programme for Early Years. The songs are simple to learn and with opportunity for children to add their own ideas, supporting language development and communication skills.
 
+- *Bournville Village Primary school song*
+	- A bespoke song to celebrate the combining of the infant and junior schools in Bournville Village.
+
+- *Vocal Workshops for PWC*
+	- Delivery of a series of vocal workshops for the senior leadership team at PWC, Birmingham, as a team building experience. 
+
 #### 2018
 
 - *[Flutterpillar](https://www.starshine.co.uk/flutterpillar)*
-	- A dream comes true for one little caterpillar.                                                                                         A summer musical for 4-7 years.
+	- A dream comes true for one little caterpillar. A summer musical for 4-7 years.
 	
 - *[The Backwater Pirate and His Hairy Chest](https://www.lindsaymusic.co.uk/acatalog/More_Music_Stories.html)*
   - The 2017 ISM-Schools Music Association prize winning musical story of a pirate who rediscovers his courage.
+
+- *There Is A Stream*
+	- Choral song, written for Alvechurch Community Choir to commemorate the 100th Anniversary of the end of World War One.
 
 #### 2016
 
 - *[Breaking News In Bethlehem!](https://www.tes.com/teaching-resource/breaking-news-in-bethlehem-a-christmas-musical-12167162)*
 	- Self-published on [tes.com](https://www.tes.com/)
+
+- *Arts Mark Pollination Project*
+	- Delivery and planning of a series of 10 composition workshops at Bournville Primary School for year 5 pupils, leading to an Arts Mark Award.	
 
 #### 2015
 
@@ -98,6 +123,11 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 	- Published through Emubands.
 	- An album of times table songs in different genres.
 	- Also available on Spotify
+
+#### 2012
+
+- *[Celebrate!](https://www.tes.com/teaching-resources/shop/sarahbaker73)*
+	- I established my account on Tes.com this year with a song written specifically for the Queen's diamond jubilee celebrations. Since then I have added over 50 resources for use by the teaching community.
 
 
 
