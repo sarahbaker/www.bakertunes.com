@@ -6,7 +6,7 @@ image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/ma
 publication_url: https://www.starshine.co.uk/change-the-world-together
 publication_type: Musical
 publisher: Starshine Music
-weight: 4
+weight: 1
 promoted: true
 ---
 
