@@ -47,7 +47,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 	- Bespoke instrumental theme for Anvil Trust podcast
 
 - *Hey You! Many Voices Sing As One*
-	- An instrumental and choral piece commissioned by Services For Education Music Service for the Youth Proms 50th birthday celebrations at the Royal Albert Hall in November 2020. The piece was written for 700 young people, both instrumentalists and singers, and took the theme of a journey through Birmingham to highlight the different ensembles and music making that SFE young people do within the city. Unfortunatley Covid-19 meant that the piece has yet to be performed, but we are hopeful that it will be used at a later date.
+	- An instrumental and choral piece commissioned by Services For Education Music Service for the Youth Proms 50th birthday celebrations at the Royal Albert Hall in November 2020. The piece was written for 700 young people, both instrumentalists and singers, and took the theme of a journey through Birmingham to highlight the different ensembles and music making that SFE young people do within the city. Unfortunately Covid-19 meant that the piece has yet to be performed, but we are hopeful that it will be used at a later date.
 
 #### 2019
 
