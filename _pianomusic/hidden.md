@@ -12,7 +12,7 @@ tags:
 &nbsp;
 
 
-I wrote Hidden in February, just as the crocuses and snowdrops were beginning to bloom in our garden. I love Spring when the ground seems to burst with colour, so long hidden over the winter months. 
+I wrote Hidden in February 2017, just as the crocuses and snowdrops were beginning to bloom in our garden. I love Spring when the ground seems to burst with colour, so long hidden over the winter months. 
 
 This piece builds and falls as if hidden beauty is revealed fleetingly. Fragments of melody provide splashes of colour momentarily.
 
