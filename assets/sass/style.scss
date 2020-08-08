@@ -12,10 +12,10 @@
 ;
 
 .content-inner {
-  @media (min-width: 768px) {
+  @media (min-width: $breakpoint-tablet) {
     margin: 4rem;
   }
-//  @media (min-width: 768px) {
+//  @media (min-width: $breakpoint-tablet) {
 //
 //  }
 }
@@ -27,7 +27,7 @@
 
 aside.pull-right {
   margin-bottom: 1em;
-  @media (min-width: 768px) {
+  @media (min-width: $breakpoint-tablet) {
     max-width: 250px;
     margin-left: 1em;
   }
