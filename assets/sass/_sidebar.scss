@@ -21,8 +21,11 @@
       background-color: $white;
     }
     .site-header__logo {
-        width: 315px;
+        width: 222px;
         float: left;
+        @media (min-width: $breakpoint-desktop-lg) {
+          width: 315px;
+        }
     }
     .site-logo {
         overflow: hidden;
@@ -60,7 +63,7 @@
       padding-top: 1em;
     }
     
-    @media (min-width: 768px) {
+    @media (min-width: $breakpoint-tablet) {
     position: fixed;
     top: 0;
     left: 0;
