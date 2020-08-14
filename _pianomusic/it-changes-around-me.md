@@ -1,7 +1,7 @@
 ---
 layout: page
 category: pianomusic
-title: Transformation
+title: It changes around me
 date: 2020-08-14
 tags:
   - Instrumental Performance
@@ -16,11 +16,11 @@ It feels as if the world is rapidly transforming and changing. Simple things tha
 
 Transformation is a piece that unexpectedly shifts and moves tonality and merges dissonance with resolution as if describing that sense of yearning in the midst of transition.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tMvA3wFH2Wg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPgE5lExpE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 &nbsp;
 
-[Download the score (PDF)](/public/files/transformation.pdf)
+[Download the score (PDF)](/public/files/it-changes-around-me.pdf)
 
-![Hidden score example](/public/images/scores/transformation.jpg){:width="100%"}
+![Hidden score example](/public/images/scores/it-changes-around-me.jpg){:width="100%"}
