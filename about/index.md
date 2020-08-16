@@ -7,7 +7,7 @@ nav_title: About Me
 ---
 
 <aside class="pull-right">
-  <img src="/public/images/sarah_in_park_b+w.jpg" class="img-responsive img-rounded">
+  <img src="/public/images/sarah-in-garden-b+w.jpg" class="img-responsive img-rounded">
 </aside>
 
 I am passionate about music and arts education and believe that the performing arts uniquely support children's educational success and achievement. I love music from many genres and write music to encourage and support learning, as well as to simply listen to and enjoy.
