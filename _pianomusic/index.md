@@ -42,15 +42,15 @@ Please feel free to download the scores for these and share.
         {% if node.image %}<img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}
         {% if row_counter < page.row_counter_limit %}
         {% if node.youtube_id %}
-        <img src="https://img.youtube.com/vi/{{node.youtube_id}}/hqdefault.jpg" title="{{ node.title }}" class="img-thumbnail img-responsive">
+        <img src="https://img.youtube.com/vi/{{node.youtube_id}}/mqdefault.jpg" title="{{ node.title }}" class="img-thumbnail img-responsive">
         {% endif %}
         {% endif %}
       </a>
     </div>
   </article>
-  {% endif %}
-  {% endif %}
   {% assign row_counter = row_counter | plus:1 %}
+  {% endif %}
+  {% endif %}
   {% endfor %}
   </div>
 </section>
