@@ -3,6 +3,7 @@ layout: section
 category: pianomusic
 image: /public/images/piano-score.jpg
 weight: 1
+row_counter_limit: 6
 title: Piano Music
 permalink: /pianomusic/
 ---
@@ -17,14 +18,13 @@ My intention was to keep the pieces within a fairly small range and to use the b
 
 Please feel free to download the scores for these and share.
 
-
+{% assign row_counter = 0 %}
 {% assign sorted_pianomusic = site.pianomusic | sort: 'date' %}
 {% assign sorted_pianomusic_rev = sorted_pianomusic | reverse %}
-
 <section class="section-list">
   <div class="row">
   {% for node in sorted_pianomusic_rev %}
-  {% if node.layout == 'page' %}
+  {% if node.layout == 'pianomusic' %}
   {% if node.title != null %}
   <article class="col-sm-6 col-lg-4 match-height list-item">
     <div class="item-inner">
@@ -40,9 +40,15 @@ Please feel free to download the scores for these and share.
       <a class="section-list" href="{{ node.url }}">
         <h3>{{ node.title }}</h3>
         {% if node.image %}<img src="{{ node.image }}" title="{{ node.title }}" class="img-thumbnail img-responsive">{% endif %}
+        {% if row_counter < page.row_counter_limit %}
+        {% if node.youtube_id %}
+        <img src="https://img.youtube.com/vi/{{node.youtube_id}}/mqdefault.jpg" title="{{ node.title }}" class="img-thumbnail img-responsive">
+        {% endif %}
+        {% endif %}
       </a>
     </div>
   </article>
+  {% assign row_counter = row_counter | plus:1 %}
   {% endif %}
   {% endif %}
   {% endfor %}

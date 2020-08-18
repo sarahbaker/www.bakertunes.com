@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: pianomusic
 category: pianomusic
 title: and yet it goes on
 date: 2020-04-30
+score:
+  pdf: and_yet_it_goes_on.pdf
+  image: and_yet_it_goes_on.jpg
+youtube_id: dRYtU6FeAxg
 tags:
   - Instrumental Performance
   - Score
@@ -14,13 +18,3 @@ I wrote this piece for solo piano during the period of lockdown caused by the Co
 The music reflects these thoughts and feelings in the way in which repetition and thematic development interweave in the piece.
 
 The images in the video were taken on daily walks in the local park during the same period. They capture something of the blossoming of Spring during this time.
-
-&nbsp;
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dRYtU6FeAxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-&nbsp;
-
-[Download the score (PDF)](/public/files/and_yet_it_goes_on.pdf)
-
-![and so it goes on score example](/public/images/scores/and_yet_it_goes_on.jpg){:width="100%"}

@@ -1,23 +1,19 @@
 ---
-layout: page
+layout: pianomusic
 category: pianomusic
 title: Evening Mist
 date: 2017-07-29
+score:
+  pdf: evening-mist.pdf
+  image: evening-mist.jpg
+youtube_id: OpTUXqdkzNY
+soundcloud_id:
 tags:
   - Instrumental Performance
   - Score
   - Easy Piano
 ---
 
-&nbsp;
+This is a piece for fairly new beginners on the piano.
 
-This is a piece for fairly new beginners on the piano. 
-The left hand provides movement in the quaver notes but does not move position much. The right hand melody lingers at times and should be played with expression. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OpTUXqdkzNY" frameborder="0" allowfullscreen></iframe>
-
-&nbsp;
-
-[Download the score (PDF)](/public/files/evening-mist.pdf)
-
-![Evening Mist score example](/public/images/scores/evening-mist.jpg){:width="100%"}
+The left hand provides movement in the quaver notes but does not move position much. The right hand melody lingers at times and should be played with expression.

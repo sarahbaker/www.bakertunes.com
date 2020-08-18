@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.soundcloud_id %}
+<div class="embed-container soundcloud-embed-container">
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.soundcloud_id }}&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+</div>
+{% endif %}
+
+{% if page.youtube_id %}
+<div class="embed-container youtube-embed-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endif %}
+
+{% if page.score.pdf %}
+<p>
+    <a href="/public/files/{{ page.score.pdf }}" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> &nbsp; Download the score (PDF)</a>
+</p>
+{% endif %}
+
+{% if page.score.image %}
+<p>
+    <img src="/public/images/scores/{{ page.score.image }}" alt="{{ page.title }} score example" width="100%" />
+</p>
+{% endif %}

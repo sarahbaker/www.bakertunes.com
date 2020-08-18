@@ -50,11 +50,12 @@ title: Home
 </div>
 <div class="row">
   
+  {% assign row_counter = 0 %}
   {% assign sorted_pianomusic = site.pianomusic | sort: 'date' %}
   {% assign sorted_pianomusic_rev = sorted_pianomusic | reverse %}
   
   <section class="col-md-6 section-list">
-    <div class="inner">
+    <div class="inner row">
       <h2><a href="/pianomusic/">Piano music</a></h2>
       {% assign count = 0 %}
       {% for node in sorted_pianomusic_rev %}
@@ -72,9 +73,22 @@ title: Home
             </div>
             {% endif %}
           </div>
-          <a class="list-item-link" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
+          {% if row_counter < 1 %}
+          {% if node.youtube_id %}
+          <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <a class="list-item-link" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <p><img src="https://img.youtube.com/vi/{{node.youtube_id}}/mqdefault.jpg" title="{{ node.title }}" class="img-thumbnail img-responsive"></p>
+          </div>
+          {% endif %}
+          {% else %}
+            <a class="list-item-link" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
+          {% endif %}
         </div>
       </article>
+        {% assign row_counter = row_counter | plus:1 %}
         {% endif %}
         {% endif %}
       {% endfor %}
