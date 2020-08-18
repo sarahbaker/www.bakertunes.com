@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: pianomusic
 category: pianomusic
 title: The Journey
 date: 2016-11-09
+score:
+  pdf: thejourney.pdf
+  image: thejourney.jpg
+youtube_id: lNt3b2jiUf8
+soundcloud_id:
 tags:
   - Instrumental Performance
   - Score
@@ -16,13 +21,3 @@ For The Journey, I imagined a landscape that was open, dusty and rocky, with a t
 He has been walking for some time now and aches, but his feet keep moving forward, one in front of the other, seemingly detached from his mind.
 
 Although his body is tired, his mind is still able to wonder and he remembers the beauty of things previously seen.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lNt3b2jiUf8" frameborder="0" allowfullscreen></iframe>
-
-
-
-&nbsp;
-
-[Download the score (PDF)](/public/files/thejourney.pdf)
-
-![The Journey score example](/public/images/scores/thejourney.jpg){:width="100%"}

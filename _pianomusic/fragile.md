@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: pianomusic
 category: pianomusic
 title: Fragile
 date: 2016-11-10
+score:
+  pdf: fragile.pdf
+  image: fragile.jpg
+youtube_id: dwrHj99RWOs
+soundcloud_id:
 tags:
   - Instrumental Performance
   - Score
@@ -16,11 +21,3 @@ I have tried to express in this piano piece the fragility of beauty found in une
 Sometimes it goes unnoticed, sometimes it is a fleeting thing, momentarily present and then gone.
 
 It may be a fragment of something much larger, a lingering sense of what was.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dwrHj99RWOs" frameborder="0" allowfullscreen></iframe>
-
-&nbsp;
-
-[Download the score (PDF)](/public/files/fragile.pdf)
-
-![Fragile score example](/public/images/scores/fragile.jpg){:width="100%"}

@@ -24,7 +24,7 @@ Please feel free to download the scores for these and share.
 <section class="section-list">
   <div class="row">
   {% for node in sorted_pianomusic_rev %}
-  {% if node.layout == 'page' %}
+  {% if node.layout == 'pianomusic' %}
   {% if node.title != null %}
   <article class="col-sm-6 col-lg-4 match-height list-item">
     <div class="item-inner">

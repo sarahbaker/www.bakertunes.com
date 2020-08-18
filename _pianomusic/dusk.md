@@ -1,9 +1,13 @@
 ---
-layout: page
+layout: pianomusic
 category: pianomusic
 title: Dusk
 date: 2016-11-13
 promoted: true
+score:
+  pdf: dusk.pdf
+  image: dusk.jpg
+youtube_id: NXnJqxfdMgQ
 tags:
   - Instrumental Performance
   - Score
@@ -19,13 +23,3 @@ The light changes and things seem different.
 There is hope of rest and maybe the company of friends round the table for a meal.
 
 I hope this piece for solo piano captures something of these thoughts and experiences.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NXnJqxfdMgQ" frameborder="0" allowfullscreen></iframe>
-
-
-
-&nbsp;
-
-[Download the score (PDF)](/public/files/dusk.pdf)
-
-![Dusk score example](/public/images/scores/dusk.jpg){:width="100%"}
