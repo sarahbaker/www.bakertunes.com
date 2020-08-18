@@ -1,7 +1,7 @@
 ---
 layout: section
 category: musicshakers
-weight: 1
+weight: 5
 title: Music Shakers
 ---
 <aside class="pull-right"><a href="http://www.musicshakers.com/" title="Music Shakers site"><img src="http://www.musicshakers.com/musicshakerslogo.jpg" title="Music Shakers logo"></a></aside>
