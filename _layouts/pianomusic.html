@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.youtube %}
+<div class="youtube-embed-container">
+    <iframe width="560" height="315" src="{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endif %}
+
+{% if page.score_pdf %}
+<p>
+    <a href="{{ page.score_pdf }}" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> &nbsp; Download the score (PDF)</a>
+</p>
+{% endif %}
+
+{% if page.score_image %}
+<p>
+    <img src="{{ page.score_image }}" alt="{{ page.title }} score example" width="100%" />
+</p>
+{% endif %}

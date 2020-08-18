@@ -48,16 +48,20 @@ dl {
   }
 }
 
-  .content {
-      .page {
-          background: $white;
-          padding: 30px;
-          border-radius: $border-radius;
-      }
-  }
-  
+.content {
+    .page {
+        background: $white;
+        padding: 30px;
+        border-radius: $border-radius;
+    }
+}
 
-  .jumbotron {
-      background: $white;
-      border-radius: $border-radius;
-  }
+
+.jumbotron {
+    background: $white;
+    border-radius: $border-radius;
+}
+
+.youtube-embed-container {
+  margin: 3em 0;
+}
