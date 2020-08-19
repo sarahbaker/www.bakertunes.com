@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+image: sarah-in-garden-b+w.jpg
+description: Bakertunes is a collection of the music composed and arranged by Sarah Baker, Composer in Residence for Services for Education Music Services and examiner for ABRSM.
 ---
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="/assets/js/jquery.rss.min.js"></script>
@@ -80,7 +82,7 @@ title: Home
             <a class="list-item-link" href="{{ node.url }}"><h3>{{ node.title }}</h3></a>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <p><img src="https://img.youtube.com/vi/{{node.youtube_id}}/mqdefault.jpg" title="{{ node.title }}" class="img-thumbnail img-responsive"></p>
+            <p><img src="https://img.youtube.com/vi/{{node.youtube_id}}/mqdefault.jpg" title="{{ node.title }}" class="img-rounded img-responsive"></p>
           </div>
           {% endif %}
           {% else %}
