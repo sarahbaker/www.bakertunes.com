@@ -20,7 +20,11 @@ layout: default
   
   {{ content }}
   
-{% if page.publication_url %}<h2>Get <a href="{{ page.publication_url }}" target="_blank">{{ page.title }} at {{ page.publisher }}</a></h2>{% endif %}
+{% if page.publication_url %}
+  <div class="publication-link-container">
+    <a href="{{ page.publication_url }}" target="_blank" class="btn btn-default btn-lg"><strong>Get {{ page.title }} at {{ page.publisher }}</strong> &nbsp; <span class="glyphicon glyphicon-new-window"></span></a>
+  </div>
+{% endif %}
   
   <div class="clearfix"></div>
 </div>
