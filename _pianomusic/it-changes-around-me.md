@@ -2,6 +2,7 @@
 layout: pianomusic
 category: pianomusic
 title: It changes around me
+description: Piano music for my piece, 'It changes around me,' with downloadable score and YouTube video.
 date: 2020-08-14
 score:
   pdf: it-changes-around-me.pdf

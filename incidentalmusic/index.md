@@ -1,7 +1,7 @@
 ---
 layout: section
 category: incidentalmusic
-image: /public/images/recording-evening-work.jpg
+image: recording-evening-work.jpg
 weight: 2
 title: Incidental Music
 ---
