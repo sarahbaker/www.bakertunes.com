@@ -6,7 +6,8 @@
   <meta name="twitter:title" content="{{ site.title }}">{% endif %}{% if page.url %}
   <meta name="twitter:url" content="{{ page.url | absolute_url }}">{% endif %}{% if page.description %}
   <meta name="twitter:description" content="{{ page.description }}">{% else %}
-  <meta name="twitter:description" content="{{ site.description }}">{% endif %}{% if page.image %}
-  <meta name="twitter:image:src" content="{{ site.url }}/public/images/{{ page.image }}">{% elsif page.youtube_id %}
+  <meta name="twitter:description" content="{{ site.description }}">{% endif %}{% if page.image %}{% if page.image contains 'http' %}
+  <meta name="twitter:image:src" content="{{ page.image }}">{% else %%}
+  <meta name="twitter:image:src" content="{{ site.url }}/public/images/{{ page.image }}">{% endif %}{% elsif page.youtube_id %}
   <meta name="twitter:image:src" content="https://img.youtube.com/vi/{{ page.youtube_id }}/mqdefault.jpg">{% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/public/images/logo.png">{% endif %}
