@@ -8,7 +8,7 @@ score:
   image: time-will-tell.jpg
 youtube_id: 5XOeQMZOgXA
 tags:
-  - Instrumental Performance
+  - Piano solo
   - Score
   - Advanced Piano
 ---

@@ -8,7 +8,7 @@ score:
   image: and_yet_it_goes_on.jpg
 youtube_id: dRYtU6FeAxg
 tags:
-  - Instrumental Performance
+  - Solo piano
   - Score
   - Advanced Piano
 ---

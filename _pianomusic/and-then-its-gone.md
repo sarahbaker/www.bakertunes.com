@@ -8,7 +8,7 @@ score:
   image: and-then-its-gone.jpg
 youtube_id: Amlw0RP3BDM
 tags:
-  - Instrumental Performance
+  - Piano solo
   - Score
   - Advanced Piano
 ---

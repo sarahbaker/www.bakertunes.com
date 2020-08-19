@@ -8,7 +8,7 @@ score:
   image: a-moment.jpg
 youtube_id: gCwEmyi4xY4
 tags:
-  - Instrumental Performance
+  - Solo piano
   - Score
   - Advanced Piano
 ---

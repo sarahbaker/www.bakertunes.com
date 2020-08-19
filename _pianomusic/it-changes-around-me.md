@@ -9,7 +9,7 @@ score:
   image: it-changes-around-me.jpg
 youtube_id: ZPgE5lExpE0
 tags:
-  - Instrumental Performance
+  - Piano solo
   - Score
   - Advanced Piano
 ---
