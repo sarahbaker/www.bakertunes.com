@@ -13,8 +13,8 @@ tags:
   - Advanced Piano
 ---
 
-The final piece in my collection, Transformations, a series of pieces for solo piano, written during lockdown in 2020.
+The final piece to have been composed in my collection, Transformations, a series of pieces for solo piano, written during lockdown in 2020.
 
 *Circular* reflects a different mood from the others. It is edgy and argumentative, with short phrases in a dialogue between parts. There is a sense of frustration that the music doesn't seem to go anywhere, and in the end it just gives up.
 
-I have written it to show the reality of emotions during a difficult period, when conversations were not always that easy.
+I have written it to show the reality of emotions during a difficult period, when conversations were not always that easy and often seemed to return to the same subject.
