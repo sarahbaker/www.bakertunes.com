@@ -47,7 +47,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 
 #### 2019
 
-- *[Croak](https://www.outoftheark.co.uk/croak.html)*
+- *[Croak!](https://www.outoftheark.co.uk/croak.html)*
 	- Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try. A musical inspired by childhood memories of pond watching and summer evenings in the garden.
 
 - *[Sing A Celebration!](https://www.servicesforeducation.co.uk/our-offer/sing-a-celebration/)*
