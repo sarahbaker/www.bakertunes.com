@@ -5,21 +5,24 @@ title: Dusk
 date: 2016-11-13
 promoted: true
 score:
-  pdf: dusk.pdf
-  image: dusk.jpg
-youtube_id: NXnJqxfdMgQ
+  pdf: dusk01.pdf
+  image: dusk01.jpg
+youtube_id: ToZbqYkeDJA
 tags:
   - Instrumental Performance
   - Score
   - Intermediate Piano
 ---
 
-The word 'Dusk' speaks to me of reflection and meditation. 
+Dusk describes to me a period of the day when there is time for reflection and meditation. 
 
-It brings to my mind the setting sun and that in-between world between day and night when the busy-ness of the day is done and the peace of the night is drawing closer.
+It brings to my mind the setting sun and that in-between world between day and night when the busy-ness of the day is done and night is gradually drawing closer.
 
 The light changes and things seem different.
 
 There is hope of rest and maybe the company of friends round the table for a meal.
 
-I hope this piece for solo piano captures something of these thoughts and experiences.
+This is the first piece in my collection, *Night Time Impressions* - a series of 8 piano pieces that takes the performer and listener on a journey from dusk to dawn through the darkness of the night.
+
+
+

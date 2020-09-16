@@ -1,0 +1,18 @@
+---
+layout: pianomusic
+category: pianomusic
+title: Shadows
+date: 2020-09-11
+promoted: true
+score:
+  pdf: 
+  image: 
+youtube_id: QZiRpmVXMro
+tags:
+  - Instrumental Performance
+  - Intermediate Piano
+---
+
+I have taken inspiration from the memories of the movement and noises of the trees and animal life in the woods where I grew up. Night was a time when sounds took on new meanings, and things became unfamiliar and disconcerting. My imagination ran riot and the woods became alive with unknown beings.
+
+This is the fourth piece in my collection, *Night Time Impressions* - a series of 8 piano pieces that takes the performer and listener on a journey from dusk to dawn through the darkness of the night.
