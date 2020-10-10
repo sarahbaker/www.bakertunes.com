@@ -25,11 +25,14 @@
 
   a {
     text-decoration: none;
-    border-bottom: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
     color: inherit;
     &:hover,
     &:focus {
       color: $denim;
+      text-decoration: none;
+      border-bottom-width: 2px;
     }
   }
 

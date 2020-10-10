@@ -7,7 +7,6 @@ tags:
   - Key Stage 2
   - Musical
 ---
-&nbsp;
 [*Barbecues, Burgers and Buns*](https://www.starshine.co.uk/change-the-world-together) is from my musical [*Change The World Together*](https://www.starshine.co.uk/change-the-world-together) published by Starshine Music. 
 
 With the weather so hot and dry, the characters in the story enjoy socialising over the barbecue. 

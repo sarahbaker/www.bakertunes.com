@@ -1,6 +1,10 @@
 .sidebar {
     color: $white;
     background-color: $mine-shaft;
+
+    a {
+      border-bottom: none;
+    }
     
     a:link,
     a:visited {

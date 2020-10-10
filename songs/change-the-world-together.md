@@ -7,7 +7,6 @@ tags:
   - Key Stage 2
   - Musical
 ---
-&nbsp;
 [*Change The World Together*](https://www.starshine.co.uk/change-the-world-together) is the title song of the musical of the same name. It is a powerful song that concludes the musical with the hope that we can change the world together if we all do our bit and work in community with one another.
 
 Seeing the impact of climate change on my own children and wondering what the future will bring inspired me to write this musical which explores the reasons for climate change and how we can all take responsibility to make things different.
