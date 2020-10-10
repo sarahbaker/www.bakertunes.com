@@ -7,9 +7,6 @@ tags:
   - Key Stage 2
   - Musical
 ---
-
-&nbsp;
-
 [*The Storm*](https://www.starshine.co.uk/change-the-world-together) is an atmospheric and dramatic song from my musical [*Change The World Together*](https://www.starshine.co.uk/change-the-world-together) published by Starshine Music. 
 
 We are increasingly seeing how global warming brings extreme weather conditions and this song describes the building tension and devastating effects of an unexpected storm.
