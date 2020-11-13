@@ -31,6 +31,10 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 ## Publications and Commissions
 
 #### 2020
+- *Easter Experience* 
+	- Trailer soundtrack for [Crossteach](https://www.crossteach.com/) and [Discipleship Tech](https://discipleship.tech/) 
+
+- 5 original songs for the Services For Education online resources platform for use in schools during the COVID-19  	 	pandemic.
 
 - *Superhero!*
 - *Connecting*
@@ -40,7 +44,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 	- Published by Starshine Music, this highly relevant, heart-warming and entertaining musical captures the spirit of the times, being about a young person determined to make a difference in the face of climate change.
 
 - *Jesus Shalom*
-	- Bespoke instrumental theme for Anvil Trust podcast
+	- Bespoke instrumental theme for [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/) podcast
 
 - *Hey You! Many Voices Sing As One*
 	- An instrumental and choral piece commissioned by Services For Education Music Service for the Youth Proms 50th birthday celebrations at the Royal Albert Hall in November 2020. The piece was written for 700 young people, both instrumentalists and singers, and took the theme of a journey through Birmingham to highlight the different ensembles and music making that SFE young people do within the city. Unfortunately Covid-19 meant that the piece has yet to be performed, but we are hopeful that it will be used at a later date.
