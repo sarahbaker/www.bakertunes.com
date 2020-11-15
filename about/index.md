@@ -148,7 +148,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 #### 2012
 
 - *[Celebrate!](https://www.tes.com/teaching-resources/shop/sarahbaker73)*
-	- I established my account on Tes.com this year with a song written specifically for the Queen's diamond jubilee celebrations. Since then I have added over 50 resources for use by the teaching community.
+	- I established my account on Tes.com this year with a song written specifically for the Queen's diamond jubilee celebrations. Since then I have added over 50 resources for use by the teaching community which have been viewed and downloaded over 96K times.
 
 #### 2011
 
