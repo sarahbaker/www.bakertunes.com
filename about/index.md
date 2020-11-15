@@ -150,6 +150,11 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 - *[Celebrate!](https://www.tes.com/teaching-resources/shop/sarahbaker73)*
 	- I established my account on Tes.com this year with a song written specifically for the Queen's diamond jubilee celebrations. Since then I have added over 50 resources for use by the teaching community.
 
+#### 2011
+
+- *Early Years Music* project with World's End Nursery school, Quinton. 
+	- A workshop-style music course for Foundation stage pupils, jointly developed and delivered with Musicshakers.
+
 
 
 ## Biography
