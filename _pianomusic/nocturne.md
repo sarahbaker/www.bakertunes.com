@@ -10,7 +10,6 @@ youtube_id: N5ie2TYkX4k
 soundcloud_id: 
 tags:
   - Instrumental Performance
-  - Score
   - Intermediate Piano
 ---
 
