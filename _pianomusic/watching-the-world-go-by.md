@@ -9,7 +9,6 @@ score:
 youtube_id: PzvmbB0CrMo
 tags:
   - Solo piano
-  - Score
   - Intermediate Piano
 ---
 A short, reflective piece, remembering what it was like to have time to just sit and watch the world go by from my bedroom window.

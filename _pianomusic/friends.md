@@ -9,7 +9,6 @@ score:
 youtube_id: M8pLZ5h90JU
 tags:
   - Solo piano
-  - Score
   - Intermediate Piano
 ---
 I was fortunate to have several children of my own age living close by. We seemed to be forever making dens, playing out in the street and generally enjoying each others’ company. This piece reflects that sense of well-being.

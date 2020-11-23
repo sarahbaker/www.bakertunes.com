@@ -9,7 +9,6 @@ score:
 youtube_id: yNxTPx55kX8
 tags:
   - Solo piano
-  - Score
   - Intermediate Piano
 ---
 I recollect many mornings stuck in traffic as my Dad took me to school on his way to work. There is basically one main road out of the village I grew up, and that got more and more congested the closer we got to the main town. My Dad and I never talked much, but it was always good to be together, lost in our own thoughts.

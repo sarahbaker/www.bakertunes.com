@@ -5,12 +5,11 @@ title: Autumn Skies
 date: 2016-11-13
 promoted: true
 score:
-  pdf: autumnskies.pdf
-  image: autumnskies.jpg
+  pdf: 
+  image: 
 youtube_id: k5ABsPs7iMo
 tags:
   - Instrumental Performance
-  - Score
   - Fairly Easy Piano
 ---
 

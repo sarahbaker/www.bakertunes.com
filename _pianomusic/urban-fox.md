@@ -9,7 +9,6 @@ score:
 youtube_id: LsmjI__jAiE
 tags:
   - Solo piano
-  - Score
   - Intermediate Piano
 ---
 This musical picture imagines the jaunty urban fox swaggering through the night. I like to think of him pausing to look up and enjoy the starlight, but I suspect he just goes about his business, looking for food and kicking over the dustbins in his hurry!

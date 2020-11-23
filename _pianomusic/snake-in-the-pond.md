@@ -9,7 +9,6 @@ score:
 youtube_id: 7yT6uS4V8DU
 tags:
   - Solo piano
-  - Score
   - Intermediate Piano
 ---
 One hot summer I was astonished and scared to see a grass snake cooling off in our garden pond. I watched, both horrified and fascinated, as it rose up from the depths and then disappeared again. Here I portray the sense of the hazy summer afternoon as I peacefully watched the tiny movements of fish in the pond, contrasted with the fear and excitement of seeing the snake appear. 

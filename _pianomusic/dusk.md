@@ -5,12 +5,11 @@ title: Dusk
 date: 2016-11-13
 promoted: true
 score:
-  pdf: dusk01.pdf
-  image: dusk01.jpg
+  pdf: 
+  image: 
 youtube_id: ToZbqYkeDJA
 tags:
   - Instrumental Performance
-  - Score
   - Intermediate Piano
 ---
 

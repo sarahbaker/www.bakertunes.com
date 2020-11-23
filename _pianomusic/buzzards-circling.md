@@ -4,12 +4,11 @@ category: pianomusic
 title: Buzzards Circling
 date: 2020-10-12
 score:
-  pdf: buzzards-circling.pdf
-  image: buzzards-circling.jpg
+  pdf: 
+  image: 
 youtube_id: M3y5vkVDrBw
 tags:
   - Solo piano
-  - Score
   - Intermediate Piano
 ---
 
