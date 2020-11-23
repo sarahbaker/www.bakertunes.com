@@ -4,8 +4,8 @@ category: pianomusic
 title: Nocturne
 date: 2018-08-26
 score:
-  pdf: nocturne01.pdf
-  image: nocturne01.jpg
+  pdf: 
+  image: 
 youtube_id: N5ie2TYkX4k
 soundcloud_id: 
 tags:

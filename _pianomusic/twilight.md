@@ -4,8 +4,8 @@ category: pianomusic
 title: Twilight
 date: 2020-09-11 
 score:
-  pdf: twilight01.pdf
-  image: twilight01.jpg
+  pdf: 
+  image: 
 youtube_id: cZFK_AepRG4
 soundcloud_id:
 tags:
