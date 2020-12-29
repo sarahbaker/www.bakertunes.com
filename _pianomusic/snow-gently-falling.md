@@ -6,7 +6,7 @@ date: 2020-11-30
 score:
   pdf: snow-gently-falling.pdf
   image: snow-gently-falling.jpg
-youtube_id: https://www.youtube.com/watch?v=wNXTLNMhzIk
+youtube_id: wNXTLNMhzIk
 tags:
   - Solo piano
   - Intermediate Piano
