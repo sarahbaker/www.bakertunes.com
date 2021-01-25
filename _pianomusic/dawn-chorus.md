@@ -19,3 +19,5 @@ Night has passed and the sun begins to rise.
 
 This is the last piece in my collection, *Night Time Impressions* - a series of 8 piano pieces that takes the performer and listener on a journey from dusk to dawn through the darkness of the night.
 
+
+

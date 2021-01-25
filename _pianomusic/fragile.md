@@ -21,3 +21,5 @@ I have tried to express in this piano piece the fragility of beauty found in une
 Sometimes it goes unnoticed, sometimes it is a fleeting thing, momentarily present and then gone.
 
 It may be a fragment of something much larger, a lingering sense of what was.
+
+

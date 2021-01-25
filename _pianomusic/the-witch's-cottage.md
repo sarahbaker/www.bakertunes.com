@@ -9,7 +9,6 @@ score:
 youtube_id: EAbldwMQ1Ic
 tags:
   - Solo piano
-  - Score
   - Intermediate Piano
 ---
 
