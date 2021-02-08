@@ -1,7 +1,7 @@
 ---
 layout: page
 category: songs
-title: So Thankful For This New Day
+title: Thankful For This New Day
 tags:
   - Upbeat
   - 2-part
