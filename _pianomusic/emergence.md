@@ -4,8 +4,8 @@ category: pianomusic
 title: Emergence
 date: 2018-02-19
 score:
-  pdf: emergence.pdf
-  image: emergence.jpg
+  pdf: emergence1.pdf
+  image: emergence1.jpg
 youtube_id:
 soundcloud_id: 389496195
 tags:
