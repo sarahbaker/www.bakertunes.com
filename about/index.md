@@ -28,20 +28,38 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 - Accompanist
 
 
-## Publications and Commissions
+## Works
 
 #### 2021
-- •A Reflection of Ida*
-	- Private commission of a piece of ballet music in the style of the early 1900s. Piano solo, with orchestrated midi recording. 
+- *A Reflection of Ida*
+	- Private commission. Ballet music in the style of the early 1900s. Piano solo, with orchestrated midi recording. 
 
 - *Thankful For This New Day*
 	- Song with two-part chorus. Performed in the [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) online Spring Concert series in March. 
 
+- *Colours of Spring*
+	- Piano solo	
+
 #### 2020
+- *Snow Gently Falling*
+	- Piano solo, dedicated to Yuki Negishi
+
 - *Easter Experience* 
 	- Trailer soundtrack for [Crossteach](https://www.crossteach.com/) and [Discipleship Tech](https://discipleship.tech/) 
 
 - 5 original songs for the Services For Education online resources platform for use in schools during the COVID-19  	 	pandemic.
+
+- *Day Time Impressions*
+	To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of ten short pieces for piano, inspired by childhood memories.
+
+- *Night Time Impressions*
+	To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of eight pieces for solo piano.
+
+
+
+- *Transformations*
+	- Six pieces for piano solo reflecting on the changing emotions and circumstances of the COVID-19 pandemic.
+	
 
 - *Superhero!*
 - *Connecting*
