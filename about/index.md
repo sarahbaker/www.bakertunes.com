@@ -30,6 +30,13 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 
 ## Publications and Commissions
 
+#### 2021
+- •A Reflection of Ida*
+	- Private commission of a piece of ballet music in the style of the early 1900s. Piano solo, with orchestrated midi recording. 
+
+- *Thankful For This New Day*
+	- Song with two-part chorus. Performed in the [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) online Spring Concert series in March. 
+
 #### 2020
 - *Easter Experience* 
 	- Trailer soundtrack for [Crossteach](https://www.crossteach.com/) and [Discipleship Tech](https://discipleship.tech/) 
