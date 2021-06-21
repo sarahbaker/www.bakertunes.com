@@ -6,7 +6,7 @@ date: 2021-06-21
 score:
   pdf: waves-on-a-pebble-shore.pdf
   image: waves-on-a-pebble-shore.jpg
-youtube_id:
+youtube_id: Cx1o4ETXOHE
 soundcloud_id: 
 tags:
   - Instrumental Performance
