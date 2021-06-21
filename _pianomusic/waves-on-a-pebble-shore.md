@@ -5,7 +5,7 @@ title: Waves On A Pebble Shore
 date: 2021-06-21
 score:
   pdf: waves-on-a-pebble-shore.pdf
-  image: waves-on-a-pebble-shore.jpg
+  image: waves-on-a-pebble-shore1.jpg
 youtube_id: Cx1o4ETXOHE
 soundcloud_id: 
 tags:
