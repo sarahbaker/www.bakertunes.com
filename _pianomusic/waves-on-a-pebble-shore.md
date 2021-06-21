@@ -20,4 +20,4 @@ The music uses many themes that interweave and sound in unexpected ways, mirrori
 
 This is the third piece in my on-going collection of works with a seasonal theme, to complement [Snow Gently Falling](https://www.bakertunes.com/pianomusic/snow-gently-falling/), and [Colours of Spring](https://www.bakertunes.com/pianomusic/colours-of-spring//).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cx1o4ETXOHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
