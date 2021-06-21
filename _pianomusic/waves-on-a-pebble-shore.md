@@ -9,7 +9,7 @@ score:
 youtube_id: Cx1o4ETXOHE
 soundcloud_id: 
 tags:
-  - Instrumental Performance
+  - Midi Performance
   - Score
   - Advanced Piano
 ---
