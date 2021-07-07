@@ -31,6 +31,9 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 ## Works
 
 #### 2021
+- *Shalom Quest*
+	- Theme music for new online teaching series, commissioned by [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/) 
+
 - *A Reflection of Ida*
 	- Private commission. Ballet music in the style of the early 1900s. Piano solo, with orchestrated midi recording. 
 
