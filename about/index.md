@@ -31,6 +31,8 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 ## Works
 
 #### 2021
+- *Waves on a pebble shore*
+	- Piano solo
 - *Shalom Quest*
 	- Theme music for new online teaching series, commissioned by [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/) 
 
