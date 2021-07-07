@@ -28,7 +28,7 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 - Accompanist
 
 
-## Works
+## Compositions
 
 #### 2021
 - *Waves on a pebble shore*
