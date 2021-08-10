@@ -2,7 +2,7 @@
 layout: publication
 category: publications
 title: The Backwater Pirate
-image: https://www.lindsaymusic.co.uk/acatalog/TheBackwater.png
+image: https://www.lindsaymusic.uk/shop/app/web/upload/medium/217_20cb5553aa68453ecf6738e68dd3ceb5.png
 publication_url: https://www.lindsaymusic.co.uk/cgi-bin/sh000001.pl?REFPAGE=https%3a%2f%2fwww%2elindsaymusic%2eco%2euk%2facatalog%2fPerformance_Packs%2ehtml&WD=pirate%20backwater&PN=More_Music_Stories%2ehtml%23a000311#a000311
 publication_type: Musical
 publisher: Lindsay Music
