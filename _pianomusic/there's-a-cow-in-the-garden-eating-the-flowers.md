@@ -17,3 +17,4 @@ Inspired by the memory of seeing an unexpected cow in the garden! This surreal i
 
 Inspired by childhood memories, *There's A Cow In The Garden Eating The Flowers* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions/). They complement my earlier works, [*Night Time Impressions*.](https://www.bakertunes.com/pianomusic/night-time-impressions/)
 
+Soon available from [Forsyths](https://www.forsyths.co.uk/)

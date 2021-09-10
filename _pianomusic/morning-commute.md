@@ -16,3 +16,5 @@ I recollect many mornings stuck in traffic as my Dad took me to school on his wa
 
 
 Inspired by childhood memories, *Morning Commute* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions/). They complement my earlier works, [*Night Time Impressions*.](https://www.bakertunes.com/pianomusic/night-time-impressions/)
+
+Soon available from [Forsyths](https://www.forsyths.co.uk/)

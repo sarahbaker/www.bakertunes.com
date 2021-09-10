@@ -18,3 +18,4 @@ This is a re-working of an earlier piece, [*Contentment*](https://www.bakertunes
 
 Inspired by childhood memories, *Friends* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions/). They complement my earlier works, [*Night Time Impressions*.](https://www.bakertunes.com/pianomusic/night-time-impressions/)
 
+Soon available from [Forsyths](https://www.forsyths.co.uk/)

@@ -16,3 +16,5 @@ This musical picture imagines the jaunty urban fox swaggering through the night.
 
 
 Inspired by childhood memories, *The Urban Fox* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions). They complement my earlier works, [*Night Time Impressions*.](https://www.bakertunes.com/pianomusic/night-time-impressions/)
+
+Soon available from [Forsyths](https://www.forsyths.co.uk/)

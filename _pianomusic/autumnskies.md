@@ -21,6 +21,7 @@ It makes me feel peaceful and content to see it.
 
 In the piano piece, the performer need to have a gentle touch and to play the chords lightly, bringing out the tone of the top notes. It should have a wispy, cloud-like sound, so the forte passages should not be over-played.
 
-I have included *Autumn Skies* in my collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions). The pieces all capture a memory from my childhood growing up in the Chiltern Hills, England. Looking at the sky was, and still is, one of my favourite pasttimes, and I felt this piece was fitting for the collection's theme.
+I have included *Autumn Skies* in my collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions). The pieces all capture a memory from my childhood growing up in the Chiltern Hills, England. Looking at the sky was, and still is, one of my favourite pasttimes, and I felt this piece was fitting for the collection's theme and will soon be available from [Forsyths](https://www.forsyths.co.uk/)
 
 They complement my earlier works, [*Night Time Impressions*.](https://www.bakertunes.com/pianomusic/night-time-impressions/)
+
