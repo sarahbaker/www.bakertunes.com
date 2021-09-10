@@ -23,5 +23,5 @@ There is hope of rest and maybe the company of friends round the table for a mea
 
 This is the first piece in my collection, *Night Time Impressions* - a series of 8 piano pieces that takes the performer and listener on a journey from dusk to dawn through the darkness of the night.
 
-
+Soon available from [Forsyths](https://www.forsyths.co.uk/)
 
