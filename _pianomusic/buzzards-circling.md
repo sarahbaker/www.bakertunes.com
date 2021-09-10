@@ -6,7 +6,7 @@ date: 2020-10-12
 score:
   pdf: 
   image: 
-youtube_id:0FPQbREcLK4
+youtube_id: 0FPQbREcLK4
 tags:
   - Solo piano
   - Intermediate Piano
