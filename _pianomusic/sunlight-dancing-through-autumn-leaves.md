@@ -6,7 +6,7 @@ date: 2021-10-11
 score:
   pdf: sunlight-dancing-through-autumn-leaves.pdf
   image: sunlight-dancing-through-autumn-leaves.jpg
-youtube_id: f3jnDIf8mi0
+youtube_id: vhe4AxxJXeo
 tags:
   - Piano solo
   - Score
