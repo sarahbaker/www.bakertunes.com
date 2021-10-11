@@ -2,7 +2,7 @@
 layout: pianomusic
 category: pianomusic
 title: Sunlight Dancing Through Autumn Leaves
-date: 2020-10-11
+date: 2021-10-11
 score:
   pdf: sunlight-dancing-through-autumn-leaves.pdf
   image: sunlight-dancing-through-autumn-leaves.jpg
