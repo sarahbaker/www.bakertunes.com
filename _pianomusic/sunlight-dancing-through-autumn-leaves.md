@@ -13,5 +13,5 @@ tags:
   - Advanced Piano
 ---
 
-The third piece in my [Seasonal Impressions](https://www.youtube.com/playlist?list=PLQ1kAgbWArKy-loFlOkfyVpaKh4Y44-gk) collection, Sunlight Through Autumn Leaves captures the passing of time as the seasons progress to Autumn. The opening recurring theme reminds us that time continues to move onwards as sunlight dances on the brilliant colours of the changing leaves. A descending motif reminds the listener that Winter is just round the corner as the leaves start to fall.
+The third piece in my [Seasonal Impressions](https://www.youtube.com/playlist?list=PLQ1kAgbWArKy-loFlOkfyVpaKh4Y44-gk) collection, *Sunlight Dancing Through Autumn Leaves* captures the passing of time as the seasons progress to Autumn. The opening recurring theme reminds us that time continues to move onwards as sunlight dances on the brilliant colours of the changing leaves. A descending motif reminds the listener that Winter is just round the corner as the leaves start to fall.
 
