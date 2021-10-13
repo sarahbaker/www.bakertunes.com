@@ -7,7 +7,7 @@ image: https://www.outoftheark.co.uk/library/images/massive/8/_3C_2C3_40W._25_5C
 publication_url: https://www.outoftheark.co.uk/croak.html
 publication_type: Musical
 publisher: Out Of The Ark Music
-weight: 1
+weight: 4
 promoted: false
 ---
 
