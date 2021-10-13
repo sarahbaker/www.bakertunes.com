@@ -8,7 +8,7 @@ publication_url: https://www.outoftheark.co.uk/croak.html
 publication_type: Musical
 publisher: Out Of The Ark Music
 weight: 1
-promoted: true
+promoted: false
 ---
 
 <small>**By Sarah Baker**</small>
