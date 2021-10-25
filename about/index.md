@@ -26,13 +26,21 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 - Tutor, Birmingham Schools Singers
 - Piano and vocal specialist teaching, including theory
 - Accompanist
+- Vocal coach for workplace singing events
 
 
 ## Compositions
 
 #### 2021
+- *Hope Peace Joy* 
+	- Christmas choral piece in parts, written for [Services For Education](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)
+
+- *Sunlight Dancing Through Autumn Leaves*
+	- Piano Solo, completing a series of four pieces in my collection *Seasonal Impressions*
+
 - *Waves on a pebble shore*
 	- Piano solo
+
 - *Shalom Quest*
 	- Theme music for new online teaching series, commissioned by [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/) 
 
