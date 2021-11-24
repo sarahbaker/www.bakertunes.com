@@ -32,6 +32,9 @@ I am the Vocal Composer in Residence for [Services for Education Music Services]
 ## Compositions
 
 #### 2021
+- *Who Am I?*
+    - Piano solo, using *voiceless song* idea.
+	
 - *Hope Peace Joy* 
 	- Christmas choral piece in parts, written for [Services For Education](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)
 
