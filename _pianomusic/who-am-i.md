@@ -4,8 +4,8 @@ category: pianomusic
 title: Who Am I?
 date: 2021-11-23
 score:
-  pdf: who-am-I.pdf
-  image: who-am-I.jpg
+  pdf: who-am-i.pdf
+  image: who-am-i.jpg
 youtube_id: 0c3MkIL61eo
 tags:
   - Piano solo
