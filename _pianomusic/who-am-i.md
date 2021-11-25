@@ -13,7 +13,7 @@ tags:
   - Voiceless song
 ---
 
-*Who Am I?* was written for a member of my family. 
+*Who Am I?* was written for someone close to me. 
 
 It is often hard to keep hold of who we are amidst all the noise and confusion of life. Teenage years can be particularly hard, without a pandemic to contend with. I think many of us question our identity and how we relate to others. Sometimes we feel confident about who we are, sometimes we feel fragile and unsure.
 
