@@ -1,0 +1,163 @@
+.home-teaching,
+.page-teaching {
+  padding-left: 0;
+  padding-right: 0;
+
+  h3 {
+    font-size: $h3-font-size;
+
+    a {
+      color: $black;
+    }
+  }
+
+  .excerpt {
+    font-size: $lg-body-font-size-mobile;
+    line-height: $lg-body-line-height-mobile;
+  }
+}
+
+.home-teaching--item {
+  position: relative;
+  transition: all 0.3s ease;
+
+  .item-thing {
+    &.content {
+      padding: 6rem 3rem;
+    }
+
+    &.image {
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        position: absolute;
+        content: ' ';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+
+  &:hover {
+    .item-thing {
+      &.image {
+        &::before {
+          transform: scale(1.05);
+          transition: all 0.3s ease;
+        }
+      }
+    }
+
+    h3 {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+    
+}
+
+.home-teaching--item--inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  .item-thing {
+    flex: 1 1 35ch;
+    position: relative;
+    order: 1;
+  }
+}
+
+.home-teaching--item--even {
+  .image {
+    order: 0;
+  }
+}
+
+.home-teaching--item--masterclasses {
+  background-color: $gold;
+
+  .image {
+    &::before {
+      background-image: url("/static/images/unsplash/jordan-whitfield-BhfE1IgcsA8-unsplash-600.jpeg");
+    }
+  }
+  
+  &:hover {
+    background-color: darken($gold, 5%);
+    transition: all 0.3s ease;
+  }
+}
+
+.home-teaching--item--in-person {
+  background-color: $heather;
+
+  .image {
+    &::before {
+      background-image: url("/static/images/pexels/pexels-yan-krukov-8520474-600.jpeg");
+    }
+  }
+  
+  &:hover {
+    background-color: darken($heather, 5%);
+    transition: all 0.3s ease;
+  }
+}
+
+.home-teaching--item--online {
+  background-color: $soft-amber;
+
+  .image {
+    &::before {
+      background-image: url("/static/images/pexels/pexels-mikhail-nilov-7570107-600.jpeg");
+    }
+  }
+  
+  &:hover {
+    background-color: darken($soft-amber, 5%);
+    transition: all 0.3s ease;
+  }
+}
+
+.home-teaching--item--theory {
+  background-color: $heather-light;
+
+  .image {
+    &::before {
+      background-image: url("/static/images/unsplash/marius-masalar-rPOmLGwai2w-unsplash-600.jpeg");
+    }
+  }
+  
+  &:hover {
+    background-color: darken($heather-light, 5%);
+    transition: all 0.3s ease;
+  }
+}
+
+@include respond-to('extra-large') {
+  .home-teaching,
+  .page-teaching {
+    h3 {
+      font-size: $h2-font-size;
+    }
+
+    .excerpt {
+      font-size: $lg-body-font-size;
+      line-height: $lg-body-line-height;
+    }
+  }
+
+  .home-teaching--item {
+    .item-thing {
+      &.content {
+        padding: 9rem 4.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+---
+layout: layouts/base.njk
+section: pianomusic
+---
+<div class="site-content">
+  <p><a href="/pianomusic/" class="single-meta-item single-meta-back">Piano Music</a></p>
+
+  <div class="tags">
+    {%- for tag in tags %}
+      {% if tag | starts_with('#', true) %}
+      <small>{{ tag }}</small>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h1 class="page-title">{{ title }}</h1>
+
+  {% if image %}
+  <aside class="pull-right">
+    <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+  </aside>
+  {% endif %}
+  
+  {{ content | safe}}
+
+  {% if youtube_id %}
+    {% include "layouts/components/youtube-player.njk" %}
+  {% endif %}
+
+  {% if youtube_playlist.id %}
+    {% include "layouts/components/youtube-playlist-player.njk" %}
+  {% endif %}
+
+  {% if soundcloud_id %}
+    {% include "layouts/components/soundcloud-player.njk" %}
+  {% endif %}
+
+  {% if score.pdf %}
+  <p>
+      <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+  </p>
+  {% endif %}
+
+  {% if score.image %}
+  <p>
+      <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" />
+  </p>
+  {% endif %}
+
+</div>
+
+<script src="/static/js/fluidvids.min.js"></script>
+
+<script>
+  fluidvids.init({
+    selector: ['iframe'],
+    players: ['www.youtube.com', 'player.vimeo.com']
+  });
+</script>

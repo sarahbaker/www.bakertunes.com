@@ -1,0 +1,13 @@
+  <div class="mc--head content-canvas-item-full content-canvas">
+    <div class="mc--head--inner content-canvas-item-wide">
+      <div class="mc--head--left">
+        {% if back %}
+        <p><a href="{{ back.path }}" class="single-meta-item single-meta-back">{{ back.title }}</a></p>
+        {% endif %}
+        <h1 class="page-title">{{ title }}</h1>
+
+        <div class="description h3-style">{{ excerpt }}</div>
+      </div>
+      <div class="mc--head--right"></div>
+    </div>
+  </div>

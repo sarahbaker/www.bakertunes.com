@@ -1,0 +1,78 @@
+.mc--head {
+  background-color: $gold;
+  margin-bottom: 6rem;
+  min-height: 40vh;
+
+  .single-meta-back {
+    position: absolute;
+    top: px-to-rem(24px);
+    left: px-to-rem(48px);
+    color: $white;
+
+    &::before {
+      background-color: $white;
+    }
+
+    &:hover {
+      &::before {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+.page-teaching--in-person {
+  .mc--head {
+    background-color: $heather;
+  }
+}
+
+.page-teaching--online {
+  .mc--head {
+    background-color: $soft-amber;
+  }
+}
+
+.page-teaching--theory {
+  .mc--head {
+    background-color: $heather-light;
+  }
+}
+
+.mc--head--inner {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  > * {
+    flex: 1 1 30ch;
+  }
+}
+
+.mc--head--left {
+  background-color: $mako;
+  padding: 1.5em;
+
+  > * {
+    color: $white;
+  }
+}
+
+.mc--head--right {
+  display: none;
+  background-image: url("/static/images/unsplash/jordan-whitfield-BhfE1IgcsA8-unsplash-600.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+@include respond-to('large') {
+  .mc--head--left {
+    padding: 6em;
+  } 
+}
+
+@include respond-to('small') {
+  .mc--head--right {
+    display: inline-block;
+  }
+}

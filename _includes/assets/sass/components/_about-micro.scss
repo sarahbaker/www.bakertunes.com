@@ -1,0 +1,12 @@
+.about-micro {
+  background-color: $outer-space;
+  color: $white;
+  margin-bottom: px-to-rem($mobile-space);
+  padding: 1.5em;
+}
+
+@include respond-to('medium') {
+  .about-micro {
+    padding: 3em 1.5em;
+  }
+}

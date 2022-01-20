@@ -1,0 +1,21 @@
+---
+layout: layouts/home.njk
+title: Sarah Baker
+home: true
+permalink: /
+# tags: nav
+navtitle: Home
+order: 1
+jumbotron:
+  title: Sarah Baker
+  sub_title: Composer, Arranger, Examiner, Teacher
+  image: sarah-in-garden-b+w.jpg
+  content: <p>I'm a composer and arranger, and a music teacher. <strong>Bakertunes</strong> is a showcase of my work.</p><p>I'm also Composer in Residence for <a href="http://servicesforeducation.co.uk/index.php/Music-Services/music-services.html" target="_blank">Services for Education Music Services</a> </strong>and an examiner for</strong> <a href="https://gb.abrsm.org/en/home.html" target="_blank">ABRSM</a>.</p>
+teaching:
+  title: Teaching
+  excerpt: Individual or small group teaching in piano, voice or music theory 
+pubications: 
+  title: Publications
+  excerpt: Nunc interdum enim eu risus aliquam pharetra. Mauris.
+---
+

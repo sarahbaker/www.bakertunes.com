@@ -1,0 +1,76 @@
+---
+layout: layouts/base.njk
+section: home
+styles:
+  - home.css
+---
+<div class="site-content jumbotron content-canvas">
+
+  <div class="jumbotron--inner">
+    {% if jumbotron.image %}
+    <aside class="image-right">
+      <img src="/static/images/{{ jumbotron.image }}" title="{{ title }}" class="img-responsive">
+    </aside>
+    {% endif %}
+
+    <div class="title">
+      <h1>
+        {{ jumbotron.title }}
+        {% if jumbotron.sub_title %}
+        <div class="sub-title"><small>{{ jumbotron.sub_title }}</small></div>
+        {% endif %}
+      </h1>
+    </div>
+    
+    <div class="content">
+      {{ jumbotron.content | safe}}
+    </div>
+  </div>
+</div>
+
+
+<div class="site-content content-canvas home-teaching">
+  <div class="home--header home-teaching--header">
+    <h2><a href="/teaching/">{{ teaching.title }}</a></h2>
+    {% if teaching.excerpt %}
+    <div class="excerpt">
+      {{ teaching.excerpt }}
+    </div>
+    {% endif %}
+  </div>
+  <div class="home-teaching--items content-canvas-item-full">
+    {% include "layouts/components/home/teaching.njk" %}
+  </div>
+
+</div>
+
+<div class="site-content content-canvas home-publications">
+  <div class="home--header home-publications--header">
+    <h2><a href="/publications/">{{ pubications.title}}</a></h2>
+    {% if publications.excerpt %}
+    <div class="excerpt">
+      {{ publications.excerpt }}
+    </div>
+    {% endif %}
+  </div>
+
+  <ul class="index-list">
+    {% for item in collections.publicationsPromoted %}
+    <li class="faux-block-link-parent">
+      <h3><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h3>
+      {% if item.data.youtube_id %}
+      <img src="https://img.youtube.com/vi/{{ item.data.youtube_id }}/mqdefault.jpg" title="{{ item.data.title }}" class="img img-rounded img-responsive">
+      {%elif item.data.youtube_playlist.id %}
+      <img src="https://img.youtube.com/vi/{{ item.data.youtube_playlist.thumbnail_id }}/mqdefault.jpg" title="{{ item.data.title }}" class="img img-rounded img-responsive">
+      {% elif item.data.soundcloud_id %}
+      <img src="https://i1.sndcdn.com/avatars-000053069287-52pkew-t500x500.jpg" title="{{ item.data.title }}" class="img img-rounded img-responsive">
+      {% elif item.data.image %}
+      <img src="{{ item.data.image }}" title="{{ item.data.title }} resource" class="img img-rounded img-responsive img-full" />
+      {% endif %}
+      <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ item.data.title }}</span></a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <a href="/publications/">More »</a>
+</div>

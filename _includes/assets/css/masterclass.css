@@ -1,0 +1,66 @@
+/* --------------------------------------------------------------
+# Variables
+-------------------------------------------------------------- */
+/* ==========================================================================
+VARIABLES
+========================================================================== */
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+# Masterclass components
+-------------------------------------------------------------- */
+.section-teaching-masterclass .site-content {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+.mc--head {
+  background-color: #ffb94b;
+  margin-bottom: 6rem;
+  min-height: 40vh; }
+  .mc--head .single-meta-back {
+    position: absolute;
+    top: 1.5rem;
+    left: 3rem;
+    color: #fff; }
+    .mc--head .single-meta-back::before {
+      background-color: #fff; }
+    .mc--head .single-meta-back:hover::before {
+      background-color: #fff; }
+
+.page-teaching--in-person .mc--head {
+  background-color: #adc3cc; }
+
+.page-teaching--online .mc--head {
+  background-color: #ccbead; }
+
+.page-teaching--theory .mc--head {
+  background-color: #d3dfe3; }
+
+.mc--head--inner {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative; }
+  .mc--head--inner > * {
+    flex: 1 1 30ch; }
+
+.mc--head--left {
+  background-color: #41494d;
+  padding: 1.5em; }
+  .mc--head--left > * {
+    color: #fff; }
+
+.mc--head--right {
+  display: none;
+  background-image: url("/static/images/unsplash/jordan-whitfield-BhfE1IgcsA8-unsplash-600.jpeg");
+  background-size: cover;
+  background-position: center center; }
+
+@media only screen and (min-width: 64rem) {
+  .mc--head--left {
+    padding: 6em; } }
+
+@media only screen and (min-width: 36rem) {
+  .mc--head--right {
+    display: inline-block; } }

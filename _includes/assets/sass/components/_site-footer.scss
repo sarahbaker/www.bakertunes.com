@@ -1,0 +1,115 @@
+.social-accounts {
+  dl {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(6, 20px auto);
+    column-gap: 0.5em;
+    row-gap: 0.75em;
+  }
+
+  dt {
+    font-weight: $base-font-weight-bold;
+  }
+
+  @include respond-to('medium') {
+    dl {
+      grid-auto-flow: row;
+      grid-template-columns: 12ch auto;
+    }
+
+    dt {
+      text-align: right;
+    }
+  }
+
+  .social-site {
+    display: inline-block;
+    position: relative;
+    padding-right: 2.5em;
+
+    &::after {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: ' ';
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      background: $rolling-stone;
+      height: px-to-rem(24px);
+      width: px-to-rem(32px);
+      transition: 0.2s;
+    }
+
+
+    &:hover {
+      &::after {
+        transform: translateX(5px);
+      }
+    }
+
+    &.email {
+      &::after {
+        mask-image: url("/static/images/icons/email.svg");
+      }
+    }
+
+    &.twitter {
+      &::after {
+        mask-image: url("/static/images/icons/twitter.svg");
+      }
+    }
+
+    &.facebook {
+      &::after {
+        mask-image: url("/static/images/icons/facebook.svg");
+      }
+    }
+
+    &.youtube {
+      &::after {
+        mask-image: url("/static/images/icons/youtube.svg");
+      }
+    }
+
+    &.soundcloud {
+      &::after {
+        mask-image: url("/static/images/icons/soundcloud.svg");
+      }
+    }
+  }
+}
+
+.footer-contact {
+  // color: $white;
+
+  // h1,
+  // h2,
+  // h3,
+  // h4,
+  // h5,
+  // h6,
+  // p {
+  //   color: $white;
+  // }
+
+  h2 {
+    font-size: $h3-font-size;
+    line-height: $h3-line-height;
+  }
+
+  // a {
+  //   color: $white;
+  // }
+
+  // .social-accounts {
+  //   .social-site {
+  //     &::after {
+  //       background: $white;
+  //     }
+  //   }
+  // }
+}
+
+// Footer Menu
+@import './nav-footer';

@@ -1,0 +1,53 @@
+.single-meta-back,
+.single-meta-forward {
+  position: relative;
+  border-bottom: none;
+
+  &:hover {
+    &::before {
+      background-color: $mako;
+      transform: translateX(-5px);
+    }
+  }
+}
+
+.single-meta-back {
+  &::before {
+    position: absolute;
+    content: ' ';
+    top: 2px;
+    left: -24px;
+    height: 18px;
+    width: 18px;
+    background-color: $heather;
+    mask-image: url('/static/images/icons/arrow-left.svg');
+    mask-size: cover;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: 0.2s;
+  }
+}
+
+.single-meta-forward {
+  &::after {
+    position: absolute;
+    content: ' ';
+    top: 2px;
+    right: -24px;
+    height: 18px;
+    width: 18px;
+    background-color: $heather;
+    mask-image: url('/static/images/icons/arrow-right.svg');
+    mask-size: cover;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: 0.2s;
+  }
+
+  &:hover {
+    &::after {
+      background-color: $mako;
+      transform: translateX(5px);
+    }
+  }
+}

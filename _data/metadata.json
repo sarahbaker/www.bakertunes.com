@@ -1,0 +1,14 @@
+{
+  "title": "Sarah Baker",
+  "alt_title": "Bakertunes",
+  "url": "https://www.bakertunes.com/",
+  "twitter": "@bakertunes",
+  "language": "en",
+  "author": {
+    "name": "Sarah Baker",
+    "email": "bakertunes@gmail.com",
+    "url": "https://www.bakertunes.com/about/"
+  },
+  "summary": "Composer, Arranger, Examiner, Teacher",
+  "page_count": 6
+}

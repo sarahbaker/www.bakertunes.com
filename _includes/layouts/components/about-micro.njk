@@ -1,0 +1,8 @@
+<div class="about-micro">
+  <h3>{{ aboutMe.expertise.title }}</h3>
+  <ul>
+  {% for item in aboutMe.expertise.items %}
+    <li>{{ item }}</li>
+  {% endfor %}
+  </ul>
+</div>

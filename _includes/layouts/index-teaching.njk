@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+section: composer
+---
+
+<div class="site-content content-canvas">
+  
+  <div class="content-canvas-item-left">
+    <h1>{{ title }}</h1>
+
+    {{ content | safe }}
+  </div>
+  
+</div>
+
+<div class="site-content site-content--zero-top-padding content-canvas page-teaching">
+    
+  <div class="home-teaching--items content-canvas-item-full">
+  {% include "layouts/components/teaching/teaching.njk" %}
+  </div>
+  
+</div>

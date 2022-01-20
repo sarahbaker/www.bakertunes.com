@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if permalink == '/' %}
+    <title>{{ title or renderData.title or metadata.title }}</title>
+  {% else %}
+    <title>{{ title or renderData.title }} | {{ metadata.title }}</title>
+  {% endif %}
+  {% if metadesc %}
+  <meta name="description" content="{{ metadesc }}" />
+  {% endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  {% set css %}
+    {% include "assets/css/build/styles.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+
+  {% if styles %}
+    {% for style in styles %}
+      {% set include_style %}assets/css/build/{{ style }}{% endset %}
+      {% set include_css %}
+        {% include include_style %}
+      {% endset %}
+    <style>{{ include_css | cssmin | safe }}</style>
+    {% endfor %}
+  {% endif %}
+  <script src="/_includes/assets/js/jquery-3.4.1.min.js"></script>
+  {% set js %}
+    {% include "assets/js/inline.js" %}
+  {% endset %}
+  <script>{{ js | jsmin | safe }}</script>
+
+  {% include "layouts/components/head-social-cards.njk" %}
+</head>

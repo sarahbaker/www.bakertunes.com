@@ -1,0 +1,123 @@
+.jumbotron {
+  background-color: $heather;
+  padding: 0;
+
+  .jumbotron--inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: minmax(2rem, 200px) minmax(200px, 250px);
+    padding: 0;
+  }
+
+  .title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: $mako;
+    padding: 3rem 1.5rem;
+    padding-bottom: 0;
+   
+    > *,
+    a {
+      color: $white;
+    }
+
+    .sub-title {
+      line-height: $body-line-height-mobile;
+    }
+
+    small {
+      font-size: $lg-body-font-size;
+      line-height: $body-line-height-mobile;
+    }
+
+    @include respond-to('medium') {
+      .sub-title {
+        line-height: $x-lg-body-line-height;
+      }
+
+      small {
+        font-size: $x-lg-body-font-size;
+        line-height: $x-lg-body-line-height;
+      } 
+    }
+  }
+
+  .content {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: $mako;
+    padding: 3rem 1.5rem;
+    padding-top: 0;
+
+    > *,
+    a {
+      color: $white;
+    }
+  }
+
+  .image-right {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: none;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+  @include respond-to('small') {
+    .title {
+      grid-column: 1/3;
+    }
+
+    .image-right {
+      display: block;
+      grid-row: 1/2;
+    }
+  }
+
+  @include respond-to('medium') {
+
+    .title {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .content {
+      grid-column: 1/3;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .image-right {
+      display: block;
+      grid-row: 1/3;
+    }
+  }
+
+  h1 {
+    font-size: $h1-lg-font-size;
+    line-height: $h1-lg-line-height;
+  }
+
+  p {
+    font-size: $lg-body-font-size;
+    line-height: $lg-body-line-height;
+  }
+
+
+  @include respond-to('extra-large') {
+    h1 {
+      font-size: $h1-x-lg-font-size;
+      line-height: $h1-x-lg-line-height;
+    }
+
+    p {
+      font-size: $x-lg-body-font-size;
+      line-height: $x-lg-body-line-height;
+    }
+  }
+}

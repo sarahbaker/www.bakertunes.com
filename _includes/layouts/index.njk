@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+section: index
+---
+<div class="site-content">
+  <h1>{{ title }}</h1>
+
+  {% if image %}
+  <aside class="pull-right">
+    <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+  </aside>
+  {% endif %}
+
+  {{ content | safe}}
+</div>

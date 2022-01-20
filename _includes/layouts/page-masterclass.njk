@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+section: teaching
+styles:
+  - masterclass.css
+main_classes:
+  - wide
+---
+
+<div class="site-content site-content--zero-top-padding content-canvas page-teaching--{{ page.fileSlug }}">
+
+  {% include "layouts/components/mc-head.njk" %}
+
+    <div class="content-canvas-item-right content-canvas-item-right--span-5">
+
+      {% include "layouts/components/about-micro.njk" %}
+
+      {% if calendly %}
+        {% include "layouts/components/calendly.njk" %}
+      {% endif %}
+
+
+    </div>
+
+  {{ content | safe}}
+
+</div>
+
+{% include "layouts/components/fluidvids.njk" %}

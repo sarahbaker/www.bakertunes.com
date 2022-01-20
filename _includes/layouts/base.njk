@@ -1,0 +1,17 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+  {% include "layouts/components/head.njk" %}
+
+  <body{% if section %} class="section-{{ section }}"{% endif %}>
+    {% include "layouts/components/site-header.njk" %}
+
+
+    <main id="main"{% if main_classes %} class="{% for class in main_classes %}{{class}} {% endfor %}"{% endif %}>
+      {{ layoutContent | safe }}
+    </main>
+
+    {% include "layouts/components/site-footer.njk" %}
+    
+  </body>
+</html>

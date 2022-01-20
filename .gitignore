@@ -1,0 +1,8 @@
+# Ignore node modules
+node_modules
+
+# Ignore the 11ty site build
+_site
+
+# Package lock file
+package-lock.json

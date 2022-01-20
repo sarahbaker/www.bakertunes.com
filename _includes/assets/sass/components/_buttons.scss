@@ -1,0 +1,120 @@
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: $base-font-weight-regular;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: px-to-rem(6px) px-to-rem(12px);
+  font-size: px-to-rem(14px);
+  line-height: 1.42857143;
+  border-radius: px-to-rem(4px);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+.btn-default {
+  color: $black;
+  background-color: $white;
+  border-color: $grey-support;
+
+  &:hover {
+    color: $black;
+    background-color: $grey-background;
+    border-color: $grey-support;
+  }
+}
+
+.btn-lg {
+  padding: px-to-rem(10px) px-to-rem(16px);
+  font-size: $lg-body-font-size;
+  line-height: $lg-body-line-height;
+  border-radius: px-to-rem(6px);
+}
+
+.btn-strong {
+  font-weight: $base-font-weight-bold;
+}
+
+.btn-teal {
+  background-color: $teal;
+  color: $white;
+  border-color: $teal-dark;
+
+  &:hover {
+    background-color: $teal-dark;
+    color: $white;
+  }
+
+  &:visited,
+  &:active {
+    color: $white;
+  }
+}
+
+.btn-heather {
+  background-color: $heather;
+}
+
+.btn-download,
+.btn-new-window,
+.btn-calendly {
+  position: relative;
+  padding-right: 3rem;
+
+  .glyphicon {
+    &::before {
+      position: absolute;
+      top: px-to-rem(-16px);
+      right: px-to-rem(-25px);
+      transition: 0.2s;
+    }
+  }
+}
+
+.btn-download {
+  &:hover {
+    .glyphicon-download {
+      &::before {
+        transform: translateY(5px);
+      }
+    }
+  }
+}
+
+.btn-new-window {
+  &:hover {
+    .glyphicon-new-window {
+      &::before {
+        transform: translate(5px, -5px);
+      }
+    }
+  }
+}
+
+.btn-calendly {
+  &:hover {
+    .glyphicon {
+      &::before {
+        transform: translateX(5px);
+      }
+    }
+  }
+}
+
+.content-canvas-item-right {
+  .calendly-link-container {
+    .btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
