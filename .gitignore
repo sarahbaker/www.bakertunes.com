@@ -4,8 +4,5 @@ node_modules
 # Ignore the 11ty site build
 _site
 
-# Package lock file
-package-lock.json
-
 # VS Code local settings
 .vscode
