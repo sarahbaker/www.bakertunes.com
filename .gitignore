@@ -6,3 +6,6 @@ _site
 
 # Package lock file
 package-lock.json
+
+# VS Code local settings
+.vscode
