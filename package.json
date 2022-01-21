@@ -5,10 +5,11 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
-    "serve": "npx eleventy --serve & node-sass --watch _includes/assets/sass/ -o _includes/assets/css/ & npx postcss --watch _includes/assets/css/*.css --use autoprefixer -d _includes/assets/css/build ",
+    "serve": "(npm run sass:build) && npx eleventy --serve & node-sass --watch _includes/assets/sass/ -o _includes/assets/css/ & npx postcss --watch _includes/assets/css/*.css --use autoprefixer -d _includes/assets/css/build",
     "debug": "DEBUG=* npx eleventy",
     "wdebug": "set DEBUG=Eleventy* & eleventy",
-    "sass:watch": "node-sass --watch _includes/assets/sass/ -o _includes/assets/css/",
+    "sass:build": "node-sass _includes/assets/sass/ -o _includes/assets/css/  & npx postcss _includes/assets/css/*.css --use autoprefixer -d _includes/assets/css/build",
+    "sass:watch": "node-sass --watch _includes/assets/sass/ -o _includes/assets/css/ & npx postcss --watch _includes/assets/css/*.css --use autoprefixer -d _includes/assets/css/build",
     "stylelint": "stylelint _includes/assets/**/*.scss",
     "npf": "npx postcss _includes/assets/css/styles.css --use autoprefixer -d _includes/assets/css/build"
   },
