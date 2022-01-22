@@ -114,7 +114,10 @@
   .calendly-link-container {
     .btn {
       width: 100%;
+      max-width: 35ch;
       text-align: center;
+      display: block;
+      margin: 0 auto;
     }
   }
 }

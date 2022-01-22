@@ -1,0 +1,6 @@
+[
+  {
+    "source": "/songs/",
+    "destination": "/composer/songs/"
+  }
+]

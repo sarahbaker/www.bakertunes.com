@@ -1,7 +1,7 @@
 {% set cls = cycler("odd", "even") %}
 {% for item in collections.teach %}
   <div class="home-teaching--item home-teaching--item--{{ loop.index }} home-teaching--item--{{ cls.next() }} home-teaching--item--{{ item.fileSlug }} content-canvas">
-    <div class="home-teaching--item--inner">
+    <div class="home-teaching--item--inner content-canvas-item-wide">
       <div class="item-thing content">
         <h3><a href="{{ item.url | url }}">{{ item.data.title }}</a></h3>
         <div class="excerpt">

@@ -3,8 +3,10 @@ layout: layouts/index-incidental-music.njk
 title: Incidental Music
 navtitle: Incidental Music
 image: recording-evening-work.jpg
+excerpt: Integer at tincidunt lectus. Mauris.
 order: 4
-# tags:
+tags:
+  - '#composerindex'
 #   - '#nav'
 pagination:
   data: collections.incidentalMusic

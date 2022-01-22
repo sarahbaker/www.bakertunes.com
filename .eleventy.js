@@ -96,6 +96,12 @@ module.exports = function (eleventyConfig) {
     return sortByOrder(nav);
   });
 
+  // Sort primary pages by 'order' field
+  eleventyConfig.addCollection('composerIndex', (collection) => {
+    var items = collection.getFilteredByTag('#composerindex');
+    return sortByOrder(items);
+  });
+
   eleventyConfig.addCollection('pianoMusic', (collection) => {
     var items = collection.getAll().filter(item => item.data.category == "pianomusic");
     return sortByDate(items);
@@ -180,10 +186,8 @@ module.exports = function (eleventyConfig) {
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy('favicon.ico');
-  eleventyConfig.addPassthroughCopy('static/images/');
-  eleventyConfig.addPassthroughCopy('static/js/');
-  eleventyConfig.addPassthroughCopy('static/files/');
-  eleventyConfig.addPassthroughCopy('_includes/assets/');
+  eleventyConfig.addPassthroughCopy('static/');
+  // eleventyConfig.addPassthroughCopy('_includes/assets/');
 
   /* Markdown Plugins */
   // let markdownIt = require('markdown-it');

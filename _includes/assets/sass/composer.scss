@@ -9,29 +9,7 @@
 @import "./tools/all";
 
 /* --------------------------------------------------------------
-# Jumbotron
+# Masterclass components
 -------------------------------------------------------------- */
-@import "./components/jumbotron";
-
-.home--header {
-  font-size: $h4-font-size;
-  line-height: $h4-line-height;
-  padding: 0 1.5rem 1.5rem;
-
-  h2 {
-    font-size: $h1-font-size;
-  }
-}
-
-@include respond-to('large') {
-  .home--header {
-    font-size: $h3-font-size;
-    line-height: $h3-line-height;
-    margin: 3rem 0;
-    padding: 0 3rem 3rem;
-
-    h2 {
-      font-size: $h1-lg-font-size;
-    }
-  }
-}
+@import "./components/composer-content";
+// @import "./components/composer-page";

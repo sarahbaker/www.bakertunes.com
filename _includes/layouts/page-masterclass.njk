@@ -11,18 +11,22 @@ main_classes:
 
   {% include "layouts/components/mc-head.njk" %}
 
-    <div class="content-canvas-item-right content-canvas-item-right--span-5">
+  <div class="content-canvas-item-left">
 
-      {% include "layouts/components/about-micro.njk" %}
+    {{ content | safe}}
 
-      {% if calendly %}
-        {% include "layouts/components/calendly.njk" %}
-      {% endif %}
+  </div>
+
+  <div class="content-canvas-item-right">
+
+    {% include "layouts/components/about-micro.njk" %}
+
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
 
 
-    </div>
-
-  {{ content | safe}}
+  </div>
 
 </div>
 

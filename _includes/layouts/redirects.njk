@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="refresh" content="0;url={{ item.destination }}"/>
+    <link rel="canonical" href="{{ item.destination }}"/>
+    <title>Redirecting</title>
+    {% set css %}
+    {% include "assets/css/build/redirects.css" %}
+    {% endset %}
+    <style>{{ css | cssmin | safe }}</style>
+</head>
+<body>
+
+  <div class="content-canvas">
+    <div class="site-logo-wrapper">
+      <a href="/" class="site-logo"><h1>Bakertunes</h1></a>
+    </div>
+    <div class="warning"></div>
+    <h1>Document has moved</h1>
+    <p>If you aren't automatically redirected <a href="{{ item.destination }}">go here</a>.</p>
+  </div>
+</body>
+</html>

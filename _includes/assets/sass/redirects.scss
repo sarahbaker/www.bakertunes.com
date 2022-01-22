@@ -1,0 +1,63 @@
+/* --------------------------------------------------------------
+# Variables
+-------------------------------------------------------------- */
+@import "./common/variables";
+
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+@import "./tools/all";
+
+/* --------------------------------------------------------------
+# Normalize
+-------------------------------------------------------------- */
+@import "./partials/normalize";
+
+/* --------------------------------------------------------------
+# Elements
+-------------------------------------------------------------- */
+@import "./common/elements";
+
+/* --------------------------------------------------------------
+# Necessary imports
+-------------------------------------------------------------- */
+@import "./components/content_canvas";
+
+body {
+  background-color: $outer-space;
+  color: $white;
+}
+
+.content-canvas {
+  padding-top: 6rem;
+
+  > * {
+    text-align: center;
+  }
+}
+
+.site-logo-wrapper {
+  padding: 3rem 0;
+
+  .site-logo {
+    @include hide-text;
+
+    background: url(/static/images/logo.png) 0 0 no-repeat;
+    background-size: contain;
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: 63px;
+    border-bottom: none;
+    margin: 0 auto;
+  }
+}
+
+.warning {
+  width: 50px;
+  height: 50px; 
+  background-color: $white;
+  mask-image: url(/static/images/icons/warning.svg);
+  mask-size: contain;
+  margin: 1.5rem auto;
+}

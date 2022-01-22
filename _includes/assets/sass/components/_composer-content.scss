@@ -1,0 +1,91 @@
+.composer-content {
+  display: flex;
+  flex-wrap: wrap;
+
+  > * {
+    flex: 1 1 50vw;
+    min-width: 40ch;
+  }
+}
+
+.composer-content-item--header {
+  min-height: px-to-rem(100px);
+  padding: 1.5rem 0;
+}
+
+.composer-content-item {
+  padding: 1.5rem;
+  background-color: $heather;
+
+  &.composer-content-item-piano-music,
+  &.composer-content-item-music-shakers {
+    background-color: $soft-amber;
+  }
+
+  &.composer-content-item-songs {
+    background-color: $heather-light;
+  }
+}
+
+.composer-content-item--products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+
+  > * {
+    flex: 1 1 25ch;
+    max-width: 35ch;
+  }
+}
+
+.composer-content-item--product {
+  h3 {
+    min-height: px-to-rem(60px);
+
+    a {
+      color: $black;
+    }
+  }
+
+  .fg-image{
+    margin: 0 auto;
+  }
+
+  img {
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    h3 {
+      a {
+        text-decoration: none;
+      }
+    }
+
+    img {
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+@include respond-to('large') {
+  .composer-content {
+    > * {
+      flex-grow: 0;    
+    }
+  }
+
+  .composer-content-item {
+    padding: 3rem;
+  }
+
+  .composer-content-item--header {
+    padding: 3rem 0;
+  }
+
+  .composer-content-item--products {
+    justify-content: space-between;
+  }
+}

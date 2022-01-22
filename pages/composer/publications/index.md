@@ -3,7 +3,8 @@ layout: layouts/index-publications
 title: Publications
 navtitle: Publications
 order: 1
-# tags:
+tags:
+  - '#composerindex'
 #   - '#nav'
 pagination:
   data: collections.publicationsList

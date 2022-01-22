@@ -9,7 +9,8 @@ pagination:
   size: 6
   alias: items
   reverse: true
-# tags:
+tags:
+  - '#composerindex'
 #   - '#nav'
 ---
 

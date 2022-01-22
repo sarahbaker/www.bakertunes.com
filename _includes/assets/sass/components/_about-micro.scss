@@ -3,10 +3,26 @@
   color: $white;
   margin-bottom: px-to-rem($mobile-space);
   padding: 1.5em;
+
+  ul {
+    padding-left: px-to-rem(14px);
+
+    li {
+      font-size: $body-font-size-mobile;
+      line-height: $body-line-height-mobile;
+    }
+  }
 }
 
 @include respond-to('medium') {
   .about-micro {
     padding: 3em 1.5em;
+
+    ul {
+      li {
+        font-size: $body-font-size-mobile;
+        line-height: $body-line-height-mobile;
+      }
+    }
   }
 }

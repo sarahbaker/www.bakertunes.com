@@ -3,7 +3,8 @@ layout: layouts/index-pianomusic.njk
 title: Piano Music
 navtitle: Piano Music
 order: 2
-# tags:
+tags:
+  - '#composerindex'
 #   - '#nav'
 #   - '#footer'
 pagination:

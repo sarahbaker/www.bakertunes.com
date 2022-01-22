@@ -1,6 +1,7 @@
 ---
-layout: layouts/page.njk
+layout: layouts/index-composer.njk
 title: Composer and Arranger
+excerpt: Pellentesque nec lorem malesuada, molestie nunc vitae, bibendum erat.
 navtitle: Composing & Arranging
 # image: recording-evening-work.jpg
 order: 1

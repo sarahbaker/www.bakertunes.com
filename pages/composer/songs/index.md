@@ -5,7 +5,8 @@ navtitle: Songs
 category: songs
 section: songs
 order: 3
-# tags:
+tags:
+  - '#composerindex'
 #   - '#nav'
 pagination:
   data: collections.songs
