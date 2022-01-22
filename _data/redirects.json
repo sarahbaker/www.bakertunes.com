@@ -2,5 +2,13 @@
   {
     "source": "/songs/",
     "destination": "/composer/songs/"
+  },
+  {
+    "source": "/pianomusic/",
+    "destination": "/composer/pianomusic/"
+  },
+  {
+    "source": "/musicshakers/",
+    "destination": "/composer/musicshakers/"
   }
 ]
