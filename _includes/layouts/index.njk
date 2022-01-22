@@ -2,11 +2,11 @@
 layout: layouts/base.njk
 section: index
 ---
-<div class="site-content">
+<div class="site-content content-canvas">
   <h1>{{ title }}</h1>
 
   {% if image %}
-  <aside class="pull-right">
+  <aside class="content-canvas-item-right content-canvas-item-right--span-3">
     <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
   </aside>
   {% endif %}

@@ -22,7 +22,7 @@
   .content-canvas {
     grid-template-columns: 
       [full-start]
-        1fr
+        minmax(3vw, 1fr)
       [wide-start]
         minmax(6vw, auto)
       [main-start]
@@ -32,7 +32,7 @@
       [main-end]
         minmax(6vw, auto)
       [wide-end]
-        1fr
+        minmax(3vw, 1fr)
       [full-end];
     grid-template-rows: fit-content(auto);
   }

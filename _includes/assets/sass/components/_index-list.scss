@@ -4,8 +4,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 1.5em;
-  row-gap: 3em;
+  gap: 1.5rem;
+  row-gap: 3rem;
 
   li {
     margin: 0;
@@ -48,6 +48,15 @@
 
     &:not(.img-full) {
       max-height: 250px;
+    }
+  }
+
+  @include respond-to('large') {
+    column-gap: 3rem;
+    row-gap: 4.5rem;
+
+    > * {
+      max-width: px-to-rem(400px);
     }
   }
 }

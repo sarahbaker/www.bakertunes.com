@@ -536,7 +536,7 @@ body {
 
 @media only screen and (min-width: 64rem) {
   .content-canvas {
-    grid-template-columns: [full-start] 1fr [wide-start] minmax(6vw, auto) [main-start] minmax(calc(36rem - 3rem), calc((48rem - 3rem) * 3 / 5)) [main-mid] minmax(40ch, calc((48rem - 3rem) * 2 / 5)) [main-end] minmax(6vw, auto) [wide-end] 1fr [full-end];
+    grid-template-columns: [full-start] minmax(3vw, 1fr) [wide-start] minmax(6vw, auto) [main-start] minmax(calc(36rem - 3rem), calc((48rem - 3rem) * 3 / 5)) [main-mid] minmax(40ch, calc((48rem - 3rem) * 2 / 5)) [main-end] minmax(6vw, auto) [wide-end] minmax(3vw, 1fr) [full-end];
     grid-template-rows: fit-content(auto); } }
 
 .content-canvas > *,
@@ -696,8 +696,8 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 1.5em;
-  row-gap: 3em; }
+  gap: 1.5rem;
+  row-gap: 3rem; }
   .index-list li {
     margin: 0;
     position: relative; }
@@ -722,6 +722,12 @@ img {
     transition: all 0.3s ease-in-out; }
     .index-list .img:not(.img-full) {
       max-height: 250px; }
+  @media only screen and (min-width: 64rem) {
+    .index-list {
+      column-gap: 3rem;
+      row-gap: 4.5rem; }
+      .index-list > * {
+        max-width: 25rem; } }
 
 .pagination {
   margin-top: 2.5rem; }
