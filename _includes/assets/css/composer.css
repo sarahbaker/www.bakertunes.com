@@ -19,7 +19,13 @@ VARIABLES
 
 .composer-content-item--header {
   min-height: 6.25rem;
-  padding: 1.5rem 0; }
+  padding: 1.5rem 0;
+  max-width: 50ch; }
+  .composer-content-item--header h2 a {
+    color: #121212; }
+  .composer-content-item--header .excerpt {
+    font-size: 1.125rem;
+    line-height: 1.5625rem; }
 
 .composer-content-item {
   padding: 1.5rem;
@@ -63,5 +69,8 @@ VARIABLES
     padding: 3rem; }
   .composer-content-item--header {
     padding: 3rem 0; }
+    .composer-content-item--header .excerpt {
+      font-size: 1.25rem;
+      line-height: 1.75rem; }
   .composer-content-item--products {
     justify-content: space-between; } }

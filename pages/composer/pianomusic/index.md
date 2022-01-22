@@ -2,6 +2,7 @@
 layout: layouts/index-pianomusic.njk
 title: Piano Music
 navtitle: Piano Music
+excerpt: Integer venenatis auctor risus sed cursus. Etiam ullamcorper, enim quis posuere hendrerit.
 order: 2
 tags:
   - '#composerindex'

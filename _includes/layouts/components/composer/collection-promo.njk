@@ -1,15 +1,17 @@
 {% set itemTitle %}{% endset %}
+{% set itemUrl %}{% endset %}
 {% set itemExcerpt %}{% endset %}
 {% for item in collections.composerIndex %}
   {% if filePathStem == item.filePathStem %}
     {% set itemTitle %}{{ item.data.title }}{% endset %}
+    {% set itemUrl %}{{ item.url }}{% endset %}
     {% set itemExcerpt %}{{ item.data.excerpt }}{% endset %}
   {% endif %}
 {% endfor %}
 
 <div class="composer-content-item composer-content-item-{{ itemTitle | slug }}">
   <div class="composer-content-item--header">
-    <h2>{{ itemTitle }}</h2>
+    <h2><a href="{{ itemUrl }}">{{ itemTitle }}</a></h2>
 
     {% if itemExcerpt %}
     <div class="excerpt">

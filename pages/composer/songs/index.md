@@ -2,6 +2,7 @@
 layout: layouts/index-publications
 title: Songs
 navtitle: Songs
+excerpt: Mauris luctus ullamcorper felis, at tincidunt enim fringilla et. Nullam rhoncus nunc vitae dapibus faucibus.
 category: songs
 section: songs
 order: 3

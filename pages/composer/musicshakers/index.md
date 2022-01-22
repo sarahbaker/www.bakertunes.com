@@ -3,6 +3,7 @@ layout: layouts/index-musicshakers.njk
 title: Music Shakers
 navtitle: Music Shakers
 image: recording-evening-work.jpg
+excerpt: Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus consequat.
 order: 5
 pagination:
   data: collections.musicShakers

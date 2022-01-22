@@ -11,6 +11,18 @@
 .composer-content-item--header {
   min-height: px-to-rem(100px);
   padding: 1.5rem 0;
+  max-width: 50ch;
+
+  h2 {
+    a {
+      color: $black;
+    }
+  }
+
+  .excerpt {
+    font-size: $lg-body-font-size-mobile;
+    line-height: $lg-body-line-height-mobile;
+  }
 }
 
 .composer-content-item {
@@ -83,6 +95,11 @@
 
   .composer-content-item--header {
     padding: 3rem 0;
+
+    .excerpt {
+      font-size: $lg-body-font-size;
+      line-height: $lg-body-line-height;
+    }
   }
 
   .composer-content-item--products {

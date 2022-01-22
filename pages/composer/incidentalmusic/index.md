@@ -3,7 +3,7 @@ layout: layouts/index-incidental-music.njk
 title: Incidental Music
 navtitle: Incidental Music
 image: recording-evening-work.jpg
-excerpt: Integer at tincidunt lectus. Mauris.
+excerpt: Phasellus id leo ut diam commodo maximus et quis turpis. Ut vel hendrerit nisi. Integer tempus enim ut ante luctus.
 order: 4
 tags:
   - '#composerindex'
