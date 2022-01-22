@@ -7,12 +7,12 @@ pagination:
   size: 6
   alias: items
   reverse: true
+filters: '
+<div class="filters">
+  <p><a href="/composer/pianomusic/" class="btn btn-default">All Piano Music</a></p>
+  <p><a href="/composer/pianomusic/easy/" class="btn btn-default">Easy Piano Music</a></p>
+  <p><a href="/composer/pianomusic/intermediate/" class="btn btn-default">Intermediate Piano Music</a></p>
+</div>'
 ---
 
 A collection of pieces for the advanced pianist.
-
-<div class="filters">
-  <p><a href="/pianomusic/" class="btn btn-default">All Piano Music</a></p>
-  <p><a href="/pianomusic/easy/" class="btn btn-default">Easy Piano Music</a></p>
-  <p><a href="/pianomusic/intermediate/" class="btn btn-default">Intermediate Piano Music</a></p>
-</div>

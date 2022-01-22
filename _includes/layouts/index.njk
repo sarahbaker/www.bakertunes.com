@@ -3,6 +3,12 @@ layout: layouts/base.njk
 section: index
 ---
 <div class="site-content content-canvas">
+  {% if meta_back %}
+
+  <p><a href="{{ meta_back.url }}" class="single-meta-item single-meta-back">{{ meta_back.title }}</a></p>
+
+  {% endif %}
+
   <h1>{{ title }}</h1>
 
   {% if image %}
