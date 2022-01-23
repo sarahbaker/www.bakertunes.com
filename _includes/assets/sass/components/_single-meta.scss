@@ -51,3 +51,21 @@
     }
   }
 }
+
+.single-meta-item {
+  &.single-meta-item-black {
+    color: $black;
+
+    &.single-meta-back {
+      &::before {
+        background-color: $black;
+      }
+    }
+
+    &.single-meta-forward {
+      &::after {
+        background-color: $black;
+      }
+    }
+  }
+}

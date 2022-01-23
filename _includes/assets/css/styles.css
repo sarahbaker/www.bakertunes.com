@@ -860,6 +860,13 @@ img {
   background-color: #41494d;
   transform: translateX(5px); }
 
+.single-meta-item.single-meta-item-black {
+  color: #121212; }
+  .single-meta-item.single-meta-item-black.single-meta-back::before {
+    background-color: #121212; }
+  .single-meta-item.single-meta-item-black.single-meta-forward::after {
+    background-color: #121212; }
+
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot");

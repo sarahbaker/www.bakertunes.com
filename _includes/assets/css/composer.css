@@ -43,6 +43,9 @@ VARIABLES
   .composer-content-item--products > * {
     flex: 1 1 25ch;
     max-width: 35ch; }
+  .composer-content-item--products .more-products-link {
+    max-width: 100%;
+    text-align: right; }
 
 .composer-content-item--product h3 {
   min-height: 3.75rem; }
