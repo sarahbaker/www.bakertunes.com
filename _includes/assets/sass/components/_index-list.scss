@@ -1,6 +1,6 @@
 .index-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
   list-style: none;
   padding: 0;
   margin: 0;
@@ -20,10 +20,6 @@
         transform: scale(1.05);
       }
     }
-  }
-
-  > * {
-    flex: 1 1 30ch;
   }
 
   .tags {
@@ -54,9 +50,5 @@
   @include respond-to('large') {
     column-gap: 3rem;
     row-gap: 4.5rem;
-
-    > * {
-      max-width: px-to-rem(400px);
-    }
   }
 }
