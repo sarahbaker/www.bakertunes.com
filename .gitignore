@@ -8,4 +8,4 @@ _site
 .vscode
 
 # no need to include CSS files that get built
-_includes/assets/css/**/*.css
+_includes/assets/**/*.css
