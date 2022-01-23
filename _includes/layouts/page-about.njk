@@ -9,6 +9,11 @@ layout: layouts/base.njk
 
     {{ content | safe }}
 
+    <ul class="nav-inner">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#compositions">Compositions</a></li>
+      <li><a href="#biography">Biography</a></li>
+    </ul>
   </div>
   <div class="content-canvas-item-right">
     {% if image %}
@@ -26,7 +31,7 @@ layout: layouts/base.njk
 
   <div class="about-me--item about-me--work">
 
-    <h2 id="work" tabindex="1">Work</h2>
+    <h2 id="work" tabindex="1">Work, Experise and Skills</h2>
 
     <ul>
     {% for item in work %}
@@ -56,33 +61,14 @@ layout: layouts/base.njk
 
   </div>
 
-  {% if publication_url %}
-    {% include "layouts/components/publication-link.njk" %}
-  {% endif %}
+  <div class="about-me--item about-me--biography">
+    
+    <h2 id="biography" tabindex="3">Biography</h2>
 
-  <div class="clearfix"></div>
+    {{ biography | markdown | safe }}
 
-  {%if youtube_id %}
-    {% include "layouts/components/youtube-player.njk" %}
-  {% endif %}
+  </div>
 
-  {% if soundcloud_id %}
-    {% include "layouts/components/soundcloud-player.njk" %}
-  {% endif %}
-
-  {% if score.pdf %}
-  <p>
-      <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
-  </p>
-  {% endif %}
-
-  {% if score.image %}
-  <p>
-      <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" />
-  </p>
-  {% endif %}
-
-</div>
 
 <script src="/static/js/fluidvids.min.js"></script>
 
