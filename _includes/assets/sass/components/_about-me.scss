@@ -1,4 +1,6 @@
 .about-me--item {
+  padding-top: 3rem;
+
   li {
     p {
       margin-bottom: px-to-rem(10px);
@@ -7,6 +9,10 @@
 }
 
 .about-me--compositions {
+  h3 {
+    border-bottom: 1px solid $rolling-stone;
+  }
+
   .comp-excerpt {
     margin-left: px-to-rem(20px);
   }
@@ -27,6 +33,14 @@
     &:not(:last-child) {
       border-right: 1px solid $rolling-stone;
       padding-right: px-to-rem(10px);
+    }
+  }
+}
+
+@include respond-to('medium') {
+  .about-me--item {
+    &:not(.about-me--work) {
+      padding-top: 9rem;
     }
   }
 }
