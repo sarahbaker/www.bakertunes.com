@@ -134,7 +134,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection('publicationsPromoted', (collection) => {
     var items = collection.getAll().filter(item => item.data.category == "publications" && item.data.promoted);
-    return sortByTitle(items);
+    return sortByOrder(items);
   });
 
   eleventyConfig.addCollection('songs', (collection) => {
