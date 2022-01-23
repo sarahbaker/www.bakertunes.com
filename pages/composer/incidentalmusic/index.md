@@ -10,7 +10,7 @@ tags:
 #   - '#nav'
 pagination:
   data: collections.incidentalMusic
-  size: 6
+  size: 12
   alias: items
 ---
 

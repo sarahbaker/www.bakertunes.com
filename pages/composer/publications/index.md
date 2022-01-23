@@ -9,6 +9,6 @@ tags:
 #   - '#nav'
 pagination:
   data: collections.publicationsList
-  size: 6
+  size: 12
   alias: items
 ---

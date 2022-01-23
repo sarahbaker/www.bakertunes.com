@@ -12,6 +12,7 @@ tags:
   - Instrumental Performance
   - Score
   - Intermediate
+  - '#soulsong'
 ---
 
 I always enjoy writing music for particular people. It is a privilege to think about friends and family and create music that may encapsulate something special about them. I have always found that music can speak to people in ways that are far more eloquent than anything I could say.

@@ -11,7 +11,7 @@ tags:
 #   - '#nav'
 pagination:
   data: collections.songs
-  size: 6
+  size: 12
   alias: items
   reverse: false
 ---

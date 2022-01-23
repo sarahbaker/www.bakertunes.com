@@ -1,0 +1,39 @@
+.page-soulsongs {
+  .mc--head--left {
+    background-color: unset;
+
+    > * {
+      color: $mako;
+    }
+
+    h1 {
+      font-size: $h1-lg-font-size;
+      line-height: $h1-lg-line-height;
+    }
+  }
+
+  .mc--head--right {
+    background-image: url("/static/images/unsplash/james-zwadlo-nj0vGyFB2nY-unsplash-600.jpeg");
+  }
+}
+
+.soul-songs-index-list {
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@include respond-to('large') {
+  .page-soulsongs {
+    .mc--head--left {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+  }
+
+  .soul-songs-index-list {
+    h2 {
+      margin-bottom: 3rem;
+    }
+  }
+}

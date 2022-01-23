@@ -4,7 +4,7 @@ title: Piano Music — Advanced
 section: pianomusic
 pagination:
   data: collections.pianoMusicAdvanced
-  size: 6
+  size: 12
   alias: items
   reverse: true
 filters: '

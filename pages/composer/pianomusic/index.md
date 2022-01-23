@@ -10,7 +10,7 @@ tags:
 #   - '#footer'
 pagination:
   data: collections.pianoMusic
-  size: 6
+  size: 12
   alias: items
   reverse: true
 filters: '<div class="filters">

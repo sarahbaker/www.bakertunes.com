@@ -7,7 +7,7 @@ excerpt: I've arranged and produced seven albums full of the amazingly varied so
 order: 5
 pagination:
   data: collections.musicShakers
-  size: 6
+  size: 12
   alias: items
   reverse: true
 tags:

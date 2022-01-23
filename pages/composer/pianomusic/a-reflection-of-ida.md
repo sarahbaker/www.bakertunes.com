@@ -12,6 +12,7 @@ tags:
   - Piano solo
   - Score
   - Intermediate Piano
+  - '#soulsong'
 ---
 
 *A Reflection of Ida* is a short piece of ballet music. It was inspired by the 1914 story of a father writing a page of ballet music for his 6 year-old daughter to dance to at home, shortly before he went to fight in the First World War. 

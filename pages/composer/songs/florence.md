@@ -12,6 +12,7 @@ tags:
   - Solo
   - Song
   - Stillbirth
+  - '#soulsong'
 ---
 &nbsp;
 

@@ -4,7 +4,7 @@ title: Piano Music — Easy
 section: pianomusic
 pagination:
   data: collections.pianoMusicEasy
-  size: 6
+  size: 12
   alias: items
   reverse: true
 filters: '<div class="filters">

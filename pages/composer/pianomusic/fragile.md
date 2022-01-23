@@ -12,6 +12,7 @@ tags:
   - Instrumental Performance
   - Score
   - Intermediate Piano
+  - '#soulsong'
 ---
 
 &nbsp;

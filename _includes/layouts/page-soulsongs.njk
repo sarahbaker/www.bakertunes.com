@@ -1,11 +1,11 @@
 ---
 layout: layouts/base.njk
-section: teaching
+section: soulsongs
 styles:
-  - masterclass.css
+  - soulsongs.css
 main_classes:
   - wide
-  - page-masterclass
+  - page-soulsongs
 ---
 
 <div class="site-content site-content--zero-top-padding content-canvas page-teaching--{{ page.fileSlug }}">
@@ -26,6 +26,14 @@ main_classes:
       {% include "layouts/components/calendly.njk" %}
     {% endif %}
 
+
+  </div>
+
+  <div class="site-content content-canvas-item-wide soul-songs-index-list">
+
+    <h2>Example Soul Songs</h2>
+
+    {% include "layouts/components/index-list.njk" %}
 
   </div>
 
