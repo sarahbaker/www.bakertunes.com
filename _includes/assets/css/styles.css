@@ -437,6 +437,16 @@ COMPONENTS
     border-bottom: none;
     margin-bottom: 1em; }
 
+.css-nav {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
 .social-accounts dl {
   display: grid;
   grid-auto-flow: column;
@@ -592,6 +602,11 @@ body {
 
 .faux-block-link-parent {
   position: relative; }
+  .faux-block-link-parent:hover a {
+    text-decoration: none; }
+  .faux-block-link-parent:hover .single-meta-forward::after {
+    background-color: #41494d;
+    transform: translateX(5px); }
 
 .faux-block-link {
   position: absolute;

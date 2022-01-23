@@ -1,0 +1,31 @@
+      <div class="composer-content-item--product faux-block-link-parent">
+        <h3><a href="{{ collection[i].url }}">{{ collection[i].data.title }}</a></h3>
+        {% if collection[i].data.youtube_id %}
+          {% if youtube_preview %}
+            {% set youtube_id = collection[i].data.youtube_id %}
+            {% include "layouts/components/youtube-player.njk" %}
+          {% else %}
+          <figure class="fig fig-image">
+            <img src="https://img.youtube.com/vi/{{ collection[i].data.youtube_id }}/mqdefault.jpg" title="{{ collection[i].data.title }}" class="img img-rounded img-responsive">
+          </figure>
+          {% endif %}
+        {%elif collection[i].data.youtube_playlist.id %}
+        <figure class="fig fig-image">
+          <img src="https://img.youtube.com/vi/{{ collection[i].data.youtube_playlist.thumbnail_id }}/mqdefault.jpg" title="{{ collection[i].data.title }}" class="img img-rounded img-responsive">
+        </figure>
+        {% elif collection[i].data.soundcloud_id %}
+          {% if soundcloud_preview %}
+            {% set soundcloud_id = collection[i].data.soundcloud_id %}
+            {% include "layouts/components/soundcloud-player.njk" %}
+          {% else %}
+          <figure class="fig fig-image">
+            <img src="https://i1.sndcdn.com/avatars-000053069287-52pkew-t500x500.jpg" title="{{ collection[i].data.title }}" class="img img-rounded img-responsive">
+          </figure>
+          {% endif %}
+        {% elif collection[i].data.image %}
+        <figure class="fig fig-image">
+          <img src="{{ collection[i].data.image }}" title="{{ collection[i].data.title }} resource" class="img img-rounded img-responsive img-full" />
+        </figure>
+        {% endif %}
+        <a href="{{ collection[i].url }}" class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ collection[i].data.title }}</span></a>
+      </div>

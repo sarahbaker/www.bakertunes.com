@@ -17,9 +17,11 @@
   font-size: $h4-font-size;
   line-height: $h4-line-height;
   padding: 0 1.5rem 1.5rem;
+  max-width: 60ch;
 
   h2 {
     font-size: $h1-font-size;
+    line-height: $h1-line-height;
   }
 }
 
@@ -32,6 +34,12 @@
 
     h2 {
       font-size: $h1-lg-font-size;
+      line-height: $h1-lg-line-height;
     }
   }
 }
+
+/* --------------------------------------------------------------
+# Composer
+-------------------------------------------------------------- */
+@import "./components/home/composer";

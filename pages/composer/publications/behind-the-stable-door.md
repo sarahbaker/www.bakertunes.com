@@ -6,7 +6,7 @@ image: //www.edgyproductions.com/wp-content/uploads/2016/07/Behind-The-Stable-Do
 publication_url: https://www.edgyproductions.com/shop/behind-the-stable-door/
 publication_type: Musical
 publisher: Edgy Productions
-weight: 1
+order: 1
 promoted: true
 ---
 

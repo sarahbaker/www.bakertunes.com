@@ -1,5 +1,18 @@
 .faux-block-link-parent {
   position: relative;
+
+  &:hover {
+    a {
+      text-decoration: none;
+    }
+
+    .single-meta-forward {
+      &::after {
+        background-color: $mako;
+        transform: translateX(5px);
+      }
+    }
+  }
 }
 
 .faux-block-link {

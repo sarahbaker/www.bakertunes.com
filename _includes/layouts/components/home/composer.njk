@@ -1,0 +1,36 @@
+{% set cls = cycler("odd", "even") %}
+{% for item in collections.composerIndex %}
+  <div class="home-composer--item home-composer--item--{{ cls.next() }} home-composer--item--{{ item.data.title | slug }} content-canvas faux-block-link-parent">
+    <a href="{{ item.url }}" class="faux-block-link content-canvas-item-full"><span class="hide-text" aria-hidden="true">{{ item.data.title }}</span></a>
+    <div class="home-composer--item--inner">
+      <div class="item-section">
+        <h3 class="h2-style"><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+        <div class="excerpt">
+          <p>{{ item.data.excerpt }}</p>
+        </div>
+        <div class="section-link">
+          <a href="{{ item.url }}" class="single-meta-item single-meta-item-black single-meta-forward">All {{ item.data.title }}</a>
+        </div>
+      </div>
+      <div class="item-product">
+        {% if "collections.publicationsList" == item.data.pagination.data %}
+          {% set collection = collections.publicationsPromoted %}
+        {% elif item.data.pagination.data == "collections.pianoMusic" %}
+          {% set collection = collections.pianoMusic | reverse %}
+        {% elif item.data.pagination.data == "collections.songs" %}
+          {% set collection = collections.songs | reverse %}
+        {% elif item.data.pagination.data == "collections.incidentalMusic" %}
+          {% set collection = collections.incidentalMusic %}
+        {% elif item.data.pagination.data == "collections.musicShakers" %}
+          {% set collection = collections.musicShakers | reverse %}
+        {% endif %}
+
+        {% set youtube_preview, soundcloud_preview = true %}
+        {% for i in range(0, 1) %}
+          {% include "layouts/components/composer/composer-content-item--product.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+{% include "layouts/components/fluidvids.njk" %}

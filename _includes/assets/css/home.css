@@ -92,9 +92,11 @@ VARIABLES
 .home--header {
   font-size: 1.1875rem;
   line-height: 1.75rem;
-  padding: 0 1.5rem 1.5rem; }
+  padding: 0 1.5rem 1.5rem;
+  max-width: 60ch; }
   .home--header h2 {
-    font-size: 2.25rem; }
+    font-size: 2.25rem;
+    line-height: 2.5rem; }
 
 @media only screen and (min-width: 64rem) {
   .home--header {
@@ -103,4 +105,68 @@ VARIABLES
     margin: 3rem 0;
     padding: 0 3rem 3rem; }
     .home--header h2 {
-      font-size: 3rem; } }
+      font-size: 3rem;
+      line-height: 3.375rem; } }
+
+/* --------------------------------------------------------------
+# Composer
+-------------------------------------------------------------- */
+.home-composer--item a {
+  color: #121212; }
+
+.home-composer--item--odd {
+  background-color: #adc3cc;
+  transition: all 0.3s ease-in-out; }
+  .home-composer--item--odd:hover {
+    background-color: #9db7c2;
+    transition: all 0.3s ease-in-out; }
+
+.home-composer--item--even {
+  background-color: #d3dfe3;
+  transition: all 0.3s ease-in-out; }
+  .home-composer--item--even:hover {
+    background-color: #c3d3da;
+    transition: all 0.3s ease-in-out; }
+
+.home-composer--item--inner {
+  display: flex;
+  flex-wrap: wrap; }
+  .home-composer--item--inner > * {
+    flex: 1 1 35ch;
+    order: 0; }
+  .home-composer--item--inner .item-section {
+    padding: 6rem 3rem; }
+
+.composer-content-item--product {
+  height: 100%;
+  background-color: #ccbead;
+  padding: 1.5rem;
+  transition: all 0.3s ease-in-out; }
+  .composer-content-item--product .fig {
+    margin-left: 0;
+    margin-right: 0;
+    transition: all 0.3s ease-in-out; }
+  .composer-content-item--product .fig-video,
+  .composer-content-item--product .fig-sound {
+    position: relative;
+    z-index: 10;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem; }
+  .composer-content-item--product:hover {
+    background-color: #c2b29d;
+    transition: all 0.3s ease-in-out; }
+    .composer-content-item--product:hover img {
+      transform: scale(1.025);
+      transition: all 0.3s ease-in-out; }
+
+@media only screen and (min-width: 64rem) {
+  .home-composer--item--inner .item-section {
+    padding: 9rem 4.5rem; }
+  .home-composer--item--even .home-composer--item--inner .item-section {
+    order: 1; }
+  .composer-content-item--product {
+    padding: 3rem; }
+    .composer-content-item--product .fig-video,
+    .composer-content-item--product .fig-sound {
+      margin-left: -3rem;
+      margin-right: -3rem; } }

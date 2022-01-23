@@ -5,16 +5,19 @@ layout: layouts/base.njk
   {% if category %}
   <p><a class="single-meta-item single-meta-back"
     {% if category == "incidentalmusic" %}
-     href="/incidentalmusic/">
+     href="/composer/incidentalmusic/">
     Incidental Music
     {% elif category == "publications" %}
-    href="/publications/">
+    href="/composer/publications/">
     Publications
     {% elif category == "songs" %}
-    href="/songs/">
+    href="/composer/songs/">
     Songs
+    {% elif category == "musicshakers" %}
+    href="/composer/musicshakers/">
+    Music Shakers
     {% else %}
-     href="/pianomusic/">
+     href="/composer/pianomusic/">
      Piano Music
     {% endif %}
     </a></p>

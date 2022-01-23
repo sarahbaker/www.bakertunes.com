@@ -1,0 +1,97 @@
+.home-composer--item {
+  a {
+    color: $black;
+  }
+}
+
+.home-composer--item--odd {
+  background-color: $heather;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: darken($heather, 5%);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.home-composer--item--even {
+  background-color: $heather-light;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: darken($heather-light, 5%);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.home-composer--item--inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  > * {
+    flex: 1 1 35ch;
+    order: 0;
+  }
+
+  .item-section {
+    padding: 6rem 3rem;
+  }
+}
+
+.composer-content-item--product {
+  height: 100%;
+  background-color: $soft-amber;
+  padding: 1.5rem;
+  transition: all 0.3s ease-in-out;
+
+  .fig {
+    margin-left: 0;
+    margin-right: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .fig-video,
+  .fig-sound {
+    position: relative;
+    z-index: 10;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  &:hover {
+    background-color: darken($soft-amber, 5%);
+    transition: all 0.3s ease-in-out;
+
+    img {
+      transform: scale(1.025);
+      transition: all 0.3s ease-in-out;
+    }
+
+  }
+}
+
+@include respond-to('large') {
+  .home-composer--item--inner {
+    .item-section {
+      padding: 9rem 4.5rem;
+    }
+  }
+
+  .home-composer--item--even {
+    .home-composer--item--inner {
+      .item-section {
+        order: 1;
+      }
+    }
+  }
+
+  .composer-content-item--product {
+    padding: 3rem;
+
+    .fig-video,
+    .fig-sound {
+      margin-left: -3rem;
+      margin-right: -3rem;
+    }
+  }
+}
