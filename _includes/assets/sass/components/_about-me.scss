@@ -1,0 +1,13 @@
+.about-me--item {
+  li {
+    p {
+      margin-bottom: px-to-rem(10px);
+    }
+  }
+}
+
+.about-me--compositions {
+  .comp-excerpt {
+    margin-left: px-to-rem(20px);
+  }
+}

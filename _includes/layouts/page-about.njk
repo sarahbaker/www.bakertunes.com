@@ -1,0 +1,94 @@
+---
+layout: layouts/base.njk
+---
+<div class="site-content content-canvas">
+
+  <h1 class="page-title">{{ title }}</h1>
+
+  <div class="content-canvas-item-left">
+
+    {{ content | safe }}
+
+  </div>
+  <div class="content-canvas-item-right">
+    {% if image %}
+      <figure class="fig fig-image">
+        <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+      </figure>
+    {% endif %}
+
+    {% include "layouts/components/about-micro.njk" %}
+
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
+  </div>
+
+  <div class="about-me--item about-me--work">
+
+    <h2 id="work" tabindex="1">Work</h2>
+
+    <ul>
+    {% for item in work %}
+      <li>{{ item | markdown | safe }}</li>
+    {% endfor %}
+    </ul>
+
+  </div>
+
+  <div class="about-me--item about-me--compositions">
+
+    <h2 id="compositions" tabindex="2">Compositions</h2>
+
+    {% for item in compositions %}
+      <h3>{{ item.name }}</h3>
+      <ul>
+      {% for val in item.data %}
+        <li>
+          <div class="comp-title">{{ val.title | markdown | safe }}</div>
+          {% if val.excerpt %}
+          <div class="comp-excerpt">{{ val.excerpt | markdown | safe }}</div>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    {% endfor %}
+
+  </div>
+
+  {% if publication_url %}
+    {% include "layouts/components/publication-link.njk" %}
+  {% endif %}
+
+  <div class="clearfix"></div>
+
+  {%if youtube_id %}
+    {% include "layouts/components/youtube-player.njk" %}
+  {% endif %}
+
+  {% if soundcloud_id %}
+    {% include "layouts/components/soundcloud-player.njk" %}
+  {% endif %}
+
+  {% if score.pdf %}
+  <p>
+      <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+  </p>
+  {% endif %}
+
+  {% if score.image %}
+  <p>
+      <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" />
+  </p>
+  {% endif %}
+
+</div>
+
+<script src="/static/js/fluidvids.min.js"></script>
+
+<script>
+  fluidvids.init({
+    selector: ['iframe'],
+    players: ['www.youtube.com', 'player.vimeo.com']
+  });
+</script>

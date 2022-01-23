@@ -1,15 +1,89 @@
 ---
-layout: layouts/page.njk
+layout: layouts/page-about.njk
 title: Sarah Baker
 section: about
 description: Biography of Sarah Baker, Composer in Residence for Services for Education Music Services and examiner for ABRSM.
 image: sarah-in-garden-b+w.jpg
 navtitle: About me
 permalink: /about/index.html
+calendly: true
 order: 9
 tags:
   - '#nav'
   - '#footer'
+work:
+  - "Vocal Composer in Residence, [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)"
+  - "Examiner for [ABRSM](https://gb.abrsm.org/en/home)"
+  - "Composer, producer and arranger"
+  - "Peripatetic and classroom music teacher"
+  - "Conductor, primary and secondary school choirs"
+  - "Tutor, Birmingham Schools Singers"
+  - "Piano and vocal specialist teaching, including theory"
+  - "Accompanist"
+  - "Vocal coach for workplace singing events"
+compositions:
+  - 
+    name: "2021"
+    data: 
+      - 
+        title: "*Who Am I?*"
+        excerpt: "Piano solo, using *voiceless song* idea."
+      - 
+        title: "*Hope Peace Joy*"
+        excerpt: "Christmas choral piece in parts, written for [Services For Education](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)"
+      - 
+        title: "*Sunlight Dancing Through Autumn Leaves*"
+        excerpt: "Piano Solo, completing a series of four pieces in my collection *Seasonal Impressions*"
+      - 
+        title: "*Waves on a pebble shore*"
+        excerpt: "Piano solo"
+      - 
+        title: "*Shalom Quest*"
+        excerpt: "Theme music for new online teaching series, commissioned by [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/)"
+      - 
+        title: "*A Reflection of Ida*"
+        excerpt: "Private commission. Ballet music in the style of the early 1900s. Piano solo, with orchestrated midi recording."
+      - 
+        title: "*Thankful For This New Day*"
+        excerpt: "Song with two-part chorus. Performed in the [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) online Spring Concert series in March."
+      - 
+        title: "*Colours of Spring*"
+        excerpt: "Piano solo"
+  - 
+    name: "2020"
+    data:
+      -
+        title: "*Snow Gently Falling*"
+        excerpt: "Piano solo, dedicated to Yuki Negishi"
+      -
+        title: "*Easter Experience*"
+        excerpt: "Trailer soundtrack for [Crossteach](https://www.crossteach.com/) and [Discipleship Tech](https://discipleship.tech/)"
+      -
+        title: "5 original songs for the Services For Education online resources platform for use in schools during the COVID-19 pandemic."
+      -
+        title: "*Day Time Impressions*"
+        excerpt: "To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of ten short pieces for piano, inspired by childhood memories."
+      -
+        title: "*Night Time Impressions*"
+        excerpt: "To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of eight pieces for solo piano."
+      -
+        title: "*Transformations*"
+        excerpt: "Six pieces for piano solo reflecting on the changing emotions and circumstances of the COVID-19 pandemic."
+      -
+        title: "*Superhero!*"
+        excerpt: ""
+      -
+        title: "*Connecting*"
+        excerpt: "Two instrumental pieces to provide a framework for classroom composition work, commissioned by West Midlands Music. These pieces were written specifically for use in the classroom post Covid-19 lockdown, to ensure that composition could take place in an environment where singing and shared instrumental work could be difficult. The pieces are clearly structured and provided with a detailed plan of what could be added/improvised by pupils in the classroom."
+      -
+        title: "*[Change The World Together](https://www.starshine.co.uk/change-the-world-together)*"
+        excerpt: "Published by Starshine Music, this highly relevant, heart-warming and entertaining musical captures the spirit of the times, being about a young person determined to make a difference in the face of climate change."
+      -
+        title: "*Jesus Shalom*"
+        excerpt: "Bespoke instrumental theme for [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/) podcast"
+      -
+        title: "*Hey You! Many Voices Sing As One*"
+        excerpt: "An instrumental and choral piece commissioned by Services For Education Music Service for the Youth Proms 50th birthday celebrations at the Royal Albert Hall in November 2020. The piece was written for 700 young people, both instrumentalists and singers, and took the theme of a journey through Birmingham to highlight the different ensembles and music making that SFE young people do within the city. Unfortunately Covid-19 meant that the piece has yet to be performed, but we are hopeful that it will be used at a later date."
 ---
 
 I am passionate about music and arts education and believe that the performing arts uniquely support children's educational success and achievement. I love music from many genres and write music to encourage and support learning, as well as to simply listen to and enjoy.
@@ -20,185 +94,124 @@ I have a thriving private piano teaching business, with pupils from six years to
 
 I am the Vocal Composer in Residence for [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) and compose songs and musicals for primary schools and massed-choral events. I have also worked extensively on compositions and arrangements for pre-school music and movement classes, producing the curriculum CDs for [Musicshakers](http://musicshakers.com).
 
+
+
 ## Work
 
-- Vocal Composer in Residence, [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)
-- Examiner for [ABRSM](https://gb.abrsm.org/en/home) 
-- Composer, producer and arranger
-- Peripatetic and classroom music teacher
-- Conductor, primary and secondary school choirs
-- Tutor, Birmingham Schools Singers
-- Piano and vocal specialist teaching, including theory
-- Accompanist
-- Vocal coach for workplace singing events
 
 ## Compositions
 
 #### 2021
 
-- *Who Am I?*
-    - Piano solo, using *voiceless song* idea.
-	
-- *Hope Peace Joy* 
-	- Christmas choral piece in parts, written for [Services For Education](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)
-
-- *Sunlight Dancing Through Autumn Leaves*
-	- Piano Solo, completing a series of four pieces in my collection *Seasonal Impressions*
-
-- *Waves on a pebble shore*
-	- Piano solo
-
-- *Shalom Quest*
-	- Theme music for new online teaching series, commissioned by [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/) 
-
-- *A Reflection of Ida*
-	- Private commission. Ballet music in the style of the early 1900s. Piano solo, with orchestrated midi recording. 
-
-- *Thankful For This New Day*
-	- Song with two-part chorus. Performed in the [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) online Spring Concert series in March. 
-
-- *Colours of Spring*
-	- Piano solo	
-
-#### 2020
-- *Snow Gently Falling*
-	- Piano solo, dedicated to Yuki Negishi
-
-- *Easter Experience* 
-	- Trailer soundtrack for [Crossteach](https://www.crossteach.com/) and [Discipleship Tech](https://discipleship.tech/) 
-
-- 5 original songs for the Services For Education online resources platform for use in schools during the COVID-19  	 	pandemic.
-
-- *Day Time Impressions*
-	To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of ten short pieces for piano, inspired by childhood memories.
-
-- *Night Time Impressions*
-	To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of eight pieces for solo piano.
 
 
-
-- *Transformations*
-	- Six pieces for piano solo reflecting on the changing emotions and circumstances of the COVID-19 pandemic.
-
-
-- *Superhero!*
-- *Connecting*
-	- Two instrumental pieces to provide a framework for classroom composition work, commissioned by West Midlands Music. These pieces were written specifically for use in the classroom post Covid-19 lockdown, to ensure that composition could take place in an environment where singing and shared instrumental work could be difficult. The pieces are clearly structured and provided with a detailed plan of what could be added/improvised by pupils in the classroom.
-
-- *[Change The World Together](https://www.starshine.co.uk/change-the-world-together)* 
-	- Published by Starshine Music, this highly relevant, heart-warming and entertaining musical captures the spirit of the times, being about a young person determined to make a difference in the face of climate change.
-
-- *Jesus Shalom*
-	- Bespoke instrumental theme for [Anvil Trust](https://workshop.org.uk/circle/anvil-trust/) podcast
-
-- *Hey You! Many Voices Sing As One*
-	- An instrumental and choral piece commissioned by Services For Education Music Service for the Youth Proms 50th birthday celebrations at the Royal Albert Hall in November 2020. The piece was written for 700 young people, both instrumentalists and singers, and took the theme of a journey through Birmingham to highlight the different ensembles and music making that SFE young people do within the city. Unfortunately Covid-19 meant that the piece has yet to be performed, but we are hopeful that it will be used at a later date.
+#### 
 
 #### 2019
 
 - *[Croak!](https://www.outoftheark.co.uk/croak.html)*
-	- Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try. A musical inspired by childhood memories of pond watching and summer evenings in the garden.
+  - Speedy the Tadpole longs to sing with the froggy chorus and discovers that we can all do something when we try. A musical inspired by childhood memories of pond watching and summer evenings in the garden.
 
 - *[Sing A Celebration!](https://www.servicesforeducation.co.uk/our-offer/sing-a-celebration/)*
-	- A collection of 12 original songs in parts for 7-13s. The songs are inspired by seasonal themes and singing in community.
+  - A collection of 12 original songs in parts for 7-13s. The songs are inspired by seasonal themes and singing in community.
 
 - *[Give Someone A Smile](https://permissiontosmile.org/)*
-	- Song written for SFE's Primary Choirs for the Prom celebration concerts at Symphony Hall in July. The song was inspired by Birmingham's *Permission To Smile* campaign.	
+  - Song written for SFE's Primary Choirs for the Prom celebration concerts at Symphony Hall in July. The song was inspired by Birmingham's *Permission To Smile* campaign.  
 
 - *[People I Know](https://www.servicesforeducation.co.uk/our-offer/soundtots-people-i-know/)*
 - *[Songsenses](https://www.servicesforeducation.co.uk/our-offer/soundtots-songsenses/)*
-	- These booklets are the first in a number of song collections for SoundTots, the SFE's pioneering music programme for Early Years. The songs are simple to learn and with opportunity for children to add their own ideas, supporting language development and communication skills.
+  - These booklets are the first in a number of song collections for SoundTots, the SFE's pioneering music programme for Early Years. The songs are simple to learn and with opportunity for children to add their own ideas, supporting language development and communication skills.
 
 - *Bournville Village Primary school song*
-	- A bespoke song to celebrate the combining of the infant and junior schools in Bournville Village.
+  - A bespoke song to celebrate the combining of the infant and junior schools in Bournville Village.
 
 - *Vocal Workshops for PWC*
-	- Delivery of a series of vocal workshops for the senior leadership team at PWC, Birmingham, as a team building experience. 
+  - Delivery of a series of vocal workshops for the senior leadership team at PWC, Birmingham, as a team building experience. 
 
 
 #### 2018
 
 - *[Flutterpillar](https://www.starshine.co.uk/flutterpillar)*
-	- A dream comes true for one little caterpillar. A summer musical for 4-7 years.
-	
+  - A dream comes true for one little caterpillar. A summer musical for 4-7 years.
+  
 
-- *[Dreaming](https://www.youtube.com/watch?v=xy5vByzY7X4)*	
-	- Song in two parts for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.  
+- *[Dreaming](https://www.youtube.com/watch?v=xy5vByzY7X4)*  
+  - Song in two parts for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.  
 
 - *There Is A Stream*
-	- Choral song, written for Alvechurch Community Choir to commemorate the 100th Anniversary of the end of World War One.
+  - Choral song, written for Alvechurch Community Choir to commemorate the 100th Anniversary of the end of World War One.
 
 #### 2017
 
 - *[The Backwater Pirate and His Hairy Chest](https://www.lindsaymusic.co.uk/acatalog/More_Music_Stories.html)*
   - The 2017 ISM-Schools Music Association prize winning musical story of a pirate who rediscovers his courage.
 
--	*[Let's Live!](https://www.youtube.com/watch?v=yMPR-OjzXtU)*	
-	- Song for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.
+-  *[Let's Live!](https://www.youtube.com/watch?v=yMPR-OjzXtU)*  
+  - Song for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.
 
 #### 2016
 
 - *[Breaking News In Bethlehem!](https://www.tes.com/teaching-resource/breaking-news-in-bethlehem-a-christmas-musical-12167162)*
-	- Self-published on [tes.com](https://www.tes.com/)
+  - Self-published on [tes.com](https://www.tes.com/)
 
 - *Arts Mark Pollination Project*
-	- Delivery and planning of a series of 10 composition workshops at Bournville Primary School for year 5 pupils, leading to an Arts Mark Award.	
+  - Delivery and planning of a series of 10 composition workshops at Bournville Primary School for year 5 pupils, leading to an Arts Mark Award.  
 
 - *[Red Carpet](https://www.youtube.com/watch?v=jwaQOsadLRY)*
-	- Song for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.	
+  - Song for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.  
 
 #### 2015
 
 - *[Singing Connections](http://servicesforeducation.co.uk/index.php/Music-Services/primary-schools.html#singing-connections)*
-	- Set of 16 original songs for use in schools to support school ethos and health. Commissioned by [Birmingham Music Services](http://servicesforeducation.co.uk/)
+  - Set of 16 original songs for use in schools to support school ethos and health. Commissioned by [Birmingham Music Services](http://servicesforeducation.co.uk/)
 - *[Make It A Day To Remember]()*
-	- Single song published by [Starshine Music](https://www.starshine.co.uk/)
+  - Single song published by [Starshine Music](https://www.starshine.co.uk/)
 - *[Behind The Stable Door](http://www.edgyproductions.com/shop/behind-the-stable-door/)*
-	- Christmas Nativity Musical for Key stage 1 published by [Edgy Productions](http://www.edgyproductions.com/)
-	- (Story by Andrew Oxspring)
+  - Christmas Nativity Musical for Key stage 1 published by [Edgy Productions](http://www.edgyproductions.com/)
+  - (Story by Andrew Oxspring)
 
-- *[Our World Is Many People](https://soundcloud.com/sarah-baker-10/our-world-is-many-people)*	
-	- Song for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.	
+- *[Our World Is Many People](https://soundcloud.com/sarah-baker-10/our-world-is-many-people)*  
+  - Song for the Primary Choir at the SFE Youth Proms at Symphony Hall, Birmingham.  
 
 #### 2014
 
 - *Metamorphosis* and *Easter’s Coming!*
-	- in the compilation book *[Songs For All Seasons](https://www.starshine.co.uk/songs-for-all-seasons)* published by Starshine Music 
+  - in the compilation book *[Songs For All Seasons](https://www.starshine.co.uk/songs-for-all-seasons)* published by Starshine Music 
 - *Prince of Peace* and *Give A Little Love*
-	- in the compilation book *[Here Comes Christmas](https://www.starshine.co.uk/here-comes-christmas)* Published by Starshine Music
+  - in the compilation book *[Here Comes Christmas](https://www.starshine.co.uk/here-comes-christmas)* Published by Starshine Music
 - *[Magical Christmas Journey](https://www.starshine.co.uk/magical-christmas-journey)*
-	- A Christmas Nativity Musical published by Starshine Music.
+  - A Christmas Nativity Musical published by Starshine Music.
 - *Together* and *I Will Sing A Song*
-	- Commissioned by the West Midlands Singing Consortium for use in February 2014 for Music Mark Midlands Singing day
+  - Commissioned by the West Midlands Singing Consortium for use in February 2014 for Music Mark Midlands Singing day
 
 #### 2010 -2015
 
 - Children’s traditional songs and rhymes available on-line and commissioned and published by Musicshakers.com
-	- *[Winter Chimes and Animal Rhymes](https://itunes.apple.com/gb/album/winter-chimes-animal-rhymes/368007674)*
-	- *[Songbirds and Rhyming Words](https://itunes.apple.com/gb/album/song-birds-rhyming-words/420573626)*
-	- *[Rain or Sun Singing Fun](https://itunes.apple.com/gb/album/rain-or-sun-singing-fun/541920985)*
-	- *[Summer Days And Insect Ways](https://itunes.apple.com/gb/album/summer-days-insect-ways-pt-1/633505935)*
-	- *[Songs Of Transportation and Exploration](https://itunes.apple.com/gb/album/songs-of-transportation-and-exploration/927539227)*
-	- *[Autumn Beat and Dancing Feet](https://itunes.apple.com/gb/album/autumn-beat-and-dancing-feet/981147343)*
-	- *[Seaside Songs To Sing Along](https://itunes.apple.com/gb/album/seaside-songs-to-sing-along/893186379)*
+  - *[Winter Chimes and Animal Rhymes](https://itunes.apple.com/gb/album/winter-chimes-animal-rhymes/368007674)*
+  - *[Songbirds and Rhyming Words](https://itunes.apple.com/gb/album/song-birds-rhyming-words/420573626)*
+  - *[Rain or Sun Singing Fun](https://itunes.apple.com/gb/album/rain-or-sun-singing-fun/541920985)*
+  - *[Summer Days And Insect Ways](https://itunes.apple.com/gb/album/summer-days-insect-ways-pt-1/633505935)*
+  - *[Songs Of Transportation and Exploration](https://itunes.apple.com/gb/album/songs-of-transportation-and-exploration/927539227)*
+  - *[Autumn Beat and Dancing Feet](https://itunes.apple.com/gb/album/autumn-beat-and-dancing-feet/981147343)*
+  - *[Seaside Songs To Sing Along](https://itunes.apple.com/gb/album/seaside-songs-to-sing-along/893186379)*
 
-#### 2013	
+#### 2013  
 
 - *[Tuning The Tables – Musical Multiplications](https://itunes.apple.com/gb/album/tuning-the-tables-musical-multiplications/636510821)*
-	- by Bakertunes
-	- Published through Emubands.
-	- An album of times table songs in different genres.
-	- Also available on Spotify
+  - by Bakertunes
+  - Published through Emubands.
+  - An album of times table songs in different genres.
+  - Also available on Spotify
 
 #### 2012
 
 - *[Celebrate!](https://www.tes.com/teaching-resources/shop/sarahbaker73)*
-	- I established my account on Tes.com this year with a song written specifically for the Queen's diamond jubilee celebrations. Since then I have added over 50 resources for use by the teaching community which have been viewed and downloaded over 96k times.
+  - I established my account on Tes.com this year with a song written specifically for the Queen's diamond jubilee celebrations. Since then I have added over 50 resources for use by the teaching community which have been viewed and downloaded over 96k times.
 
 #### 2011
 
 - *Early Years Music* project with World's End Nursery school, Quinton. 
-	- A workshop-style music course for Foundation stage pupils, jointly developed and delivered with Musicshakers.
+  - A workshop-style music course for Foundation stage pupils, jointly developed and delivered with Musicshakers.
 
 
 

@@ -223,6 +223,10 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
+  eleventyConfig.addFilter("markdown", (content) => {
+    return markdownLibrary.render(content);
+  });
+
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],
 
