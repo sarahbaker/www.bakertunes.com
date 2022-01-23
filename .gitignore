@@ -6,3 +6,6 @@ _site
 
 # VS Code local settings
 .vscode
+
+# no need to include CSS files that get built
+_includes/assets/css/**/*.css
