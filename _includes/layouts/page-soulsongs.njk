@@ -8,7 +8,7 @@ main_classes:
   - page-soulsongs
 ---
 
-<div class="site-content site-content--zero-top-padding content-canvas page-teaching--{{ page.fileSlug }}">
+<div class="site-content site-content--zero-top-padding content-canvas">
 
   {% include "layouts/components/mc-head.njk" %}
 
@@ -16,16 +16,21 @@ main_classes:
 
     {{ content | safe}}
 
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
+
   </div>
 
   <div class="content-canvas-item-right">
-
-    {% include "layouts/components/about-micro.njk" %}
 
     {% if calendly %}
       {% include "layouts/components/calendly.njk" %}
     {% endif %}
 
+    {% include "layouts/components/soulsongs-pricing.njk" %}
+
+    {% include "layouts/components/about-micro.njk" %}
 
   </div>
 

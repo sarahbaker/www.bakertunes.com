@@ -1,4 +1,5 @@
-.about-micro {
+.about-micro,
+.soulsongs-pricing {
   background-color: $outer-space;
   color: $white;
   margin-bottom: px-to-rem($mobile-space);
@@ -15,7 +16,8 @@
 }
 
 @include respond-to('medium') {
-  .about-micro {
+  .about-micro,
+  .soulsongs-pricing {
     padding: 3em 1.5em;
 
     ul {

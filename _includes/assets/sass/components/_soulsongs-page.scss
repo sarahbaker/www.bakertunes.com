@@ -37,3 +37,16 @@
     }
   }
 }
+
+.soulsongs-pricing {
+  background-color: $soft-amber;
+  color: $black;
+
+  .price {
+    text-align: center;
+
+    span {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.home-soulsongs {
+  background-color: $gold;
+  color: $black;
+  transition: all 0.3s ease;
+  padding: 0;
+
+  a {
+    color: $black;
+  }
+
+  h2 {
+    font-size: $h1-font-size;
+    line-height: $h1-line-height;
+  }
+
+  .excerpt {
+    font-size: $lg-body-font-size-mobile;
+    line-height: $lg-body-font-size-mobile;
+  }
+
+  .item-thing {
+    &.content {
+      padding: 6rem 3rem;
+    }
+
+    &.image {
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        position: absolute;
+        content: ' ';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease;
+        background-image: url("/static/images/unsplash/james-zwadlo-nj0vGyFB2nY-unsplash-600.jpeg");
+      }
+    }
+  }
+ 
+  &:hover {
+    background-color: darken($gold, 5%);
+    transition: all 0.3s ease;
+
+    .item-thing {
+      &.image {
+        &::before {
+          transform: scale(1.05);
+          transition: all 0.3s ease;
+        }
+      }
+    }
+
+    h2 {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.home-soulsongs--inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  .item-thing {
+    flex: 1 1 35ch;
+  }
+}
+
+@include respond-to('medium') {
+  .home-soulsongs {
+    .excerpt {
+      font-size: $lg-body-font-size;
+      line-height: $lg-body-font-size;
+    }    
+  }  
+}
+
+@include respond-to('large') {
+  .home-soulsongs {
+    h2 {
+      font-size: $h1-lg-font-size;
+      line-height: $h1-lg-line-height;
+    }
+
+    .item-thing {
+      &.content {
+        padding: 12rem 3rem;
+      }
+    }
+  }
+}

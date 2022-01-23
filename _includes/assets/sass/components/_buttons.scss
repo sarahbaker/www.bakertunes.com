@@ -112,12 +112,22 @@
 
 .content-canvas-item-right {
   .calendly-link-container {
+    padding-bottom: 1.5rem;
+
     .btn {
       width: 100%;
       max-width: 35ch;
       text-align: center;
       display: block;
       margin: 0 auto;
+    }
+  }
+}
+
+@include respond-to('large') {
+  .content-canvas-item-right {
+    .calendly-link-container {
+      padding-bottom: 3rem;
     }
   }
 }

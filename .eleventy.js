@@ -102,6 +102,12 @@ module.exports = function (eleventyConfig) {
     return sortByOrder(items);
   });
 
+  // Sort Soul Song pieces by 'order' field
+  eleventyConfig.addCollection('soulSongs', (collection) => {
+    var nav = collection.getFilteredByTag('#soulsong');
+    return sortByOrder(nav);
+  });
+
   eleventyConfig.addCollection('pianoMusic', (collection) => {
     var items = collection.getAll().filter(item => item.data.category == "pianomusic");
     return sortByDate(items);
