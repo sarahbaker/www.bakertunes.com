@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "npx eleventy",
+    "build": "(npm run sass:build) && npx eleventy",
     "watch": "npx eleventy --watch",
     "serve": "(npm run sass:build) && npx eleventy --serve & node-sass --watch _includes/assets/sass/ -o _includes/assets/css/ & npx postcss --watch _includes/assets/css/*.css --use autoprefixer -d _includes/assets/css/build",
     "debug": "DEBUG=* npx eleventy",
