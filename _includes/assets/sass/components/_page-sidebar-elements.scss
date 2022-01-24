@@ -1,5 +1,5 @@
 .about-micro,
-.soulsongs-pricing,
+.product-pricing,
 .soulsong-container {
   background-color: $outer-space;
   color: $white;
@@ -18,7 +18,7 @@
 
 @include respond-to('medium') {
   .about-micro,
-  .soulsongs-pricing,
+  .product-pricing,
   .soulsong-container {
     padding: 3em 1.5em;
 
@@ -28,5 +28,28 @@
         line-height: $body-line-height-mobile;
       }
     }
+  }
+}
+
+.product-pricing {
+  background-color: $soft-amber;
+  color: $black;
+
+  .price {
+    text-align: center;
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.soulsong-container {
+  background-color: $gold;
+  color: $black;
+
+  .link {
+    padding-top: 1.5em;
+    text-align: center;
   }
 }

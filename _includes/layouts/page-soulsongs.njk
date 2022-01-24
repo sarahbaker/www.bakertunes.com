@@ -28,8 +28,8 @@ main_classes:
       {% include "layouts/components/calendly.njk" %}
     {% endif %}
 
-    {% if pricing %}
-    {% include "layouts/components/product-pricing.njk" %}
+    {% if pricing.price %}
+      {% include "layouts/components/service-pricing.njk" %}
     {% endif %}
 
     {% include "layouts/components/about-micro.njk" %}
