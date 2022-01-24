@@ -7,7 +7,6 @@ score:
   pdf: a-moment.pdf
   image: a-moment.jpg
 youtube_id: gCwEmyi4xY4
-permalink: /pianomusic/a-moment/index.html
 tags:
   - Solo piano
   - Score

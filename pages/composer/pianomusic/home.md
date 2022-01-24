@@ -8,7 +8,6 @@ score:
   image: home.jpg
 youtube_id: c6hS__HwP3k
 soundcloud_id:
-permalink: /pianomusic/home/index.html
 tags:
   - Instrumental Performance
   - Score

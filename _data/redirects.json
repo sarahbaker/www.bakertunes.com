@@ -4,11 +4,559 @@
     "destination": "/composer/songs/"
   },
   {
+    "source": "/songs/i-like-to-eat/",
+    "destination": "/composer/songs/i-like-to-eat/"
+  },
+  {
+    "source": "/songs/a-seed-so-small/",
+    "destination": "/composer/songs/a-seed-so-small/"
+  },
+  {
+    "source": "/songs/barbecues-burgers-and-buns/",
+    "destination": "/composer/songs/barbecues-burgers-and-buns/"
+  },
+  {
+    "source": "/songs/castles-through-history/",
+    "destination": "/composer/songs/castles-through-history/"
+  },
+  {
+    "source": "/songs/change-the-world-together/",
+    "destination": "/composer/songs/change-the-world-together/"
+  },
+  {
+    "source": "/songs/christmas-there's-lots-to-get-done/",
+    "destination": "/composer/songs/christmas-there's-lots-to-get-done/"
+  },
+  {
+    "source": "/songs/climbing-the-beanstalk/",
+    "destination": "/composer/songs/climbing-the-beanstalk/"
+  },
+  {
+    "source": "/songs/come-and-sing/",
+    "destination": "/composer/songs/come-and-sing/"
+  },
+  {
+    "source": "/songs/come-on/",
+    "destination": "/composer/songs/come-on/"
+  },
+  {
+    "source": "/songs/croak/",
+    "destination": "/composer/songs/croak/"
+  },
+  {
+    "source": "/songs/dinosaurs/",
+    "destination": "/composer/songs/dinosaurs/"
+  },
+  {
+    "source": "/songs/dont-forget-lady-jane-grey/",
+    "destination": "/composer/songs/dont-forget-lady-jane-grey/"
+  },
+  {
+    "source": "/songs/dreaming/",
+    "destination": "/composer/songs/dreaming/"
+  },
+  {
+    "source": "/songs/easters-coming/",
+    "destination": "/composer/songs/easters-coming/"
+  },
+  {
+    "source": "/songs/field-of-fumes/",
+    "destination": "/composer/songs/field-of-fumes/"
+  },
+  {
+    "source": "/songs/florence/",
+    "destination": "/composer/songs/florence/"
+  },
+  {
+    "source": "/songs/flutter-by-butterfly/",
+    "destination": "/composer/songs/flutter-by-butterfly/"
+  },
+  {
+    "source": "/songs/following-the-star/",
+    "destination": "/composer/songs/following-the-star/"
+  },
+  {
+    "source": "/songs/give-a-little-love/",
+    "destination": "/composer/songs/give-a-little-love/"
+  },
+  {
+    "source": "/songs/gonna-run-so-fast/",
+    "destination": "/composer/songs/gonna-run-so-fast/"
+  },
+  {
+    "source": "/songs/hide-away/",
+    "destination": "/composer/songs/hide-away/"
+  },
+  {
+    "source": "/songs/hope-peace-joy/",
+    "destination": "/composer/songs/hope-peace-joy/"
+  },
+  {
+    "source": "/songs/i-need-to-crawl/",
+    "destination": "/composer/songs/i-need-to-crawl/"
+  },
+  {
+    "source": "/songs/i-will-sing-a-song/",
+    "destination": "/composer/songs/i-will-sing-a-song/"
+  },
+  {
+    "source": "/songs/i-wish-i-could-be-like-a-butterfly/",
+    "destination": "/composer/songs/i-wish-i-could-be-like-a-butterfly/"
+  },
+  {
+    "source": "/songs/lets-live/",
+    "destination": "/composer/songs/lets-live/"
+  },
+  {
+    "source": "/songs/lets-make-a-snowman/",
+    "destination": "/composer/songs/lets-make-a-snowman/"
+  },
+  {
+    "source": "/songs/light-in-the-darkness/",
+    "destination": "/composer/songs/light-in-the-darkness/"
+  },
+  {
+    "source": "/songs/listen-to-the-sounds/",
+    "destination": "/composer/songs/listen-to-the-sounds/"
+  },
+  {
+    "source": "/songs/lots-and-lots-of-feet/",
+    "destination": "/composer/songs/lots-and-lots-of-feet/"
+  },
+  {
+    "source": "/songs/magical-christmas-journey/",
+    "destination": "/composer/songs/magical-christmas-journey/"
+  },
+  {
+    "source": "/songs/metamorphosis/",
+    "destination": "/composer/songs/metamorphosis/"
+  },
+  {
+    "source": "/songs/more-than-these/",
+    "destination": "/composer/songs/more-than-these/"
+  },
+  {
+    "source": "/songs/prince-of-peace/",
+    "destination": "/composer/songs/prince-of-peace/"
+  },
+  {
+    "source": "/songs/see-the-little-baby/",
+    "destination": "/composer/songs/see-the-little-baby/"
+  },
+  {
+    "source": "/songs/sing-a-new-song/",
+    "destination": "/composer/songs/sing-a-new-song/"
+  },
+  {
+    "source": "/songs/six-little-jolly-snowmen/",
+    "destination": "/composer/songs/six-little-jolly-snowmen/"
+  },
+  {
+    "source": "/songs/some-people-can-let-things-go/",
+    "destination": "/composer/songs/some-people-can-let-things-go/"
+  },
+  {
+    "source": "/songs/sticky-fingers/",
+    "destination": "/composer/songs/sticky-fingers/"
+  },
+  {
+    "source": "/songs/summer-garden/",
+    "destination": "/composer/songs/summer-garden/"
+  },
+  {
+    "source": "/songs/thankful-for-this-new-day/",
+    "destination": "/composer/songs/thankful-for-this-new-day/"
+  },
+  {
+    "source": "/songs/the-perfect-christmas-tree/",
+    "destination": "/composer/songs/the-perfect-christmas-tree/"
+  },
+  {
+    "source": "/songs/the-storm/",
+    "destination": "/composer/songs/the-storm/"
+  },
+  {
+    "source": "/songs/they've-been-abaaandoned/",
+    "destination": "/composer/songs/they've-been-abaaandoned/"
+  },
+  {
+    "source": "/songs/timber-for-furniture/",
+    "destination": "/composer/songs/timber-for-furniture/"
+  },
+  {
+    "source": "/songs/wake-up-look-at-the-signs/",
+    "destination": "/composer/songs/wake-up-look-at-the-signs/"
+  },
+  {
+    "source": "/songs/we-can-all-do-something/",
+    "destination": "/composer/songs/we-can-all-do-something/"
+  },
+  {
+    "source": "/songs/whoosh-glitter-glitter/",
+    "destination": "/composer/songs/whoosh-glitter-glitter/"
+  },
+  {
+    "source": "/songs/wonderful-life/",
+    "destination": "/composer/songs/wonderful-life/"
+  },
+  {
     "source": "/pianomusic/",
     "destination": "/composer/pianomusic/"
   },
   {
+    "source": "/pianomusic/a-moment/",
+    "destination": "/composer/pianomusic/a-moment/"
+  },
+  {
+    "source": "/pianomusic/a-reflection-of-ida/",
+    "destination": "/composer/pianomusic/a-reflection-of-ida/"
+  },
+  {
+    "source": "/pianomusic/afternoonthoughts/",
+    "destination": "/composer/pianomusic/afternoonthoughts/"
+  },
+  {
+    "source": "/pianomusic/air-balloon/",
+    "destination": "/composer/pianomusic/air-balloon/"
+  },
+  {
+    "source": "/pianomusic/ambling/",
+    "destination": "/composer/pianomusic/ambling/"
+  },
+  {
+    "source": "/pianomusic/and-then-its-gone/",
+    "destination": "/composer/pianomusic/and-then-its-gone/"
+  },
+  {
+    "source": "/pianomusic/andyetitgoeson/",
+    "destination": "/composer/pianomusic/andyetitgoeson/"
+  },
+  {
+    "source": "/pianomusic/autumnskies/",
+    "destination": "/composer/pianomusic/autumnskies/"
+  },
+  {
+    "source": "/pianomusic/autumnwalk/",
+    "destination": "/composer/pianomusic/autumnwalk/"
+  },
+  {
+    "source": "/pianomusic/buzzards-circling/",
+    "destination": "/composer/pianomusic/buzzards-circling/"
+  },
+  {
+    "source": "/pianomusic/circular/",
+    "destination": "/composer/pianomusic/circular/"
+  },
+  {
+    "source": "/pianomusic/colours-of-spring/",
+    "destination": "/composer/pianomusic/colours-of-spring/"
+  },
+  {
+    "source": "/pianomusic/contentment/",
+    "destination": "/composer/pianomusic/contentment/"
+  },
+  {
+    "source": "/pianomusic/dawn-chorus/",
+    "destination": "/composer/pianomusic/dawn-chorus/"
+  },
+  {
+    "source": "/pianomusic/day-time-impressions/",
+    "destination": "/composer/pianomusic/day-time-impressions/"
+  },
+  {
+    "source": "/pianomusic/dusk/",
+    "destination": "/composer/pianomusic/dusk/"
+  },
+  {
+    "source": "/pianomusic/emergence/",
+    "destination": "/composer/pianomusic/emergence/"
+  },
+  {
+    "source": "/pianomusic/evening-mist/",
+    "destination": "/composer/pianomusic/evening-mist/"
+  },
+  {
+    "source": "/pianomusic/evening-mists/",
+    "destination": "/composer/pianomusic/evening-mists/"
+  },
+  {
+    "source": "/pianomusic/evening/",
+    "destination": "/composer/pianomusic/evening/"
+  },
+  {
+    "source": "/pianomusic/eveningtune/",
+    "destination": "/composer/pianomusic/eveningtune/"
+  },
+  {
+    "source": "/pianomusic/footfall/",
+    "destination": "/composer/pianomusic/footfall/"
+  },
+  {
+    "source": "/pianomusic/fragile/",
+    "destination": "/composer/pianomusic/fragile/"
+  },
+  {
+    "source": "/pianomusic/friends/",
+    "destination": "/composer/pianomusic/friends/"
+  },
+  {
+    "source": "/pianomusic/he-lay-me-down/",
+    "destination": "/composer/pianomusic/he-lay-me-down/"
+  },
+  {
+    "source": "/pianomusic/hidden/",
+    "destination": "/composer/pianomusic/hidden/"
+  },
+  {
+    "source": "/pianomusic/home/",
+    "destination": "/composer/pianomusic/home/"
+  },
+  {
+    "source": "/pianomusic/it-changes-around-me/",
+    "destination": "/composer/pianomusic/it-changes-around-me/"
+  },
+  {
+    "source": "/pianomusic/memories-for-juliet/",
+    "destination": "/composer/pianomusic/memories-for-juliet/"
+  },
+  {
+    "source": "/pianomusic/memories/",
+    "destination": "/composer/pianomusic/memories/"
+  },
+  {
+    "source": "/pianomusic/morning-commute/",
+    "destination": "/composer/pianomusic/morning-commute/"
+  },
+  {
+    "source": "/pianomusic/morningsun/",
+    "destination": "/composer/pianomusic/morningsun/"
+  },
+  {
+    "source": "/pianomusic/night-time-impressions/",
+    "destination": "/composer/pianomusic/night-time-impressions/"
+  },
+  {
+    "source": "/pianomusic/nocturne/",
+    "destination": "/composer/pianomusic/nocturne/"
+  },
+  {
+    "source": "/pianomusic/pain-and-love/",
+    "destination": "/composer/pianomusic/pain-and-love/"
+  },
+  {
+    "source": "/pianomusic/reflections/",
+    "destination": "/composer/pianomusic/reflections/"
+  },
+  {
+    "source": "/pianomusic/rocking-chair/",
+    "destination": "/composer/pianomusic/rocking-chair/"
+  },
+  {
+    "source": "/pianomusic/seasonal-impressions/",
+    "destination": "/composer/pianomusic/seasonal-impressions/"
+  },
+  {
+    "source": "/pianomusic/shadows/",
+    "destination": "/composer/pianomusic/shadows/"
+  },
+  {
+    "source": "/pianomusic/snake-in-the-pond/",
+    "destination": "/composer/pianomusic/snake-in-the-pond/"
+  },
+  {
+    "source": "/pianomusic/snow-gently-falling/",
+    "destination": "/composer/pianomusic/snow-gently-falling/"
+  },
+  {
+    "source": "/pianomusic/springrain/",
+    "destination": "/composer/pianomusic/springrain/"
+  },
+  {
+    "source": "/pianomusic/sunlight-dancing-through-autumn-leaves/",
+    "destination": "/composer/pianomusic/sunlight-dancing-through-autumn-leaves/"
+  },
+  {
+    "source": "/pianomusic/the-witch's-cottage/",
+    "destination": "/composer/pianomusic/the-witchs-cottage/"
+  },
+  {
+    "source": "/pianomusic/thejourney/",
+    "destination": "/composer/pianomusic/thejourney/"
+  },
+  {
+    "source": "/pianomusic/there's-a-cow-in-the-garden-eating-the-flowers/",
+    "destination": "/composer/pianomusic/theres-a-cow-in-the-garden-eating-the-flowers/"
+  },
+  {
+    "source": "/pianomusic/tide/",
+    "destination": "/composer/pianomusic/tide/"
+  },
+  {
+    "source": "/pianomusic/time-will-tell/",
+    "destination": "/composer/pianomusic/time-will-tell/"
+  },
+  {
+    "source": "/pianomusic/transformations/",
+    "destination": "/composer/pianomusic/transformations/"
+  },
+  {
+    "source": "/pianomusic/twilight/",
+    "destination": "/composer/pianomusic/twilight/"
+  },
+  {
+    "source": "/pianomusic/urban-fox/",
+    "destination": "/composer/pianomusic/urban-fox/"
+  },
+  {
+    "source": "/pianomusic/waiting/",
+    "destination": "/composer/pianomusic/waiting/"
+  },
+  {
+    "source": "/pianomusic/watching-the-world-go-by/",
+    "destination": "/composer/pianomusic/watching-the-world-go-by/"
+  },
+  {
+    "source": "/pianomusic/waves-on-a-pebble-shore/",
+    "destination": "/composer/pianomusic/waves-on-a-pebble-shore/"
+  },
+  {
+    "source": "/pianomusic/who-am-i/",
+    "destination": "/composer/pianomusic/who-am-i/"
+  },
+  {
+    "source": "/pianomusic/wings-in-the-dark",
+    "destination": "/composer/pianomusic/wings-in-the-dark/"
+  },
+  {
     "source": "/musicshakers/",
     "destination": "/composer/musicshakers/"
+  },
+  {
+  "source": "/musicshakers/autumnbeats/",
+    "destination": "/composer/musicshakers/autumnbeats/"
+  },
+  {
+    "source": "/musicshakers/rainsun/",
+    "destination": "/composer/musicshakers/rainsun/"
+  },
+  {
+    "source": "/musicshakers/seasidesongs/",
+    "destination": "/composer/musicshakers/seasidesongs/"
+  },
+  {
+    "source": "/musicshakers/songbirds/",
+    "destination": "/composer/musicshakers/songbirds/"
+  },
+  {
+    "source": "/musicshakers/summerdays/",
+    "destination": "/composer/musicshakers/summerdays/"
+  },
+  {
+    "source": "/musicshakers/transportation/",
+    "destination": "/composer/musicshakers/transportation/"
+  },
+  {
+    "source": "/musicshakers/winterchimes/",
+    "destination": "/composer/musicshakers/winterchimes/"
+  },
+  {
+    "source": "/incidentalmusic/",
+    "destination": "/composer/incidentalmusic/"
+  },
+  {
+    "source": "/incidentalmusic/by-your-side/",
+    "destination": "/composer/incidentalmusic/by-your-side"
+  },
+  {
+    "source": "/incidentalmusic/fireside/",
+    "destination": "/composer/incidentalmusic/fireside"
+  },
+  {
+    "source": "/incidentalmusic/flight/",
+    "destination": "/composer/incidentalmusic/flight"
+  },
+  {
+    "source": "/incidentalmusic/hidden/",
+    "destination": "/composer/incidentalmusic/hidden"
+  },
+  {
+    "source": "/incidentalmusic/irishdance/",
+    "destination": "/composer/incidentalmusic/irishdance"
+  },
+  {
+    "source": "/incidentalmusic/lift/",
+    "destination": "/composer/incidentalmusic/lift"
+  },
+  {
+    "source": "/incidentalmusic/ripples/",
+    "destination": "/composer/incidentalmusic/ripples"
+  },
+  {
+    "source": "/incidentalmusic/september/",
+    "destination": "/composer/incidentalmusic/september"
+  },
+  {
+    "source": "/incidentalmusic/thoughts/",
+    "destination": "/composer/incidentalmusic/thoughts"
+  },
+  {
+    "source": "/publications/",
+    "destination": "/composer/publications/"
+  },
+  {
+  "source": "/publications/behind-the-stable-door/",
+  "destination": "/composer/publications/behind-the-stable-door/"
+  },
+  {
+    "source": "/publications/breaking-news-in-bethlehem/",
+    "destination": "/composer/publications/breaking-news-in-bethlehem/"
+  },
+  {
+    "source": "/publications/change-the-world-together/",
+    "destination": "/composer/publications/change-the-world-together/"
+  },
+  {
+    "source": "/publications/croak/",
+    "destination": "/composer/publications/croak/"
+  },
+  {
+    "source": "/publications/flutterpillar/",
+    "destination": "/composer/publications/flutterpillar/"
+  },
+  {
+    "source": "/publications/here-comes-christmas/",
+    "destination": "/composer/publications/here-comes-christmas/"
+  },
+  {
+    "source": "/publications/magical-christmas-journey/",
+    "destination": "/composer/publications/magical-christmas-journey/"
+  },
+  {
+    "source": "/publications/people-i-know/",
+    "destination": "/composer/publications/people-i-know/"
+  },
+  {
+    "source": "/publications/sing-a-celebration/",
+    "destination": "/composer/publications/sing-a-celebration/"
+  },
+  {
+    "source": "/publications/singing-connections/",
+    "destination": "/composer/publications/singing-connections/"
+  },
+  {
+    "source": "/publications/songs-for-all-seasons/",
+    "destination": "/composer/publications/songs-for-all-seasons/"
+  },
+  {
+    "source": "/publications/songsenses/",
+    "destination": "/composer/publications/songsenses/"
+  },
+  {
+    "source": "/publications/the-backwater-pirate/",
+    "destination": "/composer/publications/the-backwater-pirate/"
+  },
+  {
+    "source": "/publications/tuning-the-tables/",
+    "destination": "/composer/publications/tuning-the-tables/"
   }
 ]
