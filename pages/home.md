@@ -15,7 +15,7 @@ soulsongs:
   title: Soul Songs
   excerpt: Unique pieces for solo piano, composed especially for you
 composer:
-  title: Composer & Arranger
+  title: Composing & Arranging
   excerpt: I've been a composer for my whole career, specialing in music for schools and solo piano.
 teaching:
   title: Teaching

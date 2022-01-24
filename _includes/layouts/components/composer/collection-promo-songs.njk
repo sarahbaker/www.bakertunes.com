@@ -1,3 +1,3 @@
 {% extends "layouts/components/composer/collection-promo.njk" %}
-{% set collection = collections.songs %}
+{% set collection = collections.songs | reverse %}
 {% set filePathStem = '/composer/songs/index'  %}

@@ -7,6 +7,18 @@ permalink: /soulsongs/
 calendly: true
 section: soulsongs
 order: 8
+pricing:
+  price: £500
+  basis: per minute of composed music
+  benefits:
+    title: Includes
+    list:
+      - One-to-one consultation
+      - Unique, personal musical composition
+      - Soul Song presentation
+      - Music in digital format
+      - Printed or hand-written score, in a presentation binding or frame
+  suffix: Prices for music videos on application.
 tags:
   - '#nav'
   - '#footersecondary'

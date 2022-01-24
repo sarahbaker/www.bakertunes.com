@@ -19,7 +19,7 @@ tags:
 
 *Seasonal Impressions* is my latest collection of pieces for solo piano. The four pieces reflect the changeable emotions and colours of the seasons in a vivid and imaginative way.
 
-- [Colours Of Spring](/pianomusic/colours-of-spring/)
-- [Waves On A Pebble Shore](/pianomusic/waves-on-a-pebble-shore/)
-- [Sunlight Dancing Through Autumn Leaves](/pianomusic/sunlight-dancing-through-autumn-leaves/)
-- [Snow Gently Falling](/pianomusic/snow-gently-falling/)
+- [Colours Of Spring](/composer/pianomusic/colours-of-spring/)
+- [Waves On A Pebble Shore](/composer/pianomusic/waves-on-a-pebble-shore/)
+- [Sunlight Dancing Through Autumn Leaves](/composer/pianomusic/sunlight-dancing-through-autumn-leaves/)
+- [Snow Gently Falling](/composer/pianomusic/snow-gently-falling/)

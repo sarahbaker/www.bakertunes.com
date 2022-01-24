@@ -3,7 +3,7 @@ layout: layouts/base.njk
 section: pianomusic
 ---
 <div class="site-content content-canvas">
-  <p><a href="/pianomusic/" class="single-meta-item single-meta-back">Piano Music</a></p>
+  <p><a href="/composer/pianomusic/" class="single-meta-item single-meta-back">Piano Music</a></p>
 
   <div class="tags">
     {%- for tag in tags %}
@@ -15,13 +15,27 @@ section: pianomusic
 
   <h1 class="page-title">{{ title }}</h1>
 
-  {% if image %}
-  <aside class="pull-right">
-    <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
-  </aside>
+  <div class="content-canvas-item{% if image or calendly %}-left{% endif %}">
+
+    {{ content | safe}}
+
+  </div>
+
+  {% if image or calendly %}
+  <div class="content-canvas-item-right">
+
+    {% if image %}
+    <figure class="pull-right">
+      <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+    </figure>
+    {% endif %}
+
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
+
+  </div>
   {% endif %}
-  
-  {{ content | safe}}
 
   {% if youtube_id %}
     {% include "layouts/components/youtube-player.njk" %}

@@ -1,0 +1,26 @@
+<div class="soulsongs-pricing">
+  <h3 class="h2-style">Pricing</h3>
+
+  <p class="price">
+    <strong>
+      <span class="h1-style">{{ pricing.price }}</span>
+      {% if pricing.basis %}
+      <small>{{ pricing.basis }}</small>
+      {% endif %}
+    </strong>
+  </p>
+
+  {% if pricing.benefits %}
+  <p>{{ pricing.benefits.title }}<p>
+
+  <ul>
+  {% for item in pricing.benefits.list %}
+    <li>{{ item }}</li>
+  {% endif %}
+  </ul>
+
+  {% if pricing.suffix %}
+  <p>{{ pricing.suffix }}</p>
+  {% endif %}
+  
+</div>

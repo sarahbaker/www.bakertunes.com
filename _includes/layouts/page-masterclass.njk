@@ -22,6 +22,10 @@ main_classes:
 
     {% include "layouts/components/about-micro.njk" %}
 
+    {% if pricing %}
+    {% include "layouts/components/product-pricing.njk" %}
+    {% endif %}
+
     {% if calendly %}
       {% include "layouts/components/calendly.njk" %}
     {% endif %}

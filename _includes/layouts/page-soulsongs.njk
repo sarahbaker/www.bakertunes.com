@@ -28,7 +28,9 @@ main_classes:
       {% include "layouts/components/calendly.njk" %}
     {% endif %}
 
-    {% include "layouts/components/soulsongs-pricing.njk" %}
+    {% if pricing %}
+    {% include "layouts/components/product-pricing.njk" %}
+    {% endif %}
 
     {% include "layouts/components/about-micro.njk" %}
 

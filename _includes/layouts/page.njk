@@ -33,20 +33,30 @@ layout: layouts/base.njk
 
   <h1 class="page-title">{{ title }}</h1>
 
-  {% if image %}
-  <figure class="pull-right">
-    {% if category == "publications" %}
-    <img src="{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
-    {% else %}
-    <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+  <div class="content-canvas-item{% if image or calendly %}-left{% endif %}">
+
+    {{ content | safe}}
+
+  </div>
+
+  {% if image or calendly %}
+  <div class="content-canvas-item-right">
+  
+    {% if image %}
+    <figure class="pull-right">
+      {% if category == "publications" %}
+      <img src="{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+      {% else %}
+      <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+      {% endif %}
+    </figure>
     {% endif %}
-  </figure>
-  {% endif %}
 
-  {{ content | safe}}
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
 
-  {% if calendly %}
-    {% include "layouts/components/calendly.njk" %}
+  </div>
   {% endif %}
 
   {% if publication_url %}
