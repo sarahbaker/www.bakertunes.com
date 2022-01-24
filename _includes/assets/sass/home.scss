@@ -23,6 +23,10 @@
     font-size: $h1-font-size;
     line-height: $h1-line-height;
   }
+
+  .excerpt {
+    padding: 1.5rem 0;
+  }
 }
 
 @include respond-to('large') {
