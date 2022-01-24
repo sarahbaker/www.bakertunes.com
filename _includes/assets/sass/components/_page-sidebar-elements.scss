@@ -1,6 +1,7 @@
 .about-micro,
-.product-pricing,
-.soulsong-container {
+.proserviceduct-pricing,
+.soulsong-container,
+.service-promote {
   background-color: $outer-space;
   color: $white;
   margin-bottom: px-to-rem($mobile-space);
@@ -18,8 +19,9 @@
 
 @include respond-to('medium') {
   .about-micro,
-  .product-pricing,
-  .soulsong-container {
+  .service-pricing,
+  .soulsong-container,
+  .service-promote {
     padding: 3em 1.5em;
 
     ul {
@@ -31,7 +33,8 @@
   }
 }
 
-.product-pricing {
+.service-pricing,
+.service-promote--teaching {
   background-color: $soft-amber;
   color: $black;
 
@@ -42,9 +45,15 @@
       display: block;
     }
   }
+
+  .link {
+    padding-top: 1.5em;
+    text-align: center;
+  }
 }
 
-.soulsong-container {
+.soulsong-container,
+.service-promote--masterclasses {
   background-color: $gold;
   color: $black;
 

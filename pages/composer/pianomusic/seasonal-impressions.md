@@ -12,8 +12,8 @@ youtube_playlist:
   thumbnail_id: NCOoH78GRSc
 soundcloud_id:
 promote:
-  - teaching
-  - masterclasses
+  teaching: true
+  masterclasses: true
 tags:
   - Performance
   - Advanced Piano

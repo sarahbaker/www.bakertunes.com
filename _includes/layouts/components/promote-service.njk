@@ -1,0 +1,11 @@
+<div class="service-promote service-promote--{{ service_name | slug }}">
+  <h3 class="h2-style">{{ service_title }}</h3>
+  
+  {% if service_excerpt %}
+  <p>{{ service_excerpt }}</p>
+  {% endif %}
+
+  <div class="link">
+    <a href="{{ service_url }}" class="single-meta-item single-meta-item-black single-meta-forward">{{ service_link_title }}</a>
+  </div>
+</div>
