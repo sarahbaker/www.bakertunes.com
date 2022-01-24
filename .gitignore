@@ -9,3 +9,5 @@ _site
 
 # no need to include CSS files that get built
 _includes/assets/**/*.css
+
+.DS_Store

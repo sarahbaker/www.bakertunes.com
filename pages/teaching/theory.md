@@ -6,6 +6,10 @@ image: unsplash/marius-masalar-rPOmLGwai2w-unsplash-600.jpeg
 permalink: /teaching/theory/
 order: 3
 calendly: true
+main_classes:
+  - section-teaching
+  - page-teaching
+  - page-teaching--theory
 back:
   title: Teaching
   path: /teaching/
@@ -13,8 +17,10 @@ tags:
   - '#teaching'
 ---
 
-Vestibulum tempus malesuada turpis nec rutrum. Praesent semper ante sed dui condimentum, in blandit mauris scelerisque. Morbi varius diam et arcu fringilla dapibus. Praesent gravida, mi id interdum ornare, arcu risus ultricies urna, nec lacinia diam magna nec risus. Ut ac luctus ante. Vivamus volutpat id lectus vel fringilla. Mauris ullamcorper, sem congue euismod accumsan, lorem elit ullamcorper est, ut interdum arcu ex a lacus.
+I love teaching theory! I get really excited about how music notation has developed and how harmonic structure underpins the Western Classical Music tradition. 
 
-Vivamus eget malesuada augue. Etiam tincidunt est at tellus mollis, in accumsan quam mollis. Donec placerat ultrices gravida. In vulputate, nisi sit amet imperdiet suscipit, est sapien congue mauris, vel sagittis ante turpis non arcu. Praesent tincidunt facilisis arcu, ac viverra magna finibus tempus. Etiam lacinia ullamcorper massa, eu vestibulum augue semper quis. Phasellus tellus ipsum, varius ac velit nec, suscipit scelerisque lorem. Suspendisse elementum placerat sem, vel varius arcu egestas ullamcorper. Curabitur consectetur egestas diam eget condimentum. Fusce rhoncus ligula a ipsum efficitur, vitae lacinia ipsum dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+I have over 30 years' experience of preparing students for the ABRSM Grade 5 Theory exam. The new on-line exam lends itself to on-line lessons, and I use the ABRSM syllabus to ensure that pupils have a thorough grounding in the essential requirements and elements of the exam. 
 
-Vivamus suscipit odio quis fermentum tincidunt. Nunc ac velit nisi. Integer dictum tincidunt mi ac accumsan. In congue facilisis gravida. Sed id faucibus velit, sed tristique lorem. Suspendisse potenti. Nam ornare nec augue a molestie. Nullam mollis finibus tempor.
+Lessons use the structure of the *ABRSM Discovering Music Theory* books and combine games, practical work, explanation and demonstration at the piano. I use tried-and-tested methods for remembering pitch and key signatures, and seek to give pupils a thorough understanding of theory to enhance their musical enjoyment. 
+
+One-to-one and small group lessons available.

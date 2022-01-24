@@ -4,7 +4,7 @@ title: Sarah Baker
 section: about
 description: Biography of Sarah Baker, Composer in Residence for Services for Education Music Services and examiner for ABRSM.
 image: sarah-in-garden-b+w-600.jpg
-navtitle: About me
+navtitle: About Me
 permalink: /about/index.html
 calendly: true
 order: 9
@@ -17,7 +17,7 @@ work:
   - "Composer, producer and arranger"
   - "Peripatetic and classroom music teacher"
   - "Conductor, primary and secondary school choirs"
-  - "Tutor, Birmingham Schools Singers"
+  - "2 years' experience as tutor, Birmingham Schools Singers"
   - "Piano and vocal specialist teaching, including theory"
   - "Accompanist"
   - "Vocal coach for workplace singing events"

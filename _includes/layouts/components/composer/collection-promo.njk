@@ -15,7 +15,7 @@
 
     {% if itemExcerpt %}
     <div class="excerpt">
-      {{ itemExcerpt }}
+      {{ itemExcerpt | safe }}
     </div>
     {% endif %}
   </div>

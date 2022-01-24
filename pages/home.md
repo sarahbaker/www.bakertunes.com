@@ -16,12 +16,12 @@ soulsongs:
   excerpt: Unique pieces for solo piano, composed especially for you
 composer:
   title: Composing & Arranging
-  excerpt: I've been a composer for my whole career, specialing in music for schools and solo piano.
+  excerpt: I've been a composer for my whole career, specialising in music for schools and solo piano
 teaching:
   title: Teaching
-  excerpt: Individual or small group teaching in piano, voice or music theory.
-pubications: 
+  excerpt: Individual or small group teaching in piano, voice or music theory
+publications: 
   title: Publications
-  excerpt: Nunc interdum enim eu risus aliquam pharetra. Mauris.
+  excerpt: Musicals and songbooks for young voices
 ---
 

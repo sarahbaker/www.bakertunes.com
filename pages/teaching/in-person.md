@@ -12,6 +12,10 @@ map_image_srcset:
 permalink: /teaching/in-person/
 order: 1
 calendly: true
+main_classes:
+  - section-teaching
+  - page-teaching
+  - page-teaching--in-person
 promote:
   masterclasses: true
 back:

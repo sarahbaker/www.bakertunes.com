@@ -2,7 +2,7 @@
 layout: layouts/index-publications
 title: Songs
 navtitle: Songs
-excerpt: Mauris luctus ullamcorper felis, at tincidunt enim fringilla et. Nullam rhoncus nunc vitae dapibus faucibus.
+excerpt: It has been said that I can write a song about anything! Here are my songs for young voices and choirs of all ages
 category: songs
 section: songs
 order: 3

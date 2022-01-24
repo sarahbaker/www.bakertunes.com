@@ -3,7 +3,7 @@ layout: layouts/index-incidental-music.njk
 title: Incidental Music
 navtitle: Incidental Music
 image: recording-evening-work.jpg
-excerpt: Phasellus id leo ut diam commodo maximus et quis turpis. Ut vel hendrerit nisi. Integer tempus enim ut ante luctus.
+excerpt: Experiments in midi-based instrumental music 
 order: 4
 tags:
   - '#composerindex'

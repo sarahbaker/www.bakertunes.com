@@ -7,7 +7,7 @@ This is the Bakertunes [11ty](https://www.11ty.dev/) site.
 Open the Terminal app, and in the application window, type:
 
 ```sh
-cd ~/GitHub/sarahbaker/www.bakertunes.com 
+cd ~/GitHub/sarahbaker/11ty-bakertunes/ 
 ```
 
 And then …

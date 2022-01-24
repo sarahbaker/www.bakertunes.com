@@ -65,6 +65,24 @@
   background-position: center center;
 }
 
+.page-teaching--in-person {
+  .mc--head--right {
+    background-image: url("/static/images/pexels/pexels-yan-krukov-8520474-600.jpeg");
+  }
+}
+
+.page-teaching--online {
+  .mc--head--right {
+    background-image: url("/static/images/pexels/pexels-mikhail-nilov-7570107-600.jpeg");
+  }
+}
+
+.page-teaching--theory {
+  .mc--head--right {
+    background-image: url("/static/images/unsplash/marius-masalar-rPOmLGwai2w-unsplash-600.jpeg");
+  }
+}
+
 @include respond-to('large') {
   .mc--head--left {
     padding: 6em;

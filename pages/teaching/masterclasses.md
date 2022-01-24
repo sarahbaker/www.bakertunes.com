@@ -8,6 +8,10 @@ image: unsplash/jordan-whitfield-BhfE1IgcsA8-unsplash-1000.jpeg
 permalink: /teaching/masterclasses/
 order: 0
 calendly: true
+main_classes:
+  - section-teaching
+  - page-teaching
+  - page-teaching--masterclasses
 promote: 
   teaching: true
 back:

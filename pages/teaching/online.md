@@ -6,6 +6,10 @@ image: pexels/pexels-mikhail-nilov-7570107-600.jpeg
 permalink: /teaching/online/
 order: 2
 calendly: true
+main_classes:
+  - section-teaching
+  - page-teaching
+  - page-teaching--online
 promote:
   masterclasses: true
 back:
