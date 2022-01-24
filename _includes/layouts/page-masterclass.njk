@@ -20,16 +20,24 @@ main_classes:
 
   <div class="content-canvas-item-right">
 
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
+
     {% include "layouts/components/about-micro.njk" %}
 
     {% if pricing %}
       {% include "layouts/components/service-pricing.njk" %}
     {% endif %}
 
-    {% if calendly %}
-      {% include "layouts/components/calendly.njk" %}
+    {% if promote %}
+      {% if promote.teaching %}
+      {% include "layouts/components/promote-service-teaching.njk" %}
+      {% endif %}
+      {% if promote.masterclasses %}
+        {% include "layouts/components/promote-service-masterclasses.njk" %}
+      {% endif %}
     {% endif %}
-
 
   </div>
 

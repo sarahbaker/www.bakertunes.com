@@ -62,21 +62,10 @@ layout: layouts/base.njk
 
     {% if promote %}
       {% if promote.teaching %}
-        {% set service_name = "teaching" %}
-        {% set service_title %}Considering lessons?{% endset %}
-        {% set service_url %}/teaching/{% endset %}
-        {% set service_link_title %}Find out more{% endset %}
-
-        {% include "layouts/components/promote-service.njk" %}
+      {% include "layouts/components/promote-service-teaching.njk" %}
       {% endif %}
       {% if promote.masterclasses %}
-        {% set service_name = "masterclasses" %}
-        {% set service_title %}Masterclasses{% endset %}
-        {% set service_excerpt %}Expert, personalised feedback for exam, recital or performance preparation{% endset %}
-        {% set service_url %}/teaching/masterclasses/{% endset %}
-        {% set service_link_title %}Find out more{% endset %}
-
-        {% include "layouts/components/promote-service.njk" %}
+        {% include "layouts/components/promote-service-masterclasses.njk" %}
       {% endif %}
     {% endif %}
 

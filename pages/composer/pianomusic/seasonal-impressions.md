@@ -12,7 +12,7 @@ youtube_playlist:
   thumbnail_id: NCOoH78GRSc
 soundcloud_id:
 promote:
-  teaching: true
+  teaching: false
   masterclasses: true
 tags:
   - Performance
