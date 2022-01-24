@@ -33,6 +33,19 @@ main_classes:
 
   </div>
 
+  {% if map_image_srcset %}
+  <div class="content-canvas-item-full">
+    <figure class="fig fig-image">
+      <img src="{{ map_image_srcset.1920w }}" class="kg-image" alt="Map for my teaching in-person" 
+      srcset="{{ map_image_srcset.600w }} 600w,
+        {{ map_image_srcset.1000w }} 1000w,
+        {{ map_image_srcset.1920w }} 1920w,
+        {{ map_image_srcset.2400w }} 2400w" sizes="(min-width: 720px) 720px">
+    </figure>
+  <div>
+{% endif %}
+
+
 </div>
 
 {% include "layouts/components/fluidvids.njk" %}

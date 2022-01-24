@@ -10,7 +10,10 @@ youtube_id:
 youtube_playlist:
   id: PLQ1kAgbWArKy-loFlOkfyVpaKh4Y44-gk
   thumbnail_id: NCOoH78GRSc
-soundcloud_id: 
+soundcloud_id:
+promote:
+  - teaching
+  - masterclasses
 tags:
   - Performance
   - Advanced Piano
