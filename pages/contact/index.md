@@ -6,6 +6,7 @@ order: 10
 title: Contact me
 navtitle: Contact me
 map_image_srcset:
+  alt: Map for my teaching in-person
   600w: /static/images/kh-map-600.webp
   1000w: /static/images/kh-map-1000.webp
   1920w: /static/images/kh-map-1920.webp
