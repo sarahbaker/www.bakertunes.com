@@ -12,6 +12,18 @@ map_image_srcset:
 permalink: /teaching/in-person/
 order: 1
 calendly: true
+# pricing:
+#   title: Benefits
+#   price:
+#   basis:
+#   benefits:
+#     title: Includes
+#     list:
+#       - One-to-one piano and singing teaching
+#       - From age 7 onwards
+#       - Adults welcome
+#       - For all stages of your musical journey
+#   suffix: Ask about prices for Theory group lessons
 main_classes:
   - section-teaching
   - page-teaching
@@ -33,3 +45,14 @@ My lessons seek to inspire musicianship and a love of performing and playing, wi
 As an examiner for ABRSM I have a thorough knowledge of exam requirements and standards, and use the ABRSM syllabus as a scheme for progression and motivation, if appropriate.
 
 I teach all ages and abilities, and always try to find the style and genre that suits the individual so that pupils are motivated to practise and improve because they love the pieces they are studying.
+
+#### In-person lessons with me incorporate:
+
+- One-to-one piano and singing teaching
+- General music theory, appropriate to your standard
+- Aural awareness and musical appreciation
+- Composition
+- Improvisation
+- For all stages of your musical journey
+
+From age 7 onwards. Adults welcome.

@@ -1,9 +1,11 @@
 <div class="service-pricing">
-  <h3 class="h2-style">Pricing</h3>
+  <h3 class="h2-style">{% if pricing.title %}{{ pricing.title }}{% else %}Pricing{% endif %}</h3>
 
   <p class="price">
     <strong>
+      {% if pricing.price %}
       <span class="h1-style">{{ pricing.price }}</span>
+      {% endif %}
       {% if pricing.basis %}
       <small>{{ pricing.basis }}</small>
       {% endif %}

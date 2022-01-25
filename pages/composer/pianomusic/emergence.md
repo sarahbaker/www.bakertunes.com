@@ -12,8 +12,13 @@ tags:
   - Instrumental Performance
   - Score
   - Intermediate Piano
+  - '#soulsong'
 ---
 
-This is the second piano piece I wrote during the time my father was in hospital recovering from a road traffic accident. He had suffered head injuries and for a while we were not sure what the outcome would be. However, he slowly began to speak and act more like himself, his personality and character emerging slowly through the fog of brain injury.
+This Soul Song was written during the time my father was in hospital recovering from a road traffic accident. 
 
-The main theme of the music gradually develops to mirror this emergence.
+He had suffered severe head injuries and for a while we were not sure what the outcome would be. However, he slowly began to speak and act more like himself, his personality and character emerging through the fog of brain injury.
+
+It was an important piece of music for me to write, capturing for myself and my Dad the moment in our lives when he began to recover slowly from the darkness of the accident. 
+
+The theme gradually develops to mirror this restoration and progress.

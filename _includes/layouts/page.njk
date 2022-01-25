@@ -31,6 +31,10 @@ layout: layouts/base.njk
     {% endfor %}
   </div>
 
+  {% if back %}
+    {% include "layouts/components/page-head-back.njk" %}
+  {% endif %}
+
   <h1 class="page-title">{{ title }}</h1>
 
   <div class="content-canvas-item{% if image or calendly or (tags and '#soulsong' in tags) or promote %}-left{% endif %}">

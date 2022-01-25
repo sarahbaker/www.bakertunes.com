@@ -2,7 +2,7 @@
     <div class="mc--head--inner content-canvas-item-wide">
       <div class="mc--head--left">
         {% if back %}
-        <p><a href="{{ back.path }}" class="single-meta-item single-meta-back">{{ back.title }}</a></p>
+        {% include "layouts/components/page-head-back.njk" %}
         {% endif %}
         <h1 class="page-title">{{ title }}</h1>
 

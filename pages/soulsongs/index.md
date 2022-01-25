@@ -2,7 +2,7 @@
 layout: layouts/page-soulsongs.njk
 title: Soul Songs
 navtitle: Soul Songs
-excerpt: Unique pieces for solo piano, composed especially for you
+excerpt: Unique music, composed especially for you
 permalink: /soulsongs/
 calendly: true
 section: soulsongs
@@ -18,7 +18,7 @@ pricing:
       - Soul Song presentation
       - Music in digital format
       - Printed or hand-written score, in a presentation binding or frame
-  suffix: Prices for music videos on application.
+  suffix: Prices for music videos on application
 tags:
   - '#nav'
   - '#footersecondary'

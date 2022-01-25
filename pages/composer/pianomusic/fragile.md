@@ -12,7 +12,6 @@ tags:
   - Instrumental Performance
   - Score
   - Intermediate Piano
-  - '#soulsong'
 ---
 
 I have tried to express in this piano piece the fragility of beauty found in unexpected places.
