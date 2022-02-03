@@ -40,7 +40,7 @@ Soul Songs reflect the person they are written for, to mark special moments in l
 
 I will arrange to chat with you, to hear about the unique moment or significant life event you would like captured in a Soul Song, or the person you would like it created for.
 
-During our chat you will be able to share your story and the meaning and significance of the moment or the person for your Soul Song. 
+During our chat you will be able to share your story and the meaning and significance of the moment or the person for your Soul Song.
 
 Inspired by your story, your words and emotions, I will create a bespoke piece of music especially for you or your loved one — your unique Soul Song.
 
