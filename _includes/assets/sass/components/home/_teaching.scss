@@ -16,6 +16,11 @@
     line-height: $lg-body-line-height-mobile;
     padding: 1.5rem 0;
   }
+
+  .calendly-link-container {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .home-teaching--item {
@@ -145,7 +150,8 @@
   .home-teaching,
   .page-teaching {
     h3 {
-      font-size: $h2-font-size;
+      font-size: $h2-font-size-mobile;
+      line-height: $h2-line-height-mobile;
     }
 
     .excerpt {
