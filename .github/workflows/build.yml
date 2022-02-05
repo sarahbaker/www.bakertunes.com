@@ -5,6 +5,9 @@ on:
     branches:
       - 11ty
 
+env:
+  ELEVENTY_ENV: production
+
 jobs:
   build:
     runs-on: ubuntu-latest
