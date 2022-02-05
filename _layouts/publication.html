@@ -15,14 +15,14 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   
   <aside class="pull-right">
-  <a href="{{ page.publication_url }}" title="{{ page.title }}" target="_blank"><img src="{{ page.image }}" title="{{ page.title }} resource" class="img-responsive"></a>
+  <a href="{{ page.publication_url }}" title="{{ page.title }}" target="_blank" rel="noreferrer"><img src="{{ page.image }}" title="{{ page.title }} resource" class="img-responsive"></a>
   </aside>
   
   {{ content }}
   
 {% if page.publication_url %}
   <div class="publication-link-container">
-    <a href="{{ page.publication_url }}" target="_blank" class="btn btn-default btn-lg"><strong>Get {{ page.title }} at {{ page.publisher }}</strong> &nbsp; <span class="glyphicon glyphicon-new-window"></span></a>
+    <a href="{{ page.publication_url }}" target="_blank" rel="noreferrer" class="btn btn-default btn-lg"><strong>Get {{ page.title }} at {{ page.publisher }}</strong> &nbsp; <span class="glyphicon glyphicon-new-window"></span></a>
   </div>
 {% endif %}
   
