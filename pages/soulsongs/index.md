@@ -6,6 +6,7 @@ excerpt: Unique music, composed especially for you
 permalink: /soulsongs/
 calendly: true
 section: soulsongs
+image: unsplash/james-zwadlo-nj0vGyFB2nY-unsplash-1000.jpeg
 order: 8
 pricing:
   price: £500
