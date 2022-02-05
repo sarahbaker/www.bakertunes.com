@@ -13,10 +13,10 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ gh-pages, 11ty ]
+    branches: [11ty ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ gh-pages, 11ty ]
+    branches: [11ty ]
   schedule:
     - cron: '36 17 * * 5'
 
