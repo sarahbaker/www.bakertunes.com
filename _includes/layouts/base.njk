@@ -4,6 +4,11 @@
   {% include "layouts/components/head.njk" %}
 
   <body{% if section %} class="section-{{ section }}"{% endif %}>
+      <!-- Analytics & Tag Manager -->
+    {% if env.isProd %}
+      {% include "layouts/components/tagmanager-body.njk" %}
+    {% endif %}
+
     {% include "layouts/components/site-header.njk" %}
 
 
@@ -12,6 +17,11 @@
     </main>
 
     {% include "layouts/components/site-footer.njk" %}
+
+    <!-- Analytics & Tag Manager -->
+    {% if env.isProd %}
+      {% include "layouts/components/google-analytics.njk" %}
+    {% endif %}
     
   </body>
 </html>
