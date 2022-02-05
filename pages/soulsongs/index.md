@@ -52,4 +52,8 @@ Inspired by your story, your words and emotions, I will create a bespoke piece o
 
 Videos can be ordered according to requirements.
 
+### Next steps
+
+Arrange an initial chat with me:
+
 <div class="calendly-link-container hide-small-flex"><a href="https://calendly.com/bakertunes/15min" target="_blank" class="btn btn-lg btn-default btn-strong btn-teal btn-calendly" role="button">Book a chat with me <span class="glyphicon glyphicon-earphone"></span></a></div>
