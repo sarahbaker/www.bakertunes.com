@@ -51,3 +51,5 @@ Inspired by your story, your words and emotions, I will create a bespoke piece o
 - a printed or hand-written score, in a presentation binding or frame
 
 Videos can be ordered according to requirements.
+
+<div class="calendly-link-container hide-small-flex"><a href="https://calendly.com/bakertunes/15min" target="_blank" class="btn btn-lg btn-default btn-strong btn-teal btn-calendly" role="button">Book a chat with me <span class="glyphicon glyphicon-earphone"></span></a></div>

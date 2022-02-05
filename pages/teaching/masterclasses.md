@@ -46,7 +46,7 @@ After the masterclass, I will complete a summary of the session with a clear run
 
 Arrange a chat with me to discuss your needs and schedule your masterclass:
 
-<div class="calendly-link-container"><a href="https://calendly.com/bakertunes/15min" target="_blank" class="btn btn-lg btn-default btn-strong btn-teal btn-calendly" role="button">Book a chat with me <span class="glyphicon glyphicon-earphone"></span></a></div>
+<div class="calendly-link-container hide-small-flex"><a href="https://calendly.com/bakertunes/15min" target="_blank" class="btn btn-lg btn-default btn-strong btn-teal btn-calendly" role="button">Book a chat with me <span class="glyphicon glyphicon-earphone"></span></a></div>
 
 &nbsp;
 

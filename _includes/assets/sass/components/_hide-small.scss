@@ -1,0 +1,19 @@
+.hide-small,
+.hide-small-inline-block,
+.hide-small-flex {
+  display: none !important;
+}
+
+@include respond-to('small') {
+  .hide-small { 
+    display: block !important;
+  }
+
+  .hide-small-inline-block {
+    display: inline-block !important;
+  }
+
+  .hide-small-flex {
+    display: flex !important;
+  }
+}
