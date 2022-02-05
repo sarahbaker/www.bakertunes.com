@@ -4,8 +4,10 @@
 
 {% if permalink == '/' %}
 {% set cardTitle %}{{ metadata.title }} — {{ metadata.alt_title }}{% endset %}
+{% set ogType %}website{% endset %}
 {% else %}
 {% set cardTitle %}{{ title }} | {{ metadata.title }}{% endset %}
+{% set ogType %}article{% endset %}
 {% endif %}
 
 {% if image %}
@@ -18,6 +20,8 @@
   <meta property="og:title" content="{{cardTitle}}" />
   <meta property="og:description" content="{% if excerpt %}{{excerpt}}{% else %}{{metadata.summary}}{% endif %}" />
   <meta property="og:image" content="{{cardImage}}" />
+  <meta property="og:type" content="{{ogType}}" />
   <meta property="twitter:title" content="{{cardTitle}}" />
   <meta property="twitter:description" content="{% if excerpt %}{{excerpt}}{% else %}{{metadata.summary}}{% endif %}" />
   <meta property="twitter:image" content="{{cardImage}}" />
+  <meta property="twitter:site" content="@bakertunes" />
