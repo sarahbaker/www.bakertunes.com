@@ -10,7 +10,7 @@ tags:
   - '#footer'
 ---
 
-<big><strong>I have composed music since I was eight. My love of singing and melody combines with my interest in the polyphony of the Baroque period and the dissonance of Twentieth Century composers.</strong></big>
+<big><strong>I have always enjoyed composing music. My love of singing and melody now combines with my interest in the polyphony of the Baroque period and the dissonance of Twentieth Century composers.</strong></big>
 
 I have been Composer in Residence for [Services For Education](https://www.servicesforeducation.co.uk/) since 2012 and have specialised in songs and Musicals for schools and choirs.
 
