@@ -28,47 +28,50 @@ styles:
   </div>
 </div>
 
-<div class="site-content content-canvas content-canvas--zero-top-padding home-soulsongs">
+<div class="site-content site-content--zero-spacing content-canvas content-canvas--zero-top-padding home-soulsongs">
   <div class="content-canvas-item-full faux-block-link-parent content-canvas">
     {% include "layouts/components/home/soulsongs.njk" %}
   </div>
 </div>
 
-<div class="site-content content-canvas home-composer">
+<div class="site-content site-content--zero-spacing site-content--zero-padding content-canvas home-composer">
+  <div class="home--header--wrapper content-canvas-item-full content-canvas faux-block-link-parent">
+    <a href="/composer/" class="faux-block-link content-canvas-item-full"><span class="hide-text" aria-hidden="true">{{ composer.title }}</span></a>
+    <div class="home--header home--header--all-padding home-composer--header">
+      <h2><a href="/composer/">{{ composer.title }}</a></h2>
+      {% if composer.excerpt %}
+      <div class="excerpt">
+        {{ composer.excerpt }}
+      </div>
+      {% endif %}
 
-  <div class="home--header home-composer--header">
-    <h2><a href="/composer/">{{ composer.title }}</a></h2>
-    {% if composer.excerpt %}
-    <div class="excerpt">
-      {{ composer.excerpt }}
+      <div class="link">
+        <a href=" /composer/" class="single-meta-item single-meta-forward">Find out about my {{ composer.title | lower }}</a>
+      </div>
+
     </div>
-    {% endif %}
-
-    <div class="link">
-      <a href=" /composer/" class="single-meta-item single-meta-forward">Find out about my {{ composer.title | lower }}</a>
-    </div>
-
   </div>
-
   <div class="content-canvas-item-full home-composer--items">
     {% include "layouts/components/home/composer.njk" %}
   </div>
 </div>
 
-<div class="site-content content-canvas home-teaching">
+<div class="site-content site-content--zero-top-padding content-canvas home-teaching">
+  <div class="home--header--wrapper content-canvas-item-full content-canvas faux-block-link-parent">
+    <a href="/teaching/" class="faux-block-link content-canvas-item-full"><span class="hide-text" aria-hidden="true">{{ teaching.title }}</span></a>
+    <div class="home--header home--header--all-padding home-teaching--header">
+      <h2><a href="/teaching/">{{ teaching.title }}</a></h2>
+      {% if teaching.excerpt %}
+      <div class="excerpt">
+        {{ teaching.excerpt }}
+      </div>
 
-  <div class="home--header home-teaching--header">
-    <h2><a href="/teaching/">{{ teaching.title }}</a></h2>
-    {% if teaching.excerpt %}
-    <div class="excerpt">
-      {{ teaching.excerpt }}
+      <div class="link">
+        <a href=" /teaching/" class="single-meta-item single-meta-forward">Find out about my {{ teaching.title | lower }}</a>
+      </div>
+
+      {% endif %}
     </div>
-
-    <div class="link">
-      <a href=" /teaching/" class="single-meta-item single-meta-forward">Find out about my {{ teaching.title | lower }}</a>
-    </div>
-
-    {% endif %}
   </div>
 
   <div class="home-teaching--items content-canvas-item-full">

@@ -25,9 +25,9 @@ tags:
 
 <big>**Masterclasses are specially designed to give individual or small group support as you prepare for that important next performance.**</big>
 
-Drawing on my experience as an examiner for ABRSM since 2017, and my 30 years’ experience of teaching, I will work with you to finesse your performance within the framework of communication, interpretation and delivery.
+Drawing on my experience as an examiner for ABRSM since 2017, and my 30 years’ experience of teaching, I will work with you to finesse your performance within the framework of communication, interpretation and delivery. These sessions are designed to supplement regular lessons and provide a different perspective to give give you that extra motivation to excel.
 
-I love to encourage and inspire students of all ages and abilities, and offer 30 or 60 minute sessions online or in person, to help you prepare your programme.
+I love to encourage and inspire students of all ages and abilities, and offer 30, 45 or 60 minute sessions online or in person, to help you prepare your programme.
 
 You will receive a summary of the session with suggestions for how to continue to prepare.
 
@@ -35,12 +35,12 @@ You will receive a summary of the session with suggestions for how to continue t
 
 I'll arrange a one-to-one session with you:
 
-- either 30 minutes or 60 minutes, depending on your needs
+- either 30, 45 or 60 minutes, depending on your needs
 - in person or online, as appropriate
 
-During the session you'll play your pieces as if you were in an exam or performance setting. Using my expertise as an ABRSM examiner and over 30 years as a music teacher, I will complete a mark sheet similar to that used in an exam. We will then be able to discuss the aspects of your playing that were in line with the standard you're aiming for. We will also explore the areas that need some improvement, with some time given to looking at those in more detail. You'll receive tailored advice for these aspects, focussed on your specific needs.
+During the session you'll play your pieces as if you were in an exam or performance setting. Using my expertise as an ABRSM examiner and over 30 years as a music teacher, I will critique the performance and give specific feedback, particularly focussing on interpretation and overall communication of musical ideas. We will also explore the areas that need some improvement, with some time given to looking at those in more detail. You'll receive tailored advice for these aspects, focussed on your specific needs.
 
-After the masterclass, I will complete a summary of the session, including the mock mark sheet and a clear run-down of my advice and suggestions. This will then be emailed to you shortly after.
+After the masterclass, I will complete a summary of the session with a clear run-down of my advice and suggestions. This will then be emailed to you shortly after.
 
 ### Next steps
 

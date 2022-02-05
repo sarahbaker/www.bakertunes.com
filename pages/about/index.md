@@ -22,7 +22,16 @@ work:
   - "Accompanist"
   - "Vocal coach for workplace singing events"
 compositions:
-  - 
+  -
+    name: "2022"
+    data:
+      -
+        title: "*Live As One*"
+        excerpt: "Song for choirs, on the theme of neighbourliness, friendship and community, written for national charity, [As One](https://as-one.org/birmingham)"
+      -
+        title: "*Come Together Everybody*"
+        excerpt: "Song for choirs in parts, using themes of strength in diversity and togetherness, written for the [Services For Education](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) Youth Prom concert, celebrating the 2022 Commonwealth Games in Birmingham"
+  -
     name: "2021"
     data: 
       - 
@@ -207,13 +216,10 @@ compositions:
       -
         title: "*Early Years Music* project with World's End Nursery school, Quinton."
         excerpt: "A workshop-style music course for Foundation stage pupils, jointly developed and delivered with Musicshakers."
-biography: "Bakertunes is a growing collection of music composed by Sarah Baker. 
+biography: "Music has been in my family for many generations.
 
 
-Music has been in my family for many generations.
-
-
-My great-grandmother was a pianist for black-and-white movies and my grandparents, aunts and uncles, parents, cousins, brothers and sister all sing or play an instrument. 
+My great-grandmother was a pianist for silent movies and my grandparents, aunts and uncles, parents, cousins, brothers and sister all sing or play an instrument. 
 
 
 I started composing when I was about eight, having had piano lessons for a couple of years. I still remember my first piece now, based on a broken chord pattern and repetitive melody. Many hours of my childhood was spent playing duets with a friend, and then as a young teenager I started to write songs that I often sang in our local church services.

@@ -13,4 +13,8 @@ tags:
 
 <big>**I have taught music for over 30 years, specialising in piano, voice and music theory.**</big>
 
-I am an ABRSM examiner, and have been examining since 2017.
+I love to inspire in people a love of music and have a holistic approach to performance, interpretation and theoretical understanding. 
+
+Through using music of many different styles and genres, I seek to develop a personal interest in my pupils and motivate practise through enjoyment and understanding. 
+
+My aim is to encourage a life-long interest and passion for music which pupils enjoy throughout their lives. 

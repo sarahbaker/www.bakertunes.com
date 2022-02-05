@@ -29,6 +29,19 @@
   }
 }
 
+.home--header--all-padding {
+  padding: 1.5rem;
+}
+
+.home--header--wrapper {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $grey-background;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 @include respond-to('large') {
   .home--header {
     font-size: $h3-font-size;
@@ -40,6 +53,10 @@
       font-size: $h1-lg-font-size;
       line-height: $h1-lg-line-height;
     }
+  }
+
+  .home--header--all-padding {
+    padding: 3rem;
   }
 }
 
