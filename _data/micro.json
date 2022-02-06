@@ -1,0 +1,9 @@
+{
+  "calendly": {
+    "label": "Book a chat with me"
+  },
+  "noSpaces": {
+    "label": "No spaces available currently",
+    "expected": "Spaces expected September 2022"
+  }
+}

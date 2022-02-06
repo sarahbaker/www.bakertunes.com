@@ -11,7 +11,10 @@ map_image_srcset:
   2400w: /static/images/kh-map-2400.webp
 permalink: /teaching/in-person/
 order: 1
-calendly: true
+calendly: false
+no_spaces:
+  visible: true
+  expected: false
 # pricing:
 #   title: Benefits
 #   price:

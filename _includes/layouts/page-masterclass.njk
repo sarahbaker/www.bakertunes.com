@@ -24,6 +24,10 @@ main_classes:
       {% include "layouts/components/calendly.njk" %}
     {% endif %}
 
+    {% if no_spaces.visible %}
+      {% include "layouts/components/no-spaces-micro.njk" %}
+    {% endif %}
+
     {% include "layouts/components/about-micro.njk" %}
 
     {% if pricing %}

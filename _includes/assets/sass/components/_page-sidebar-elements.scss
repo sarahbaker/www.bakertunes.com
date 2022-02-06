@@ -2,11 +2,21 @@
 .service-pricing,
 .proserviceduct-pricing,
 .soulsong-container,
-.service-promote {
+.service-promote,
+.no-spaces-micro {
   background-color: $outer-space;
   color: $white;
   margin-bottom: px-to-rem($mobile-space);
   padding: 1.5em;
+
+  .micro-label {
+    font-size: $body-font-size-mobile;
+    line-height: $body-line-height-mobile;
+
+    &:not(:last-child) {
+      margin-bottom: $mobile-space * 0.5;
+    }
+  }
 
   ul {
     padding-left: px-to-rem(14px);
@@ -18,12 +28,22 @@
   }
 }
 
+.no-spaces-micro {
+  background-color: $rolling-stone;
+}
+
 @include respond-to('medium') {
   .about-micro,
   .service-pricing,
   .soulsong-container,
-  .service-promote {
+  .service-promote,
+  .no-spaces-micro {
     padding: 3em 1.5em;
+
+    .micro-label {
+      font-size: $body-font-size;
+      line-height: $body-line-height;
+    }
 
     ul {
       li {

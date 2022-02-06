@@ -5,7 +5,10 @@ excerpt: One-to-one piano, singing and music theory teaching, online.
 image: pexels/pexels-mikhail-nilov-7570107-600.jpeg
 permalink: /teaching/online/
 order: 2
-calendly: true
+calendly: false
+no_spaces:
+  visible: true
+  expected: false
 main_classes:
   - section-teaching
   - page-teaching
