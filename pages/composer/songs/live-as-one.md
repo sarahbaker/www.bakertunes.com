@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Live As One
 soundcloud_id:
-youtube_id: oN9T6Xfs9hk
+youtube_id: 9dU8HtvsCm0
 score:
   pdf:
   image:

@@ -10,12 +10,12 @@ youtube_id: https://www.youtube.com/playlist?list=PLQ1kAgbWArKyOdG139Z6LTcERMvzq
 soundcloud_id: 
 tags:
   - Instrumental Performance
-  - Intermediate Piano
+  - Advanced Piano
   - Collection
 ---
 
 Transformations are a collection of six pieces for solo piano written during 2020. 
 
-They explore my feelings and thoughts during this unusual and sometimes difficult time and provide a varied and expressive musical illustration of my different moods and emotions.
+They explore my feelings and thoughts during this unusual and difficult time and provide a varied and expressive musical illustration of my different moods and emotions.
 
-Music played a very important role in keeping my mood buoyant and also provided an opportunity for processing some of the strange new experiences that the COVID-19 pandemic created. 
+Music played a very important role in helping me navigate my experience of lockdown and also provided an opportunity for processing some of the strange new impressions that the COVID-19 pandemic created. 

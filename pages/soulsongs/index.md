@@ -12,13 +12,12 @@ pricing:
   price: £500
   basis: per minute of composed music
   benefits:
-    title: Includes
+    title: Your Soul Song includes
     list:
-      - One-to-one consultation
-      - Unique, personal musical composition
-      - Soul Song presentation
-      - Music in digital format
-      - Printed or hand-written score, in a presentation binding or frame
+      - Themes drawn from our one-to-one consultation
+      - My time, dedicated to finding the musical expression that perfectly fits your life moment
+      - A digital performance of your piece, polished and rehearsed to embody the nuance and depth of your music
+      - A printed or hand-written score, in a presentation binding or frame
   suffix: Prices for music videos on application
 tags:
   - '#nav'
@@ -29,13 +28,17 @@ pagination:
   alias: items
 ---
 
-<big>**All of us are unique and experience special moments in our lives. Significant times are always enriched by music.**</big>
+<big>**Music speaks more intimately than words.**</big>
 
-During my composing career, I have found that music speaks more intimately than words on so many occasions.
+All of us are unique and experience special moments in our lives. Significant times are always enriched by music.
+
+Emotions and images are woven through music and find connection with the deepest parts of our souls. 
 
 **Soul Songs** are solo piano pieces, composed especially for you. Your unique Soul Song captures what words cannot fully express.
 
-Soul Songs reflect the person they are written for, to mark special moments in life such as the birth of a new baby, a special birthday, or the loss of someone close. Sometimes, a Soul Song is created specially for a person — just for you, or as a gift for a friend or family member.
+Soul Songs reflect the person they are written for, to mark special moments in life such as the birth of a new baby, a special birthday, or the loss of someone close. Sometimes, a Soul Song is created specially for a person — just for you, or as a gift for a friend or family member. 
+
+Music captures something unique, and significant events are beautifully enhanced by special music. 
 
 ## How does it work?
 
