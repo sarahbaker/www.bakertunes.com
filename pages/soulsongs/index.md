@@ -10,7 +10,8 @@ image: unsplash/james-zwadlo-nj0vGyFB2nY-unsplash-1000.jpeg
 order: 8
 pricing:
   price: £500
-  basis: per minute of composed music
+  prefix: from
+  # basis: per minute of composed music
   benefits:
     title: Your Soul Song includes
     list:
@@ -22,13 +23,18 @@ pricing:
 testimominals_label: "What people have said about their Soul Song:"
 testimonials:
   -
-    quote: Aenean quis magna vel ex vehicula accumsan. Maecenas porttitor semper arcu. Quisque tincidunt, justo sed mollis blandit, lacus lacus finibus.
-    name: Erin
-    context: Quisque eros turpis, semper vel.
-  -
-    quote: Donec molestie convallis ligula, suscipit venenatis neque laoreet eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.
+    quote: "The piece brought to life something of what my family had been through; and it expresses the love of music, dance and for each other that has run through the family from one generation to another."
     name: Helen
-    context: Etiam dignissim est ante, condimentum.
+    location: Birmingham, UK
+    context: Music to remember an important family story.
+    link:
+      title: A Reflection of Ida
+      path: /composer/pianomusic/a-reflection-of-ida/
+  # -
+  #   quote: Donec molestie convallis ligula, suscipit venenatis neque laoreet eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.
+  #   name: Erin
+  #   location: Birmingham, UK
+  #   context: Etiam dignissim est ante, condimentum.
 tags:
   - '#nav'
   - '#footersecondary'

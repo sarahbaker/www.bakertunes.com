@@ -36,4 +36,12 @@
   padding: var(--_spacer);
 }
 
+.testimonial--link {
+  padding-block-start: 1.5rem;
+
+  > a {
+    color: $mako;
+  }
+}
+
 @import "./snaps-inline";

@@ -61,10 +61,12 @@
 
   .price {
     text-align: center;
+    padding-block: 1.5rem;
+  }
 
-    span {
-      display: block;
-    }
+  .prefix {
+    display: inline-block;
+    margin-left: -2rem;
   }
 
   .link {
