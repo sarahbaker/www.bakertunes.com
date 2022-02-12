@@ -1,0 +1,22 @@
+<div class="testimonials-container">
+  {% if testimominals_label %}
+  <h4>{{ testimominals_label }}</h4>
+  {% endif %}
+  <div class="testimonials testimonials-count-{{ testimonials | length }} snaps-inline">
+    {% for item in testimonials %}
+      <div class="testimonial">
+        <div class="testimonial--quote script-font large-script-text">
+        {{ item.quote }}
+        </div>
+        <div class="testimonial-meta">
+          <div class="testimonial--name">
+          {{ item.name }}
+          </div>
+          <div class="testimonial--context">
+          {{ item.context }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

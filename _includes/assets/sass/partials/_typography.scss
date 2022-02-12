@@ -23,6 +23,10 @@ p,
   font-family: $secondary-font;
 }
 
+.script-font {
+  font-family: $script-font;
+}
+
 /* Shared styles */
 h1,
 h2,
@@ -255,6 +259,39 @@ h4,
   @media only screen and (min-width: $tablet) {
     font-size: $lg-body-font-size;
     line-height: $lg-body-line-height;
+  }
+}
+
+.script-text {
+  font-size: $h1-font-size-mobile;
+  line-height: $h1-line-height-mobile;
+  padding-block: px-to-rem($base-space);
+
+  @include respond-to('large') {
+    font-size: $h1-font-size;
+    line-height: $h1-line-height;
+  }
+}
+
+.large-script-text {
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+  padding-block: px-to-rem($base-space * 2);
+
+  @include respond-to('large') {
+    font-size: $h1-lg-font-size;
+    line-height: $h1-lg-line-height;
+  }
+}
+
+.x-large-script-text {
+  font-size: $h1-lg-font-size;
+  line-height: $h1-lg-line-height;
+  padding-block: px-to-rem($base-space * 3);
+
+  @include respond-to('large') {
+    font-size: $h1-x-lg-font-size;
+    line-height: $h1-x-lg-line-height;
   }
 }
 

@@ -1,0 +1,39 @@
+.testimonials-wrapper {
+  margin-block: $base-space * 2;
+  background-color: $heather;
+}
+
+.testimonials--container {
+  margin-block: px-to-rem($base-space * 2);
+}
+
+.testimonials {
+  --_spacer: 1.5rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  gap: var(--_spacer);
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  position: relative;
+
+  &:not(.testimonials-count-1) {
+    &::before {
+      position: absolute;
+      content: "Scroll \2192";
+      top: 0;
+      right: 0;
+      z-index: 10;
+      color: $mako;
+    }
+  }
+}
+
+.testimonial {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: calc(var(--_spacer) * 0.25);
+  padding: var(--_spacer);
+}
+
+@import "./snaps-inline";

@@ -19,6 +19,16 @@ pricing:
       - A digital performance of your piece, polished and rehearsed to embody the nuance and depth of your music
       - A printed or hand-written score, in a presentation binding or frame
   suffix: Prices for music videos on application
+testimominals_label: "What people have said about their Soul Song:"
+testimonials:
+  -
+    quote: Aenean quis magna vel ex vehicula accumsan. Maecenas porttitor semper arcu. Quisque tincidunt, justo sed mollis blandit, lacus lacus finibus.
+    name: Erin
+    context: Quisque eros turpis, semper vel.
+  -
+    quote: Donec molestie convallis ligula, suscipit venenatis neque laoreet eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.
+    name: Helen
+    context: Etiam dignissim est ante, condimentum.
 tags:
   - '#nav'
   - '#footersecondary'
@@ -28,7 +38,7 @@ pagination:
   alias: items
 ---
 
-<big>**Music speaks more intimately than words.**</big>
+<div class="script-font large-script-text">Music speaks more intimately than words.</div>
 
 All of us are unique and experience special moments in our lives. Significant times are always enriched by music.
 
@@ -36,7 +46,7 @@ Emotions and images are woven through music and find connection with the deepest
 
 **Soul Songs** are solo piano pieces, composed especially for you. Your unique Soul Song captures what words cannot fully express.
 
-Soul Songs reflect the person they are written for, to mark special moments in life such as the birth of a new baby, a special birthday, or the loss of someone close. Sometimes, a Soul Song is created specially for a person — just for you, or as a gift for a friend or family member. 
+Soul Songs reflect the person they are written for, to mark special moments in life such as the birth of a new baby, a special birthday, or the loss of someone close. Sometimes, a Soul Song is created specially for a person — just for you, or as a gift for a friend or family member.
 
 Music captures something unique, and significant events are beautifully enhanced by special music. 
 
