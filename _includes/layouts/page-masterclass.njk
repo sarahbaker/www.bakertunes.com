@@ -45,6 +45,14 @@ main_classes:
 
   </div>
 
+  {% if testimonials %}
+  <div class="content-canvas-item-full testimonials-wrapper">
+    <div class="site-content content-canvas">
+        {% include "layouts/components/testimonials.njk" %}
+    </div>
+  </div>
+  {% endif %}
+
   {% if map_image_srcset %}
   <div class="content-canvas-item-full contact-map">
     <figure class="fig fig-image">
