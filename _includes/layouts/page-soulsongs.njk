@@ -25,6 +25,10 @@ main_classes:
       {% include "layouts/components/calendly.njk" %}
     {% endif %}
 
+    {% if openings.date %}
+      {% include "layouts/components/service-openings.njk" %}
+    {% endif %}
+
     {% if pricing.price %}
       {% include "layouts/components/service-pricing.njk" %}
     {% endif %}
