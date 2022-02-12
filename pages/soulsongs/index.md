@@ -10,7 +10,8 @@ image: unsplash/james-zwadlo-nj0vGyFB2nY-unsplash-1000.jpeg
 order: 8
 pricing:
   price: £500
-  basis: per minute of composed music
+  prefix: from
+  # basis: per minute of composed music
   benefits:
     title: Your Soul Song includes
     list:
@@ -19,6 +20,21 @@ pricing:
       - A digital performance of your piece, polished and rehearsed to embody the nuance and depth of your music
       - A printed or hand-written score, in a presentation binding or frame
   suffix: Prices for music videos on application
+testimominals_label: "What people have said about their Soul Song:"
+testimonials:
+  -
+    quote: "The piece brought to life something of what my family had been through; and it expresses the love of music, dance and for each other that has run through the family from one generation to another."
+    name: Helen
+    location: Birmingham, UK
+    context: Music to remember an important family story.
+    link:
+      title: A Reflection of Ida
+      path: /composer/pianomusic/a-reflection-of-ida/
+  # -
+  #   quote: Donec molestie convallis ligula, suscipit venenatis neque laoreet eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.
+  #   name: Erin
+  #   location: Birmingham, UK
+  #   context: Etiam dignissim est ante, condimentum.
 tags:
   - '#nav'
   - '#footersecondary'
@@ -28,7 +44,7 @@ pagination:
   alias: items
 ---
 
-<big>**Music speaks more intimately than words.**</big>
+<div class="script-font large-script-text">Music speaks more intimately than words.</div>
 
 All of us are unique and experience special moments in our lives. Significant times are always enriched by music.
 
@@ -36,7 +52,7 @@ Emotions and images are woven through music and find connection with the deepest
 
 **Soul Songs** are solo piano pieces, composed especially for you. Your unique Soul Song captures what words cannot fully express.
 
-Soul Songs reflect the person they are written for, to mark special moments in life such as the birth of a new baby, a special birthday, or the loss of someone close. Sometimes, a Soul Song is created specially for a person — just for you, or as a gift for a friend or family member. 
+Soul Songs reflect the person they are written for, to mark special moments in life such as the birth of a new baby, a special birthday, or the loss of someone close. Sometimes, a Soul Song is created specially for a person — just for you, or as a gift for a friend or family member.
 
 Music captures something unique, and significant events are beautifully enhanced by special music. 
 
