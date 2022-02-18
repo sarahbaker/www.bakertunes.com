@@ -12,7 +12,6 @@ tags:
   - Solo
   - Song
   - Stillbirth
-  - '#soulsong'
 ---
 
 My friend's baby died in labour in 2011. She was active and healthy in the womb until the placenta ruptured very unexpectedly. 
