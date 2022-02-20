@@ -1,6 +1,8 @@
 ---
 layout: layouts/base.njk
 section: pianomusic
+styles:
+  - page.css
 ---
 <div class="site-content content-canvas">
   <p><a href="/composer/pianomusic/" class="single-meta-item single-meta-back">Piano Music</a></p>
@@ -48,6 +50,10 @@ section: pianomusic
     {% endif %}
 
   </div>
+  {% endif %}
+
+  {% if testimonial %}
+  {% include "layouts/components/page-testimonial.njk" %}
   {% endif %}
 
   {% if youtube_id %}

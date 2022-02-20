@@ -3,27 +3,8 @@
   <h3>{{ testimominals_label }}</h3>
   {% endif %}
   <div class="testimonials testimonials-count-{{ testimonials | length }} snaps-inline">
-    {% for item in testimonials %}
-      <div class="testimonial">
-        <div class="testimonial--quote script-font large-script-text">
-        {{ item.quote | safe }}
-        </div>
-        <div class="testimonial-meta">
-          <div class="testimonial--name large-body-text">
-          <strong>{{ item.name }}</strong>{% if item.location %} in {{ item.location }}{% endif %}
-          </div>
-          {% if item.context %}
-          <div class="testimonial--context large-body-text">
-          {{ item.context }}
-          </div>
-          {% endif %}
-          {% if item.link.path %}
-          <div class="testimonial--link">
-            Hear the piece: <a href="{{ item.link.path | url }}">{% if item.link.title %}{{ item.link.title }}{% else %}{{ item.name }}'s Soul Song{% endif %}</a>
-          </div>
-          {% endif %}
-        </div>
-      </div>
+    {% for testimonial in testimonials %}
+      {% include "layouts/components/testimonial-item.njk" %}
     {% endfor %}
   </div>
 </div>

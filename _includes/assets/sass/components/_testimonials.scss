@@ -3,7 +3,8 @@
   background-color: $heather;
 }
 
-.testimonials--container {
+.testimonials--container,
+.testimonial--container {
   margin-block: px-to-rem($base-space * 2);
 }
 

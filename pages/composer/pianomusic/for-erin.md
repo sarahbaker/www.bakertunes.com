@@ -8,6 +8,11 @@ score:
   image: for-erin.jpg
 youtube_id: JDEKOTXRjbA
 soundcloud_id:
+testimonial:
+  quote: "Receiving a piano piece composed for my 50th birthday was such a unique gift. The music was beautiful and spoke to my soul. It made me feel incredibly special."
+  name: Erin
+  location: Birmingham, UK
+  context: Music to celebrate a milestone birthday.
 tags:
   - Instrumental Performance
   - Score

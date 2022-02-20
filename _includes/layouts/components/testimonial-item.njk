@@ -1,0 +1,20 @@
+      <div class="testimonial">
+        <div class="testimonial--quote script-font large-script-text">
+        {{ testimonial.quote | safe }}
+        </div>
+        <div class="testimonial-meta">
+          <div class="testimonial--name large-body-text">
+          <strong>{{ testimonial.name }}</strong>{% if testimonial.location %} in {{ testimonial.location }}{% endif %}
+          </div>
+          {% if testimonial.context %}
+          <div class="testimonial--context large-body-text">
+          {{ testimonial.context }}
+          </div>
+          {% endif %}
+          {% if testimonial.link.path %}
+          <div class="testimonial--link">
+            Hear the piece: <a href="{{ testimonial.link.path | url }}">{% if testimonial.link.title %}{{ testimonial.link.title }}{% else %}{{ testimonial.name }}'s Soul Song{% endif %}</a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
