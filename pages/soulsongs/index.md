@@ -38,6 +38,9 @@ testimonials:
     name: Erin
     location: Birmingham, UK
     context: Music to celebrate a milestone birthday.
+    link:
+      title: For Erin
+      path: /composer/pianomusic/for-erin/
 tags:
   - '#nav'
   - '#footersecondary'
