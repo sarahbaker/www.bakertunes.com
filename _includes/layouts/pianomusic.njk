@@ -52,10 +52,6 @@ styles:
   </div>
   {% endif %}
 
-  {% if testimonial %}
-  {% include "layouts/components/page-testimonial.njk" %}
-  {% endif %}
-
   {% if youtube_id %}
     {% include "layouts/components/youtube-player.njk" %}
   {% endif %}
@@ -68,16 +64,23 @@ styles:
     {% include "layouts/components/soundcloud-player.njk" %}
   {% endif %}
 
-  {% if score.pdf %}
-  <p>
-      <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
-  </p>
+  {% if testimonial %}
+  {% include "layouts/components/page-testimonial.njk" %}
   {% endif %}
 
-  {% if score.image %}
-  <p>
-      <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" />
-  </p>
+  {% if tags and not '#soulsong' in tags %}
+    {% if score.pdf %}
+    <p>
+        <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+    </p>
+    {% endif %}
+    
+
+    {% if score.image %}
+    <p>
+        <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" />
+    </p>
+    {% endif %}
   {% endif %}
 
 </div>
