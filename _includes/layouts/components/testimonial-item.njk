@@ -1,4 +1,4 @@
-      <div class="testimonial">
+      <div class="testimonial{% if loop %} testimonial--{{ loop.index }}{% endif %}">
         <div class="testimonial--quote script-font large-script-text">
         {{ testimonial.quote | safe }}
         </div>

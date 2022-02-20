@@ -1,8 +1,8 @@
-<div class="testimonials-container" id="testimonials">
+<div class="testimonials--container testimonials-count-{{ testimonials | length }}" id="testimonials" data-testimonial-count={{ testimonials | length }}>
   {% if testimominals_label %}
   <h3>{{ testimominals_label }}</h3>
   {% endif %}
-  <div class="testimonials testimonials-count-{{ testimonials | length }} snaps-inline">
+  <div class="testimonials snaps-inline">
     {% for testimonial in testimonials %}
       {% include "layouts/components/testimonial-item.njk" %}
     {% endfor %}

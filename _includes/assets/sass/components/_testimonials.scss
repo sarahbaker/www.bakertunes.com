@@ -8,26 +8,29 @@
   margin-block: px-to-rem($base-space * 2);
 }
 
-.testimonials {
+.testimonials--container {
   --_spacer: 1.5rem;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  gap: var(--_spacer);
-  overflow-x: auto;
-  overscroll-behavior-inline: contain;
   position: relative;
 
   &:not(.testimonials-count-1) {
     &::before {
       position: absolute;
-      content: "Scroll \2192";
-      top: 0;
-      right: 0;
+      content: "\2190 Scroll \2192";
+      top: var(--_spacer);
+      right: var(--_spacer);
       z-index: 10;
       color: $mako;
     }
   }
+}
+
+.testimonials {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 90%;
+  gap: var(--_spacer);
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
 }
 
 .testimonial {
