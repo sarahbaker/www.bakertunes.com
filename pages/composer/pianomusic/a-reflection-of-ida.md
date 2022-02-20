@@ -8,6 +8,11 @@ score:
   pdf: 
   image: a-reflection-of-ida.jpeg
 youtube_id: 7KFa6LCAAQw
+testimonial:
+  quote: "The piece brought to life something of what my family had been through; and it expresses the love of music, dance and for each other that has run through the family from one generation to another."
+  name: Helen
+  location: Birmingham, UK
+  context: Music to remember an important family story.
 tags:
   - Piano solo
   - Score
