@@ -6,19 +6,20 @@
   {% else %}
     <title>{{ title or renderData.title }} | {{ metadata.title }}</title>
   {% endif %}
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/apple-touch-icon-144-precomposed.png" type="image/png">
+  <link rel="icon" href="/static/favicon.png" type="image/png">
+
   {% if metadesc %}
   <meta name="description" content="{{ metadesc }}" />
-  
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/static/favicon.png">
+  {% endif %}
 
   <!-- Analytics & Tag Manager -->
   {% if env.isProd %}
     {% include "layouts/components/tagmanager-head.njk" %}
   {% endif %}
 
-  {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,700;1,700&family=Parisienne&display=swap" rel="stylesheet">
