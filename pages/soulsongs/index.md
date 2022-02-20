@@ -33,11 +33,11 @@ testimonials:
     link:
       title: A Reflection of Ida
       path: /composer/pianomusic/a-reflection-of-ida/
-  # -
-  #   quote: Donec molestie convallis ligula, suscipit venenatis neque laoreet eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.
-  #   name: Erin
-  #   location: Birmingham, UK
-  #   context: Etiam dignissim est ante, condimentum.
+  -
+    quote: "Receiving a piano piece composed for my 50th birthday was such a unique gift. The music was beautiful and spoke to my soul. It made me feel incredibly special."
+    name: Erin
+    location: Birmingham, UK
+    context: Music to celebrate a milestone birthday.
 tags:
   - '#nav'
   - '#footersecondary'

@@ -10,6 +10,4 @@ tags:
   - Incidental Music
 ---
 
-&nbsp;
-
 This piece came about while thinking of a friend whose father had recently died. As I improvised at the keyboard, my mind wandered through various thoughts in connection with family, friendship, grief and restoration. I wanted the music to allow time to drift and meditate.
