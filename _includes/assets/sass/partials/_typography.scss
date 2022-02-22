@@ -267,13 +267,13 @@ h4,
 }
 
 .script-text {
-  font-size: $h1-font-size-mobile;
-  line-height: $h1-line-height-mobile;
+  font-size: $h2-font-size-mobile;
+  line-height: $h2-line-height-mobile;
   padding-block: px-to-rem($base-space);
 
   @include respond-to('large') {
-    font-size: $h1-font-size;
-    line-height: $h1-line-height;
+    font-size: $h2-font-size;
+    line-height: $h2-line-height;
   }
 }
 
