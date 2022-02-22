@@ -49,6 +49,14 @@ testimonials:
     link:
       title: Hidden
       path: /composer/incidentalmusic/hidden/
+  -
+    quote: "This song meant a lot to me as it felt like something that reflected perfectly how I was feeling and I think Sarah did an amazing job with encapsulating that."
+    name: 
+    location: 
+    context: Personal song 
+    link:
+      title: Who Am I?
+      path: /composer/pianomusic/who-am-i/ 
 tags:
   - '#nav'
   - '#footersecondary'

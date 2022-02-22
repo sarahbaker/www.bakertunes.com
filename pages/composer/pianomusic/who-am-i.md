@@ -7,6 +7,11 @@ score:
   pdf: who-am--i.pdf
   image: who-am--i.jpg
 youtube_id: 0c3MkIL61eo
+testimonial:
+  quote: "This song meant a lot to me as it felt like something that reflected perfectly how I was feeling and I think Sarah did an amazing job with encapsulating that."
+  name: 
+  location: 
+  context: Personal song
 tags:
   - Piano solo
   - Score

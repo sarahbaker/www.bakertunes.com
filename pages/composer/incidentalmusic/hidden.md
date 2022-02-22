@@ -20,3 +20,6 @@ Composed in spring time, the beautiful emerging flowers spoke to me of the hidde
 <span class="script-font script-text">The title of this music, ‘Hidden’, is something many mature women will relate to. When the work of your job, or the energy you put into the next generation, is invisible except to you, and not attributed to you by others. When the vigour, and physique of youth has faded that’s how you feel — hidden.</span>
 
 <span class="script-font script-text">This beautiful music captured my 70th year milestone and now, four years later, I still find it poignant and moving. Thank you Sarah.</span>
+
+**Andrea**, Reading, UK
+Music to celebrate a milestone birthday.
