@@ -68,7 +68,7 @@ pagination:
 
 <div class="script-font large-script-text">Music speaks more intimately than words.</div>
 
-We all experience unique moments in our lives. Music beautifully enriches these significant times through weaving emotions and images together in ways words can't express. 
+We all experience unique moments in our lives. Music beautifully enriches these significant times by weaving together emotions and concepts in harmony and melody. 
 
 **Soul Songs** are solo piano pieces, composed especially for you. Your unique Soul Song captures what words cannot fully express.
 
