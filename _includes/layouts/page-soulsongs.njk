@@ -34,8 +34,9 @@ main_classes:
       {% include "layouts/components/service-pricing.njk" %}
     {% endif %}
 
+    {% if expertise %}
     {% include "layouts/components/about-micro.njk" %}
-
+    {% endif %}
   </div>
 
   {% if testimonials %}
