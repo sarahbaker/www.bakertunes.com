@@ -68,15 +68,15 @@ pagination:
 
 <div class="script-font large-script-text">Music speaks more intimately than words.</div>
 
-All of us are unique and experience special moments in our lives. Significant times are always enriched by music.
-
-Emotions and images are woven through music and find connection with the deepest parts of our souls. 
+We all experience unique moments in our lives. Music beautifully enriches these significant times through weaving emotions and images together in a way words can't express. 
 
 **Soul Songs** are solo piano pieces, composed especially for you. Your unique Soul Song captures what words cannot fully express.
 
+When I compose for others, I communicate feelings and sentiment by drawing on my rich musical experience and heritage. I transpose thoughts into melody and harmony. As the music emerges and I search for the perfect chords and notes that add colour and life, my piece connects with the individual and tells their story.
+
 Soul Songs reflect the person they are written for, to mark special moments in life such as the birth of a new baby, a special birthday, or the loss of someone close. Sometimes, a Soul Song is created specially for a person — just for you, or as a gift for a friend or family member.
 
-Music captures something unique, and significant events are beautifully enhanced by special music. 
+Music connects with the deepest parts of our soul.
 
 ## How does it work?
 
