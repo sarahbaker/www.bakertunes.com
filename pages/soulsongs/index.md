@@ -56,7 +56,15 @@ testimonials:
     context: Personal song 
     link:
       title: Who Am I?
-      path: /composer/pianomusic/who-am-i/ 
+      path: /composer/pianomusic/who-am-i/
+  -
+    quote: "When life felt so temporary Sarah was able to create something permanent for us that acknowledged Florence, the hole that was left and our onward journey without her. Thank you, Sarah, it truely was a precious gift."
+    name: Lynwen
+    location: Birmingham, UK
+    context: Song of remembrance
+    link:
+      title: Florence
+      path: /composer/songs/florence/  
 tags:
   - '#nav'
   - '#footersecondary'
