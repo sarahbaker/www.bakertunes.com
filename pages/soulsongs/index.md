@@ -65,6 +65,14 @@ testimonials:
     link:
       title: Florence
       path: /composer/songs/florence/  
+  -
+    quote: "A unique and unexpected gift for my birthday, expressing deep friendship, which will be forever cherished."
+    name: Juliet
+    location: Birmingham, UK
+    context: Birthday gift
+    link:
+      title: Memories (for Juliet)
+      path: /composer/pianomusic/memories-for-juliet/
 tags:
   - '#nav'
   - '#footersecondary'
