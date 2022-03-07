@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Come Together Everybody
 soundcloud_id:
-youtube_id: UXiD-dmtc8Q
+youtube_id: w3B28ynUAOY
 score:
   pdf:
   image:
