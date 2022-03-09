@@ -8,11 +8,11 @@ score:
   image: 
 youtube_id: tfd-bVEoZOw
 soundcloud_id:
-testimonial:
-  quote: 
-  name: 
-  location: 
-  context: 
+# testimonial:
+#   quote: 
+#   name: 
+#   location: 
+#   context: 
 tags:
   - Instrumental Performance
   - Score
