@@ -73,6 +73,14 @@ testimonials:
     link:
       title: Memories (for Juliet)
       path: /composer/pianomusic/memories-for-juliet/
+  -
+    quote: "I sought a piece that reflected two lives that became one. I also stipulated that I wanted to be able to play it. Sarah rose to the challenge and produced a piece that reflects those requirements."
+    name: Errol
+    location: Birmingham, UK
+    context: Music to commemorate a life shared
+    link:
+      title: Two Become One
+      path: /composer/pianomusic/two-become-one/
 tags:
   - '#nav'
   - '#footersecondary'
