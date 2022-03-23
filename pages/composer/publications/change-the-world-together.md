@@ -19,7 +19,7 @@ Fifty years in the future, the people of a small town are celebrating their annu
 
 Children are very engaged with this topic.  They will appreciate the powerful message in this show, as well as enjoying the great balance of humour, drama and wonderful songs.
 
-The show has been performed round the world. This is a promotional video from The Phoenix International School, Malawi.
+The show has been performed round the world. This is a promotional video from Phoenix International Primary School, Malawi.
  https://youtu.be/Lm5ZTH_RIxc
 
 Running time approx: 55 minutes
