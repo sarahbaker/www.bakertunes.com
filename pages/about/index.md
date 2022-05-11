@@ -26,6 +26,12 @@ compositions:
     name: "2022"
     data:
       -
+        title: "*Through The Valleys*"
+        excerpt: "Soul Song"
+      -
+        title: "*Two Become One*"
+        excerpt: "[Soul Song](https://www.bakertunes.com/composer/pianomusic/two-become-one/) to commemorate the Anniversary of a much loved wife and friend"
+      -
         title: "*Live As One*"
         excerpt: "Song for choirs, on the theme of neighbourliness, friendship and community, written for national charity, [As One](https://as-one.org/birmingham)"
       -
