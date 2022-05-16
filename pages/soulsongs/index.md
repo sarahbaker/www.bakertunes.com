@@ -20,9 +20,10 @@ pricing:
     list:
       - Themes drawn from our one-to-one consultation
       - My time, dedicated to finding the musical expression that perfectly fits your life moment
-      - A digital performance of your piece, polished and rehearsed to embody the nuance and depth of your music
-      - A printed or hand-written score, in a presentation binding or frame
-  suffix: Prices for music videos on application
+      - An mp3 digital performance of your piece, polished and rehearsed to embody the nuance and depth of your music 
+      - A video of your music with the score as visuals
+      - A printed or hand-written score, in a presentation binding 
+  suffix: Prices for music videos with photos or images other than the score on application
 testimominals_label: "What people have said about their Soul Song:"
 testimonials:
   -
@@ -113,9 +114,11 @@ Inspired by your story, your words and emotions, I will create a bespoke piece o
 **You will receive:**
 
 - a recording of the piece in digital format
-- a printed or hand-written score, in a presentation binding or frame
+- a printed or hand-written score, in a presentation binding
+- an mp3 recording of your music
+- a video of your music with score as visuals
 
-Videos can be ordered according to requirements.
+Videos with personal photos or images can be ordered according to requirements.
 
 ### Next steps
 
