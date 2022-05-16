@@ -113,10 +113,9 @@ Inspired by your story, your words and emotions, I will create a bespoke piece o
 
 **You will receive:**
 
-- a recording of the piece in digital format
-- a printed or hand-written score, in a presentation binding
-- an mp3 recording of your music
+- an mp3 recording of your piece 
 - a video of your music with score as visuals
+- a printed or hand-written score, in a presentation binding
 
 Videos with personal photos or images can be ordered according to requirements.
 
