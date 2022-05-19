@@ -17,7 +17,7 @@ tags:
   - '#soulsong'
 ---
 
-  This soul Song was commissioned to reflect a friend's life journey. 
+  This Soul Song was commissioned to reflect a friend's life journey. 
   
   The composition was inspired by deeply personal themes of loss, resilience, redemption and recovery. It seeks to portray the conflicting emotions and experiences of an extraordinary life story. 
 
