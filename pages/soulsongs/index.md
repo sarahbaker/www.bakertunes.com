@@ -82,6 +82,14 @@ testimonials:
     link:
       title: Two Become One
       path: /composer/pianomusic/two-become-one/
+  -
+    quote: "The piece of music which Sarah wrote for me left me speechless... She has essentially bequeathed me a musical mirror to look into and understand myself, my journey and my dreams. What a wonderful gift."
+    name: Greg
+    location: Birmingham, UK
+    context: Music inspired by an extraordinary life
+    link:
+      title: Through The Valleys
+      path: /composer/pianomusic/through-the-valleys/
 tags:
   - '#nav'
   - '#footersecondary'
