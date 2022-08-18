@@ -19,3 +19,5 @@ tags:
 Using themes from HRH Her Majesty The Queen's messages to the Commonwealth in previous games, it promotes togetherness, diversity and inclusion. 
 
 The music is written for SSA and is a joyful call to come together so that the whole community can grow through everyone playing an important part.
+
+The Phoenix International School in Malawi recorded the song as part of a project funded by the Lunar Society in Birmingham. It is a lovely example of how music brings together people from different parts of the world. 
