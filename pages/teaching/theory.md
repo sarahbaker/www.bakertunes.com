@@ -10,6 +10,9 @@ main_classes:
   - section-teaching
   - page-teaching
   - page-teaching--theory
+new_theory:
+  visible: true
+  expected: true
 back:
   title: Teaching
   path: /teaching/

@@ -9,6 +9,9 @@ calendly: false
 no_spaces:
   visible: true
   expected: false
+new_theory:
+  visible: true
+  expected: true
 main_classes:
   - section-teaching
   - page-teaching

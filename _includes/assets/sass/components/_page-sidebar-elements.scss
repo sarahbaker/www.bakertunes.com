@@ -4,7 +4,8 @@
 .proserviceduct-pricing,
 .soulsong-container,
 .service-promote,
-.no-spaces-micro {
+.no-spaces-micro,
+.theory-starting-micro {
   background-color: $outer-space;
   color: $white;
   margin-bottom: px-to-rem($mobile-space);
@@ -17,6 +18,16 @@
     &:not(:last-child) {
       margin-bottom: $mobile-space * 0.5;
     }
+
+    &.micro-label-large {
+      font-size: $body-font-size;
+      line-height: $body-line-height;
+    }
+
+    &.micro-label-v-large {
+      font-size: $lg-body-font-size;
+      line-height: $lg-body-line-height;
+    }
   }
 
   ul {
@@ -27,11 +38,19 @@
       line-height: $body-line-height-mobile;
     }
   }
+
+  a {
+    color: $white;
+  }
 }
 
 .no-spaces-micro,
 .service-openings {
   background-color: $rolling-stone;
+}
+
+.theory-starting-micro {
+  background-color: $teal;
 }
 
 @include respond-to('medium') {

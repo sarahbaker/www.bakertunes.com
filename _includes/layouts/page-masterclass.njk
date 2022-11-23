@@ -29,6 +29,10 @@ main_classes:
       {% include "layouts/components/no-spaces-micro.njk" %}
     {% endif %}
 
+    {% if new_theory.visible %}
+      {% include "layouts/components/new-theory-micro.njk" %}
+    {% endif %}
+
     {% include "layouts/components/about-micro.njk" %}
 
     {% if pricing %}

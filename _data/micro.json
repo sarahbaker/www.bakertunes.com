@@ -5,5 +5,9 @@
   "noSpaces": {
     "label": "No spaces available currently",
     "expected": "Spaces expected September 2022"
+  },
+  "theoryStarting": {
+    "label": "New theory class starting",
+    "expected": "<a href=\"mailto:bakertunes@gmail.com?subject=Enquiry: January 2023 music theory class\">Sign up</a> for January 2023"
   }
 }
