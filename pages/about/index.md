@@ -26,8 +26,17 @@ compositions:
     name: "2022"
     data:
       -
+        title: "*Splash Around Some Colour!*"
+        excerpt: "Song composed for the Festival of Colours, or Holi. Written originally for SFE. [YouTube](https://www.youtube.com/watch?v=YU7DC6I7H6U)"
+      -
+        title: "*Let Light Shine*"
+        excerpt: "Song for young choirs on the theme of light, inspired by the festival of Diwali. Written for SFE vocal department to be used in Birmingham schools. [YouTube](https://www.youtube.com/watch?v=Vq6P2cnALzs&t=7s)"
+      -  
+        title: "*The Blossom Dances*"
+        excerpt: "[Soul Song](https://www.youtube.com/watch?v=3Knc1tthXX8) written to celebrate a significant birthday"
+      -
         title: "*Through The Valleys*"
-        excerpt: "Soul Song"
+        excerpt: "[Soul Song](https://www.bakertunes.com/composer/pianomusic/through-the-valleys/) inspired by the life story of a remarkable man"
       -
         title: "*Two Become One*"
         excerpt: "[Soul Song](https://www.bakertunes.com/composer/pianomusic/two-become-one/) to commemorate the anniversary of a much loved wife and friend"
