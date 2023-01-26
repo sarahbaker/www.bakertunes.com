@@ -14,6 +14,6 @@ tags:
   - SoundTots
 ---
 
-Listen To The Sounds is a new song I have written for [Services For Education](www.servicesforeducation.co.uk) SoundTots, a scheme for supporting music in Foundation and Early years.
+Listen To The Sounds is a new song I have written for [Services For Education](www.servicesforeducation.co.uk) SoundTots, a scheme for supporting music in Foundation and Early Years.
 
-My intention was to write a song that encouraged children to stop and listen to sounds going on around them in the room or nearby.
+My intention was to write a song that encouraged children to stop and listen to sounds going on around them in the room or nearby. There is space at the end of the sung verse to listen and then describe what can be heard. 
