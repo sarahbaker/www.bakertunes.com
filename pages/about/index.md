@@ -28,7 +28,7 @@ compositions:
       - 
         title: "*Coronation!*"
         excerpt: "A Coronation song to celebrate the Coronation of King Charles III. Composed for SFE vocal department to share in Birmingham schools. [YouTube](https://www.youtube.com/watch?v=-_R73WfiSi8)"
-      -
+  -
     name: "2022"
     data:
       -
