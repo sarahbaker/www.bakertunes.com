@@ -23,6 +23,12 @@ work:
   - "Vocal coach for workplace singing events"
 compositions:
   -
+    name: "2023"
+    data: 
+      - 
+        title: "*Coronation!*"
+        excerpt: "A Coronation song to celebrate the Coronation of Charles III. Composed for SFE vocal department to share in Birmingham schools. [YouTube](https://www.youtube.com/watch?v=-_R73WfiSi8)"
+    
     name: "2022"
     data:
       -
