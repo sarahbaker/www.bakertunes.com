@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Easter's Coming!
 soundcloud_id:
-youtube_id: LBpPeOHVC_g
+youtube_id: eNPvMlwSbVs
 score:
   pdf:
   image:
