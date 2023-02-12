@@ -3,7 +3,7 @@ layout: layouts/page.njk
 category: songs
 section: songs
 title: Wonderful Life
-youtube_id: Oupa6kGT82Q
+youtube_id: jW89q0IXF0A
 soundcloud_id:
 score:
   pdf:
@@ -17,8 +17,3 @@ tags:
 
 The song is a happy reflection on how wonderful life seems when nature is flourishing and the environment around us is healthy. I will always associate writing this song while on a cycling trip to Herefordshire. As I travelled, I was going over the lyrics in my head while enjoying the beautiful views and the sounds of bubbling brooks and birdsong.
 
-&nbsp;
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Oupa6kGT82Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-&nbsp;

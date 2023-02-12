@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: I Wish I Could Be Like A Butterfly
 soundcloud_id:
-youtube_id: y4ABrrZWpKA
+youtube_id: 8LSdsmofSCM
 score:
   pdf:
   image:

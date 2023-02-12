@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Wake Up! (Look at the signs)
 soundcloud_id:
-youtube_id: TRn-HuWSWSo
+youtube_id: TwfyyJEtfak
 score:
   pdf:
   image:

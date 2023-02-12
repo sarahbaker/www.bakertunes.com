@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Following The Star
 soundcloud_id:
-youtube_id: 65OpKtXaXFc
+youtube_id: 5n2iBRq9U6M
 score:
   pdf:
   image:

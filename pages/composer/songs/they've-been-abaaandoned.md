@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: They've Been Abaaandoned!
 soundcloud_id:
-youtube_id: 36aT3hM53U0
+youtube_id: 3umqB3CqceQ
 score:
   pdf:
   image:

@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Prince Of Peace
 soundcloud_id:
-youtube_id: r7g6l6ym-io
+youtube_id: oNm5CHlALwA
 score:
   pdf:
   image:

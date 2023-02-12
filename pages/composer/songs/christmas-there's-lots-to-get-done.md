@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Christmas! There's Lots To Get Done
 soundcloud_id:
-youtube_id: AaNmzqji1jA
+youtube_id: k3JOZiYBjj4
 score:
   pdf:
   image:

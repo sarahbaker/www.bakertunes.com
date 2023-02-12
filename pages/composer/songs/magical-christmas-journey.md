@@ -4,7 +4,7 @@ category: songs
 section: songs
 title: Magical Christmas Journey
 soundcloud_id:
-youtube_id: iKXAtymAWAE
+youtube_id: PoepU_AcSsM
 score:
   pdf:
   image:

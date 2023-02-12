@@ -3,7 +3,7 @@ layout: layouts/page.njk
 category: songs
 section: songs
 title: Barbecues, Burgers and Buns
-youtube_id: ztK8IYphqxk
+youtube_id: cUbNbwDKMSc
 soundcloud_id:
 score:
   pdf:
