@@ -15,6 +15,6 @@ A short, reflective piece, remembering what it was like to have time to just sit
 
 This piece is a re-working of my earlier piece, [*Footfall*](https://www.bakertunes.com/pianomusic/footfall/)
 
-Inspired by childhood memories, *Watching The World Go By* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions/). They complement my earlier works, [*Night Time Impressions*.](https://www.bakertunes.com/pianomusic/night-time-impressions/)
+Inspired by childhood memories, *Watching The World Go By* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](/composer/publications/day-time-impressions/). They complement my earlier works, [*Night Time Impressions*.](/composer/publications/night-time-impressions/)
 
-Soon available from [Forsyths](https://www.forsyths.co.uk/)
+Available to buy from [Forsyths](https://www.forsyths.co.uk/music/forsyth-publications/forsyth-publications-by-instrument/piano/148406-day-time-impressions-sarah-baker-piano-sheet-music-9790570500192.html)

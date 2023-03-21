@@ -19,5 +19,5 @@ Night has passed and the sun begins to rise.
 
 This is the last piece in my collection, *Night Time Impressions* - a series of 8 piano pieces that takes the performer and listener on a journey from dusk to dawn through the darkness of the night.
 
-Soon available from [Forsyths](https://www.forsyths.co.uk/)
+Available to buy from [Forsyths](https://www.forsyths.co.uk/music/forsyth-publications/forsyth-publications-by-instrument/piano/148404-night-time-impressions-sarah-baker-piano-sheet-music-9790570500192.html)
 

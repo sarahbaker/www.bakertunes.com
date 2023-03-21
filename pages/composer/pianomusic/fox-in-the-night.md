@@ -1,7 +1,7 @@
 ---
 layout: layouts/pianomusic.njk
 category: pianomusic
-title: The Urban Fox
+title: Fox in the Night
 date: 2020-10-14
 score:
   pdf: 
@@ -15,6 +15,6 @@ This musical picture imagines the jaunty urban fox swaggering through the night.
 
 
 
-Inspired by childhood memories, *The Urban Fox* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](https://www.bakertunes.com/pianomusic/day-time-impressions). They complement my earlier works, [*Night Time Impressions*.](https://www.bakertunes.com/pianomusic/night-time-impressions/)
+Inspired by childhood memories, *The Urban Fox* is part of a collection of pieces for intermediate piano, [*Day Time Impressions*](/composer/publications/day-time-impressions/). They complement my earlier works, [*Night Time Impressions*.](/composer/publications/night-time-impressions/)
 
 Soon available from [Forsyths](https://www.forsyths.co.uk/)
