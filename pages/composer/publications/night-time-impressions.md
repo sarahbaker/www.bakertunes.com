@@ -17,6 +17,9 @@ promoted: true
 
 Suitable for players of around grade 4-5 standard, these evocative sound pieces begin at the tranquility of dusk and move through the dark shadows of night to the exuberant and joyful dawn chorus.
 
-All the pieces are inspired by memories of growing up with woods behind my house, and the sounds and images that linger in my mind. 
+All the pieces are inspired by memories of growing up with woods behind my house, and the sounds and images that linger in my mind from childhood. 
+
+Also available in digital format from [sheetmusicdirect](https://www.sheetmusicdirect.com/en-US/se/ID_No/1337179/Product.aspx) and [sheetmusicplus](https://www.sheetmusicplus.com/title/night-time-impressions-digital-sheet-music/22518242) 
+
 
 My own recordings of each of the pieces can be watched on [YouTube](https://www.youtube.com/watch?v=ToZbqYkeDJA&list=PLQ1kAgbWArKxYoyrBO-TN0s8u9JCI8Zt_)

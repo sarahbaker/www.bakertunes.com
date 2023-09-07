@@ -25,6 +25,12 @@ compositions:
   -
     name: "2023"
     data: 
+      -
+        title: "*Splash all the Colours*"
+        excerpt: "A feel-good song for younger singers, inspired by the Hindu Festival of Colours. Composed for SFE vocal department to share in Birmingham schools. [YouTube](https://www.youtube.com/watch?v=iiMLlbLw4Uc)" 
+      -
+        title: "*What's Going To Happen When King Charles Is Crowned?*"
+        excerpt: "A Coronation song for younger singers to celebrate the Coronation of King Charles III. Composed for SFE vocal department to share in Birmingham schools. [YouTube](https://www.youtube.com/watch?v=1ipcP75rWqQ)"
       - 
         title: "*Coronation!*"
         excerpt: "A Coronation song to celebrate the Coronation of King Charles III. Composed for SFE vocal department to share in Birmingham schools. [YouTube](https://www.youtube.com/watch?v=-_R73WfiSi8)"

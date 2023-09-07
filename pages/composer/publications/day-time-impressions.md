@@ -15,6 +15,10 @@ promoted: true
 
 **9 pieces for solo piano inspired by memories from childhood**
 
-Suitable for players of around grade 4-5 standard, these evocative sound pieces describe a crash-landing hot air balloon, garden invading cows and even a snake in a pond!
+I loved writing these pieces for solo piano, drawing on childhood memories. We lived in a beautiful part of the Chilterns and I spent hours in the garden and countryside where wonderful things happened! 
+
+Suitable for players of around grade 4-6 standard, these evocative sound pieces describe a crash-landing hot air balloon, garden invading cows and even a snake in a pond!
+
+Also available in digital format from [sheetmusicdirect](https://www.sheetmusicdirect.com/en-US/se/ID_No/1336183/Product.aspx) and [sheetmusicplus](https://www.sheetmusicplus.com/title/day-time-impressions-digital-sheet-music/22519278)
 
 My own recordings of each of the pieces can be watched on [YouTube](https://www.youtube.com/watch?v=pSYz07QEQ8U&list=PLQ1kAgbWArKy9FARskZs_MALFCfH4ZV6S).
