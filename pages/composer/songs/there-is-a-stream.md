@@ -6,11 +6,8 @@ title: There Is A Stream
 youtube_id: pUEMV7VwGMI
 score:
   pdf: there-is-a-stream.pdf
-  image: there-is-a-stream.jpg
+  image: there-is-a-stream1.jpg
 soundcloud_id:
-score:
-  pdf:
-  image:
 tags:
   - choral
   - Remembrance
