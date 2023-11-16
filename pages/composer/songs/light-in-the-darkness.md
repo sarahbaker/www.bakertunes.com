@@ -4,13 +4,14 @@ category: songs
 section: songs
 title: Light In The Darkness
 soundcloud_id: 73288859
-youtube_id: 
+youtube_id: 4kWJbiuSwPU
 score:
-  pdf: light-in-the-darkness.pdf
+  pdf: light-in-the-darkness-full-score.pdf
   image: light-in-the-darkness.jpg
 tags:
   - Spiritual
   - Solo
+  - Choral
 ---
 
 Light In The Darkness is a song I wrote at Christmas 2012. I had been looking at the cards depicting the nativity scene with the baby Jesus lying in the manger, so often with light shining around him. In many of the cards this light would penetrate out of open stable doors into the night.
