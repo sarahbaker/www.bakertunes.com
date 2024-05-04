@@ -2,5 +2,6 @@
   {% if openings.prefix %}
   <div class="service-openings--prefix">{{ openings.prefix }}</div>
   {% endif %}
-  <div class="service-openings--date centered h2-style">{{ openings.date }}</div>
+  {# <div class="service-openings--date centered h2-style">{{ openings.date }}</div> #}
+  <div class="service-openings--date centered h2-style">{{ util.nextMonth() }}</div>
 </div>

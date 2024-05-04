@@ -11,17 +11,19 @@ order: 9
 tags:
   - '#nav'
   - '#footer'
-work:
-  - "Vocal Composer in Residence, [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html)"
-  - "Examiner for [ABRSM](https://gb.abrsm.org/en/home) since 2017"
-  - "Composer, producer and arranger"
-  - "Peripatetic and classroom music teacher"
-  - "Conductor, primary and secondary school choirs"
-  - "2 years' experience as tutor, Birmingham Schools Singers"
-  - "Piano and vocal specialist teaching, including theory"
-  - "Accompanist"
-  - "Vocal coach for workplace singing events"
 compositions:
+  -
+    name: "2024"
+    data:
+      -
+        title: "*Floating Through Clouds*"
+        excerpt: Meditative piece for solo piano inspired by shifting skyscapes
+      -
+        title: "*Transformations*"
+        excerpt: EP recording of piano solos from the *Transformations* collection written in 2020. Available on most music streaming platforms. [Spotify](https://open.spotify.com/album/7yNVk50pBNyDLqNCvvIfaF?si=6fsW1WjwSzuiO-VCXc38jw)
+      -
+        title: "*So Proud To Be Brummie*"
+        excerpt: "A song written for the Birmingham 'Proud To Be A Brummie' festival supported by [BEP](https://bep.education/). Composed in collaboration with Yardley Wood Community Primary School."
   -
     name: "2023"
     data: 
@@ -258,7 +260,7 @@ My first experience of recording for film came when I was sixteen. My Dad had ma
 From 1991-1994 I took a Bmus degree at Birmingham University and studied piano with Alison Pottinger at the Birmingham Conservatoire. During these three years I specialised in performance, electronic composition and orchestration, going on to do a Masters in Performance Studies at the Birmingham Conservatoire from 1995-1997. During this time I performed in master classes, including those with Peter Donohoe and Philip Martin, and was a finalist in several competitions. 
 
 
-I have now worked in music education for over twenty years and have gradually developed my skills as a composer. The [Music Shakers](www.musicshakers.com) CD project was a great opportunity to try new styles and technologies, and I am really pleased to have worked with [Starshine Music](www.starshinemusic.co.uk), [Out of The Ark Music](https://www.outoftheark.co.uk/) and [Edgy Productions](www.edgyproductions.com) more recently. My latest piano compositions will be available through [Forsyths](https://www.forsyths.co.uk/) later in the year.
+I have now worked in music education for over twenty years and have gradually developed my skills as a composer. The [Music Shakers](www.musicshakers.com) CD project was a great opportunity to try new styles and technologies, and I am really pleased to have worked with [Starshine Music](www.starshinemusic.co.uk), [Out of The Ark Music](https://www.outoftheark.co.uk/) and [Edgy Productions](www.edgyproductions.com) more recently. My latest piano compositions are available through [Forsyths](https://www.forsyths.co.uk/) .
 
 
 I became Vocal Composer in Residence for [Services for Education Music Services](www.servicesforeducation.co.uk) in 2012. Since then I have written commissions and regularly write songs for the Primary Choir which sings in the end of year Youth Prom concerts at Symphony Hall. This is a wonderful opportunity to hear over five hundred children singing together in one of the UK's best concert venues.

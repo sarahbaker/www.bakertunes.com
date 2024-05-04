@@ -22,13 +22,14 @@ layout: layouts/base.njk
       </figure>
     {% endif %}
 
-    {% include "layouts/components/about-micro.njk" %}
+    {# {% include "layouts/components/about-micro.njk" %} #}
 
     {% if calendly %}
       {% include "layouts/components/calendly.njk" %}
     {% endif %}
   </div>
 
+{% if work.length %}
   <div class="about-me--item about-me--work">
 
     <h2 id="work" tabindex="1">Work, Expertise and Skills</h2>
@@ -40,6 +41,7 @@ layout: layouts/base.njk
     </ul>
 
   </div>
+{% endif %}
 
   <div class="about-me--item about-me--compositions" id="compositions">
 

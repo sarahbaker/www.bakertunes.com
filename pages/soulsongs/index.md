@@ -10,7 +10,7 @@ image: unsplash/james-zwadlo-nj0vGyFB2nY-unsplash-1000.jpeg
 order: 8
 openings:
   prefix: Next bookings available
-  date: May 2022
+  date: May 2024
 pricing:
   price: £500
   prefix: from
