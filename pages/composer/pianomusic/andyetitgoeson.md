@@ -18,3 +18,5 @@ I wrote this piece for solo piano during the period of lockdown caused by the Co
 The music reflects these thoughts and feelings in the way in which repetition and thematic development interweave in the piece.
 
 The images in the video were taken on daily walks in the local park during the same period. They capture something of the blossoming of Spring during this time.
+
+Now available as part of my EP *Transformations* on [Spotify](https://open.spotify.com/album/7yNVk50pBNyDLqNCvvIfaF?si=PBR7TTV-RZaz-fQKd6MSKQ)

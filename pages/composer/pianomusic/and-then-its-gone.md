@@ -14,3 +14,5 @@ tags:
 ---
 
 This musical miniature pairs with my last piece,  _A moment …_ The harmonic language is similar, and motifs are further explored in this second piece. I have worked with the idea of colourful snatches of time, momentary sounds or experiences that seem to float in the breeze and then disappear - maybe the distant sounds of street musicians or a carnival some way off.
+
+Now available as part of my EP *Transformations* on [Spotify](https://open.spotify.com/album/7yNVk50pBNyDLqNCvvIfaF?si=PBR7TTV-RZaz-fQKd6MSKQ)
