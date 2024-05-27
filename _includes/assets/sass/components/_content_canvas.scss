@@ -9,7 +9,7 @@
     [main-start]
       minmax(15ch, calc(#{$break-large} - 3rem))
     [main-mid]
-      minmax(15ch, auto)
+      minmax(15ch, 40ch)
     [main-end]
       minmax(0, auto)
     [wide-end]
@@ -53,6 +53,10 @@
       width: 100%;
     }
   } 
+}
+
+.content-canvas-item-left {
+  grid-column: main-start/main-mid;
 }
 
 .content-canvas-item-wide {
@@ -116,6 +120,14 @@
 
   .content-canvas-item-wide-right {
     grid-column: main-mid/wide-end;
+  }
+
+  .content-canvas-item-full-right {
+    grid-column: main-mid/full-end;
+
+    &.content-canvas-item-full-right--span-2 {
+      grid-row: span 2;
+    }
   }
 
   .pull-right {

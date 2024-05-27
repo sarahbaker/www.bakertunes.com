@@ -1,0 +1,43 @@
+.home-promo {
+  background-color: $outer-space;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+
+  .item-thing {
+    &.image {
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        position: absolute;
+        content: ' ';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: cover;
+        background-position-x: right;
+        background-position-y: 75%;
+        transition: all 0.3s ease;
+        background-image: var(--promo-background);
+      }
+    }
+  }
+
+  &:hover {
+    background-color: darken($outer-space, 5%);
+    transition: all 0.3s ease;
+
+    .item-thing {
+      &.image {
+        &::before {
+          transform: scale(1.05);
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
