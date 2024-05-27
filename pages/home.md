@@ -17,7 +17,7 @@ promo:
   title: Transformations
   excerpt: "EP now out"
   path: /composer/pianomusic/transformations/
-  image: scores/transformations.jpg
+  image: scores/Transformations.jpg
 soulsongs:
   title: Soul Songs
   excerpt: Unique pieces for solo piano, composed especially for you
