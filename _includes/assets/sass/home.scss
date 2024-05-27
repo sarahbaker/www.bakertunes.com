@@ -42,6 +42,30 @@
   }
 }
 
+.home-item--inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  .item-thing {
+    flex: 1 1 25ch;
+  }
+
+  .excerpt {
+    font-size: $lg-body-font-size-mobile;
+    line-height: $lg-body-font-size-mobile;
+    padding: 1.5rem 0;
+  }
+}
+
+@include respond-to('medium') {
+  .home-item {
+    .excerpt {
+      font-size: $lg-body-font-size;
+      line-height: $lg-body-font-size;
+    }    
+  }  
+}
+
 @include respond-to('large') {
   .home--header {
     font-size: $h3-font-size;
@@ -58,6 +82,19 @@
   .home--header--all-padding {
     padding: 3rem;
   }
+
+  .home-item {
+    h2 {
+      font-size: $h1-lg-font-size;
+      line-height: $h1-lg-line-height;
+    }
+
+    .item-thing {
+      &.content {
+        padding: 12rem 3rem;
+      }
+    }
+  }
 }
 
 /* --------------------------------------------------------------
@@ -66,6 +103,11 @@
 @import "./components/home/composer";
 
 /* --------------------------------------------------------------
-# Composer
+# Soulsongs
 -------------------------------------------------------------- */
 @import "./components/home/soulsongs";
+
+/* --------------------------------------------------------------
+# Promo
+-------------------------------------------------------------- */
+@import "./components/home/promo";

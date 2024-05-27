@@ -1,0 +1,14 @@
+<a href="{{ promo.path }}" class="faux-block-link content-canvas-item-full"><span class="hide-text" aria-hidden="true">{{ promo.title }}</span></a>
+<div class="home--header--all-padding home-item--inner home-promo--inner content-canvas-item-left">
+  <div class="item-thing content">
+    <h2><a href="{{ promo.path }}">{{ promo.title }}</a></h2>
+    <div class="excerpt">
+      {{ promo.excerpt }}
+    </div>
+    <div class="link">
+      <a href="{{ promo.path }}" class="single-meta-item single-meta-forward">Find out about {{ promo.title }}</a>
+    </div>
+  </div>
+</div>
+
+<div class="content-canvas-item-full-right content-canvas-item-full-right--span-2 item-thing image" style="--promo-background: url('/static/images/{{ promo.image }}')"></div>

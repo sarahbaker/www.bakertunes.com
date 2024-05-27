@@ -28,6 +28,14 @@ styles:
   </div>
 </div>
 
+{% if promo.show %}
+<div class="site-content site-content--zero-spacing content-canvas site-content--zero-padding home-item home-promo">
+  <div class="content-canvas-item-full faux-block-link-parent content-canvas">
+    {% include "layouts/components/home/promo.njk" %}
+  </div>
+</div>
+{% endif %}
+
 <div class="site-content site-content--zero-spacing content-canvas content-canvas--zero-top-padding home-soulsongs">
   <div class="content-canvas-item-full faux-block-link-parent content-canvas">
     {% include "layouts/components/home/soulsongs.njk" %}
