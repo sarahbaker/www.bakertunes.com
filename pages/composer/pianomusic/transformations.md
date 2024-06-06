@@ -2,7 +2,7 @@
 layout: layouts/pianomusic.njk
 category: pianomusic
 title: Transformations
-date: 2020-08-20tran
+date: 2020-08-20
 score: 
   pdf: transformations-full-score.pdf
   image: Transformations.jpg
