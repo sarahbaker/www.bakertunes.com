@@ -19,7 +19,7 @@ Suitable for players between grades 3-5 standard, these evocative sound pieces b
 
 All the pieces are inspired by memories of growing up with woods behind my house, and the sounds and images that linger in my mind from childhood. 
 
-*Shadows* is now on the ABRSM 2025-26 syllabus as an alternative piece in List A.
+I'm delighted that *Shadows* is now on the ABRSM 2025-26 syllabus as an alternative piece in List A.
 
 Also available in digital format from [sheetmusicdirect](https://www.sheetmusicdirect.com/en-US/se/ID_No/1337179/Product.aspx) and [sheetmusicplus](https://www.sheetmusicplus.com/title/night-time-impressions-digital-sheet-music/22518242) 
 
