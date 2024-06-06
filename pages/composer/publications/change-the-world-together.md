@@ -8,7 +8,7 @@ publication_url: https://www.starshine.co.uk/products?c=/musicals/primary-school
 publication_type: Musical
 publisher: Starshine Music
 order: 1
-promoted: true
+promoted: false
 ---
 
 <small>**By Sarah Baker**</small>

@@ -8,7 +8,7 @@ publication_url: https://www.forsyths.co.uk/music/forsyth-publications/forsyth-p
 publication_type: Piano music
 publisher: Forsyth Music
 order: 0
-promoted: true
+promoted: false
 ---
 
 <small>**By Sarah Baker**</small>
