@@ -6,7 +6,7 @@ image: //www.edgyproductions.com/wp-content/uploads/2016/07/Behind-The-Stable-Do
 publication_url: https://www.edgyproductions.com/shop/behind-the-stable-door/
 publication_type: Musical
 publisher: Edgy Productions
-order: 4
+order: 2
 ---
 
 <small>**By Sarah Baker & Andrew Oxspring**</small>

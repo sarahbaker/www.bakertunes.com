@@ -6,7 +6,7 @@ image: /static/images/resources/breaking_news_cover.jpg
 publication_url: https://www.tes.com/teaching-resource/breaking-news-in-bethlehem-a-christmas-musical-12167162
 publication_type: Musical
 publisher: Bakertunes via Tes
-weight: 5
+weight: 2
 promoted: false
 ---
 
