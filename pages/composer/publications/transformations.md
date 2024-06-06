@@ -2,11 +2,11 @@
 layout: layouts/publication.njk
 category: publications
 title: Transformations
-image: Transformations.jpg
+image: 
 publication_type: EP
 publication_url: 
 publisher: Bakertunes
-weight: 1
+weight: 3
 promoted: false
 ---
 
