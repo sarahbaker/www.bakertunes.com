@@ -2,9 +2,9 @@
 layout: layouts/publication.njk
 category: publications
 title: Here Comes Christmas!
-image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/main/-hidden-product-category-images/christmas-nativities-here-comes-christmas-300x370.jpg
+image: https://www.starshine.co.uk/files/songbooks/here-comes-christmas/Here-Comes-Christmas-big.jpg
 publication_type: Songbook
-publication_url: https://www.starshine.co.uk/here-comes-christmas
+publication_url: https://www.starshine.co.uk/products?c=/songs&p=/here-comes-christmas
 publisher: Starshine Music
 weight: 1
 ---

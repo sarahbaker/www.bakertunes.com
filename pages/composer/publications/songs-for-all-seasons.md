@@ -2,9 +2,9 @@
 layout: layouts/publication.njk
 category: publications
 title: Songs for all Seasons
-image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/main/-hidden-product-category-images/all-year-round-primary-school-musicals-AYR_0001s_0000_Group-1-copy-300x370.jpg
+image: https://www.starshine.co.uk/files/songbooks/songs-for-all-seasons/Songs%20For%20All%20Seasons.jpg
 publication_type: Songbook
-publication_url: https://www.starshine.co.uk/songs-for-all-seasons
+publication_url: https://www.starshine.co.uk/products?c=/songs&p=/songs-for-all-seasons
 publisher: Starshine Music
 weight: 1
 promoted: true

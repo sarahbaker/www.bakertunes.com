@@ -2,9 +2,9 @@
 layout: layouts/publication.njk
 category: publications
 title: Magical Christmas Journey
-image: https://www.starshine.co.uk/_app_/resources/images/www.starshine.co.uk/main/-hidden-product-category-images/christmas-nativities-magical-christmas-journey-300x370.jpg
+image: https://www.starshine.co.uk/files/musicals/magical-christmas-journey/Magical%20Christmas%20Journey-large.jpg
 publication_type: Musical
-publication_url: https://www.starshine.co.uk/magical-christmas-journey
+publication_url: https://www.starshine.co.uk/products?c=/nativities&p=/magical-christmas-journey
 publisher: Starshine Music
 order: 4
 promoted: false
