@@ -7,7 +7,7 @@ image: https://s3-eu-west-1.amazonaws.com/assets.forsyths.co.uk/img/p/148404-276
 publication_url: https://s3-eu-west-1.amazonaws.com/assets.forsyths.co.uk/img/p/148404-276588-thickbox.jpg
 publication_type: Piano music
 publisher: Forsyth Music
-order: 2
+order: 1
 promoted: true
 ---
 
@@ -19,7 +19,7 @@ Suitable for players between grades 3-5 standard, these evocative sound pieces b
 
 All the pieces are inspired by memories of growing up with woods behind my house, and the sounds and images that linger in my mind from childhood. 
 
-I'm delighted that *Shadows* is now on the ABRSM 2025-26 syllabus as an alternative piece in List A.
+I'm delighted that *Shadows* is now on the ABRSM 2025-26 syllabus as an alternative piece in List A. You can read more about the piece in my short blog [here](https://medium.com/@bakertunes/shadows-20dcfb3566b9)
 
 Also available in digital format from [sheetmusicdirect](https://www.sheetmusicdirect.com/en-US/se/ID_No/1337179/Product.aspx) and [sheetmusicplus](https://www.sheetmusicplus.com/title/night-time-impressions-digital-sheet-music/22518242) 
 
