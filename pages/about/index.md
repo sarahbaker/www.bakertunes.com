@@ -16,6 +16,9 @@ compositions:
     name: "2024"
     data:
       - 
+        title: "*Love Notes*"
+        excerpt: A poignant and nostalgic piece for piano, written at a time of transition and change.
+      - 
         title: "*Sunlight On Water*"
         excerpt: A gentle, soothing piece for piano solo, inspired by sunlight sparkles on gently rippling water. Played on BBC Sounds Sleeping Forecast 29/09/24
       - 
