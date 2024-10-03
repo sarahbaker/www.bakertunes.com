@@ -15,11 +15,15 @@ compositions:
   -
     name: "2024"
     data:
-      - title: "Grey Skies"
-        excerpt: Relaxing and poignant piano solo, composed on a grey-sky day. A sense of hope towards the end as the sun breaks through.
+      - 
+        title: "*Sunlight On Water*"
+        excerpt: A gentle, soothing piece for piano solo, inspired by sunlight sparkles on gently rippling water. Played on BBC Sounds Sleeping Forecast 29/09/24
+      - 
+        title: "*Grey Skies*"
+        excerpt: Relaxing and poignant piano solo, composed on a grey-sky day.  A sense of hope towards the end as the sun breaks through. Played on BBC Sounds Sleeping Forecast 11/07/24
       -
         title: "*Floating Through Clouds*"
-        excerpt: Meditative piece for solo piano inspired by shifting skyscapes, played on BBC Sounds, Sleeping Forecast in May 2024
+        excerpt: Meditative piece for solo piano inspired by shifting skyscapes, played on BBC Sounds Sleeping Forecast 28/05/24
       -
         title: "*Transformations*"
         excerpt: EP recording of piano solos from the *Transformations* collection written in 2020. Available on most music streaming platforms. [Spotify](https://open.spotify.com/album/7yNVk50pBNyDLqNCvvIfaF?si=6fsW1WjwSzuiO-VCXc38jw)
