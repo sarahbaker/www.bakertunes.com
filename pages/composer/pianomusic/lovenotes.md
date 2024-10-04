@@ -6,7 +6,7 @@ date: 2024-09-26
 score:
   pdf: love-notesx.pdf
   image: love-notesx.jpg
-youtube_id: 
+youtube_id: g4hKYDxDeK4
 tags:
   - Solo piano
   - Score
