@@ -6,7 +6,7 @@ image: https://www.starshine.co.uk/files/musicals/magical-christmas-journey/Magi
 publication_type: Musical
 publication_url: https://www.starshine.co.uk/products?c=/nativities&p=/magical-christmas-journey
 publisher: Starshine Music
-order: 4
+order: 3
 promoted: false
 ---
 

@@ -13,4 +13,6 @@ tags:
   - Advanced Piano
 ---
 
-This poignant and nostalgic piece was written when my daughter left home. The emotional ebb and flow of the music mirrors the mixed emotions I felt - both joy at the opportunities ahead for her and sadness that our time together would be forever changed. 
+This poignant and nostalgic piece was written at a time of transition in my family life.
+
+As the music ebbs and flows, it leaves a lingering impression of memories and past friendships and relationships. I imagine a figure sitting under a tree, reading through old love letters and notes.
