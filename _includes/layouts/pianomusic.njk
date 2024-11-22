@@ -52,6 +52,10 @@ styles:
   </div>
   {% endif %}
 
+  {% if spotify_id %}
+    {% include "layouts/components/spotify-player.njk" %}
+  {% endif %}
+
   {% if youtube_id %}
     {% include "layouts/components/youtube-player.njk" %}
   {% endif %}
