@@ -39,6 +39,15 @@
   }
 }
 
+.secondary-nav {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
+
 .site-header__menu {
   height: 100%;
   cursor: pointer;

@@ -15,7 +15,7 @@ styles:
     {% endfor %}
   </div>
 
-  <h1 class="page-title">{{ title }}</h1>
+  <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="8">{{ title }}</h1>
 
   <div class="content-canvas-item{% if image or calendly or (tags and '#soulsong' in tags) or promote %}-left{% endif %}">
 
@@ -28,7 +28,7 @@ styles:
 
     {% if image %}
     <figure class="pull-right">
-      <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
+      <img src="/static/images/{{ image }}" alt="{{ title }} resource" class="img-responsive img-rounded"  data-pagefind-index-attrs="alt">
     </figure>
     {% endif %}
 
@@ -82,7 +82,7 @@ styles:
 
     {% if score.image %}
     <p>
-        <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" />
+        <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" loading="lazy" decoding="async" data-pagefind-index-attrs="alt" />
     </p>
     {% endif %}
   {% endif %}

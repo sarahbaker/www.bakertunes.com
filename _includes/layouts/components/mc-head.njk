@@ -4,9 +4,9 @@
         {% if back %}
         {% include "layouts/components/page-head-back.njk" %}
         {% endif %}
-        <h1 class="page-title">{{ title }}</h1>
+        <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="8">{{ title }}</h1>
 
-        <div class="description h3-style">{{ excerpt }}</div>
+        <div class="description h3-style" data-pagefind-weight="2">{{ excerpt }}</div>
       </div>
       <div class="mc--head--right"></div>
     </div>

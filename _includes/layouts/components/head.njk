@@ -37,11 +37,18 @@
     <style>{{ include_css | cssmin | safe }}</style>
     {% endfor %}
   {% endif %}
+
+  <!-- Pagefind CSS -->
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   {% set js %}
     {% include "assets/js/inline.js" %}
+    {% include "static/js/site.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
+  <!-- Pagefind JS -->
+  <script src="/pagefind/pagefind-ui.js"></script>
 
   {% include "layouts/components/head-social-cards.njk" %}
 </head>

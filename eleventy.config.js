@@ -6,6 +6,7 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
+import { execSync }  from 'child_process';
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -223,6 +224,11 @@ export default async function(eleventyConfig) {
       class: "direct-link visually-hidden",
       symbol: "#",
       level: [1,2,3,4],
+      renderAttrs: (slug) => {
+        let attrs = [];
+        attrs["data-pagefind-ignore"] = true;
+        return attrs;
+      }
     }),
     slugify: eleventyConfig.getFilter("slug")
   });
@@ -230,6 +236,13 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addFilter("markdown", (content) => {
     return markdownLibrary.render(content);
+  });
+
+  // Build PageFind search index
+  eleventyConfig.on('eleventy.after', async ({ dir, results, runMode, outputMode }) => {
+    if (results.length) { 
+      execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' });
+    }
   });
 };
 
