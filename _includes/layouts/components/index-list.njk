@@ -8,7 +8,7 @@
           {% endif %}
         {% endfor %}
         </div>
-        <h2><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
+        <h2 data-pagefind-weight="1"><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
         {% if item.data.youtube_id %}
         <img src="https://img.youtube.com/vi/{{ item.data.youtube_id }}/mqdefault.jpg" title="{{ item.data.title }}" class="img img-rounded img-responsive">
         {%elif item.data.youtube_playlist.id %}

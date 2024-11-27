@@ -48,7 +48,7 @@ styles:
     <div class="home--header home--header--all-padding home-composer--header">
       <h2><a href="/composer/">{{ composer.title }}</a></h2>
       {% if composer.excerpt %}
-      <div class="excerpt">
+      <div class="excerpt" data-pagefind-weight="2">
         {{ composer.excerpt }}
       </div>
       {% endif %}
@@ -70,7 +70,7 @@ styles:
     <div class="home--header home--header--all-padding home-teaching--header">
       <h2><a href="/teaching/">{{ teaching.title }}</a></h2>
       {% if teaching.excerpt %}
-      <div class="excerpt">
+      <div class="excerpt" data-pagefind-weight="2">
         {{ teaching.excerpt }}
       </div>
 

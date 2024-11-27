@@ -1,0 +1,25 @@
+/* ==========================================================================
+*   Helpers for backgrounds
+* =========================================================================== */
+
+.background-blur-\[2px\] {
+  backdrop-filter: blur(2px);
+}
+
+.background-blur-\[3px\] {
+  backdrop-filter: blur(3px);
+}
+
+.background-blur-\[4px\] {
+  backdrop-filter: blur(4px);
+}
+
+.border-radius,
+.border-radius-1 {
+  border-radius: var(--size-1);
+}
+
+
+.border-radius-2 {
+  border-radius: var(--size-2);
+}
