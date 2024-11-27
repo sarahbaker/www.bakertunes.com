@@ -8,4 +8,4 @@ function nextMonth() {
   return current.toLocaleString("en-GB", {month: "long", year: "numeric"});
 }
 
-module.exports = {nextMonth};
+export default { nextMonth };

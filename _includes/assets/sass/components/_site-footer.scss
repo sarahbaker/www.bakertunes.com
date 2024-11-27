@@ -65,6 +65,12 @@
       }
     }
 
+    &.bluesky {
+      &::after {
+        mask-image: url("/static/images/icons/bluesky.svg");
+      }
+    }
+
     &.mastodon {
       &::after {
         mask-image: url("/static/images/icons/mastodon.svg");

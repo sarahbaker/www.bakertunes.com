@@ -1,18 +1,17 @@
-const CleanCSS = require('clean-css');
-const UglifyJS = require('uglify-es');
-const htmlmin = require('html-minifier');
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginNavigation = require("@11ty/eleventy-navigation");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const _ = require('lodash');
+import CleanCSS from "clean-css";
+import UglifyJS from "uglify-js";
+import htmlmin from "html-minifier";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
 
-module.exports = function (eleventyConfig) {
+/** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
+export default async function(eleventyConfig) {
   // // RSS Plugin
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
-  eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl) {
@@ -48,7 +47,7 @@ module.exports = function (eleventyConfig) {
 
   // Check a string starts with a character.
   eleventyConfig.addFilter('starts_with', function(str, prefix, not = false) {
-    return _.startsWith(str, prefix) !== not;
+    return str.startsWith(prefix) !== not;
   });
 
   // Get all pages with a URL
@@ -232,25 +231,25 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("markdown", (content) => {
     return markdownLibrary.render(content);
   });
+};
 
-  return {
-    templateFormats: ['md', 'njk', 'html', 'liquid'],
+export const config = {
+  templateFormats: ['md', 'njk', 'html', 'liquid'],
 
-    // If your site lives in a different subdirectory, change this.
-    // Leading or trailing slashes are all normalized away, so don’t worry about it.
-    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
-    // This is only used for URLs (it does not affect your file structure)
-    pathPrefix: '/',
+  // If your site lives in a different subdirectory, change this.
+  // Leading or trailing slashes are all normalized away, so don’t worry about it.
+  // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
+  // This is only used for URLs (it does not affect your file structure)
+  pathPrefix: '/',
 
-    markdownTemplateEngine: 'liquid',
-    htmlTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
-    passthroughFileCopy: true,
-    dir: {
-      input: 'pages',
-      includes: '../_includes',
-      data: '../_data',
-      output: '_site',
-    },
-  };
-}
+  markdownTemplateEngine: 'liquid',
+  htmlTemplateEngine: 'njk',
+  dataTemplateEngine: 'njk',
+  passthroughFileCopy: true,
+  dir: {
+    input: 'pages',
+    includes: '../_includes',
+    data: '../_data',
+    output: '_site',
+  },
+};
