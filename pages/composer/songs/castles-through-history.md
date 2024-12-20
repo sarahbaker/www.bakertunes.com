@@ -3,8 +3,8 @@ layout: layouts/page.njk
 category: songs
 section: songs
 title: Castles Through History
+youtube_id: wHO0I1-fvFM
 soundcloud_id: 51531078
-youtube_id: 
 score:
   pdf: "castles.pdf"
   image: "castles.jpg"
