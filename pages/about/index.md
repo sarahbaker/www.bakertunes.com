@@ -17,7 +17,7 @@ compositions:
     data:
       - 
         title: "*Can't Keep Still*"
-        excerpt: A lively song to keep kids moving, published as part of a collection in *Singing Games* as part of the *My World* series by [Out of The Ark music](https://www.outoftheark.co.uk/singing-games.html?_gl=1*fpb7gn*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZjlyJ06FcTvO0VHnZXyE8gaRp51tpoS2FoZutQoZ4aERy7ea0MT6VhoCcPUQAvD_BwE&gbraid=0AAAAADyHABzalLgTRpyCsF7YsalHd29yT)
+        excerpt: A lively song to keep kids moving, published in *Singing Games* as part of the *My World* series by [Out of The Ark music](https://www.outoftheark.co.uk/singing-games.html?_gl=1*fpb7gn*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZjlyJ06FcTvO0VHnZXyE8gaRp51tpoS2FoZutQoZ4aERy7ea0MT6VhoCcPUQAvD_BwE&gbraid=0AAAAADyHABzalLgTRpyCsF7YsalHd29yT)
       -
         title: "*Love Notes*"
         excerpt: Album of solo piano music [Spotify](https://open.spotify.com/album/30hxyw5ucWiXinnx0YQl96?si=4aXDpvIVRlan0PROZm_-eg)
