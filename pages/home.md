@@ -11,7 +11,8 @@ jumbotron:
   title: Sarah Baker
   sub_title: Composer, Arranger, Examiner, Teacher
   image: sarah-in-garden-b+w-600.jpg
-  content: <p>I'm a composer and arranger, and a music teacher. <strong>Bakertunes</strong> is a showcase of my work.</p><p>I'm also Composer in Residence for <a href="http://servicesforeducation.co.uk/index.php/Music-Services/music-services.html" target="_blank">Services for Education Music Services</a> </strong>and an examiner for</strong> <a href="https://gb.abrsm.org/en/home.html" target="_blank">ABRSM</a>.</p>
+  content: <p>Composer, arranger, and music teacher. <strong>Bakertunes</strong> is a showcase of my work.</p><p>
+   2012-2024 Composer in Residence for <a href="http://servicesforeducation.co.uk/index.php/Music-Services/music-services.html" target="_blank">Services for Education Music Services</a> </strong>and examiner for</strong> <a href="https://gb.abrsm.org/en/home.html" target="_blank">ABRSM</a>.</p>
 promo:
   show: true
   title: Transformations

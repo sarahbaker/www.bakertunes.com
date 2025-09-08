@@ -2,7 +2,7 @@
 layout: layouts/page-about.njk
 title: Sarah Baker
 section: about
-description: Biography of Sarah Baker, Composer in Residence for Services for Education Music Services and examiner for ABRSM.
+description: Biography of Sarah Baker, Composer in Residence for Services for Education Music Services 2012-2024, and examiner for ABRSM.
 image: sarah-in-garden-blue-600w.webp
 navtitle: About Me
 permalink: /about/index.html
@@ -12,6 +12,15 @@ tags:
   - '#nav'
   - '#footer'
 compositions:
+  -
+    name: "2025"
+    data:
+      - 
+        title: "*Can't Keep Still*"
+        excerpt: A lively song to keep kids moving, published by [Out of The Ark music](https://www.outoftheark.co.uk/singing-games.html?_gl=1*fpb7gn*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZjlyJ06FcTvO0VHnZXyE8gaRp51tpoS2FoZutQoZ4aERy7ea0MT6VhoCcPUQAvD_BwE&gbraid=0AAAAADyHABzalLgTRpyCsF7YsalHd29yT)
+      -
+        title: "*Love Notes*"
+        excerpt: Album of solo piano music [Spotify](https://open.spotify.com/album/30hxyw5ucWiXinnx0YQl96?si=4aXDpvIVRlan0PROZm_-eg)
   -
     name: "2024"
     data:
@@ -109,10 +118,10 @@ compositions:
         title: "5 original songs for the Services For Education online resources platform for use in schools during the COVID-19 pandemic."
       -
         title: "*Day Time Impressions*"
-        excerpt: "To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of ten short pieces for piano, inspired by childhood memories."
+        excerpt: "Published by [Forsyths](https://www.forsyths.co.uk/), a collection of ten short pieces for piano, inspired by childhood memories."
       -
         title: "*Night Time Impressions*"
-        excerpt: "To be published by [Forsyths](https://www.forsyths.co.uk/), a collection of eight pieces for solo piano."
+        excerpt: "Published by [Forsyths](https://www.forsyths.co.uk/), a collection of eight pieces for solo piano."
       -
         title: "*Transformations*"
         excerpt: "Six pieces for piano solo reflecting on the changing emotions and circumstances of the COVID-19 pandemic."

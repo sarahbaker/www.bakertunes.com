@@ -12,7 +12,7 @@ tags:
 
 <big><strong>I have always enjoyed composing music. My love of singing and melody now combines with my interest in the polyphony of the Baroque period and the dissonance of Twentieth Century composers.</strong></big>
 
-I have been Composer in Residence for [Services For Education](https://www.servicesforeducation.co.uk/) since 2012 and have specialised in songs and Musicals for schools and choirs.
+I was Composer in Residence for [Services For Education](https://www.servicesforeducation.co.uk/) from 2012-2024 and have specialised in songs and Musicals for schools and choirs.
 
 My piano compositions are widely played and enjoyed, and combine personal memories and reflections with a musical and  emotional response to everyday experiences. 
 
