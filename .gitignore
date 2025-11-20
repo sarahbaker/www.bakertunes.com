@@ -11,3 +11,4 @@ _site
 _includes/assets/**/*.css
 
 .DS_Store
+.env

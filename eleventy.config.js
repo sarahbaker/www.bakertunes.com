@@ -1,6 +1,6 @@
 import CleanCSS from "clean-css";
 import UglifyJS from "uglify-js";
-import htmlmin from "html-minifier";
+import { minify } from "html-minifier-terser";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from "markdown-it";
@@ -10,6 +10,10 @@ import { execSync }  from 'child_process';
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
+  const environment = process.env.ELEVENTY_ENV;
+  const PROD_ENV = 'production';
+  const isProd = environment === PROD_ENV;
+
   // // RSS Plugin
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -177,17 +181,33 @@ export default async function(eleventyConfig) {
     });
   }
 
-  // Minify HTML output
-  eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
-    if (outputPath && outputPath.indexOf('.html') > -1) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-      });
-      return minified;
-    }
-    return content;
+  // // Minify HTML output
+  // eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
+  //   if (outputPath && outputPath.indexOf('.html') > -1) {
+  //     let minified = htmlmin.minify(content, {
+  //       useShortDoctype: true,
+  //       removeComments: true,
+  //       collapseWhitespace: true,
+  //     });
+  //     return minified;
+  //   }
+  //   return content;
+  // });
+
+  // Minify HTML
+  eleventyConfig.addTransform("minify", function (content) {
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let minified = minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: isProd
+			});
+
+			return minified;
+		}
+
+		// If not an HTML output, return content as-is
+		return content;
   });
 
   // Don't process folders with static assets e.g. images
