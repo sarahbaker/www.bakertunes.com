@@ -251,7 +251,7 @@ export default async function(eleventyConfig) {
       }
     }),
     slugify: eleventyConfig.getFilter("slug")
-  });
+  }).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {

@@ -2,7 +2,7 @@
 layout: layouts/pianomusic.njk
 category: pianomusic
 title: Love Notes
-date: 2024-09-26
+date: 2025-06-19
 score:
   pdf: love-notesx.pdf
   image: love-notesx.jpg

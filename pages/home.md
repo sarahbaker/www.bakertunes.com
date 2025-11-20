@@ -14,11 +14,21 @@ jumbotron:
   content: <p>Composer, arranger, and music teacher. <strong>Bakertunes</strong> is a showcase of my work.</p><p>
    2012-2024 Composer in Residence for <a href="http://servicesforeducation.co.uk/index.php/Music-Services/music-services.html" target="_blank">Services for Education Music Services</a> </strong>and examiner for</strong> <a href="https://gb.abrsm.org/en/home.html" target="_blank">ABRSM</a>.</p>
 promo:
-  show: true
-  title: Transformations
-  excerpt: "EP now out"
-  path: /composer/pianomusic/transformations/
-  image: scores/Transformations.jpg
+  -
+    show: true
+    title: Love Notes
+    excerpt: "EP now out"
+    path: /composer/pianomusic/love-notes/
+    image: scores/love-notes-album-artwork.jpg  
+  -
+    show: true
+    title: Transformations
+    excerpt: "EP now out"
+    path: /composer/pianomusic/transformations/
+    image: scores/Transformations.jpg
+    classes:
+      image:
+        - image-high
 soulsongs:
   title: Soul Songs
   excerpt: Unique pieces for solo piano, composed especially for you
