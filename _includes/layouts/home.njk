@@ -28,13 +28,15 @@ styles:
   </div>
 </div>
 
-{% if promo.show %}
+{% for item in promo %}
+{% if item.show %}
 <div class="site-content site-content--zero-spacing content-canvas site-content--zero-padding home-item home-promo">
-  <div class="content-canvas-item-full faux-block-link-parent content-canvas">
+  <div class="content-canvas-item-full faux-block-link-parent content-canvas content-canvas--no-col-gap">
     {% include "layouts/components/home/promo.njk" %}
   </div>
 </div>
 {% endif %}
+{% endfor %}
 
 <div class="site-content site-content--zero-spacing content-canvas content-canvas--zero-top-padding home-soulsongs">
   <div class="content-canvas-item-full faux-block-link-parent content-canvas">

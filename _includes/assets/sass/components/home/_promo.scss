@@ -7,6 +7,8 @@
   }
 
   .item-thing {
+    grid-row-start: 1;
+
     &.image {
       position: relative;
       overflow: hidden;
@@ -20,9 +22,15 @@
         right: 0;
         background-size: cover;
         background-position-x: right;
-        background-position-y: 75%;
+        background-position-y: centre;
         transition: all 0.3s ease;
         background-image: var(--promo-background);
+      }
+
+      &.image-high {
+        &::before {
+          background-position-y: 75%;
+        }
       }
     }
   }
