@@ -1,9 +1,12 @@
+@use "../../common/variables" as var;
+@use "../../tools/respond-to" as rt;
+
 .home-promo {
-  background-color: $outer-space;
-  color: $white;
+  background-color: var.$outer-space;
+  color: var.$white;
 
   a {
-    color: $white;
+    color: var.$white;
   }
 
   .item-thing {
@@ -36,7 +39,7 @@
   }
 
   &:hover {
-    background-color: darken($outer-space, 5%);
+    background-color: var.$outer-space-dark;
     transition: all 0.3s ease;
 
     .item-thing {

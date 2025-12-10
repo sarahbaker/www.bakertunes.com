@@ -1,5 +1,15 @@
+/* --------------------------------------------------------------
+# Variables
+-------------------------------------------------------------- */
+@use "../common/variables" as var;
+
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+@use "../tools/respond-to" as rt;
+
 .jumbotron {
-  background-color: $heather;
+  background-color: var.$heather;
   padding: 0;
   column-gap: 0;
   margin-bottom: 0;
@@ -14,32 +24,32 @@
   .title {
     grid-column: 1/4;
     grid-row: 1/2;
-    background-color: $mako;
+    background-color: var.$mako;
     padding: 3rem 1.5rem;
     padding-bottom: 0;
    
     > *,
     a {
-      color: $white;
+      color: var.$white;
     }
 
     .sub-title {
-      line-height: $body-line-height-mobile;
+      line-height: var.$body-line-height-mobile;
     }
 
     small {
-      font-size: $lg-body-font-size;
-      line-height: $body-line-height-mobile;
+      font-size: var.$lg-body-font-size;
+      line-height: var.$body-line-height-mobile;
     }
 
-    @include respond-to('medium') {
+    @include rt.respond-to('medium') {
       .sub-title {
-        line-height: $x-lg-body-line-height;
+        line-height: var.$x-lg-body-line-height;
       }
 
       small {
-        font-size: $x-lg-body-font-size;
-        line-height: $x-lg-body-line-height;
+        font-size: var.$x-lg-body-font-size;
+        line-height: var.$x-lg-body-line-height;
       } 
     }
   }
@@ -47,13 +57,13 @@
   .content {
     grid-column: 1/4;
     grid-row: 2/3;
-    background-color: $mako;
+    background-color: var.$mako;
     padding: 3rem 1.5rem;
     padding-top: 0;
 
     > *,
     a {
-      color: $white;
+      color: var.$white;
     }
   }
 
@@ -70,7 +80,7 @@
   }
 
 
-  @include respond-to('small') {
+  @include rt.respond-to('small') {
     .title {
       grid-column: 1/2;
     }
@@ -81,7 +91,7 @@
     }
   }
 
-  @include respond-to('medium') {
+  @include rt.respond-to('medium') {
     column-gap: 1rem;
 
     .title {
@@ -102,25 +112,25 @@
   }
 
   h1 {
-    font-size: $h1-lg-font-size;
-    line-height: $h1-lg-line-height;
+    font-size: var.$h1-lg-font-size;
+    line-height: var.$h1-lg-line-height;
   }
 
   p {
-    font-size: $lg-body-font-size;
-    line-height: $lg-body-line-height;
+    font-size: var.$lg-body-font-size;
+    line-height: var.$lg-body-line-height;
   }
 
 
-  @include respond-to('extra-large') {
+  @include rt.respond-to('extra-large') {
     h1 {
-      font-size: $h1-x-lg-font-size;
-      line-height: $h1-x-lg-line-height;
+      font-size: var.$h1-x-lg-font-size;
+      line-height: var.$h1-x-lg-line-height;
     }
 
     p {
-      font-size: $x-lg-body-font-size;
-      line-height: $x-lg-body-line-height;
+      font-size: var.$x-lg-body-font-size;
+      line-height: var.$x-lg-body-line-height;
     }
   }
 }

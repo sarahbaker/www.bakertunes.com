@@ -1,10 +1,12 @@
+@use "../tools/respond-to" as rt;
+
 .hide-small,
 .hide-small-inline-block,
 .hide-small-flex {
   display: none !important;
 }
 
-@include respond-to('small') {
+@include rt.respond-to('small') {
   .hide-small { 
     display: block !important;
   }

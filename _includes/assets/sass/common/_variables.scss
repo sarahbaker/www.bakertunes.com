@@ -1,12 +1,9 @@
 /* ==========================================================================
 VARIABLES
 ========================================================================== */
-
-@import "../tools/px-to-rem";
-
-
-$base-font-size: 16px;
-$root-font-size: $base-font-size !default;
+@use "sass:color";
+@use "../tools/px-to-rem" as px;
+@use "base-variables" as bv;
 
 // Units
 $base-space: 20px;
@@ -27,14 +24,18 @@ $grey-border: #d9dcdf;
 $gradient: linear-gradient(90deg, $orange 0%, rgba(206, 19, 45, 0%) 100%), linear-gradient(270deg, $orange 0%, rgba(238, 112, 28, 0%) 100%), $red;
 
 $outer-space: rgba(55, 62, 65, 100%);         // #373E41
+$outer-space-dark: color.adjust($outer-space, $lightness: -5%);
 $mako: rgba(65, 73, 77, 100%);                // #41494D
 $rolling-stone: rgba(119, 134, 140, 100%);    // #77868C
 $heather: rgba(173, 195, 204, 100%);          // #ADC3CC
-$heather-light: lighten($heather, 12%);
+$heather-light: color.adjust($heather, $lightness: 12%);
+$heather-dark: color.adjust($heather, $lightness: -5%);
 $gold: rgba(255, 185, 75, 100%);              // #FFB94B
+$gold-dark: color.adjust($gold, $lightness: -5%);
 $teal: rgba(73, 159, 164, 100%);              // #499FA4
-$teal-dark: darken($teal, 5%);
+$teal-dark: color.adjust($teal, $lightness: -5%);
 $soft-amber: rgba(204, 190, 173, 100%);       // #CCBEAD
+$soft-amber-dark: color.adjust($soft-amber, $lightness: -5%);
 
 $body: $black;
 
@@ -72,51 +73,51 @@ $headings-font-weight: 700;
 
 
 // Font sizes
-$body-font-size-mobile: px-to-rem($base-font-size);
-$body-font-size: $base-font-size * 1.125;
-$body-font-size: px-to-rem($body-font-size);
+$body-font-size-mobile: px.px-to-rem(bv.$base-font-size);
+$body-font-size: bv.$base-font-size * 1.125;
+$body-font-size: px.px-to-rem($body-font-size);
 
-$lg-body-font-size-mobile: $base-font-size * 1.125;
-$lg-body-font-size-mobile: px-to-rem($lg-body-font-size-mobile);
-$lg-body-font-size: $base-font-size * 1.25;
-$lg-body-font-size: px-to-rem($lg-body-font-size);
-$x-lg-body-font-size: $base-font-size * 1.375;
-$x-lg-body-font-size: px-to-rem($x-lg-body-font-size);
+$lg-body-font-size-mobile: bv.$base-font-size * 1.125;
+$lg-body-font-size-mobile: px.px-to-rem($lg-body-font-size-mobile);
+$lg-body-font-size: bv.$base-font-size * 1.25;
+$lg-body-font-size: px.px-to-rem($lg-body-font-size);
+$x-lg-body-font-size: bv.$base-font-size * 1.375;
+$x-lg-body-font-size: px.px-to-rem($x-lg-body-font-size);
 
-$h1-font-size-mobile: px-to-rem(28px);
-$h1-font-size: px-to-rem(36px);
-$h1-lg-font-size: px-to-rem(48px);
-$h1-x-lg-font-size: px-to-rem(64px);
+$h1-font-size-mobile: px.px-to-rem(28px);
+$h1-font-size: px.px-to-rem(36px);
+$h1-lg-font-size: px.px-to-rem(48px);
+$h1-x-lg-font-size: px.px-to-rem(64px);
 
-$h2-font-size-mobile: px-to-rem(22px);
-$h2-font-size: px-to-rem(28px);
+$h2-font-size-mobile: px.px-to-rem(22px);
+$h2-font-size: px.px-to-rem(28px);
 
-$h3-font-size-mobile: px-to-rem(17px);
-$h3-font-size: px-to-rem(19px);
+$h3-font-size-mobile: px.px-to-rem(17px);
+$h3-font-size: px.px-to-rem(19px);
 
-$h4-font-size-mobile: px-to-rem(17px);
-$h4-font-size: px-to-rem(19px);
+$h4-font-size-mobile: px.px-to-rem(17px);
+$h4-font-size: px.px-to-rem(19px);
 
 // Font line heights
-$base-line-height: px-to-rem(19px);
+$base-line-height: px.px-to-rem(19px);
 
-$body-line-height-mobile: px-to-rem(23px);
-$body-line-height: px-to-rem(25px);
+$body-line-height-mobile: px.px-to-rem(23px);
+$body-line-height: px.px-to-rem(25px);
 
-$lg-body-line-height-mobile: px-to-rem(25px);
-$lg-body-line-height: px-to-rem(28px);
-$x-lg-body-line-height: px-to-rem(34px);
+$lg-body-line-height-mobile: px.px-to-rem(25px);
+$lg-body-line-height: px.px-to-rem(28px);
+$x-lg-body-line-height: px.px-to-rem(34px);
 
-$h1-line-height-mobile: px-to-rem(30px);
-$h1-line-height: px-to-rem(40px);
-$h1-lg-line-height: px-to-rem(54px);
-$h1-x-lg-line-height: px-to-rem(72px);
+$h1-line-height-mobile: px.px-to-rem(30px);
+$h1-line-height: px.px-to-rem(40px);
+$h1-lg-line-height: px.px-to-rem(54px);
+$h1-x-lg-line-height: px.px-to-rem(72px);
 
-$h2-line-height-mobile: px-to-rem(26px);
-$h2-line-height: px-to-rem(33px);
+$h2-line-height-mobile: px.px-to-rem(26px);
+$h2-line-height: px.px-to-rem(33px);
 
-$h3-line-height-mobile: px-to-rem(25px);
-$h3-line-height: px-to-rem(28px);
+$h3-line-height-mobile: px.px-to-rem(25px);
+$h3-line-height: px.px-to-rem(28px);
 
-$h4-line-height-mobile: px-to-rem(25px);
-$h4-line-height: px-to-rem(28px);
+$h4-line-height-mobile: px.px-to-rem(25px);
+$h4-line-height: px.px-to-rem(28px);

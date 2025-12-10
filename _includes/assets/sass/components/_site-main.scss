@@ -1,4 +1,6 @@
+@use "../common/variables" as var;
+
 body {
-  background-color: $white;
+  background-color: var.$white;
   width: 100vw;
 }

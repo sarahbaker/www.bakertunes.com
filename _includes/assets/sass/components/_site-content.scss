@@ -1,9 +1,13 @@
-.site-content {
-  color: $body;
-  padding: 1.5em 0;
-  margin-bottom: px-to-rem($mobile-space);
+@use "../common/variables" as var;
+@use "../tools/px-to-rem" as px;
+@use "../tools/respond-to" as rt;
 
-  @include respond-to('medium') {
+.site-content {
+  color: var.$body;
+  padding: 1.5em 0;
+  margin-bottom: px.px-to-rem(var.$mobile-space);
+
+  @include rt.respond-to('medium') {
     padding: 6em 0;
   }
 }
@@ -11,7 +15,7 @@
 .site-content--zero-padding {
   padding: 0;
 
-  @include respond-to('medium') {
+  @include rt.respond-to('medium') {
     padding: 0;
   }
 }
@@ -19,7 +23,7 @@
 .site-content--zero-top-padding {
   padding-top: 0;
 
-  @include respond-to('medium') {
+  @include rt.respond-to('medium') {
     padding-top: 0;
   }
 }
@@ -27,7 +31,7 @@
 .site-content--zero-bottom-padding {
   padding-bottom: 0;
 
-  @include respond-to('medium') {
+  @include rt.respond-to('medium') {
     padding-bottom: 0;
   }
 }

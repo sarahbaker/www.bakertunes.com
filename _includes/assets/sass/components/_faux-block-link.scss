@@ -1,3 +1,5 @@
+@use "../common/variables" as var;
+
 .faux-block-link-parent {
   position: relative;
 
@@ -8,7 +10,7 @@
 
     .single-meta-forward {
       &::after {
-        background-color: $mako;
+        background-color: var.$mako;
         transform: translateX(5px);
       }
     }

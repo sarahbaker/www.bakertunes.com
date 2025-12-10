@@ -1,3 +1,7 @@
+@use "../common/variables" as var;
+@use "../tools/px-to-rem" as px;
+@use "../tools/respond-to" as rt;
+
 .index-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
@@ -26,8 +30,8 @@
     text-align: right;
 
     > * {
-      padding-right: px-to-rem(5px);
-      border-right: 1px solid $rolling-stone;
+      padding-right: px.px-to-rem(5px);
+      border-right: 1px solid var.$rolling-stone;
 
       &:last-child {
           padding-right: unset;
@@ -47,7 +51,7 @@
     }
   }
 
-  @include respond-to('large') {
+  @include rt.respond-to('large') {
     column-gap: 3rem;
     row-gap: 4.5rem;
   }

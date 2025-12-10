@@ -1,16 +1,16 @@
 /* --------------------------------------------------------------
 # Variables
 -------------------------------------------------------------- */
-@import "./common/variables";
+@use "./common/variables";
 
 /* --------------------------------------------------------------
 # Tools
 -------------------------------------------------------------- */
-@import "./tools/all";
+@use "./tools/all";
 
 /* --------------------------------------------------------------
 # Masterclass components
 -------------------------------------------------------------- */
-@import "./components/masterclass-site-content";
-@import "./components/masterclass-page";
-// @import "./components/masterclass-wide";
+@use "./components/masterclass-site-content";
+@use "./components/masterclass-page";
+// @use "./components/masterclass-wide";

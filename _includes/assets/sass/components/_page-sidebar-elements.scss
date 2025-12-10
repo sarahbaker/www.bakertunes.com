@@ -1,3 +1,7 @@
+@use "../common/variables" as var;
+@use "../tools/px-to-rem" as px;
+@use "../tools/respond-to" as rt;
+
 .about-micro,
 .service-pricing,
 .service-openings,
@@ -6,54 +10,54 @@
 .service-promote,
 .no-spaces-micro,
 .theory-starting-micro {
-  background-color: $outer-space;
-  color: $white;
-  margin-bottom: px-to-rem($mobile-space);
+  background-color: var.$outer-space;
+  color: var.$white;
+  margin-bottom: px.px-to-rem(var.$mobile-space);
   padding: 1.5em;
 
   .micro-label {
-    font-size: $body-font-size-mobile;
-    line-height: $body-line-height-mobile;
+    font-size: var.$body-font-size-mobile;
+    line-height: var.$body-line-height-mobile;
 
     &:not(:last-child) {
-      margin-bottom: $mobile-space * 0.5;
+      margin-bottom: var.$mobile-space * 0.5;
     }
 
     &.micro-label-large {
-      font-size: $body-font-size;
-      line-height: $body-line-height;
+      font-size: var.$body-font-size;
+      line-height: var.$body-line-height;
     }
 
     &.micro-label-v-large {
-      font-size: $lg-body-font-size;
-      line-height: $lg-body-line-height;
+      font-size: var.$lg-body-font-size;
+      line-height: var.$lg-body-line-height;
     }
   }
 
   ul {
-    padding-left: px-to-rem(14px);
+    padding-left: px.px-to-rem(14px);
 
     li {
-      font-size: $body-font-size-mobile;
-      line-height: $body-line-height-mobile;
+      font-size: var.$body-font-size-mobile;
+      line-height: var.$body-line-height-mobile;
     }
   }
 
   a {
-    color: $white;
+    color: var.$white;
   }
 }
 
 .no-spaces-micro,
 .service-openings {
-  background-color: $rolling-stone;
+  background-color: var.$rolling-stone;
 }
 
 .theory-starting-micro {
-  background-color: $teal;
+  background-color: var.$teal;
 }
 
-@include respond-to('medium') {
+@include rt.respond-to('medium') {
   .about-micro,
   .service-pricing,
   .service-openings,
@@ -63,14 +67,14 @@
     padding: 3em 1.5em;
 
     .micro-label {
-      font-size: $body-font-size;
-      line-height: $body-line-height;
+      font-size: var.$body-font-size;
+      line-height: var.$body-line-height;
     }
 
     ul {
       li {
-        font-size: $body-font-size-mobile;
-        line-height: $body-line-height-mobile;
+        font-size: var.$body-font-size-mobile;
+        line-height: var.$body-line-height-mobile;
       }
     }
   }
@@ -78,8 +82,8 @@
 
 .service-pricing,
 .service-promote--teaching {
-  background-color: $soft-amber;
-  color: $black;
+  background-color: var.$soft-amber;
+  color: var.$black;
 
   .price {
     text-align: center;
@@ -99,20 +103,20 @@
 
 .service-openings--prefix {
   padding-block-end: 0.5rem;
-  font-size: $body-font-size-mobile;
-  line-height: $body-line-height-mobile;
+  font-size: var.$body-font-size-mobile;
+  line-height: var.$body-line-height-mobile;
 
-  @include respond-to('medium') {
+  @include rt.respond-to('medium') {
     padding-block-end: 1rem;
-    font-size: $body-font-size;
-    line-height: $body-line-height;
+    font-size: var.$body-font-size;
+    line-height: var.$body-line-height;
   }
 }
 
 .soulsong-container,
 .service-promote--masterclasses {
-  background-color: $gold;
-  color: $black;
+  background-color: var.$gold;
+  color: var.$black;
 
   .link {
     padding-top: 1.5em;

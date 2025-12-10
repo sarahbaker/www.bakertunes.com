@@ -2,37 +2,40 @@
 COMPONENTS
 ========================================================================== */
 
-@import "../components/site-header";
-@import "../components/site-header-nav";
-@import "../components/site-footer";
-@import "../components/site-main";
-@import "../components/site-content";
-@import "../components/content_canvas";
-@import "../components/faux-block-link";
-@import "../components/hide-small";
-@import "../components/helpers-layout";
-@import "../components/helpers-backgrounds";
-@import "../components/header-search";
+@use "../components/site-header";
+@use "../components/site-header-nav";
+@use "../components/site-footer";
+@use "../components/site-main";
+@use "../components/site-content";
+@use "../components/content_canvas";
+@use "../components/faux-block-link";
+@use "../components/hide-small";
+@use "../components/helpers-layout";
+@use "../components/helpers-backgrounds";
+@use "../components/header-search";
+
+// Footer Menu
+@use '../components/nav-footer';
 
 // Forms, buttons, etc.
-@import "../components/buttons";
+@use "../components/buttons";
 
 // Images
-@import "../components/images";
+@use "../components/images";
 
 // Index pages
-@import "../components/index-list";
-@import "../components/pagination";
+@use "../components/index-list";
+@use "../components/pagination";
 
 // Pages
-@import "../components/page";
-@import "../components/embed-container";
-@import "../components/single-meta";
-@import "../components/glyphicon";
-@import "../components/about-me";
-@import "../components/page-sidebar-elements";
+@use "../components/page";
+@use "../components/embed-container";
+@use "../components/single-meta";
+@use "../components/glyphicon";
+@use "../components/about-me";
+@use "../components/page-sidebar-elements";
 
 /* --------------------------------------------------------------
 # Masterclass components
 -------------------------------------------------------------- */
-@import "../components/home/teaching";
+@use "../components/home/teaching";

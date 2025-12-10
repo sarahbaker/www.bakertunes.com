@@ -1,11 +1,14 @@
+@use "../common/variables" as var;
+@use "../tools/px-to-rem" as px;
+
 .testimonials-wrapper {
-  margin-block: $base-space * 2;
-  background-color: $heather;
+  margin-block: var.$base-space * 2;
+  background-color: var.$heather;
 }
 
 .testimonials--container,
 .testimonial--container {
-  margin-block: px-to-rem($base-space * 2);
+  margin-block: px.px-to-rem(var.$base-space * 2);
 }
 
 .testimonials--container {
@@ -19,7 +22,7 @@
       top: var(--_spacer);
       right: var(--_spacer);
       z-index: 10;
-      color: $mako;
+      color: var.$mako;
     }
   }
 }
@@ -44,8 +47,6 @@
   padding-block-start: 1.5rem;
 
   > a {
-    color: $mako;
+    color: var.$mako;
   }
 }
-
-@import "./snaps-inline";

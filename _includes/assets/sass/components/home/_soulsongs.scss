@@ -1,21 +1,24 @@
+@use "../../common/variables" as var;
+@use "../../tools/respond-to" as rt;
+
 .home-soulsongs {
-  background-color: $gold;
-  color: $black;
+  background-color: var.$gold;
+  color: var.$black;
   transition: all 0.3s ease;
   padding: 0;
 
   a {
-    color: $black;
+    color: var.$black;
   }
 
   h2 {
-    font-size: $h1-font-size;
-    line-height: $h1-line-height;
+    font-size: var.$h1-font-size;
+    line-height: var.$h1-line-height;
   }
 
   .excerpt {
-    font-size: $lg-body-font-size-mobile;
-    line-height: $lg-body-font-size-mobile;
+    font-size: var.$lg-body-font-size-mobile;
+    line-height: var.$lg-body-font-size-mobile;
     padding: 1.5rem 0;
   }
 
@@ -44,7 +47,7 @@
   }
  
   &:hover {
-    background-color: darken($gold, 5%);
+    background-color: var.$gold-dark;
     transition: all 0.3s ease;
 
     .item-thing {
@@ -73,20 +76,20 @@
   }
 }
 
-@include respond-to('medium') {
+@include rt.respond-to('medium') {
   .home-soulsongs {
     .excerpt {
-      font-size: $lg-body-font-size;
-      line-height: $lg-body-font-size;
+      font-size: var.$lg-body-font-size;
+      line-height: var.$lg-body-font-size;
     }    
   }  
 }
 
-@include respond-to('large') {
+@include rt.respond-to('large') {
   .home-soulsongs {
     h2 {
-      font-size: $h1-lg-font-size;
-      line-height: $h1-lg-line-height;
+      font-size: var.$h1-lg-font-size;
+      line-height: var.$h1-lg-line-height;
     }
 
     .item-thing {
