@@ -4,7 +4,7 @@
   "type": "module",
   "description": "",
   "scripts": {
-    "build": "(npm run sass:build) && npx eleventy",
+    "build": "(npm run sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
     "watch": "npx eleventy --watch",
     "clean": "npx rimraf -v _site/",
     "serve": "(npm run clean) && (npm run sass:build) && (npx eleventy --serve & npm run sass:dev)",
