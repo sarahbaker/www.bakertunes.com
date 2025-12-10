@@ -2,11 +2,6 @@
 @use "../tools/respond-to" as rt;
 @use "../tools/mixins" as mx;
 
-.page-title {
-  // margin-bottom: 1.5 * var.$base-space;
-  // font-weight: ;
-}
-
 @include rt.respond-to('medium') {
   .pull-right {
     float: right;
