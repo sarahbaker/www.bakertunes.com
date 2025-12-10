@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------
 # Variables
 -------------------------------------------------------------- */
-@import "./common/variables";
+@use "./common/variables";
 
 /* --------------------------------------------------------------
 # Tools
 -------------------------------------------------------------- */
-@import "./tools/all";
+@use "./tools/all";
 
 /* --------------------------------------------------------------
 # Soulsongs components
 -------------------------------------------------------------- */
-@import "./components/masterclass-page";
-@import "./components/soulsongs-page";
+@use "./components/masterclass-page";
+@use "./components/soulsongs-page";

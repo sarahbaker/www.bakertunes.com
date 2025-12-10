@@ -2,6 +2,17 @@
 ELEMENTS
 ========================================================================== */
 
+/* --------------------------------------------------------------
+# Variables
+-------------------------------------------------------------- */
+@use "./base-variables" as bvar;
+@use "./variables" as var;
+
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+@use "../tools/px-to-rem" as px;
+
 /**
  * Simple page-level setup.
  *
@@ -12,16 +23,16 @@ ELEMENTS
  */
 
 :root {
-  font-size: $base-font-size;
+  font-size: bvar.$base-font-size;
 }
 
 html {
-  background-color: $white;
-  color: $black;
-  font-family: $primary-font;
-  font-size: $base-font-size;
-  font-weight: $base-font-weight-regular;
-  line-height: $base-line-height;
+  background-color: var.$white;
+  color: var.$black;
+  font-family: var.$primary-font;
+  font-size: bvar.$base-font-size;
+  font-weight: var.$base-font-weight-regular;
+  line-height: var.$base-line-height;
   box-sizing: border-box;
   min-height: 100%; /* [2] */
   overflow-y: scroll; /* [1] */
@@ -42,7 +53,7 @@ body {
 
 a,
 a:visited {
-  color: $rolling-stone;
+  color: var.$rolling-stone;
 }
 
 a:hover,
@@ -57,18 +68,18 @@ button {
 
 ul,
 ol {
-  font-family: $primary-font;
+  font-family: var.$primary-font;
   margin: 0;
   padding: 0;
   color: inherit;
 
   li {
-    font-size: $body-font-size-mobile;
-    font-weight: $base-font-weight-regular;
+    font-size: var.$body-font-size-mobile;
+    font-weight: var.$base-font-weight-regular;
 
-    @media only screen and (min-width: $tablet) {
-      font-size: $body-font-size;
-      line-height: $body-line-height;
+    @media only screen and (min-width: var.$tablet) {
+      font-size: var.$body-font-size;
+      line-height: var.$body-line-height;
     }
 
     &:last-child {
@@ -80,8 +91,8 @@ ol {
 main {
   ul,
   ol {
-    margin-bottom: px-to-rem(30px);
-    padding-left: px-to-rem(30px);
+    margin-bottom: px.px-to-rem(30px);
+    padding-left: px.px-to-rem(30px);
 
     ul,
     ol {
@@ -89,12 +100,12 @@ main {
     }
 
     li {
-      margin: px-to-rem(9px);
-      line-height: px-to-rem(27px);
+      margin: px.px-to-rem(9px);
+      line-height: px.px-to-rem(27px);
     }
 
     hr {
-      height: px-to-rem(1px);
+      height: px.px-to-rem(1px);
       border: none;
     }
   }

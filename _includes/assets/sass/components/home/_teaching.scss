@@ -1,19 +1,22 @@
+@use "../../common/variables" as var;
+@use "../../tools/respond-to" as rt;
+
 .home-teaching,
 .page-teaching {
   padding-left: 0;
   padding-right: 0;
 
   h3 {
-    font-size: $h3-font-size;
+    font-size: var.$h3-font-size;
 
     a {
-      color: $black;
+      color: var.$black;
     }
   }
 
   .excerpt {
-    font-size: $lg-body-font-size-mobile;
-    line-height: $lg-body-line-height-mobile;
+    font-size: var.$lg-body-font-size-mobile;
+    line-height: var.$lg-body-line-height-mobile;
     padding: 1.5rem 0;
   }
 
@@ -88,7 +91,7 @@
 }
 
 .home-teaching--item--masterclasses {
-  background-color: $gold;
+  background-color: var.$gold;
 
   .image {
     &::before {
@@ -97,13 +100,13 @@
   }
   
   &:hover {
-    background-color: darken($gold, 5%);
+    background-color: var.$gold-dark;
     transition: all 0.3s ease;
   }
 }
 
 .home-teaching--item--in-person {
-  background-color: $heather;
+  background-color: var.$heather;
 
   .image {
     &::before {
@@ -112,13 +115,13 @@
   }
   
   &:hover {
-    background-color: darken($heather, 5%);
+    background-color: var.$heather-dark;
     transition: all 0.3s ease;
   }
 }
 
 .home-teaching--item--online {
-  background-color: $soft-amber;
+  background-color: var.$soft-amber;
 
   .image {
     &::before {
@@ -127,13 +130,13 @@
   }
   
   &:hover {
-    background-color: darken($soft-amber, 5%);
+    background-color: var.$soft-amber-dark;
     transition: all 0.3s ease;
   }
 }
 
 .home-teaching--item--theory {
-  background-color: $heather-light;
+  background-color: var.$heather-light;
 
   .image {
     &::before {
@@ -142,22 +145,22 @@
   }
   
   &:hover {
-    background-color: darken($heather-light, 5%);
+    background-color: var.$heather-light;
     transition: all 0.3s ease;
   }
 }
 
-@include respond-to('extra-large') {
+@include rt.respond-to('extra-large') {
   .home-teaching,
   .page-teaching {
     h3 {
-      font-size: $h2-font-size-mobile;
-      line-height: $h2-line-height-mobile;
+      font-size: var.$h2-font-size-mobile;
+      line-height: var.$h2-line-height-mobile;
     }
 
     .excerpt {
-      font-size: $lg-body-font-size;
-      line-height: $lg-body-line-height;
+      font-size: var.$lg-body-font-size;
+      line-height: var.$lg-body-line-height;
     }
   }
 

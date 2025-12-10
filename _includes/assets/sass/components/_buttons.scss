@@ -1,7 +1,11 @@
+@use "../common/variables" as var;
+@use "../tools/px-to-rem" as px;
+@use "../tools/respond-to" as rt;
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: $base-font-weight-regular;
+  font-weight: var.$base-font-weight-regular;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -10,10 +14,10 @@
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
-  padding: px-to-rem(6px) px-to-rem(12px);
-  font-size: px-to-rem(14px);
+  padding: px.px-to-rem(6px) px.px-to-rem(12px);
+  font-size: px.px-to-rem(14px);
   line-height: 1.42857143;
-  border-radius: px-to-rem(4px);
+  border-radius: px.px-to-rem(4px);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -22,46 +26,46 @@
 }
 
 .btn-default {
-  color: $black;
-  background-color: $white;
-  border-color: $grey-support;
+  color: var.$black;
+  background-color: var.$white;
+  border-color: var.$grey-support;
 
   &:hover {
-    color: $black;
-    background-color: $grey-background;
-    border-color: $grey-support;
+    color: var.$black;
+    background-color: var.$grey-background;
+    border-color: var.$grey-support;
   }
 }
 
 .btn-lg {
-  padding: px-to-rem(10px) px-to-rem(16px);
-  font-size: $lg-body-font-size;
-  line-height: $lg-body-line-height;
-  border-radius: px-to-rem(6px);
+  padding: px.px-to-rem(10px) px.px-to-rem(16px);
+  font-size: var.$lg-body-font-size;
+  line-height: var.$lg-body-line-height;
+  border-radius: px.px-to-rem(6px);
 }
 
 .btn-strong {
-  font-weight: $base-font-weight-bold;
+  font-weight: var.$base-font-weight-bold;
 }
 
 .btn-teal {
-  background-color: $teal;
-  color: $white;
-  border-color: $teal-dark;
+  background-color: var.$teal;
+  color: var.$white;
+  border-color: var.$teal-dark;
 
   &:hover {
-    background-color: $teal-dark;
-    color: $white;
+    background-color: var.$teal-dark;
+    color: var.$white;
   }
 
   &:visited,
   &:active {
-    color: $white;
+    color: var.$white;
   }
 }
 
 .btn-heather {
-  background-color: $heather;
+  background-color: var.$heather;
 }
 
 .btn-download,
@@ -73,8 +77,8 @@
   .glyphicon {
     &::before {
       position: absolute;
-      top: px-to-rem(-16px);
-      right: px-to-rem(-25px);
+      top: px.px-to-rem(-16px);
+      right: px.px-to-rem(-25px);
       transition: 0.2s;
     }
   }
@@ -124,7 +128,7 @@
   }
 }
 
-@include respond-to('large') {
+@include rt.respond-to('large') {
   .content-canvas-item-right {
     .calendly-link-container {
       margin-bottom: 3rem;

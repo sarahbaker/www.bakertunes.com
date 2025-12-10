@@ -1,25 +1,35 @@
+/* --------------------------------------------------------------
+# Variables
+-------------------------------------------------------------- */
+@use "../../common/variables" as var;
+
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+@use "../../tools/respond-to" as rt;
+
 .home-composer--item {
   a {
-    color: $black;
+    color: var.$black;
   }
 }
 
 .home-composer--item--odd {
-  background-color: $heather;
+  background-color: var.$heather;
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    background-color: darken($heather, 5%);
+    background-color: var.$heather-dark;
     transition: all 0.3s ease-in-out;
   }
 }
 
 .home-composer--item--even {
-  background-color: $heather-light;
+  background-color: var.$heather-light;
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    background-color: darken($heather-light, 5%);
+    background-color: var.$heather;
     transition: all 0.3s ease-in-out;
   }
 }
@@ -40,7 +50,7 @@
 
 .composer-content-item--product {
   height: 100%;
-  background-color: $soft-amber;
+  background-color: var.$soft-amber;
   padding: 1.5rem;
   transition: all 0.3s ease-in-out;
 
@@ -59,7 +69,7 @@
   }
 
   &:hover {
-    background-color: darken($soft-amber, 5%);
+    background-color: var.$soft-amber-dark;
     transition: all 0.3s ease-in-out;
 
     img {
@@ -70,7 +80,7 @@
   }
 }
 
-@include respond-to('large') {
+@include rt.respond-to('large') {
   .home-composer--item--inner {
     .item-section {
       padding: 9rem 4.5rem;

@@ -1,14 +1,17 @@
+@use "../common/variables" as var;
+@use "../tools/respond-to" as rt;
+
 .page-soulsongs {
   .mc--head--left {
     background-color: unset;
 
     > * {
-      color: $mako;
+      color: var.$mako;
     }
 
     h1 {
-      font-size: $h1-lg-font-size;
-      line-height: $h1-lg-line-height;
+      font-size: var.$h1-lg-font-size;
+      line-height: var.$h1-lg-line-height;
     }
   }
 
@@ -23,7 +26,7 @@
   }
 }
 
-@include respond-to('large') {
+@include rt.respond-to('large') {
   .page-soulsongs {
     .mc--head--left {
       padding-top: 12rem;

@@ -1,9 +1,13 @@
+@use "../common/variables" as var;
+@use "../tools/respond-to" as rt;
+@use "../tools/mixins" as mx;
+
 .site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background-color: $outer-space;
-  color: $white;
+  background-color: var.$outer-space;
+  color: var.$white;
 }
 
 .site-header__inner {
@@ -13,7 +17,7 @@
   justify-content: space-between;
 }
 
-@include respond-to('large') {
+@include rt.respond-to('large') {
   .site-header__inner {
     padding: 2rem 1.5rem;
   }
@@ -25,7 +29,7 @@
   flex: 0 0 200px;
 
   .site-logo {
-    @include hide-text;
+    @include mx.hide-text;
 
     background: url(/static/images/logo.png) 0 0 no-repeat;
     background-size: contain;

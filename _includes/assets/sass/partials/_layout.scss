@@ -1,3 +1,6 @@
+@use "../common/variables" as var;
+@use "../tools/respond-to" as rt;
+
 body {
   display: grid;
   grid-auto-flow: row;
@@ -6,7 +9,7 @@ body {
     "main main main main main"
     ".... .... foot .... ...."
   ;
-  grid-template-columns: 2fr 1fr minmax(30ch, $break-large) 1fr 2fr;
+  grid-template-columns: 2fr 1fr minmax(30ch, var.$break-large) 1fr 2fr;
 }
 
 header {
@@ -26,12 +29,12 @@ footer {
   gap: 1.5em;
   padding: 3em 1.5em;
 
-  @include respond-to('medium') {
+  @include rt.respond-to('medium') {
     padding: 3em 6em;
   }
 }
 
-@include respond-to('medium') {
+@include rt.respond-to('medium') {
   footer {
     gap: 3em;
     grid-auto-flow: column;

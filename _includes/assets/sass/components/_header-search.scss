@@ -1,3 +1,7 @@
+@use "../common/variables" as var;
+@use "../tools/px-to-rem" as px;
+@use "../tools/respond-to" as rt;
+
 .header-search {
   display: none;
   position: fixed;
@@ -33,15 +37,15 @@
   background: 0 0;
   cursor: pointer;
   box-shadow: none;
-  color: $white;
+  color: var.$white;
   position: absolute;
-  top: px-to-rem(8px);
-  right: px-to-rem(40px);
+  top: px.px-to-rem(8px);
+  right: px.px-to-rem(40px);
   z-index: 50;
 
-  @include respond-to('large') {
-    top: px-to-rem(24px);
-    right: px-to-rem(56px);
+  @include rt.respond-to('large') {
+    top: px.px-to-rem(24px);
+    right: px.px-to-rem(56px);
   }
 
   &:hover {
@@ -56,9 +60,9 @@
 .pagefind-ui--reset {
   .pagefind-ui__results-area {
     height: 88vh;
-    background-color: $white;
-    box-shadow: 2px 2px 6px $grey-border;
-    border-radius: px-to-rem(8px);
+    background-color: var.$white;
+    box-shadow: 2px 2px 6px var.$grey-border;
+    border-radius: px.px-to-rem(8px);
     padding: 1.25rem;
     overflow: scroll;
   }

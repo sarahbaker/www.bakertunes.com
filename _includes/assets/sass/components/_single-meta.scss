@@ -1,3 +1,5 @@
+@use "../common/variables" as var;
+
 .single-meta-back,
 .single-meta-forward {
   position: relative;
@@ -5,7 +7,7 @@
 
   &:hover {
     &::before {
-      background-color: $mako;
+      background-color: var.$mako;
       transform: translateX(-5px);
     }
   }
@@ -19,7 +21,7 @@
     left: -24px;
     height: 18px;
     width: 18px;
-    background-color: $heather;
+    background-color: var.$heather;
     mask-image: url('/static/images/icons/arrow-left.svg');
     mask-size: cover;
     display: inline-block;
@@ -36,7 +38,7 @@
     right: -24px;
     height: 18px;
     width: 18px;
-    background-color: $heather;
+    background-color: var.$heather;
     mask-image: url('/static/images/icons/arrow-right.svg');
     mask-size: cover;
     display: inline-block;
@@ -46,7 +48,7 @@
 
   &:hover {
     &::after {
-      background-color: $mako;
+      background-color: var.$mako;
       transform: translateX(5px);
     }
   }
@@ -54,17 +56,17 @@
 
 .single-meta-item {
   &.single-meta-item-black {
-    color: $black;
+    color: var.$black;
 
     &.single-meta-back {
       &::before {
-        background-color: $black;
+        background-color: var.$black;
       }
     }
 
     &.single-meta-forward {
       &::after {
-        background-color: $black;
+        background-color: var.$black;
       }
     }
   }

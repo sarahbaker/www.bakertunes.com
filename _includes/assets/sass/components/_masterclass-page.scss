@@ -1,5 +1,15 @@
+/* --------------------------------------------------------------
+# Variables
+-------------------------------------------------------------- */
+@use "../common/variables" as var;
+
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+@use "../tools/respond-to" as rt;
+
 .mc--head {
-  background-color: $gold;
+  background-color: var.$gold;
   margin-bottom: 6rem;
   min-height: 40vh;
 
@@ -7,15 +17,15 @@
     position: absolute;
     top: px-to-rem(24px);
     left: px-to-rem(48px);
-    color: $white;
+    color: var.$white;
 
     &::before {
-      background-color: $white;
+      background-color: var.$white;
     }
 
     &:hover {
       &::before {
-        background-color: $white;
+        background-color: var.$white;
       }
     }
   }
@@ -23,19 +33,19 @@
 
 .page-teaching--in-person {
   .mc--head {
-    background-color: $heather;
+    background-color: var.$heather;
   }
 }
 
 .page-teaching--online {
   .mc--head {
-    background-color: $soft-amber;
+    background-color: var.$soft-amber;
   }
 }
 
 .page-teaching--theory {
   .mc--head {
-    background-color: $heather-light;
+    background-color: var.$heather-light;
   }
 }
 
@@ -50,11 +60,11 @@
 }
 
 .mc--head--left {
-  background-color: $mako;
+  background-color: var.$mako;
   padding: 3em 1.5em;
 
   > * {
-    color: $white;
+    color: var.$white;
   }
 }
 
@@ -83,13 +93,13 @@
   }
 }
 
-@include respond-to('large') {
+@include rt.respond-to('large') {
   .mc--head--left {
     padding: 6em;
   } 
 }
 
-@include respond-to('small') {
+@include rt.respond-to('small') {
   .mc--head--right {
     display: inline-block;
   }

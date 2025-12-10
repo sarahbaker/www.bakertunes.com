@@ -1,5 +1,7 @@
+@use "../common/variables" as var;
+
 .footer-nav {
-  margin-bottom: $base-space;
+  margin-bottom: var.$base-space;
 
   ul {
     list-style: none;

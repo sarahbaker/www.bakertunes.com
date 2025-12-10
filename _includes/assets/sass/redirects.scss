@@ -1,31 +1,32 @@
 /* --------------------------------------------------------------
 # Variables
 -------------------------------------------------------------- */
-@import "./common/variables";
+@use "./common/variables" as var;
 
 /* --------------------------------------------------------------
 # Tools
 -------------------------------------------------------------- */
-@import "./tools/all";
+@use "./tools/all";
+@use "./tools/mixins";
 
 /* --------------------------------------------------------------
 # Normalize
 -------------------------------------------------------------- */
-@import "./partials/normalize";
+@use "./partials/normalize";
 
 /* --------------------------------------------------------------
 # Elements
 -------------------------------------------------------------- */
-@import "./common/elements";
+@use "./common/elements";
 
 /* --------------------------------------------------------------
 # Necessary imports
 -------------------------------------------------------------- */
-@import "./components/content_canvas";
+@use "./components/content_canvas";
 
 body {
-  background-color: $outer-space;
-  color: $white;
+  background-color: var.$outer-space;
+  color: var.$white;
 }
 
 .content-canvas {
@@ -40,7 +41,7 @@ body {
   padding: 3rem 0;
 
   .site-logo {
-    @include hide-text;
+    @include mixins.hide-text;
 
     background: url(/static/images/logo.png) 0 0 no-repeat;
     background-size: contain;
@@ -56,7 +57,7 @@ body {
 .warning {
   width: 50px;
   height: 50px; 
-  background-color: $white;
+  background-color: var.$white;
   mask-image: url(/static/images/icons/warning.svg);
   mask-size: contain;
   margin: 1.5rem auto;

@@ -1,8 +1,10 @@
+@use "../common/variables" as var;
+
 img {
   max-width: 100%;
   height: auto;
 }
 
 .img-rounded {
-  border-radius: 0.5 * $base-space;
+  border-radius: 0.5 * var.$base-space;
 }
