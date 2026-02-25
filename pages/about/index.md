@@ -13,6 +13,12 @@ tags:
   - '#footer'
 compositions:
   -
+    name: "2026"
+    data:
+      -
+        title: "*My Piano Sketchbook*"
+        excerpt: A collection of 12 descriptive pieces and duets for piano, grade 1-2 level. To be published by Forsyth later this year.
+  -
     name: "2025"
     data:
       - 
@@ -291,6 +297,6 @@ I am passionate about music and arts education and believe that the performing a
 
 I specialise in conducting and leading choirs with particular expertise in Key Stages 1 and 2 and have worked in many schools in Birmingham in a broad variety of social and cultural contexts since 1996.
 
-I have a thriving private piano teaching business, with pupils from six years to mature adults, from beginners to diploma level. This includes teaching theory and aural at all levels and working as an examiner for [ABRSM](http://abrsm.org). I also regularly accompany candidates for instrumental exams and organise biannual student concerts.
+I have a thriving private music teaching business, with pupils from six years to mature adults, from beginners to diploma level. This includes teaching piano, singing, theory and aural at all levels and working as an examiner for [ABRSM](http://abrsm.org). I also regularly accompany candidates for instrumental exams and organise biannual student concerts.
 
-I am the Vocal Composer in Residence for [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) and compose songs and musicals for primary schools and massed-choral events. I have also worked extensively on compositions and arrangements for pre-school music and movement classes, producing the curriculum CDs for [Musicshakers](http://musicshakers.com).
+I was the Vocal Composer in Residence for [Services for Education Music Services](http://servicesforeducation.co.uk/index.php/Music-Services/music-services-2.html) 2012-2024 and composed songs and musicals for primary schools and massed-choral events. I have also worked extensively on compositions and arrangements for pre-school music and movement classes, producing the curriculum CDs for [Musicshakers](http://musicshakers.com).
