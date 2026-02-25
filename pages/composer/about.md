@@ -21,6 +21,6 @@ The opportunity to arrange the material for the MusicShakers CDs came at just th
 
 My compositional output slowly began to grow, and I eventually became Composer in Residence for [Services For Education](www.servicesforeducation.co.uk) in 2012. Since then I have relished the opportunity to write songs, musicals and piano music for many different occasions.
 
-It has been such a pleasure to take part on the ABRSM mentoring scheme, Writing for Music Education. I have had the wonderful input and mentoring support of fantastic composers such as Sarah Watts nad Alan Bullard who are well-known names of the music education field. By hearing other composers' stories and journeys, I have been inspired and motivated to write music at all levels. 
+It has been such a pleasure to take part on the ABRSM mentoring scheme, Writing for Music Education. I have had the wonderful input and mentoring support of fantastic composers such as Sarah Watts and Alan Bullard who are well-known names of the music education field. By hearing other composers' stories and journeys, I have been inspired and motivated to write music at all levels. 
 
 A [full list of my compositions](/about/#compositions) is available.
