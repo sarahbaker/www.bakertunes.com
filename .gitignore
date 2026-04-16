@@ -13,3 +13,9 @@ _includes/assets/**/*.css.map
 
 .DS_Store
 .env
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
