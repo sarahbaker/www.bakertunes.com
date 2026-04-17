@@ -16,8 +16,8 @@
 
   .jumbotron--inner {
     display: grid;
-    grid-template-columns: minmax(20ch, 3fr) 2fr;
-    grid-template-rows: minmax(2rem, 200px) minmax(200px, 250px);
+    grid-template-columns: minmax(20ch, 3fr) minmax(20ch, 3fr);
+    grid-template-rows: minmax(2rem, 200px) minmax(200px, 325px);
     padding: 0;
   }
 

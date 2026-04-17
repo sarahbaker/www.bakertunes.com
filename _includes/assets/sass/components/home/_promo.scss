@@ -51,4 +51,21 @@
       }
     }
   }
+
+  .content-canvas {
+    grid-template-columns: 
+    [full-start]
+      1fr
+    [wide-start]
+      minmax(10ch, auto)
+    [main-start]
+      minmax(15ch, 40ch)
+    [main-mid]
+      minmax(15ch, 40ch)
+    [main-end]
+      minmax(10ch, auto)
+    [wide-end]
+      1fr
+    [full-end];
+  }
 }
