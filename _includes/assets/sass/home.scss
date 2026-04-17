@@ -78,8 +78,8 @@
     .excerpt {
       font-size: var.$lg-body-font-size;
       line-height: var.$lg-body-font-size;
-    }    
-  }  
+    }
+  }
 }
 
 @include rt.respond-to('large') {
