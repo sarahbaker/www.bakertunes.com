@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Day Time Impressions
 description: 9 pieces for solo piano inspired by memories from childhood

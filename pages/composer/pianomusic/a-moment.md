@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: A moment …
 date: 2020-07-09

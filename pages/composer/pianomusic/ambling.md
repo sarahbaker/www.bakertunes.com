@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Ambling
 date: 2017-03-29

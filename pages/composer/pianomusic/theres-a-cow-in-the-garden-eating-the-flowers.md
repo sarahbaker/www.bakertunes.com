@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: There's A Cow In The Garden Eating The Flowers
 date: 2020-10-19

@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Shadows
 date: 2020-09-11

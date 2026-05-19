@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: He Lay Me Down
 date: 2018-05-23

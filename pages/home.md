@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: home.njk
 title: Sarah Baker
 home: true
 permalink: /

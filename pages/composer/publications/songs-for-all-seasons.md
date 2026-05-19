@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Songs for all Seasons
 image: https://www.starshine.co.uk/files/songbooks/songs-for-all-seasons/Songs%20For%20All%20Seasons.jpg

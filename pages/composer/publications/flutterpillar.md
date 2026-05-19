@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Flutterpillar
 image: https://www.starshine.co.uk/files/musicals/flutterpillar/Flutterpillar-large.jpg

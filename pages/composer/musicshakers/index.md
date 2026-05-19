@@ -1,5 +1,5 @@
 ---
-layout: layouts/index-musicshakers.njk
+layout: index-musicshakers.njk
 title: Music Shakers
 navtitle: Music Shakers
 image: recording-evening-work.jpg

@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Singing Connections
 image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/singing-connections-music-service-services-for-education-600x600.jpg

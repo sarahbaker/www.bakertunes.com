@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: The Backwater Pirate
 image: https://www.lindsaymusic.uk/shop/app/web/upload/medium/217_20cb5553aa68453ecf6738e68dd3ceb5.png

@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: A Reflection of Ida
 description: The story of the piano music for my piece, 'A Reflection of Ida' 

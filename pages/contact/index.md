@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 post_date: false
 section: contact
 order: 10

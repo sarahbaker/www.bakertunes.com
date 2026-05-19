@@ -1,6 +1,6 @@
 ---
-layout: layouts/index.njk
-section: musicshakers
+layout: index.njk
+section: pianomusic
 meta_back: 
   url: "/composer/"
   title: "Composer & Arranger"
@@ -9,6 +9,8 @@ meta_back:
 {{ content | safe }}
 
 <div class="site-content content-canvas-item-wide">
+  
+  {{ filters  | safe }}
 
   {% include "layouts/components/index-list.njk" %}
 

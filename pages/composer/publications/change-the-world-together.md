@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Change The World Together
 description: This highly relevant, heart-warming and entertaining musical captures the spirit of the times, being about a young person determined to make a difference in the face of climate change.

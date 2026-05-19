@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: musicshakers
 image: https://images-eu.ssl-images-amazon.com/images/I/617tPdSCg7L._SS500.jpg
 title: Winter Chimes & Animal Rhymes

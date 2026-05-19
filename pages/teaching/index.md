@@ -1,5 +1,5 @@
 ---
-layout: layouts/index-teaching.njk
+layout: index-teaching.njk
 title: Teaching for Individuals and in Small Groups
 navtitle: Teaching
 excerpt: One-to-one piano, singing and music theory teaching.

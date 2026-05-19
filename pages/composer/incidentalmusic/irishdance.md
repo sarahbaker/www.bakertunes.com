@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: incidentalmusic
 section: incidental-music
 title: Irish Dance

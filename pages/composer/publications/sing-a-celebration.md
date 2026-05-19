@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Sing A Celebration!
 image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/sing-a-celebration-services-for-education-music-service-for-schools.jpg

@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Behind the Stable Door
 image: //www.edgyproductions.com/wp-content/uploads/2016/07/Behind-The-Stable-Door-catalogue-image.jpg

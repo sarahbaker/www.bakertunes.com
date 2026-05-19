@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Breaking News In Bethlehem!
 image: /static/images/resources/breaking_news_cover.jpg

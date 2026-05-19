@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: musicshakers
 image: //resources.wimpmusic.com/images/ab316419/05eb/462f/8a11/6d43416e4e90/1280x1280.jpg
 title: Song Birds & Rhyming Words

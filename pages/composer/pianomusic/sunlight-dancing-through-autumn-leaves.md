@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Sunlight Dancing Through Autumn Leaves
 date: 2021-10-11

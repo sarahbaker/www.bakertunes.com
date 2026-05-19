@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Croak!
 description: Speedy the tadpole is sad because he can’t sing along with the froggy chorus. A delightful musical for 3-7 year olds that explores the life cycle of a frog.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/page-soulsongs.njk
+layout: page-soulsongs.njk
 title: Soul Songs
 navtitle: Soul Songs
 excerpt: Unique music, composed especially for you

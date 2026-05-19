@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: musicshakers
 image: https://images-eu.ssl-images-amazon.com/images/I/61T7hn3ooNL._SS500.jpg
 title: Autumn Beat and Dancing Feet

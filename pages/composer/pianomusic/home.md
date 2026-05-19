@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 title: Home
 category: pianomusic
 date: 2019-04-08

@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Magical Christmas Journey
 image: https://www.starshine.co.uk/files/musicals/magical-christmas-journey/Magical%20Christmas%20Journey-large.jpg

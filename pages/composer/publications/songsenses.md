@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Soundtots - Songsenses
 image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/soundtots-songsenses-services-for-education-music-service-for-schools.jpg

@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Soundtots - People I Know
 image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/soundtots-people-i-know-services-for-education-music-service-for-schools.jpg

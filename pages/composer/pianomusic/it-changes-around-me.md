@@ -1,5 +1,5 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: It changes around me
 description: Piano music for my piece, 'It changes around me,' with downloadable score and YouTube video.

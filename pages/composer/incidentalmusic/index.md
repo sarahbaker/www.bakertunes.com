@@ -1,5 +1,5 @@
 ---
-layout: layouts/index-incidental-music.njk
+layout: index-incidental-music.njk
 title: Incidental Music
 navtitle: Incidental Music
 image: recording-evening-work.jpg

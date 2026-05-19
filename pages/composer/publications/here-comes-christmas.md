@@ -1,5 +1,5 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Here Comes Christmas!
 image: https://www.starshine.co.uk/files/songbooks/here-comes-christmas/Here-Comes-Christmas-big.jpg

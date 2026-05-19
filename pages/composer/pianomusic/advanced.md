@@ -1,5 +1,5 @@
 ---
-layout: layouts/index-pianomusic.njk
+layout: index-pianomusic.njk
 title: Piano Music — Advanced 
 section: pianomusic
 pagination:

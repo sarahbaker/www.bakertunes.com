@@ -1,5 +1,5 @@
 ---
-layout: layouts/page-masterclass.njk
+layout: page-masterclass.njk
 title: Masterclasses
 navtitle: Masterclasses
 section: teaching-masterclass

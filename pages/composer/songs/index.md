@@ -1,5 +1,5 @@
 ---
-layout: layouts/index-publications
+layout: index-publications
 title: Songs
 navtitle: Songs
 excerpt: It has been said that I can write a song about anything! Here are my songs for young voices and choirs of all ages

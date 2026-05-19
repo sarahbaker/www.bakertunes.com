@@ -281,8 +281,9 @@ export const config = {
   passthroughFileCopy: true,
   dir: {
     input: 'pages',
-    includes: '../_includes',
-    data: '../_data',
+    includes: '../src/_includes',
+    layouts: '../src/_includes/layouts',
+    data: '../src/_data',
     output: '_site',
   },
 };
