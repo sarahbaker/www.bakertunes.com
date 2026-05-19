@@ -24,13 +24,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,700;1,700&family=Parisienne&display=swap" rel="stylesheet">
   {% set css %}
-    {% include "src/assets/css/styles.css" %}
+    {% include "src/_includes/assets/css/styles.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
 
   {% if styles %}
     {% for style in styles %}
-      {% set include_style %}src/assets/css/{{ style }}{% endset %}
+      {% set include_style %}src/_includes/assets/css/{{ style }}{% endset %}
       {% set include_css %}
         {% include include_style %}
       {% endset %}
@@ -43,7 +43,7 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   {% set js %}
-    {% include "src/assets/js/inline.js" %}
+    {% include "src/_includes/assets/js/inline.js" %}
     {% include "static/js/site.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
