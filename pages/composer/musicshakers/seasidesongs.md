@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 category: musicshakers
-image: https://images-eu.ssl-images-amazon.com/images/I/61t%2BWIFNCiL._SS500.jpg
+image: /static/images/musicshakers/seaside-songs.jpg
 title: Seaside Songs to Sing Along
 ---
 

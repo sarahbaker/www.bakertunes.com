@@ -5,7 +5,7 @@ title: Rocking Chair
 date: 2017-03-29
 score:
   pdf: rocking-chair.pdf
-  image: rocking-chair.jpg
+  image: /static/images/scores/rocking-chair.jpg
 youtube_id: KB7YExIgBow
 soundcloud_id:
 tags:

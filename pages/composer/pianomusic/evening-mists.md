@@ -5,7 +5,7 @@ title: Evening Mists
 date: 2020-09-11
 score:
   pdf: 
-  image: 
+  image:
 youtube_id: HdXxHNTZnxI
 soundcloud_id:
 tags:

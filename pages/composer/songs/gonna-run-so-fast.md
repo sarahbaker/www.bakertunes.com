@@ -7,7 +7,7 @@ soundcloud_id: 876747682
 youtube_id: 
 score:
   pdf: gonna-run-so-fast.pdf
-  image: gonna-run-so-fast.jpg
+  image: /static/images/scores/gonna-run-so-fast.jpg
 tags:
   - Sport
   - Olympics 2012

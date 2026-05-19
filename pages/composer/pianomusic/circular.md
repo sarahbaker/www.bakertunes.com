@@ -5,7 +5,7 @@ title: Circular
 date: 2020-08-19
 score:
   pdf: circular.pdf
-  image: circular.jpg
+  image: /static/images/scores/circular.jpg
 youtube_id: Q4KZabaMp2c
 tags:
   - Piano solo

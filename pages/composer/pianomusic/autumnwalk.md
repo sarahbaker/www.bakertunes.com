@@ -6,7 +6,7 @@ date: 2016-11-06
 promoted: true
 score:
   pdf: autumn-walk.pdf
-  image: autumn-walk.jpg
+  image: /static/images/scores/autumn-walk.jpg
 youtube_id: OJfpvy0uoBo
 tags:
   - Instrumental Performance

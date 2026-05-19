@@ -2,7 +2,7 @@
 layout: publication.njk
 category: publications
 title: Soundtots - Songsenses
-image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/soundtots-songsenses-services-for-education-music-service-for-schools.jpg
+image: /static/images/publications/soundtots-songsenses-services-for-education-music-service-for-schools.jpg
 publication_url: https://www.servicesforeducation.co.uk/our-offer/soundtots-songsenses/
 publication_type: Songs for young children
 publisher: Services For Education

@@ -3,7 +3,7 @@ layout: index-composer.njk
 title: Composer and Arranger
 excerpt: "I have composed music since I was eight. My love of singing and melody combines with my interest in the polyphony of the Baroque period and the dissonance of Twentieth Century composers."
 navtitle: Composing & Arranging
-# image: recording-evening-work.jpg
+# image: /static/images/recording-evening-work.jpg
 order: 1
 tags:
   - '#nav'

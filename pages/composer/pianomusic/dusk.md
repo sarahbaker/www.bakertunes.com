@@ -6,7 +6,7 @@ date: 2016-11-13
 promoted: true
 score:
   pdf: 
-  image: 
+  image:
 youtube_id: ToZbqYkeDJA
 tags:
   - Instrumental Performance

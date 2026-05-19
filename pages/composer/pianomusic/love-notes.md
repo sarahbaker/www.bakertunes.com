@@ -4,7 +4,7 @@ category: pianomusic
 title: Love Notes
 date: 2025-06-18
 score: 
-  image: love-notes-album-artwork.jpg
+  image: /static/images/scores/love-notes-album-artwork.jpg
 youtube_id:
 soundcloud_id: 
 spotify_id: 30hxyw5ucWiXinnx0YQl96

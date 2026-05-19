@@ -3,7 +3,7 @@ layout: page-about.njk
 title: Sarah Baker
 section: about
 description: Biography of Sarah Baker, Composer in Residence for Services for Education Music Services 2012-2024, and examiner for ABRSM.
-image: sarah-in-garden-blue-600w.webp
+image: /static/images/sarah-in-garden-blue-600w.webp
 navtitle: About Me
 permalink: /about/index.html
 calendly: true

@@ -5,7 +5,7 @@ title: Snow Gently Falling
 date: 2020-11-30
 score:
   pdf: snow-gently-falling.pdf
-  image: snow-gently-falling.jpg
+  image: /static/images/scores/snow-gently-falling.jpg
 youtube_id: g1ZBhavvyfA
 tags:
   - Solo piano

@@ -5,7 +5,7 @@ title: Fox in the Night
 date: 2020-10-14
 score:
   pdf: 
-  image: 
+  image:
 youtube_id: LsmjI__jAiE
 tags:
   - Solo piano

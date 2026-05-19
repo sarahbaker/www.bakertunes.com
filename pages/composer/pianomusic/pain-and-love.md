@@ -5,7 +5,7 @@ title: Pain and Love
 date: 2018-01-16
 score:
   pdf: pain-and-love.pdf
-  image: pain-and-love.jpg
+  image: /static/images/scores/pain-and-love.jpg
 youtube_id:
 soundcloud_id: 383850761
 tags:

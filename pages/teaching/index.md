@@ -3,7 +3,7 @@ layout: index-teaching.njk
 title: Teaching for Individuals and in Small Groups
 navtitle: Teaching
 excerpt: One-to-one piano, singing and music theory teaching.
-image: sarah-in-garden-b+w.jpg
+image: /static/images/sarah-in-garden-b+w.jpg
 permalink: /teaching/
 order: 2
 tags:

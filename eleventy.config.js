@@ -1,3 +1,4 @@
+import { DateTime } from "luxon";
 import CleanCSS from "clean-css";
 import UglifyJS from "uglify-js";
 import { minify } from "html-minifier-terser";
@@ -7,6 +8,7 @@ import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import { execSync }  from 'child_process';
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -27,6 +29,36 @@ export default async function(eleventyConfig) {
       return ' data-current="current item" class="current"';
     }
     return '';
+  });
+
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // which file extensions to process
+    extensions: "html",
+
+    // Add any other Image utility options here:
+
+    // optional, output image formats
+    formats: ["webp", "jpeg"],
+    // formats: ["auto"],
+    sharpWebpOptions: {
+      quality: 67
+    },
+    sharpJpegOptions: {
+      quality: 67
+    },
+
+    // optional, output image widths
+    widths: [1980, 1200, 800, 500, 300],
+
+    urlPath: "/static/img/",
+    outputDir: "./_site/static/img/",
+
+    // optional, attributes assigned on <img> override these values.
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+      sizes: "auto",
+    },
   });
 
   // Minify CSS
@@ -53,6 +85,21 @@ export default async function(eleventyConfig) {
   // Check a string starts with a character.
   eleventyConfig.addFilter('starts_with', function(str, prefix, not = false) {
     return str.startsWith(prefix) !== not;
+  });
+
+   // Date filter to convert date objects to ISO 8601 format
+  eleventyConfig.addFilter('iso8601', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISO()
+  })
+
+  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+    // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+  });
+
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
   // Get all pages with a URL
@@ -157,6 +204,12 @@ export default async function(eleventyConfig) {
     return sortByTitle(items);
   });
 
+  // Blog items
+  eleventyConfig.addCollection('blogs', (collection) => {
+    var blogs = collection.getFilteredByGlob('pages/blog/**/*.md');
+    return sortByDate(blogs).reverse();
+  });
+
   function sortByOrder(collection) {
     return collection.sort((a, b) => {
       if (a.data.order < b.data.order) return -1;
@@ -257,6 +310,17 @@ export default async function(eleventyConfig) {
   eleventyConfig.addFilter("markdown", (content) => {
     return markdownLibrary.render(content);
   });
+
+  eleventyConfig.addFilter("markdown", (content, ril = false) => {
+    return ril ? markdownLibrary.renderInline(content) : markdownLibrary.render(content);
+  });
+
+  eleventyConfig.addPairedShortcode("Markdown", (content, ril = false) => {
+    return ril ? markdownLibrary.renderInline(content) : markdownLibrary.render(content);
+  });
+
+  eleventyConfig.addWatchTarget('./src/_sass/');
+  eleventyConfig.addPassthroughCopy('pages/static/');
 
   // Build PageFind search index
   eleventyConfig.on('eleventy.after', async ({ dir, results, runMode, outputMode }) => {

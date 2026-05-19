@@ -4,8 +4,8 @@ category: pianomusic
 title: Morning Commute
 date: 2020-10-14
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: yNxTPx55kX8
 tags:
   - Solo piano

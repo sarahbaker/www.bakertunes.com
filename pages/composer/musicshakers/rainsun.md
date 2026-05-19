@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 category: musicshakers
-image: https://images-eu.ssl-images-amazon.com/images/I/51FgyrcwT-L._SS500.jpg
+image: /static/images/musicshakers/rain-sun.jpg
 title: Rain or Sun, Singing Fun
 ---
 

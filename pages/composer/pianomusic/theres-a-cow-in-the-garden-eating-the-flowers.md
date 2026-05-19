@@ -4,8 +4,8 @@ category: pianomusic
 title: There's A Cow In The Garden Eating The Flowers
 date: 2020-10-19
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: HZicWIH1hYg
 tags:
   - Solo piano

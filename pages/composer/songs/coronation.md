@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: -_R73WfiSi8
 score:
   pdf: coronation.pdf
-  image: coronation.jpg
+  image: /static/images/scores/coronation.jpg
 tags:
   - Coronation of Charles III
   - Key Stage 2

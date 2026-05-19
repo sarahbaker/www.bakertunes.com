@@ -307,3 +307,7 @@ h4,
 .white-text {
   color: var.$white;
 }
+
+.small-text {
+  font-size: var(--font-size-fluid-000) !important;
+}

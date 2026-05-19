@@ -5,7 +5,7 @@ title: The Journey
 date: 2016-11-09
 score:
   pdf: thejourney.pdf
-  image: thejourney.jpg
+  image: /static/images/scores/thejourney.jpg
 youtube_id: lNt3b2jiUf8
 soundcloud_id:
 tags:

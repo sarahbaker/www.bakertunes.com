@@ -2,7 +2,7 @@
 layout: page-masterclass.njk
 title: Online Teaching
 excerpt: One-to-one piano, singing and music theory teaching, online.
-image: pexels/pexels-mikhail-nilov-7570107-600.jpeg
+image: /static/images/pexels/pexels-mikhail-nilov-7570107-600.jpeg
 permalink: /teaching/online/
 order: 2
 calendly: false

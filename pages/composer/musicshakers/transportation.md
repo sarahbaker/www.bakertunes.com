@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 category: musicshakers
-image: https://images-eu.ssl-images-amazon.com/images/I/61VJ9guvrrL._SS500.jpg
+image: /static/images/musicshakers/transportation.jpg
 title: Songs of Transportation and Exploration
 ---
 

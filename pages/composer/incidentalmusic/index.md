@@ -2,7 +2,7 @@
 layout: index-incidental-music.njk
 title: Incidental Music
 navtitle: Incidental Music
-image: recording-evening-work.jpg
+image: /static/images/recording-evening-work.jpg
 excerpt: Experiments in midi-based instrumental music 
 order: 4
 tags:

@@ -5,7 +5,7 @@ title: Sunlight On Water
 date: 2024-09-13
 score:
   pdf: sunlight-on-water1.pdf
-  image: sunlight-on-water1.jpg
+  image: /static/images/scores/sunlight-on-water1.jpg
 youtube_id: YSQ8-1NJkc4
 soundcloud_id:
 tags:

@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: Vq6P2cnALzs
 score:
   pdf: let-light-shine.pdf
-  image: let-light-shine.jpg
+  image: /static/images/scores/let-light-shine.jpg
 tags:
   - Choral
   - Community Music

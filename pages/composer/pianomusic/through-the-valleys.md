@@ -4,8 +4,8 @@ category: pianomusic
 title: Through The Valleys
 date: 2022-05-18
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: 0daHRoiFP24
 testimonial: 
   quote: "The piece of music which Sarah wrote for me left me speechless. It was intelligently composed, thoughtfully written and multi-textured. Sarah managed to translate my innermost thoughts into a wonderful piece which I will treasure for the rest of my life. She has essentially bequeathed me a musical mirror to look into and understand myself, my journey and my dreams. What a wonderful gift."

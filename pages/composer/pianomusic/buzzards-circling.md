@@ -5,7 +5,7 @@ title: Buzzards Circling
 date: 2020-10-12
 score:
   pdf: 
-  image: 
+  image:
 youtube_id: 0FPQbREcLK4
 tags:
   - Solo piano

@@ -44,7 +44,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   {% set js %}
     {% include "src/_includes/assets/js/inline.js" %}
-    {% include "static/js/site.js" %}
+    {% include "src/_includes/assets/js/site.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
   <!-- Pagefind JS -->

@@ -5,7 +5,7 @@ title: For Erin
 date: 2017-12-06
 score:
   pdf: for-erin.pdf
-  image: for-erin.jpg
+  image: /static/images/scores/for-erin.jpg
 youtube_id: JDEKOTXRjbA
 soundcloud_id:
 testimonial:

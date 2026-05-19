@@ -3,7 +3,7 @@ layout: publication.njk
 category: publications
 title: Night Time Impressions
 description: 9 pieces for solo piano inspired by memories from childhood
-image: https://s3-eu-west-1.amazonaws.com/assets.forsyths.co.uk/img/p/148404-276588-thickbox.jpg
+image: /static/images/publications/night-time-impressions.jpg
 publication_url: https://s3-eu-west-1.amazonaws.com/assets.forsyths.co.uk/img/p/148404-276588-thickbox.jpg
 publication_type: Piano music
 publisher: Forsyth Music

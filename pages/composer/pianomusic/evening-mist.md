@@ -5,7 +5,7 @@ title: Evening Mist
 date: 2017-07-29
 score:
   pdf: evening-mist.pdf
-  image: evening-mist.jpg
+  image: /static/images/scores/evening-mist.jpg
 youtube_id: OpTUXqdkzNY
 soundcloud_id:
 tags:

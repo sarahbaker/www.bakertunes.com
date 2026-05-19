@@ -9,7 +9,7 @@ styles:
   <div class="jumbotron--inner">
     {% if jumbotron.image %}
     <aside class="image-right">
-      <img src="/static/images/{{ jumbotron.image }}" title="{{ title }}" class="img-responsive">
+      <img src="{{ jumbotron.image }}" alt="{{ jumbotron.title }}" class="img-responsive">
     </aside>
     {% endif %}
 

@@ -5,7 +5,7 @@ title: Memories (for Juliet)
 date: 2018-10-17
 score:
   pdf: memories-for-juliet.pdf
-  image: memories-for-juliet.jpg
+  image: /static/images/scores/memories-for-juliet.jpg
 youtube_id: H92ckxuFJpU
 soundcloud_id:
 tags:

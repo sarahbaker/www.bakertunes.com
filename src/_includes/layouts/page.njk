@@ -50,11 +50,7 @@ styles:
   
     {% if image %}
     <figure class="pull-right">
-      {% if category == "publications" %}
-      <img src="{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
-      {% else %}
-      <img src="/static/images/{{ image }}" title="{{ title }} resource" class="img-responsive img-rounded">
-      {% endif %}
+      <img src="{{ image }}" alt="{{ title }} resource" class="img-responsive img-rounded">
     </figure>
     {% endif %}
 
@@ -85,7 +81,7 @@ styles:
       srcset="{{ map_image_srcset.600w }} 600w,
         {{ map_image_srcset.1000w }} 1000w,
         {{ map_image_srcset.1920w }} 1920w,
-        {{ map_image_srcset.2400w }} 2400w" sizes="(min-width: 720px) 720px">
+        {{ map_image_srcset.2400w }} 2400w" sizes="(min-width: 720px) 720px" eleventy:ignore>
     </figure>
   <div>
   {% endif %}
@@ -117,7 +113,7 @@ styles:
 
     {% if score.image %}
     <p>
-        <img src="/static/images/scores/{{ score.image }}" alt="{{ title }} score example" width="100%" />
+        <img src="{{ score.image }}" alt="{{ title }} score example" width="100%" />
     </p>
     {% endif %}
   {% endif %}

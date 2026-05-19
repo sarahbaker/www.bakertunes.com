@@ -2,7 +2,7 @@
 layout: publication.njk
 category: publications
 title: Behind the Stable Door
-image: //www.edgyproductions.com/wp-content/uploads/2016/07/Behind-The-Stable-Door-catalogue-image.jpg
+image: /static/images/publications/behind-the-stable-door.jpg
 publication_url: https://www.edgyproductions.com/shop/behind-the-stable-door/
 publication_type: Musical
 publisher: Edgy Productions

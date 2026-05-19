@@ -6,7 +6,7 @@ description: Piano music for my piece, 'It changes around me,' with downloadable
 date: 2020-08-14
 score:
   pdf: it-changes-around-me1.pdf
-  image: it-changes-around-me.jpg
+  image: /static/images/scores/it-changes-around-me.jpg
 youtube_id: UzYVpEEWJ20
 tags:
   - Piano solo

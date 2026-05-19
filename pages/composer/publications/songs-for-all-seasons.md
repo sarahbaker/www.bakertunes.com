@@ -2,7 +2,7 @@
 layout: publication.njk
 category: publications
 title: Songs for all Seasons
-image: https://www.starshine.co.uk/files/songbooks/songs-for-all-seasons/Songs%20For%20All%20Seasons.jpg
+image: /static/images/publications/songs-for-all-seasons.webp
 publication_type: Songbook
 publication_url: https://www.starshine.co.uk/products?c=/songs&p=/songs-for-all-seasons
 publisher: Starshine Music

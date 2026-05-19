@@ -5,8 +5,10 @@ title: Transformations
 date: 2020-08-20
 score: 
   pdf: transformations-full-score.pdf
-  image: Transformations.jpg
-youtube_id: https://www.youtube.com/playlist?list=PLQ1kAgbWArKyOdG139Z6LTcERMvzqlJU-
+  image: /static/images/scores/Transformations.jpg
+youtube_playlist:
+  id: PLQ1kAgbWArKyOdG139Z6LTcERMvzqlJU-
+  thumbnail_id: 8BfrBsM5A88
 soundcloud_id: 
 spotify_id: 7yNVk50pBNyDLqNCvvIfaF
 tags:

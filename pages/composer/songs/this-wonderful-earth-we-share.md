@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: NDAPfxRuRO0
 score:
   pdf: "this-wonderful-earth-we-share.pdf"
-  image: "this-wonderful-earth-we-share.jpg"
+  image: /static/images/scores/this-wonderful-earth-we-share.jpg
 tags:
   - Climate Crisis
   - Environment

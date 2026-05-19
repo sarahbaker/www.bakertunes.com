@@ -2,7 +2,7 @@
 layout: publication.njk
 category: publications
 title: Here Comes Christmas!
-image: https://www.starshine.co.uk/files/songbooks/here-comes-christmas/Here-Comes-Christmas-big.jpg
+image: /static/images/publications/here-comes-christmas.webp
 publication_type: Songbook
 publication_url: https://www.starshine.co.uk/products?c=/songs&p=/here-comes-christmas
 publisher: Starshine Music

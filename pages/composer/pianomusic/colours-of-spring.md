@@ -5,7 +5,7 @@ title: Colours Of Spring
 date: 2020-08-19
 score:
   pdf: colours-of-spring.pdf
-  image: colours-of-spring.jpg
+  image: /static/images/scores/colours-of-spring.jpg
 youtube_id: HTc0XV-5ukQ
 tags:
   - Piano solo

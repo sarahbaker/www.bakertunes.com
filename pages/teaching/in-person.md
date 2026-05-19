@@ -2,7 +2,7 @@
 layout: page-masterclass.njk
 title: In-Person Teaching
 excerpt: One-to-one piano, singing and music theory teaching, in person.
-image: pexels/pexels-yan-krukov-8520474-600.jpeg
+image: /static/images/pexels/pexels-yan-krukov-8520474-600.jpeg
 map_image_srcset:
   alt: Map for my teaching in-person
   600w: /static/images/kh-map-600.webp

@@ -7,7 +7,7 @@ soundcloud_id: 303204619
 youtube_id: 
 score:
   pdf: sticky-fingers.pdf
-  image: sticky-fingers.jpg
+  image: /static/images/scores/sticky-fingers.jpg
 tags:
   - Early Years
   - Pre-school

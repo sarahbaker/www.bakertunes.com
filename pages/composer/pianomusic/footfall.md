@@ -5,7 +5,7 @@ title: Footfall
 date: 2016-11-11
 score:
   pdf: footfall.pdf
-  image: footfall.jpg
+  image: /static/images/scores/footfall.jpg
 youtube_id: aX0R4Bpv-Xg
 soundcloud_id:
 tags:

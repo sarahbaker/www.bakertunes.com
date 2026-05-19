@@ -7,7 +7,7 @@ youtube_id: wHO0I1-fvFM
 soundcloud_id: 51531078
 score:
   pdf: "castles.pdf"
-  image: "castles.jpg"
+  image: /static/images/scores/castles.jpg
 tags:
   - History
   - Key Stage 2

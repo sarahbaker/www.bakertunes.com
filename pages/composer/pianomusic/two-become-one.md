@@ -4,8 +4,8 @@ category: pianomusic
 title: Two Become One
 date: 2022-03-09
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: tfd-bVEoZOw 
 testimonial:
   quote: "I sought a piece that reflected two lives that became one. I also stipulated that I wanted to be able to play it. Sarah rose to the challenge and produced a piece that reflects those requirements."

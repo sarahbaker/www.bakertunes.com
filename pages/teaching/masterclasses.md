@@ -4,7 +4,7 @@ title: Masterclasses
 navtitle: Masterclasses
 section: teaching-masterclass
 excerpt: Individual masterclasses — expert, personalised feedback for exam, recital or performance preparation.
-image: unsplash/jordan-whitfield-BhfE1IgcsA8-unsplash-1000.jpeg
+image: /static/images/unsplash/jordan-whitfield-BhfE1IgcsA8-unsplash-1000.jpeg
 permalink: /teaching/masterclasses/
 order: 0
 calendly: true

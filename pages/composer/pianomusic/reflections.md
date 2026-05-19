@@ -5,7 +5,7 @@ title: Reflections
 date: 2016-11-06
 score:
   pdf: reflections.pdf
-  image: reflections.jpg
+  image: /static/images/scores/reflections.jpg
 youtube_id: Uehdeufy0f0
 soundcloud_id:
 tags:

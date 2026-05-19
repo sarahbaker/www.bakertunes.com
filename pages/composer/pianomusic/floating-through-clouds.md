@@ -5,7 +5,7 @@ title: Floating Through Clouds
 date: 2024-05-03
 score:
   pdf: floating-through-clouds.pdf
-  image: floating-through-clouds.jpg
+  image: /static/images/scores/floating-through-clouds.jpg
 youtube_id: DnF5VGZCc8U
 soundcloud_id:
 tags:

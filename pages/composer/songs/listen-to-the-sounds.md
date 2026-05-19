@@ -7,7 +7,7 @@ soundcloud_id: 307851241
 youtube_id: 
 score:
   pdf: listen-to-the-sounds.pdf
-  image: listen-to-the-sounds.jpg
+  image: /static/images/scores/listen-to-the-sounds.jpg
 tags:
   - Early Years
   - Pre-school

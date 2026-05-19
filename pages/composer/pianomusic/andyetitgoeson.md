@@ -5,7 +5,7 @@ title: and yet it goes on
 date: 2020-04-30
 score:
   pdf: and-yet-it-goes-on1.pdf
-  image: and_yet_it_goes_on.jpg
+  image: /static/images/scores/and_yet_it_goes_on.jpg
 youtube_id: dRYtU6FeAxg
 tags:
   - Solo piano

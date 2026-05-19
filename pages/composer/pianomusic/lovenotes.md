@@ -5,7 +5,7 @@ title: Love Notes
 date: 2025-06-19
 score:
   pdf: love-notesx.pdf
-  image: love-notesx.jpg
+  image: /static/images/scores/love-notesx.jpg
 youtube_id: g4hKYDxDeK4
 tags:
   - Solo piano

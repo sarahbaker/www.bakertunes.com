@@ -36,6 +36,10 @@ html {
   box-sizing: border-box;
   min-height: 100%; /* [2] */
   overflow-y: scroll; /* [1] */
+
+  --font-size-fluid-000: clamp(#{var.$body-v-sml-font-size-mobile}, 1.3vw, #{var.$body-v-sml-font-size});
+  --font-size-fluid-00: clamp(#{var.$body-sml-font-size-mobile}, 1.4vw, #{var.$body-sml-font-size});
+  --font-size-fluid-0: clamp(#{var.$body-font-size-mobile}, 1.5vw, #{var.$body-font-size});
 }
 
 * {

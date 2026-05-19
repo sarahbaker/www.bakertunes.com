@@ -7,7 +7,7 @@ soundcloud_id: 73288859
 youtube_id: 4kWJbiuSwPU
 score:
   pdf: light-in-the-darkness-full-score.pdf
-  image: light-in-the-darkness.jpg
+  image: /static/images/scores/light-in-the-darkness.jpg
 tags:
   - Spiritual
   - Solo

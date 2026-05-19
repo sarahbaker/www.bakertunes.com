@@ -5,7 +5,7 @@ title: Morning Sun
 date: 2016-11-05
 score:
   pdf: morning-sun.pdf
-  image: morning-sun.jpg
+  image: /static/images/scores/morning-sun.jpg
 youtube_id: IyeDEIIW5mo
 soundcloud_id:
 tags:

@@ -5,7 +5,7 @@ title: Seasonal Impressions
 date: 2021-10-13
 score:
   pdf: seasonal-impressions.pdf
-  image: seasonal-impressions.jpg
+  image: /static/images/scores/seasonal-impressions.jpg
 youtube_id:
 youtube_playlist:
   id: PLQ1kAgbWArKy-loFlOkfyVpaKh4Y44-gk

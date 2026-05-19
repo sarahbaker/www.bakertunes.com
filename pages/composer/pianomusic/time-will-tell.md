@@ -5,7 +5,7 @@ title: Time will tell
 date: 2020-06-06
 score:
   pdf: time-will-tell1.pdf
-  image: time-will-tell1.jpg
+  image: /static/images/scores/time-will-tell1.jpg
 youtube_id: 5XOeQMZOgXA
 tags:
   - Piano solo

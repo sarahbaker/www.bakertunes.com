@@ -11,4 +11,4 @@
   </div>
 </div>
 
-<div class="{% if loop.index % 2 == 0 %} content-canvas-item-full-left{% else %} content-canvas-item-full-right{% endif %} content-canvas-item--row-span-2 item-thing image{% if item.classes.image %} {{ item.classes.image | join(' ')}}{% endif %}" style="--promo-background: url('/static/images/{{ item.image }}')"></div>
+<div class="{% if loop.index % 2 == 0 %} content-canvas-item-full-left{% else %} content-canvas-item-full-right{% endif %} content-canvas-item--row-span-2 item-thing image{% if item.classes.image %} {{ item.classes.image | join(' ')}}{% endif %}" style="--promo-background: url('{{ item.image }}')"></div>
