@@ -6,17 +6,17 @@
   column-gap: 1rem;
   grid-template-columns: 
     [full-start]
-      1fr
+      minmax(0, auto)
     [wide-start]
-      minmax(0, auto)
+      minmax(1rem, auto)
     [main-start]
-      minmax(15ch, calc(#{var.$break-large} - 3rem))
+      minmax(10ch, calc(#{var.$break-medium} - 3rem))
     [main-mid]
-      minmax(15ch, 40ch)
+      minmax(10ch, 30ch)
     [main-end]
-      minmax(0, auto)
+      minmax(1rem, auto)
     [wide-end]
-      1fr
+      minmax(0, auto)
     [full-end];
   grid-auto-flow: row;
 }
@@ -29,7 +29,7 @@
       [wide-start]
         minmax(6vw, auto)
       [main-start]
-        minmax(calc(#{var.$break-small} - 3rem), calc((#{var.$break-medium} - 3rem) * 3 / 5))
+        minmax(calc(#{var.$break-very-small} - 3rem), calc((#{var.$break-medium} - 3rem) * 3 / 5))
       [main-mid]
         minmax(40ch, calc((#{var.$break-medium} - 3rem) * 2 / 5))
       [main-end]

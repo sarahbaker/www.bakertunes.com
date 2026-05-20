@@ -2,6 +2,7 @@
 title: Light In The Darkness
 layout: blog.njk
 date: 2016-11-09
+soundcloud_id: 73288859
 ---
 I woke up this morning to the news that Donald Trump is the new president of America.
 
@@ -16,5 +17,3 @@ I have had a Christian faith since a child and was inspired three years ago to w
 I was glad to be reminded of this today and have decided that a song about light in the darkness is more helpful to me in this time of turmoil and fear.
 
 I hope this might help others too, and bring a little hope.
-
-<iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F73288859&amp;show_artwork=true" width="700" height="145" frameborder="0" scrolling="no"></iframe>

@@ -29,7 +29,7 @@
         {% elif item.data.soundcloud_id %}
         <img src="https://i1.sndcdn.com/avatars-000053069287-52pkew-t500x500.jpg" alt="{{ item.data.title }}" class="img img-rounded img-responsive">
         {% elif item.data.image %}
-        {% Markdown true %}![]({{ item.data.image }}){eleventy:widths=600,1000 .index-list__item-picture .image-obj-cover}{% endMarkdown %}
+        {% Markdown true %}![]({{ item.data.image }}){eleventy:widths=400,600,1200 .index-list__item-picture .image-obj-cover}{% endMarkdown %}
         {% endif %}
         <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ item.data.title }}</span></a>
       </li>

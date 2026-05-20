@@ -308,6 +308,14 @@ h4,
   color: var.$white;
 }
 
+.smaller {
+  font-size: var(--font-size-fluid-0) !important;
+}
+
 .small-text {
   font-size: var(--font-size-fluid-000) !important;
+}
+
+.large {
+  font-size: var(--font-size-fluid-1);
 }

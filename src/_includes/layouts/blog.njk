@@ -40,42 +40,21 @@ permalink: "blog/{{ page.date | date: '%Y'}}-{{ title | slugify }}/"
 
   <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="9">{{ title }}</h1>
 
-  <div class="page-date small-text"><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></div>
+  {% if date %}
+  <div class="page-date small-text margin-block-md"><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></div>
+  {% endif %}
 
-  <div class="content-canvas-item{% if image or calendly or (tags and '#soulsong' in tags) or promote %}-left{% endif %}">
+  {% if image and not page.hideImage %}
+  <figure class="margin-block-lg margin-inline-nil">
+    <img src="{{ image }}" alt="{{ title }}" class="img-responsive img-rounded" eleventy:widths=400,600,1000 />
+  </figure>
+  {% endif %}
+
+  <div class="content-canvas-item">
 
     {{ content | safe}}
 
   </div>
-
-  {% if image or calendly or (tags and '#soulsong' in tags) or promote %}
-  <div class="content-canvas-item-right">
-  
-    {% if image %}
-    <figure class="pull-right">
-      <img src="{{ image }}" alt="{{ title }} resource" class="img-responsive img-rounded">
-    </figure>
-    {% endif %}
-
-    {% if calendly %}
-      {% include "layouts/components/calendly.njk" %}
-    {% endif %}
-
-    {% if tags and '#soulsong' in tags %}
-      {% include "layouts/components/promote-soulsongs.njk" %}
-    {% endif %}
-
-    {% if promote %}
-      {% if promote.teaching %}
-      {% include "layouts/components/promote-service-teaching.njk" %}
-      {% endif %}
-      {% if promote.masterclasses %}
-        {% include "layouts/components/promote-service-masterclasses.njk" %}
-      {% endif %}
-    {% endif %}
-
-  </div>
-  {% endif %}
 
   {% if publication_url %}
     {% include "layouts/components/publication-link.njk" %}
