@@ -2,7 +2,11 @@
 layout: base.njk
 styles:
   - page.css
+  - blog.css
 permalink: "blog/{{ page.date | date: '%Y'}}-{{ title | slugify }}/"
+back:
+  title: Blog
+  path: /blog/
 ---
 <div class="site-content content-canvas">
   {% if category %}
@@ -40,21 +44,24 @@ permalink: "blog/{{ page.date | date: '%Y'}}-{{ title | slugify }}/"
 
   <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="9">{{ title }}</h1>
 
-  {% if date %}
-  <div class="page-date small-text margin-block-md"><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></div>
-  {% endif %}
+  <div class="metadata page__metadata">
+    <div class="metadata__info">
+      {% if date %}
+      <span class="page-date small-text margin-block-md"><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></span>
+      <span class="metadata__divider divider"></span>
+      {% endif %}
+      <span class="metadata__reading-time">{{ content | timeToRead }} read</span>
+    </div>
+  </div>
 
   {% if image and not page.hideImage %}
-  <figure class="margin-block-lg margin-inline-nil">
-    <img src="{{ image }}" alt="{{ title }}" class="img-responsive img-rounded" eleventy:widths=400,600,1000 />
+  <figure class="margin-block-lg margin-inline-nil{% if image_classes.figure %} {{ image_classes.figure | join(' ') }}{% endif %}">
+    <img src="{{ image }}" alt="{{ title }}" class="img-responsive img-rounded{% if image_classes.image %} {{ image_classes.image | join(' ') }}{% endif %}" eleventy:widths=400,600,1000 />
   </figure>
   {% endif %}
 
-  <div class="content-canvas-item">
+  {{ content | safe}}
 
-    {{ content | safe}}
-
-  </div>
 
   {% if publication_url %}
     {% include "layouts/components/publication-link.njk" %}

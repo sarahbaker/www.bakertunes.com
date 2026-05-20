@@ -10,16 +10,15 @@ p,
 .body-style {
   width: 100%;
   font-family: var.$primary-font;
-  font-size: var.$body-font-size-mobile;
+  font-size: var(--font-size-fluid-1);
   font-weight: var.$base-font-weight-regular;
-  line-height: var.$body-line-height;
+  line-height: var(--font-lineheight-2);
   font-style: normal;
   color: inherit;
 
   @include rt.respond-to('medium') {
-    font-size: var.$body-font-size;
-    line-height: var.$body-line-height;
-    margin: 0 0 px.px-to-rem(30px) 0;
+    line-height: var(--font-lineheight-3);
+    margin: 0 0 px.px-to-rem(27px) 0;
   }
 }
 

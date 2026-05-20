@@ -4,6 +4,9 @@ excerpt: The inspiration behind the musical
 layout: blog.njk
 date: 2020-03-02
 image: /static/images/blog/change-the-world-together.webp
+image_classes:
+  figure:
+    - pull-right
 ---
 My new musical, *[Change The World Together](https://www.starshine.co.uk/products?category=/musicals/all-year-round&product=/change-the-world-together)*, is now available from [Starshine Music](https://www.starshine.co.uk/). It is a musical highlighting the impact of, and reasons for, climate change, and focuses on the specific contribution that trees make to our natural environment.
 
@@ -11,7 +14,9 @@ Inspiration for this musical has come from several sources. One of them is Jean 
 
 I wrote the musical in May 2019 when my daughters were first inspired to take part in the [Schools Strike For Climate](https://en.wikipedia.org/wiki/Fridays_for_Future). They are increasingly concerned about the damage being done to the environment and how air and plastic pollution have such a devastating effect on nature. They wanted to do something that helped raise awareness of these issues, and so chose to strike for the climate.
 
-Greta Thunberg, a 16 year-old girl, decided that the consequences of climate change were so urgent that drastic action had to be done to make the world take notice and change. It was initially her willingness to do the small things that she felt able to do, such as sitting with a placard highlighting the climate crisis, which have led to her voice being heard. Now children across the world are following her example and protesting. She has had, and continues to have, a big impact and is beginning to make governments and businesses more aware of the need to make important changes to combat climate change. These changes need to be implemented before we see evidence of improvement, but if small changes are made, the cumulative effect is great if every country contributes as much as they can.
+Greta Thunberg, a 16 year-old girl, decided that the consequences of climate change were so urgent that drastic action had to be done to make the world take notice and change. It was initially her willingness to do the small things that she felt able to do, such as sitting with a placard highlighting the climate crisis, which have led to her voice being heard.
+
+Now children across the world are following her example and protesting. She has had, and continues to have, a big impact and is beginning to make governments and businesses more aware of the need to make important changes to combat climate change. These changes need to be implemented before we see evidence of improvement, but if small changes are made, the cumulative effect is great if every country contributes as much as they can.
 
 [The Guardian article of 11th March, 2019](https://www.theguardian.com/world/2019/mar/11/greta-thunberg-schoolgirl-climate-change-warrior-some-people-can-let-things-go-i-cant), quotes Greta saying “Some people can let things go. I can’t”. This is the inspiration behind the solo song at the climax of this musical and the story ends with the theme of coming together to make a difference, as everyone in the town makes the small change that is possible for him or her.
 

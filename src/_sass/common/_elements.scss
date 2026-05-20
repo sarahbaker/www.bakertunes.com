@@ -114,12 +114,34 @@ html {
   min-height: 100%; /* [2] */
   overflow-y: scroll; /* [1] */
 
+  // Colours
+  --color-black: #{var.$black};
+  --color-outer-space: #{var.$outer-space};
+  --color-outer-space-dark: #{var.$outer-space-dark};
+  --color-outer-space-light: #{var.$outer-space-light};
+  --color-mako: #{var.$mako};
+  --color-rolling-stone: #{var.$rolling-stone};
+
+  --color-text: var(--color-black);
+  --color-text-2: var(--color-outer-space);
+
   --font-size-fluid-000: clamp(#{var.$body-v-sml-font-size-mobile}, 1.3vw, #{var.$body-v-sml-font-size});
   --font-size-fluid-00: clamp(#{var.$body-sml-font-size-mobile}, 1.4vw, #{var.$body-sml-font-size});
-  --font-size-fluid-0: clamp(#{var.$body-font-size-mobile}, 1.5vw, #{var.$body-font-size});
-  --font-size-fluid-1: clamp(1rem, 4vw, 1.5rem);
+  --font-size-fluid-0: clamp(.75rem, 2vw, 1rem);
+  --font-size-fluid-01: clamp(.9rem, 3vw, 1.125rem);
+  --font-size-fluid-1: clamp(1rem, 4vw, 1.25rem);
+  --font-size-fluid-11: clamp(1.125rem, 5vw, 1.4rem);
   --font-size-fluid-2: clamp(1.5rem, 6vw, 2.5rem);
+  --font-size-fluid-21: clamp(1.75rem, 7vw, 3rem);
   --font-size-fluid-3: clamp(2rem, 9vw, 3.5rem);
+  --font-lineheight-000: .75;
+  --font-lineheight-00: .9;
+  --font-lineheight-0: 1.1;
+  --font-lineheight-1: 1.25;
+  --font-lineheight-2: 1.375;
+  --font-lineheight-3: 1.5;
+  --font-lineheight-4: 1.75;
+  --font-lineheight-5: 2;
 }
 
 * {

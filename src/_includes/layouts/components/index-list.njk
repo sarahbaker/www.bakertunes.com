@@ -6,7 +6,7 @@
       {% if loop.index != 1 and vr == "even" %}
       {% set trash = sze.next() %}
       {% endif %}
-      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}{% if item.data.image %} index-list__item--with-picture{% endif %}">
+      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}{% if (item.data.image or item.data.youtube_id or item.data.youtube_playlist_id or item.data.soundcloud_id) %} index-list__item--with-picture{% endif %}">
         <div class="index-list__item-content">
           {% if item.data.tags | length %}
           <div class="tags">
@@ -23,13 +23,13 @@
           {% endif %}
         </div>
         {% if item.data.youtube_id %}
-        <img src="https://img.youtube.com/vi/{{ item.data.youtube_id }}/mqdefault.jpg" alt="{{ item.data.title }}" class="img img-rounded img-responsive">
+        <img src="https://img.youtube.com/vi/{{ item.data.youtube_id }}/mqdefault.jpg" alt="{{ item.data.title }}" class="img index-list__item-picture ">
         {%elif item.data.youtube_playlist.id %}
-        <img src="https://img.youtube.com/vi/{{ item.data.youtube_playlist.thumbnail_id }}/mqdefault.jpg" alt="{{ item.data.title }}" class="img img-rounded img-responsive">
+        <img src="https://img.youtube.com/vi/{{ item.data.youtube_playlist.thumbnail_id }}/mqdefault.jpg" alt="{{ item.data.title }}" class="img index-list__item-picture">
         {% elif item.data.soundcloud_id %}
-        <img src="https://i1.sndcdn.com/avatars-000053069287-52pkew-t500x500.jpg" alt="{{ item.data.title }}" class="img img-rounded img-responsive">
+        <img src="https://i1.sndcdn.com/avatars-000053069287-52pkew-t500x500.jpg" alt="{{ item.data.title }}" class="img index-list__item-picture image-obj-cover">
         {% elif item.data.image %}
-        {% Markdown true %}![]({{ item.data.image }}){eleventy:widths=400,600,1200 .index-list__item-picture .image-obj-cover}{% endMarkdown %}
+        {% Markdown true %}![]({{ item.data.image }}){eleventy:widths=400,600,1200 .img .index-list__item-picture .image-obj-cover}{% endMarkdown %}
         {% endif %}
         <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ item.data.title }}</span></a>
       </li>

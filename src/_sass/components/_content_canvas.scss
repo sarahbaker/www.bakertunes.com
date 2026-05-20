@@ -151,4 +151,20 @@
   .pull-right + * + * + * {
     grid-column: main-start/main-mid;
   }
+
+  .pull-right + * {
+    grid-column: 3;
+  }
+
+  .pull-left {
+    grid-column: main-start/main-mid;
+    grid-row: span 4;
+  }
+
+  .pull-left + *,
+  .pull-left + * + *,
+  .pull-left + * + * + *,
+  .pull-left + * + * + * + * {
+    grid-column: main-mid/main-end;
+  }
 }

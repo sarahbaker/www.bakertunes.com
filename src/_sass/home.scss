@@ -112,3 +112,27 @@
     }
   }
 }
+
+.section-home {
+  .jumbotron {
+    .title {
+      padding-block-start: 1.5rem;
+    }
+
+    h1 {
+      font-size: var(--font-size-fluid-21);
+    }
+    .sub-title {
+      line-height: var(--font-lineheight-000);
+    }
+    small {
+      font-size: var(--font-size-fluid-11);
+      line-height: var(--font-lineheight-000);
+    }
+
+    p {
+      font-size: var(--font-size-fluid-01);
+      line-height: var(--font-lineheight-2);
+    }
+  }
+}

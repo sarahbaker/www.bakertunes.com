@@ -16,9 +16,15 @@
 
   .jumbotron--inner {
     display: grid;
-    grid-template-columns: minmax(20ch, 3fr) minmax(20ch, 3fr);
+    grid-template-columns: minmax(20ch, 3fr) minmax(10ch, 2fr);
     grid-template-rows: minmax(2rem, 200px) minmax(200px, 325px);
     padding: 0;
+  }
+
+  @include rt.respond-to('large') {
+    .jumbotron--inner {
+      grid-template-columns: minmax(20ch, 3fr) minmax(20ch, 3fr);
+    }
   }
 
   .title {

@@ -10,6 +10,7 @@ import markdownItAttrs from "markdown-it-attrs";
 import mdIterator from 'markdown-it-for-inline';
 import { execSync }  from 'child_process';
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import timeToRead  from "eleventy-plugin-time-to-read";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -20,6 +21,12 @@ export default async function(eleventyConfig) {
   // // RSS Plugin
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+  // Time to read
+  eleventyConfig.addPlugin(timeToRead, {
+    speed: '850 characters per minute',
+    style: "short"
+  });
 
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl) {
@@ -234,6 +241,10 @@ export default async function(eleventyConfig) {
       else return 0;
     });
   }
+
+  eleventyConfig.addFilter('sortByDate', (collection, andSticky = true) => {
+    return sortByDate(collection, andSticky);
+  });
 
   // // Minify HTML output
   // eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

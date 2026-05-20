@@ -4,6 +4,9 @@ excerpt: The story behind my new musical for young singers
 layout: blog.njk
 date: 2019-04-01
 image: /static/images/blog/croak.webp
+image_classes:
+  figure:
+    - pull-right
 ---
 Summer afternoons in my garden in the middle of the Chiltern hills: the sun is always shining, the birds singing in the woods behind me. I’m leaning over the stones around our small garden pond and watching, silently, as the underwater world reveals itself.
 

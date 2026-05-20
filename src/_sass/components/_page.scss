@@ -2,6 +2,14 @@
 @use "../tools/respond-to" as rt;
 @use "../tools/mixins" as mx;
 
+.page__metadata {
+  margin-block-end: var(--size-5);
+  padding-block: var(--size-3);
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: var(--color-outer-space-light);
+}
+
 @include rt.respond-to('medium') {
   .pull-right {
     float: right;

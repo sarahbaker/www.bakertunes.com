@@ -25,6 +25,7 @@ $gradient: linear-gradient(90deg, $orange 0%, rgba(206, 19, 45, 0%) 100%), linea
 
 $outer-space: rgba(55, 62, 65, 100%);         // #373E41
 $outer-space-dark: color.adjust($outer-space, $lightness: -5%);
+$outer-space-light: color.adjust($outer-space, $lightness: 50%);
 $mako: rgba(65, 73, 77, 100%);                // #41494D
 $rolling-stone: rgba(119, 134, 140, 100%);    // #77868C
 $heather: rgba(173, 195, 204, 100%);          // #ADC3CC
