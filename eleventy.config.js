@@ -7,6 +7,7 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
+import mdIterator from 'markdown-it-for-inline';
 import { execSync }  from 'child_process';
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
@@ -304,6 +305,13 @@ export default async function(eleventyConfig) {
       }
     }),
     slugify: eleventyConfig.getFilter("slug")
+  }).use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
+    const [attrName, href] = tokens[idx].attrs.find(attr => attr[0] === 'href')
+    
+    if (href && (!href.startsWith('/') && !href.startsWith('#'))) {
+      tokens[idx].attrPush([ 'target', '_blank' ])
+      tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ])
+    }
   }).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
