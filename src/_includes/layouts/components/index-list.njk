@@ -1,4 +1,4 @@
-    <ul class="index-list">
+    <ul class="index-list page-{{ pagination.pageNumber + 1 }}">
     {% set cls = cycler("odd", "even") %}
     {% set sze = cycler("large","small") %}
     {%- for item in items -%}
@@ -18,7 +18,7 @@
           </div>
           {% endif %}
           <h2 data-pagefind-weight="1"><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
-          {% if loop.first and item.data.excerpt %}
+          {% if pagination.pageNumber == 0 and loop.first and item.data.excerpt %}
           <div class="item-excerpt">
             {% Markdown %}{{ item.data.excerpt }}{% endMarkdown %}
           </div>
