@@ -1,3 +1,15 @@
+@use "./common/variables" as var;
+@use "./tools/px-to-rem" as px;
 // Blog page metadata
 @use "./components/metadata";
 
+
+.page-excerpt {
+  * {
+    color: var(--color-rolling-stone);
+    font-size: var(--font-size-fluid-11 );
+    line-height: var(--font-lineheight-1);
+    margin-block-end: 1.5rem;
+    letter-spacing: var(--font-letterspacing-01);
+  }
+}

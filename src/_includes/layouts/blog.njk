@@ -44,6 +44,12 @@ back:
 
   <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="9">{{ title }}</h1>
 
+  {% if excerpt %}
+  <div class="page-excerpt">
+    {% Markdown %}{{ excerpt }}{% endMarkdown %}
+  </div>
+  {% endif %}
+
   <div class="metadata page__metadata">
     <div class="metadata__info">
       {% if date %}
