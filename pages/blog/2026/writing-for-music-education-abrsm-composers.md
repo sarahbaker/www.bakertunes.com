@@ -3,6 +3,7 @@ title: "Writing For Music Education: ABRSM supporting emerging composers"
 excerpt: Inside ABRSM’s composing mentoring scheme (with a bit of my own composing story thrown in)
 layout: blog.njk
 date: 2026-05-21
+image: /static/images/blog/2026/uk-composers25-26.jpg
 ---
 I started writing this on the train on my way to the celebration event of ABRSM’s composer mentoring programme, [Writing for Music Education](https://www.abrsm.org/en-gb/our-reinvestment-in-music-education/programmes). I am one of six composers selected to take part in the 2025/26 programme and the past six months has been a journey of rediscovering my motivation for composition.
 
