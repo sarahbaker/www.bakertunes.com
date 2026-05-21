@@ -18,6 +18,11 @@
           </div>
           {% endif %}
           <h2 data-pagefind-weight="1"><a href="{{ item.url | url }}"{% activepath item.url, page.url %}>{{ item.data.title }}</a></h2>
+          {% if loop.first and item.data.excerpt %}
+          <div class="item-excerpt">
+            {% Markdown %}{{ item.data.excerpt }}{% endMarkdown %}
+          </div>
+          {% endif %}
           {% if showDates and item.date %}
           <div class="index-list__item-date small-text"><time datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time></div>
           {% endif %}
