@@ -87,7 +87,10 @@ back:
   {% include "layouts/components/page-testimonial.njk" %}
   {% endif %}
 
-  {% if tags and not '#soulsong' in tags %}
+  
+  {% if score.pdf or score.image %}
+  <hr class="margin-block-start-lg margin-block-end-vlg" />
+
     {% if score.pdf %}
     <p>
         <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
@@ -100,6 +103,7 @@ back:
     </p>
     {% endif %}
   {% endif %}
+
 
 </div>
 
