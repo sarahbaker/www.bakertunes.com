@@ -14,7 +14,7 @@ As a child I shared a room with my younger sister. She had a vivid imagination a
 
 My own experiences of these shadowy night-time phantoms was intensified by a deep connection with the woods behind our house. I found the nocturnal sounds of the animals and constant murmerings of the trees both fascinating and frightening. There always seemed to be something unknown and unexpected waiting to leap out and scare me.
 
-When I composed [Shadows](https://www.youtube.com/watch?v=7li60PAXnM0), these insubstantial and ghostly images were in my mind. I thought about how the night changes in mood, how moments of stillness are interrupted by sudden movement and energy. You do not know what is going to happen next. I recalled memories of being in my garden at night, with the bank of tall trees towering down behind me, feeling my heart pounding and listening intently to make sure no unexpected animal or thing was moving round the garden.
+When I composed [*Shadows*](https://www.youtube.com/watch?v=7li60PAXnM0), these insubstantial and ghostly images were in my mind. I thought about how the night changes in mood, how moments of stillness are interrupted by sudden movement and energy. You do not know what is going to happen next. I recalled memories of being in my garden at night, with the bank of tall trees towering down behind me, feeling my heart pounding and listening intently to make sure no unexpected animal or thing was moving round the garden.
 
 {% youTubePlayer '7li60PAXnM0' %}
 
@@ -24,6 +24,6 @@ In my piece, I wanted to capture an eerie mood and sense of nervous tension and 
 
 The piece returns to the opening theme and ends with a high-pitched chord — maybe a little mouse jumping out of the way?
 
-I’m delighted that my piece, Shadows, has been selected for the ABRSM grade 3 2025–26 piano syllabus and I hope that many people enjoy playing it. Please share your performance and I’ll keep a look out for them!
+I’m delighted that my piece, *Shadows*, has been selected for the ABRSM grade 3 2025–26 piano syllabus and I hope that many people enjoy playing it. Please share your performance and I’ll keep a look out for them!
 
 ![Cover of 'Night Time Impressions'](/static/images/blog/2024/night-time-impressions-cover.webp)
