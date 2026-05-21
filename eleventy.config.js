@@ -111,6 +111,18 @@ export default async function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
+  /* Trim trailing characters */
+  eleventyConfig.addFilter('trimTrailingChar', (text, char = '/') => {
+    return trimTrailingChars(text, char);
+  });
+
+  function trimTrailingChars(s, charToTrim) {
+    var regExp = new RegExp(charToTrim + "+$");
+    var result = s.replace(regExp, "");
+
+    return result;
+  }
+
   // Get all pages with a URL
   eleventyConfig.addCollection('withUrl', (collection) => {
     return collection.getAll().filter(function (item) {
@@ -248,7 +260,8 @@ export default async function(eleventyConfig) {
   });
 
   eleventyConfig.addAsyncShortcode("imageData", async function(src) {
-    var picture = await getPictureData(src, [1200]);
+    src = `./pages` + src;
+    let picture = await getPictureData(src, [1200]);
     return picture.jpeg[0].url;
   });
 
@@ -259,7 +272,6 @@ export default async function(eleventyConfig) {
       urlPath: "/static/img/",
       outputDir: "./_site/static/img/"
     });
-    console.log(metadata);
     return metadata;
   };
 
