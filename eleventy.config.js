@@ -1,3 +1,4 @@
+import { DateTime } from "luxon";
 import CleanCSS from "clean-css";
 import UglifyJS from "uglify-js";
 import { minify } from "html-minifier-terser";
@@ -6,7 +7,11 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
+import mdIterator from 'markdown-it-for-inline';
 import { execSync }  from 'child_process';
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import timeToRead  from "eleventy-plugin-time-to-read";
+import Image from "@11ty/eleventy-img";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -18,6 +23,12 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+  // Time to read
+  eleventyConfig.addPlugin(timeToRead, {
+    speed: '850 characters per minute',
+    style: "short"
+  });
+
   // Return active path attributes
   eleventyConfig.addShortcode('activepath', function (itemUrl, currentUrl) {
     if (itemUrl == '/' && itemUrl !== currentUrl) {
@@ -27,6 +38,36 @@ export default async function(eleventyConfig) {
       return ' data-current="current item" class="current"';
     }
     return '';
+  });
+
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // which file extensions to process
+    extensions: "html",
+
+    // Add any other Image utility options here:
+
+    // optional, output image formats
+    formats: ["webp", "jpeg"],
+    // formats: ["auto"],
+    sharpWebpOptions: {
+      quality: 67
+    },
+    sharpJpegOptions: {
+      quality: 67
+    },
+
+    // optional, output image widths
+    widths: [1980, 1200, 800, 500, 300],
+
+    urlPath: "/static/img/",
+    outputDir: "./_site/static/img/",
+
+    // optional, attributes assigned on <img> override these values.
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+      sizes: "auto",
+    },
   });
 
   // Minify CSS
@@ -54,6 +95,33 @@ export default async function(eleventyConfig) {
   eleventyConfig.addFilter('starts_with', function(str, prefix, not = false) {
     return str.startsWith(prefix) !== not;
   });
+
+   // Date filter to convert date objects to ISO 8601 format
+  eleventyConfig.addFilter('iso8601', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISO()
+  })
+
+  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+    // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+  });
+
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  });
+
+  /* Trim trailing characters */
+  eleventyConfig.addFilter('trimTrailingChar', (text, char = '/') => {
+    return trimTrailingChars(text, char);
+  });
+
+  function trimTrailingChars(s, charToTrim) {
+    var regExp = new RegExp(charToTrim + "+$");
+    var result = s.replace(regExp, "");
+
+    return result;
+  }
 
   // Get all pages with a URL
   eleventyConfig.addCollection('withUrl', (collection) => {
@@ -157,6 +225,12 @@ export default async function(eleventyConfig) {
     return sortByTitle(items);
   });
 
+  // Blog items
+  eleventyConfig.addCollection('blogs', (collection) => {
+    var blogs = collection.getFilteredByGlob('pages/blog/**/*.md');
+    return sortByDate(blogs).reverse();
+  });
+
   function sortByOrder(collection) {
     return collection.sort((a, b) => {
       if (a.data.order < b.data.order) return -1;
@@ -180,6 +254,55 @@ export default async function(eleventyConfig) {
       else return 0;
     });
   }
+
+  eleventyConfig.addFilter('sortByDate', (collection, andSticky = true) => {
+    return sortByDate(collection, andSticky);
+  });
+
+  eleventyConfig.addAsyncShortcode("imageData", async function(src) {
+    src = `./pages` + src;
+    let picture = await getPictureData(src, [1200]);
+    return picture.jpeg[0].url;
+  });
+
+  async function getPictureData(src, widths = [300, 620, 1000, 1980]) {
+    let metadata = await Image(src, {
+      widths: widths,
+      formats: ['jpeg'],
+      urlPath: "/static/img/",
+      outputDir: "./_site/static/img/"
+    });
+    return metadata;
+  };
+
+  /* Easy Soundcloud player markup
+   *
+   * req:
+   *   sid: Soundcloud item ID
+   */
+  eleventyConfig.addShortcode('soundCloudPlayer', (sid) => {
+    let markup = `<div class="embed-container soundcloud-embed-container">
+  <figure class="fig fig-sound">
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A${sid}&color=ff5500"></iframe>
+  </figure>
+</div>`;
+    return markup;
+  });
+
+  /* Easy YouTube player markup
+   *
+   * req:
+   *   ytid: YouTube item ID
+   */
+  eleventyConfig.addShortcode('youTubePlayer', (ytid) => {
+    let markup = `<div class="embed-container youtube-embed-container">
+  <figure class="fig fig-video">
+    <iframe width="640" height="410" src="https://www.youtube.com/embed/${ytid}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </figure>
+</div>`;
+    return markup;
+  });
+
 
   // // Minify HTML output
   // eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
@@ -251,12 +374,30 @@ export default async function(eleventyConfig) {
       }
     }),
     slugify: eleventyConfig.getFilter("slug")
+  }).use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
+    const [attrName, href] = tokens[idx].attrs.find(attr => attr[0] === 'href')
+    
+    if (href && (!href.startsWith('/') && !href.startsWith('#'))) {
+      tokens[idx].attrPush([ 'target', '_blank' ])
+      tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ])
+    }
   }).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addFilter("markdown", (content) => {
     return markdownLibrary.render(content);
   });
+
+  eleventyConfig.addFilter("markdown", (content, ril = false) => {
+    return ril ? markdownLibrary.renderInline(content) : markdownLibrary.render(content);
+  });
+
+  eleventyConfig.addPairedShortcode("Markdown", (content, ril = false) => {
+    return ril ? markdownLibrary.renderInline(content) : markdownLibrary.render(content);
+  });
+
+  eleventyConfig.addWatchTarget('./src/_sass/');
+  eleventyConfig.addPassthroughCopy('pages/static/');
 
   // Build PageFind search index
   eleventyConfig.on('eleventy.after', async ({ dir, results, runMode, outputMode }) => {
@@ -281,8 +422,9 @@ export const config = {
   passthroughFileCopy: true,
   dir: {
     input: 'pages',
-    includes: '../_includes',
-    data: '../_data',
+    includes: '../src/_includes',
+    layouts: '../src/_includes/layouts',
+    data: '../src/_data',
     output: '_site',
   },
 };

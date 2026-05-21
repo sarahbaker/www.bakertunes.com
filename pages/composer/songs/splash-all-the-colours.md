@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: Splash All The Colours!
@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: iiMLlbLw4Uc
 score:
   pdf: splash-all-the-colours.pdf
-  image: splash-all-the-colours.jpg
+  image: /static/images/scores/splash-all-the-colours.jpg
 tags:
   - Primary KS1
   - Festival of Colours (Holi)

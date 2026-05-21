@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Dreams
 date: 2020-09-12
 score:
   pdf: 
-  image: 
+  image:
 youtube_id: pOSzHiaaxhI
 soundcloud_id:
 tags:

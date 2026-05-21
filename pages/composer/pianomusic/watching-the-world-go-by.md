@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Watching The World Go By
 date: 2020-10-05
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: PzvmbB0CrMo
 tags:
   - Solo piano

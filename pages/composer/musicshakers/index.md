@@ -1,8 +1,8 @@
 ---
-layout: layouts/index-musicshakers.njk
+layout: index-musicshakers.njk
 title: Music Shakers
 navtitle: Music Shakers
-image: recording-evening-work.jpg
+image: /static/images/recording-evening-work.jpg
 excerpt: "I've arranged and produced seven albums full of the amazingly varied songs and rhymes of the Music Shakers classes"
 order: 5
 pagination:

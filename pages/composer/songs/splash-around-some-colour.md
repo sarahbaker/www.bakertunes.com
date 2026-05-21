@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: Splash Around Some Colour!
@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: YU7DC6I7H6U
 score:
   pdf: splash-around-some-colour.pdf
-  image: splash-around-some-colour.jpg
+  image: /static/images/scores/splash-around-some-colour.jpg
 tags:
   - Primary
   - Festival of Colours (Holi)

@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: What's Going To Happen When King Charles Is Crowned?
@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: 1ipcP75rWqQ
 score:
   pdf: whats-going-to-happen-when-king-charles-is-crowned.pdf
-  image: whats-going-to-happen-when-king-charles-is-crowned.jpg
+  image: /static/images/scores/whats-going-to-happen-when-king-charles-is-crowned.jpg
 tags:
   - Coronation of Charles III
   - Key Stage 1

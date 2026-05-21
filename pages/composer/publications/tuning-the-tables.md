@@ -1,8 +1,8 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Tuning The Tables
-image: https://images-eu.ssl-images-amazon.com/images/I/51miNTfOh4L._SS500.jpg 
+image: /static/images/resources/tuning-the-tables.jpg
 publication_type: Audio
 publisher: Emubands/Bakertunes
 weight: 1

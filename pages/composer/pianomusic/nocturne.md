@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Nocturne
 date: 2018-08-26
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: N5ie2TYkX4k
 soundcloud_id: 
 tags:

@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Evening Tune
 date: 2016-11-02
 score:
   pdf: evening-tune.pdf
-  image: evening-tune.jpg
+  image: /static/images/scores/evening-tune.jpg
 youtube_id: CXP5ltG2OJ4
 soundcloud_id:
 tags:

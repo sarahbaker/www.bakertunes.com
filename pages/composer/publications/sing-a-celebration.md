@@ -1,8 +1,8 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Sing A Celebration!
-image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/sing-a-celebration-services-for-education-music-service-for-schools.jpg
+image: /static/images/publications/sing-a-celebration-services-for-education-music-service-for-schools.jpg
 publication_url: https://www.servicesforeducation.co.uk/our-offer/sing-a-celebration/
 publication_type: Performance songs for young choirs
 publisher: Services For Education

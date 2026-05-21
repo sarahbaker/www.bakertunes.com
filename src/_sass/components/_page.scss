@@ -1,0 +1,58 @@
+@use "../common/variables" as var;
+@use "../tools/respond-to" as rt;
+@use "../tools/mixins" as mx;
+
+.page__metadata {
+  margin-block-end: var(--size-5);
+  padding-block: var(--size-3);
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: var(--color-outer-space-light);
+}
+
+@include rt.respond-to('medium') {
+  .pull-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    max-width: 40ch;
+
+  }
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5em;
+
+  > * {
+    display: inline-block;
+    width: fit-content;
+    font-size: smaller;
+    // flex: 0 1 20ch;
+  }
+}
+
+.clearfix {
+  @include mx.clearfix;
+}
+
+.site-content {
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.5rem;
+
+    > * {
+      display: inline-block;
+      padding-right: 0.5rem;
+      border-right: 1px solid var.$rolling-stone;
+
+      &:last-child {
+        padding-right: 0;
+        border-right: unset;
+      }
+    }
+  }
+}

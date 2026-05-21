@@ -1,0 +1,37 @@
+---
+layout: base.njk
+section: composer
+styles:
+  - composer.css
+size: 3
+---
+
+<div class="site-content content-canvas">
+
+  <div class="content-canvas-item-left">
+
+    <h1 data-pagefind-meta="title">{{ title }}</h1>
+
+    {{ content | safe }}
+
+  </div>
+
+</div>
+
+<div class="site-content site-content--zero-top-padding content-canvas">
+
+  <div class="content-canvas-item-full composer-content">
+
+  {% include "layouts/components/composer/collection-promo-publications.njk" %}
+
+  {% include "layouts/components/composer/collection-promo-pianomusic.njk" %}
+
+  {% include "layouts/components/composer/collection-promo-songs.njk" %}
+
+  {% include "layouts/components/composer/collection-promo-incidentalmusic.njk" %}
+
+  {% include "layouts/components/composer/collection-promo-musicshakers.njk" %}
+
+  </div>
+
+</div>

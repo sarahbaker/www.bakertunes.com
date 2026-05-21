@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: He Lay Me Down
 date: 2018-05-23
 score:
   pdf: he-lay-me-down.pdf
-  image: he-lay-me-down.jpg
+  image: /static/images/scores/he-lay-me-down.jpg
 youtube_id: YR6_3v7_H4U
 soundcloud_id:
 tags:

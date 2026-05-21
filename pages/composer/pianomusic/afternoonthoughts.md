@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Afternoon Thoughts
 date: 2016-11-17
 score:
   pdf: afternoon-thoughts.pdf
-  image: afternoon-thoughts.jpg
+  image: /static/images/scores/afternoon-thoughts.jpg
 youtube_id: xf8Xr9xXeMY
 tags:
   - Instrumental Performance

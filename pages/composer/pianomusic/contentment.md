@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Contentment
 date: 2016-11-21
 score:
   pdf: contentment.pdf
-  image: contentment.jpg
+  image: /static/images/scores/contentment.jpg
 youtube_id: ZU-XKvlnQBI
 tags:
   - Instrumental Performance

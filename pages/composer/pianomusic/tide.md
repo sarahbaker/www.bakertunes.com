@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Tide
 date: 2017-01-10
 score:
   pdf: tide.pdf
-  image: tide.jpg
+  image: /static/images/scores/tide.jpg
 youtube_id: akkbDp-0Dho
 soundcloud_id:
 tags:

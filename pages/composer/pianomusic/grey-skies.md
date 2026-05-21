@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Grey Skies
 date: 2024-05-25
 score:
   pdf: grey-skies.pdf
-  image: grey-skies.jpg
+  image: /static/images/scores/grey-skies.jpg
 youtube_id: lUdUbFL2GvA
 soundcloud_id:
 tags:

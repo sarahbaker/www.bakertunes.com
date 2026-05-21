@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: Some People Can Let Things Go

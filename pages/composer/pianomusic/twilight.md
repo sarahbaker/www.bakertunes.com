@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Twilight
 date: 2020-09-11 
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: cZFK_AepRG4
 soundcloud_id:
 tags:

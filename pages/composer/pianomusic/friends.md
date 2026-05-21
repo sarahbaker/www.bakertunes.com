@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Friends
 date: 2020-10-16
 score:
   pdf: 
-  image: 
+  image:
 youtube_id: M8pLZ5h90JU
 tags:
   - Solo piano

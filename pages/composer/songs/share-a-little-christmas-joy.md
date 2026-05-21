@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: Share a Little Christmas Joy
@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: YCSWgd2TuhM
 score:
   pdf: share-a-little-christmas-joy.pdf
-  image: share-a-little-christmas-joy.jpg
+  image: /static/images/scores/share-a-little-christmas-joy.jpg
 tags:
   - Easy
   - Christmas

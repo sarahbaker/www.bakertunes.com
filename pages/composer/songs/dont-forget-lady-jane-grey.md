@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: Don't Forget Lady Jane Grey!
@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: 4LcP0TDOkKA
 score:
   pdf: dont-forget-lady-jane-grey.pdf
-  image: dont-forget-lady-jane-grey.jpg
+  image: /static/images/scores/dont-forget-lady-jane-grey.jpg
 tags:
   - History
   - Key Stage 2

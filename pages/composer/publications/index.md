@@ -1,5 +1,5 @@
 ---
-layout: layouts/index-publications
+layout: index-publications
 title: Publications
 navtitle: Publications
 excerpt: Musicals and songbooks for young voices

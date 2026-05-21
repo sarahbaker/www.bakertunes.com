@@ -1,0 +1,36 @@
+@use "../common/variables" as var;
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: 0.5 * var.$base-space;
+}
+
+.image-darken-10 {
+  filter: brightness(90%);
+}
+
+.image-darken-20 {
+  filter: brightness(80%);
+}
+
+.image-darken-25 {
+  filter: brightness(75%);
+}
+
+.image-darken-33 {
+  filter: brightness(67%);
+}
+
+.image-darken-50 {
+  filter: brightness(50%);
+}
+
+.image-obj-cover {
+  block-size: 100%;
+  object-fit: cover;
+  object-position: center center;
+}

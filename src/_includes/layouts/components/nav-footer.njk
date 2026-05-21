@@ -1,0 +1,20 @@
+<nav aria-label="Footer navigation">
+  <div class="footer-nav">
+    <ul>
+    {%- for nav in collections.footerNav -%}
+      <li>
+        <a href="{{ nav.url | url }}"{% activepath nav.url, page.url %}>{{ nav.data.navtitle }}</a>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </div>
+  <div class="footer-nav footer-secondary-nav">
+    <ul>
+    {%- for nav in collections.footerSecondaryNav -%}
+      <li>
+        <a href="{{ nav.url | url }}"{% activepath nav.url, page.url %}>{{ nav.data.navtitle }}</a>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </div>
+</nav>

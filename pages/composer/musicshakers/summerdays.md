@@ -1,7 +1,7 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: musicshakers
-image: https://images-eu.ssl-images-amazon.com/images/I/61tGzMPMylL._SS500.jpg
+image: /static/images/musicshakers/summer-days.jpg
 title: Summer Days & Insect Ways
 ---
 

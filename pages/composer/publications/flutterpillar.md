@@ -1,8 +1,8 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Flutterpillar
-image: https://www.starshine.co.uk/files/musicals/flutterpillar/Flutterpillar-large.jpg
+image: /static/images/publications/flutterpillar.webp
 publication_type: Musical
 publication_url: https://www.starshine.co.uk/products?c=/musicals/primary-school-musicals&p=/flutterpillar
 publisher: Starshine Music

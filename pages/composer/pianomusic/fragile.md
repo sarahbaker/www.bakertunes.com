@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Fragile
 date: 2016-11-10
 score:
   pdf: fragile.pdf
-  image: fragile.jpg
+  image: /static/images/scores/fragile.jpg
 youtube_id: dwrHj99RWOs
 soundcloud_id:
 tags:

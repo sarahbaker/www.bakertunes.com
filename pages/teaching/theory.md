@@ -1,8 +1,8 @@
 ---
-layout: layouts/page-masterclass.njk
+layout: page-masterclass.njk
 title: Music Theory
 excerpt: Music theory lessons for individuals or in small groups, either in person or online
-image: unsplash/marius-masalar-rPOmLGwai2w-unsplash-600.jpeg
+image: /static/images/unsplash/marius-masalar-rPOmLGwai2w-unsplash-600.jpeg
 permalink: /teaching/theory/
 order: 3
 calendly: false

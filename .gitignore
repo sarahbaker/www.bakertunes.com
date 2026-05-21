@@ -7,9 +7,12 @@ _site
 # VS Code local settings
 .vscode
 
+# 11ty cache
+.cache/
+
 # no need to include CSS files that get built
-_includes/assets/**/*.css
-_includes/assets/**/*.css.map
+src/_includes/assets/**/*.css
+src/_includes/assets/**/*.css.map
 
 .DS_Store
 .env

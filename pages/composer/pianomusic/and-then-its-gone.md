@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: … and then it's gone.
 date: 2020-07-22
 score:
   pdf: and-then-its-gone.pdf
-  image: and-then-its-gone.jpg
+  image: /static/images/scores/and-then-its-gone.jpg
 youtube_id: Amlw0RP3BDM
 tags:
   - Piano solo

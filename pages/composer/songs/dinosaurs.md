@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: Dinosaurs!
@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: QANRXj36HYM
 score:
   pdf: "dinosaurs.pdf"
-  image: "dinosaurs.jpg"
+  image: /static/images/scores/dinosaurs.jpg
 tags:
   - Primary singing
   - Key Stage 1 and 2

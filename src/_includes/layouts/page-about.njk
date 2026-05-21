@@ -1,0 +1,82 @@
+---
+layout: base.njk
+---
+<div class="site-content content-canvas">
+
+  <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="9">{{ title }}</h1>
+
+  <div class="content-canvas-item-left">
+
+    {{ content | safe }}
+
+    <ul class="nav-inner">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#compositions">Compositions</a></li>
+      <li><a href="#biography">Biography</a></li>
+    </ul>
+  </div>
+  <div class="content-canvas-item-right">
+    {% if image %}
+      <figure class="fig fig-image">
+        <img src="{{ image }}" alt="{{ title }} resource" class="img-responsive img-rounded">
+      </figure>
+    {% endif %}
+
+    {# {% include "layouts/components/about-micro.njk" %} #}
+
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
+  </div>
+
+{% if work.length %}
+  <div class="about-me--item about-me--work">
+
+    <h2 id="work" tabindex="1">Work, Expertise and Skills</h2>
+
+    <ul>
+    {% for item in work %}
+      <li>{{ item | markdown | safe }}</li>
+    {% endfor %}
+    </ul>
+
+  </div>
+{% endif %}
+
+  <div class="about-me--item about-me--compositions" id="compositions">
+
+    <h2 tabindex="2">Compositions</h2>
+
+    {% for item in compositions %}
+      <h3>{{ item.name }}</h3>
+      <ul>
+      {% for val in item.data %}
+        <li>
+          <div class="comp-title">{{ val.title | markdown | safe }}</div>
+          {% if val.excerpt %}
+          <div class="comp-excerpt">{{ val.excerpt | markdown | safe }}</div>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    {% endfor %}
+
+  </div>
+
+  <div class="about-me--item about-me--biography">
+    
+    <h2 id="biography" tabindex="3">Biography</h2>
+
+    {{ biography | markdown | safe }}
+
+  </div>
+
+
+<script src="/static/js/fluidvids.min.js"></script>
+
+<script>
+  fluidvids.init({
+    selector: ['iframe'],
+    players: ['www.youtube.com', 'player.vimeo.com']
+  });
+</script>

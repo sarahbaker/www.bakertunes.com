@@ -1,12 +1,12 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Shadows
 date: 2020-09-11
 promoted: true
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: QZiRpmVXMro
 tags:
   - Instrumental Performance

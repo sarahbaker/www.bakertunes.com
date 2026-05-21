@@ -1,9 +1,9 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Croak!
 description: Speedy the tadpole is sad because he can’t sing along with the froggy chorus. A delightful musical for 3-7 year olds that explores the life cycle of a frog.
-image: https://www.outoftheark.co.uk/library/images/massive/8/_3C_2C3_40W._25_5CR_2C30Q-34X_2CC0W-7_21N_3BFXP_3C_27_2CQ-G_29N-_60_60_60_0A_60_0A.jpg
+image: /static/images/publications/croak.jpg
 publication_url: https://www.outoftheark.co.uk/croak.html
 publication_type: Musical
 publisher: Out Of The Ark Music

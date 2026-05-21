@@ -1,12 +1,12 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: There Is A Stream
 youtube_id: pUEMV7VwGMI
 score:
   pdf: there-is-a-stream.pdf
-  image: there-is-a-stream1.jpg
+  image: /static/images/scores/there-is-a-stream1.jpg
 soundcloud_id:
 tags:
   - choral

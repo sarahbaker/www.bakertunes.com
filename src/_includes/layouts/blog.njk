@@ -1,0 +1,113 @@
+---
+layout: base.njk
+styles:
+  - page.css
+  - blog.css
+permalink: "blog/{{ page.date | date: '%Y'}}-{{ title | slugify }}/"
+back:
+  title: Blog
+  path: /blog/
+---
+<div class="site-content content-canvas">
+  {% if category %}
+  <p><a class="single-meta-item single-meta-back"
+    {% if category == "incidentalmusic" %}
+     href="/composer/incidentalmusic/">
+    Incidental Music
+    {% elif category == "publications" %}
+    href="/composer/publications/">
+    Publications
+    {% elif category == "songs" %}
+    href="/composer/songs/">
+    Songs
+    {% elif category == "musicshakers" %}
+    href="/composer/musicshakers/">
+    Music Shakers
+    {% else %}
+     href="/composer/pianomusic/">
+     Piano Music
+    {% endif %}
+    </a></p>
+  {% endif %}
+
+  <div class="tags">
+    {%- for tag in tags %}
+      {% if tag | starts_with('#', true) %}
+      <small>{{ tag }}</small>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if back %}
+    {% include "layouts/components/page-head-back.njk" %}
+  {% endif %}
+
+  <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="9">{{ title }}</h1>
+
+  {% if excerpt %}
+  <div class="page-excerpt">
+    {% Markdown %}{{ excerpt }}{% endMarkdown %}
+  </div>
+  {% endif %}
+
+  <div class="metadata page__metadata">
+    <div class="metadata__info">
+      {% if date %}
+      <span class="page-date small-text margin-block-md"><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></span>
+      <span class="metadata__divider divider"></span>
+      {% endif %}
+      <span class="metadata__reading-time">{{ content | timeToRead }} read</span>
+    </div>
+  </div>
+
+  {% if image and not page.hideImage %}
+  <figure class="margin-block-lg margin-inline-nil{% if image_classes.figure %} {{ image_classes.figure | join(' ') }}{% endif %}">
+    <img src="{{ image }}" alt="{{ title }}" class="img-responsive img-rounded{% if image_classes.image %} {{ image_classes.image | join(' ') }}{% endif %}" eleventy:widths=400,600,1000 />
+  </figure>
+  {% endif %}
+
+  {{ content | safe}}
+
+
+  {% if publication_url %}
+    {% include "layouts/components/publication-link.njk" %}
+  {% endif %}
+
+  <div class="clearfix"></div>
+
+  {%if youtube_id %}
+    {% include "layouts/components/youtube-player.njk" %}
+  {% endif %}
+
+  {% if soundcloud_id %}
+    {% include "layouts/components/soundcloud-player.njk" %}
+  {% endif %}
+
+  {% if testimonial %}
+  {% include "layouts/components/page-testimonial.njk" %}
+  {% endif %}
+
+  {% if tags and not '#soulsong' in tags %}
+    {% if score.pdf %}
+    <p>
+        <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+    </p>
+    {% endif %}
+
+    {% if score.image %}
+    <p>
+        <img src="{{ score.image }}" alt="{{ title }} score example" width="100%" />
+    </p>
+    {% endif %}
+  {% endif %}
+
+</div>
+
+<script src="/static/js/fluidvids.min.js"></script>
+
+<script>
+  fluidvids.init({
+    selector: ['iframe'],
+    players: ['www.youtube.com', 'player.vimeo.com']
+  });
+</script>

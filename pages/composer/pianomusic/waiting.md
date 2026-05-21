@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Waiting
 date: 2016-11-22
 score:
   pdf: waiting.pdf
-  image: waiting.jpg
+  image: /static/images/scores/waiting.jpg
 youtube_id: nmdsAW-IWMw
 soundcloud_id:
 tags:

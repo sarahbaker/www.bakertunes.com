@@ -1,12 +1,12 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: A Reflection of Ida
 description: The story of the piano music for my piece, 'A Reflection of Ida' 
 date: 2021-03-24
 score:
   pdf: 
-  image: a-reflection-of-ida.jpeg
+  image: /static/images/scores/a-reflection-of-ida.jpeg
 youtube_id: 7KFa6LCAAQw
 testimonial:
   quote: "The piece brought to life something of what my family had been through; and it expresses the love of music, dance and for each other that has run through the family from one generation to another."

@@ -1,8 +1,8 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Soundtots - People I Know
-image: https://www.servicesforeducation.co.uk/wp-content/uploads/2019/06/soundtots-people-i-know-services-for-education-music-service-for-schools.jpg
+image: /static/images/publications/soundtots-people-i-know.jpg
 publication_url: https://www.servicesforeducation.co.uk/our-offer/soundtots-people-i-know/
 publication_type: Songs for young children
 publisher: Services For Education

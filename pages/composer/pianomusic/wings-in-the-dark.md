@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Wings In The Dark
 date: 2020-09-12 
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: z16ipS7XSV4
 soundcloud_id:
 tags:

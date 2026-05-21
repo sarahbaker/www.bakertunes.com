@@ -1,0 +1,17 @@
+---
+layout: index.njk
+section: pianomusic
+meta_back: 
+  url: "/composer/"
+  title: "Composer & Arranger"
+---
+
+{{ content | safe }}
+
+<div class="site-content content-canvas-item-wide">
+  
+  {{ filters  | safe }}
+
+  {% include "layouts/components/index-list.njk" %}
+
+</div>

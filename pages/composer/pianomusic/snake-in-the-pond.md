@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Snake In The Pond
 date: 2020-10-24
 score:
-  pdf: 
-  image: 
+  pdf:
+  image:
 youtube_id: 7yT6uS4V8DU
 tags:
   - Solo piano

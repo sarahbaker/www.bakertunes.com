@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Emergence
 date: 2018-02-19
 score:
   pdf: emergence1.pdf
-  image: emergence1.jpg
+  image: /static/images/scores/emergence1.jpg
 youtube_id: 9nx49-84gX8
 soundcloud_id: 389496195
 tags:

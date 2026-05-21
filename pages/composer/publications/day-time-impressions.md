@@ -1,9 +1,9 @@
 ---
-layout: layouts/publication.njk
+layout: publication.njk
 category: publications
 title: Day Time Impressions
 description: 9 pieces for solo piano inspired by memories from childhood
-image: https://s3-eu-west-1.amazonaws.com/assets.forsyths.co.uk/img/p/148406-276883-thickbox.jpg
+image: /static/images/publications/day-time-impressions.jpg
 publication_url: https://www.forsyths.co.uk/music/forsyth-publications/forsyth-publications-by-instrument/piano/148406-day-time-impressions-sarah-baker-piano-sheet-music-9790570500192.html
 publication_type: Piano music
 publisher: Forsyth Music

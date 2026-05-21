@@ -1,5 +1,5 @@
 ---
-layout: layouts/index-pianomusic.njk
+layout: index-pianomusic.njk
 title: Piano Music
 navtitle: Piano Music
 excerpt: Original compositions for solo piano, written for students and professionals

@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Hidden
 date: 2017-07-01
 score:
   pdf: hidden.pdf
-  image: hidden.jpg
+  image: /static/images/scores/hidden.jpg
 youtube_id: OABwZX5744Y
 soundcloud_id:
 tags:

@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 title: Home
 category: pianomusic
 date: 2019-04-08
 score:
   pdf: home.pdf
-  image: home.jpg
+  image: /static/images/scores/home.jpg
 youtube_id: c6hS__HwP3k
 soundcloud_id:
 tags:

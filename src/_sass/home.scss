@@ -1,0 +1,138 @@
+/* --------------------------------------------------------------
+# Variables
+-------------------------------------------------------------- */
+@use "./common/variables" as var;
+
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+@use "./tools/all";
+@use "./tools/respond-to" as rt;
+
+/* --------------------------------------------------------------
+# Jumbotron
+-------------------------------------------------------------- */
+@use "./components/jumbotron";
+
+/* --------------------------------------------------------------
+# Composer
+-------------------------------------------------------------- */
+@use "./components/home/composer";
+
+/* --------------------------------------------------------------
+# Soulsongs
+-------------------------------------------------------------- */
+@use "./components/home/soulsongs";
+
+/* --------------------------------------------------------------
+# Promo
+-------------------------------------------------------------- */
+@use "./components/home/promo";
+
+.home--header {
+  font-size: var.$h4-font-size;
+  line-height: var.$h4-line-height;
+  padding: 0 1.5rem 1.5rem;
+  max-width: 55ch;
+
+  h2 {
+    font-size: var.$h1-font-size;
+    line-height: var.$h1-line-height;
+  }
+
+  .excerpt {
+    padding: 1.5rem 0;
+  }
+}
+
+.home--header--all-padding {
+  padding: 1.5rem;
+}
+
+.home--header--wrapper {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: var.$grey-background;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.home-item--inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  .item-thing {
+    flex: 1 1 25ch;
+  }
+
+  .excerpt {
+    font-size: var.$lg-body-font-size-mobile;
+    line-height: var.$lg-body-font-size-mobile;
+    padding: 1.5rem 0;
+  }
+}
+
+@include rt.respond-to('medium') {
+  .home-item {
+    .excerpt {
+      font-size: var.$lg-body-font-size;
+      line-height: var.$lg-body-font-size;
+    }
+  }
+}
+
+@include rt.respond-to('large') {
+  .home--header {
+    font-size: var.$h3-font-size;
+    line-height: var.$h3-line-height;
+    margin: 3rem 0;
+    padding: 0 3rem 3rem;
+
+    h2 {
+      font-size: var.$h1-lg-font-size;
+      line-height: var.$h1-lg-line-height;
+    }
+  }
+
+  .home--header--all-padding {
+    padding: 2rem;
+  }
+
+  .home-item {
+    h2 {
+      font-size: var.$h1-lg-font-size;
+      line-height: var.$h1-lg-line-height;
+    }
+
+    .item-thing {
+      &.content {
+        padding: 9rem 3rem;
+      }
+    }
+  }
+}
+
+.section-home {
+  .jumbotron {
+    .title {
+      padding-block-start: 1.5rem;
+    }
+
+    h1 {
+      font-size: var(--font-size-fluid-21);
+    }
+    .sub-title {
+      line-height: var(--font-lineheight-000);
+    }
+    small {
+      font-size: var(--font-size-fluid-11);
+      line-height: var(--font-lineheight-000);
+    }
+
+    p {
+      font-size: var(--font-size-fluid-01);
+      line-height: var(--font-lineheight-2);
+    }
+  }
+}

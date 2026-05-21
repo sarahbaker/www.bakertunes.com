@@ -1,11 +1,11 @@
 ---
-layout: layouts/pianomusic.njk
+layout: pianomusic.njk
 category: pianomusic
 title: Air Balloon!
 date: 2020-10-27
 score:
   pdf: 
-  image: 
+  image:
 youtube_id: pSYz07QEQ8U
 tags:
   - Solo piano

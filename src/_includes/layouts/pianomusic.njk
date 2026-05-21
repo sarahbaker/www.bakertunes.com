@@ -1,0 +1,99 @@
+---
+layout: base.njk
+section: pianomusic
+styles:
+  - page.css
+---
+<div class="site-content content-canvas">
+  <p><a href="/composer/pianomusic/" class="single-meta-item single-meta-back">Piano Music</a></p>
+
+  <div class="tags">
+    {%- for tag in tags %}
+      {% if tag | starts_with('#', true) %}
+      <small>{{ tag }}</small>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h1 class="page-title" data-pagefind-meta="title" data-pagefind-weight="9">{{ title }}</h1>
+
+  <div class="content-canvas-item{% if image or calendly or (tags and '#soulsong' in tags) or promote %}-left{% endif %}">
+
+    {{ content | safe}}
+
+  </div>
+
+  {% if image or calendly or (tags and '#soulsong' in tags) or promote %}
+  <div class="content-canvas-item-right">
+
+    {% if image %}
+    <figure class="pull-right">
+      <img src="{{ image }}" alt="{{ title }} resource" class="img-responsive img-rounded"  data-pagefind-index-attrs="alt">
+    </figure>
+    {% endif %}
+
+    {% if calendly %}
+      {% include "layouts/components/calendly.njk" %}
+    {% endif %}
+
+    {% if tags and '#soulsong' in tags %}
+      {% include "layouts/components/promote-soulsongs.njk" %}
+    {% endif %}
+
+    {% if promote %}
+      {% if promote.teaching %}
+      {% include "layouts/components/promote-service-teaching.njk" %}
+      {% endif %}
+      {% if promote.masterclasses %}
+        {% include "layouts/components/promote-service-masterclasses.njk" %}
+      {% endif %}
+    {% endif %}
+
+  </div>
+  {% endif %}
+
+  {% if spotify_id %}
+    {% include "layouts/components/spotify-player.njk" %}
+  {% endif %}
+
+  {% if youtube_id %}
+    {% include "layouts/components/youtube-player.njk" %}
+  {% endif %}
+
+  {% if youtube_playlist.id %}
+    {% include "layouts/components/youtube-playlist-player.njk" %}
+  {% endif %}
+
+  {% if soundcloud_id %}
+    {% include "layouts/components/soundcloud-player.njk" %}
+  {% endif %}
+
+  {% if testimonial %}
+  {% include "layouts/components/page-testimonial.njk" %}
+  {% endif %}
+
+  {% if tags and not '#soulsong' in tags %}
+    {% if score.pdf %}
+    <p>
+        <a href="/static/files/{{ score.pdf }}" class="btn btn-default btn-lg btn-download" role="button">Download the score (PDF) <span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+    </p>
+    {% endif %}
+    
+
+    {% if score.image %}
+    <p>
+        {# <img src="{{ score.image }}" alt="{{ title }} score example" width="100%" loading="lazy" decoding="async" data-pagefind-index-attrs="alt" /> #}
+    </p>
+    {% endif %}
+  {% endif %}
+
+</div>
+
+<script src="/static/js/fluidvids.min.js"></script>
+
+<script>
+  fluidvids.init({
+    selector: ['iframe'],
+    players: ['www.youtube.com', 'player.vimeo.com']
+  });
+</script>

@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: page.njk
 category: songs
 section: songs
 title: Climbing The Beanstalk
@@ -7,7 +7,7 @@ soundcloud_id:
 youtube_id: r17tLLHvXAE
 score:
   pdf: "climbing-the-beanstalk.pdf"
-  image: "climbing-the-beanstalk.jpg"
+  image: /static/images/scores/climbing-the-beanstalk.jpg
 tags:
   - Early Years
   - Key Stage 1
