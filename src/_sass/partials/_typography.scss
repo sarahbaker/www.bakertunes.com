@@ -51,6 +51,7 @@ h6,
   letter-spacing: normal;
   margin: 0;
   mix-blend-mode: normal;
+  text-wrap: balance;
 }
 
 h1,
@@ -316,5 +317,5 @@ h4,
 }
 
 .large {
-  font-size: var(--font-size-fluid-1);
+  font-size: var(--font-size-fluid-12);
 }
