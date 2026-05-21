@@ -3,7 +3,6 @@ title: Performance Practice
 excerpt: How the informal concert setting enhances musical learning
 layout: blog.njk
 date: 2020-01-13
-image:
 ---
 ## Pupil Concerts
 

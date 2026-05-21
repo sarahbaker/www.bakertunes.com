@@ -6,7 +6,7 @@ permalink: /
 # tags: nav
 navtitle: Home
 order: 1
-image: /static/images/sarah-in-garden-b+w-1000.jpg
+image: /static/images/sarah-in-garden-b+w-social-card.jpg
 jumbotron:
   title: Sarah Baker
   sub_title: Composer, Arranger, Examiner, Teacher

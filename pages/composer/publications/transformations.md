@@ -2,7 +2,6 @@
 layout: publication.njk
 category: publications
 title: Transformations
-image:
 publication_type: EP
 publication_url: 
 publisher: Bakertunes
