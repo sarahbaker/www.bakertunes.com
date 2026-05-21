@@ -25,21 +25,13 @@ The extracts used in this blog are taken directly from this Logic project so do 
 
 The initial idea that came was an ostinato figure with a higher melody played over the top. It worked round a sequence of four chords, and created a fairly calm atmosphere, exploring melodic lines and chordal ideas.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877727371&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877727371' %}
 
 ## Opening
 
 I added a chordal section at the beginning to contrast with the ostinato idea and provide a kind of introduction. These chords were different in harmonic sequence and provided a complementary style to the first theme I had played. If I’m honest, I played them purely according to the sound I heard, not really with any particular progressions or harmonic shape in mind. I just enjoyed the overall effect.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877270015&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877270015' %}
 
 ## Contrasting sections — overall structure
 
@@ -47,11 +39,7 @@ A 3rd section was needed to give the piece direction and energy. I felt it had t
 
 I got quite excited at the end of it, loving the direction the piece had moved in, and the sense of tension that I felt was being created by the modulations and resolutions.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877270009&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877270009' %}
 
 ## Notes on a score
 
@@ -61,11 +49,7 @@ The unexpected result of this stage was that I found it added a nuance to the se
 
 I didn’t actually take it to the piano and play it at this stage. This step was in preparation of doing that a bit later, now that I was sure I was creating something that was going to develop fully.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269997&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269997' %}
 
 ## Further work on structure and harmonic progression
 
@@ -73,11 +57,7 @@ I worked more on the 3rd section, feeling that the right hand melody needed more
 
 I felt the overall structure was taking shape and I was reasonably happy.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269994&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269994' %}
 
 ## Including themes and integrating melodies and ideas
 
@@ -89,31 +69,19 @@ I tried coming back to that section after the chordal reintroduction, and experi
 
 The advantage of working with something like Logic Pro X is that sections can be cut and pasted, transpositions are easy to try out, and the overall effect can easily be tried, and then discarded if necessary.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269985&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269985' %}
 
 ## Throwing things out and rearranging
 
 And I did discard the extended ending very quickly and tried a different structure instead, that of bringing back the faster 3rd theme. By mistake, I played the ostinato section at the same time…and really liked the effect! The ending returned to the bare chords and I was much happier with this overall shape.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269982&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269982' %}
 
 ## The ending again
 
 But I wasn’t quite satisfied with the very end. I wanted to have an echo of the main third theme and finish the piece slightly more unexpectedly. I tried resolving to the major key, and adding a stretched out version of the earlier motif, also taking four bars of the chordal pattern and switching them over so that the very last bars gradually slowed, rather than gather momentum as they did when first heard in the opening.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269973&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269973' %}
 
 ## Playing it through at the piano
 
@@ -133,11 +101,7 @@ This was a low point in the week. I had already spent many hours on the piece an
 
 I was tired, having worked on it for a good three days by now. I needed a good night’s sleep.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269961&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269961' %}
 
 ## Inspiration returned
 
@@ -151,11 +115,7 @@ The more intense middle section needed refining, and the crossover ending sectio
 
 The ostinato needed to be slightly more regular, although I still wanted to maintain its slightly imbalanced feel. I worked on a four bar repetitive pattern and placed the melody around it. Given that the left hand was crossing over the right while this ostinato figure was played, I had to adjust the placement of this melody so that the bass notes could also be played. Decisions here were mechanical as much as anything.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269946&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269946' %}
 
 ## Everything is intentional
 
@@ -169,21 +129,13 @@ The piece didn’t end by going back to the original key.
 
 I had modulated in the middle, and liked the progression, but couldn’t find an effective way to get back to the tonal centre. Of course, a piece doesn’t always have to end back in the original key, but I didn’t want to finish this piece in a new key simply because I couldn’t find any other way. So I tried changing things around a bit in the middle section and went through some wonderful harmonies and surprising transitions which made it come back to the tonic.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269940&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269940' %}
 
 ## Still not satisfied with overall structure
 
 However, I felt there was something wrong with the balance of the phrases leading into the final chordal ending. It sounded like an improvisation, not an intentional progression. I experimented with a slight change in structure and simplified the overall harmonic movement. It seemed to lead into the ending better now, but I was not convinced by the left hand accompaniment, and was the ending really how I wanted it? It felt as if the simple insertion of the chords from the opening was a bit disappointing.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269937&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269937' %}
 
 ## Returning to the original concept
 
@@ -191,11 +143,7 @@ So I worked on the ending and inserted an echo of a previous theme. I felt this 
 
 The overall structure and balance was finally beginning to feel right and I began to think about recording a finished version.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269928&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269928' %}
 
 ## Like a sculptor chipping away at stone
 
@@ -207,11 +155,7 @@ There was also then the opportunity to use the notes of the ostinato in a fleeti
 
 The changes I was making were becoming smaller and less radical, gradually bringing the piece to a place where I was happy with each note — I felt as if I was chipping away at a block of stone, from which the sculpture was gradually emerging.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269919&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269919' %}
 
 ## Still changing the harmonic structure
 
@@ -223,11 +167,7 @@ I made the decision to simplify further and took out a couple of phrases, replac
 
 Further small changes were made to left hand accompaniment figures and the short linking motifs.
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269913&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269913' %}
 
 ## Getting the opening theme established
 
@@ -235,11 +175,7 @@ I was intending to record the piece when I woke up, but as I played it for the f
 
 I made small changes and simplified the chords slightly as well. So nearly there!
 
-<div class="embed-container soundcloud-embed-container">
-  <figure class="fig fig-sound">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A877269907&color=ff5500"></iframe>
-  </figure>
-</div>
+{% soundCloudPlayer '877269907' %}
 
 ## Final adjustments
 
@@ -259,11 +195,7 @@ A score can be downloaded from the *[It changes around me](/composer/pianomusic/
 
 This is a video I made to upload the [piece to YouTube](https://www.youtube.com/watch?v=ZPgE5lExpE0&list=PLeeX9kYAIjEgB1VvmUFhYfsogfeNKVIfM&index=5&t=0s). It uses photos from my holiday time spent in Llandudno, Wales.
 
-<div class="embed-container youtube-embed-container">
-  <figure class="fig fig-video">
-    <iframe width="640" height="390" src="https://www.youtube.com/embed/ZPgE5lExpE0?si=46GIpDbmydh2nEBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </figure>
-</div>
+{% youTubePlayer 'ZPgE5lExpE0' %}
 
 ---
 

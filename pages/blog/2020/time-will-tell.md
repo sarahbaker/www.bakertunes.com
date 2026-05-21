@@ -9,11 +9,7 @@ page:
 ---
 I recently composed a piece for solo piano. I thought I would write about the creative process and how my ideas were shaped and developed into the finished work.
 
-<div class="embed-container youtube-embed-container">
-  <figure class="fig fig-video">
-    <iframe width="640" height="390" src="https://www.youtube.com/embed/5XOeQMZOgXA?si=u7n2_kEKFP3PmFXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </figure>
-</div>
+{% youTubePlayer '5XOeQMZOgXA' %}
 
 ## Where it all begins
 

@@ -11,6 +11,7 @@ import mdIterator from 'markdown-it-for-inline';
 import { execSync }  from 'child_process';
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import timeToRead  from "eleventy-plugin-time-to-read";
+import Image from "@11ty/eleventy-img";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -245,6 +246,51 @@ export default async function(eleventyConfig) {
   eleventyConfig.addFilter('sortByDate', (collection, andSticky = true) => {
     return sortByDate(collection, andSticky);
   });
+
+  eleventyConfig.addAsyncShortcode("imageData", async function(src) {
+    var picture = await getPictureData(src, [1200]);
+    return picture.jpeg[0].url;
+  });
+
+  async function getPictureData(src, widths = [300, 620, 1000, 1980]) {
+    let metadata = await Image(src, {
+      widths: widths,
+      formats: ['jpeg'],
+      urlPath: "/static/img/",
+      outputDir: "./_site/static/img/"
+    });
+    console.log(metadata);
+    return metadata;
+  };
+
+  /* Easy Soundcloud player markup
+   *
+   * req:
+   *   sid: Soundcloud item ID
+   */
+  eleventyConfig.addShortcode('soundCloudPlayer', (sid) => {
+    let markup = `<div class="embed-container soundcloud-embed-container">
+  <figure class="fig fig-sound">
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A${sid}&color=ff5500"></iframe>
+  </figure>
+</div>`;
+    return markup;
+  });
+
+  /* Easy YouTube player markup
+   *
+   * req:
+   *   ytid: YouTube item ID
+   */
+  eleventyConfig.addShortcode('youTubePlayer', (ytid) => {
+    let markup = `<div class="embed-container youtube-embed-container">
+  <figure class="fig fig-video">
+    <iframe width="640" height="410" src="https://www.youtube.com/embed/${ytid}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </figure>
+</div>`;
+    return markup;
+  });
+
 
   // // Minify HTML output
   // eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

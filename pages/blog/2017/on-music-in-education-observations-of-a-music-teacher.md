@@ -28,11 +28,7 @@ Unfortunately I see all too often children’s experience narrowed down to maths
 
 Participation in music affects all other aspects of learning. [On-going research](http://www.anitacollinsmusic.com/neuroandmused/) continues to reveal the unique effect musical performance has on the brain.
 
-<div class="embed-container youtube-embed-container">
-  <figure class="fig fig-video">
-    <iframe src="https://www.youtube.com/embed/R0JKCYZ8hng?si=cT-9EshYe1Egdxoz" width="700" height="393" frameborder="0" scrolling="no"></iframe>
-  </figure>
-</div>
+{% youTubePlayer 'R0JKCYZ8hng' %}
 
 If those responsible for deciding schools’ curricula and league table criteria were informed by this increasing body of research and fully embraced the value of musical education for the wider curriculum, results in all subjects could be enhanced and the [well-being of young people](https://www.washingtonpost.com/news/speaking-of-science/wp/2015/01/07/music-lessons-spur-emotional-and-behavioral-growth-in-children-new-study-says/) improved. I see this happening in the schools where I work in which music and performing arts are an integral part of educational life. Pressure groups such as [Bacc for the Future](http://www.baccforthefuture.com/) are working hard to highlight the importance of arts subjects in education and striving to ensure their place in the English baccalaureate.
 
