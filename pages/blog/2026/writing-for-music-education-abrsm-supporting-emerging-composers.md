@@ -68,8 +68,6 @@ I have had my first collection of grade 1 piano pieces, My Piano Sketchbook Grad
 
 ---
 
-[Transformations](https://open.spotify.com/album/7yNVk50pBNyDLqNCvvIfaF?si=eT8z4BgDRSWaMlWbyrtSSw), a collection of piano pieces inspired by my experiences and feelings during the pandemic.
-
 A selection of my piano pieces has been recorded in the albums [Love Notes](https://open.spotify.com/album/30hxyw5ucWiXinnx0YQl96?si=yZk00TZhTcq-0d17bRHS2g) and [Transformations](https://open.spotify.com/album/7yNVk50pBNyDLqNCvvIfaF?si=qcmnayP7S1OKKiJ8YNLdHQ).
 
 There's also a [full list of compositions](/about/#compositions) elsewhere on my website.
