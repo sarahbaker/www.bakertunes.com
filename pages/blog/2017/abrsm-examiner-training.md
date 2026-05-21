@@ -97,4 +97,4 @@ Definitely.
 
 ---
 
-For further blogs about my experiences of the training and selection process to become an ABRSM examiner, see [ABRSM Examiner Training Part 2](/blog/2017-abrsm-examiner-training/) and ABRSM Examiner Training Part 3.
+For further blogs about my experiences of the training and selection process to become an ABRSM examiner, see [ABRSM Examiner Training Part 2](/blog/2017-abrsm-examiner-training/) and [ABRSM Examiner Training Part 3](/blog/2018-abrsm-examiner-training-part-3/).
