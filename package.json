@@ -49,6 +49,6 @@
     "stylelint-prettier": "^5.0.2",
     "stylelint-scss": "^7.0.0",
     "uglify-js": "^3.19.3",
-    "wrangler": "^4.90.0"
+    "wrangler": "^4.94.0"
   }
 }
