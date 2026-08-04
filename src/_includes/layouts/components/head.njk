@@ -51,4 +51,6 @@
   <script src="/pagefind/pagefind-ui.js"></script>
 
   {% include "layouts/components/head-social-cards.njk" %}
+
+  <link rel="canonical" href="{% if canonical %}{{ canonical }}{% else %}{{ page.url | url | absoluteUrl(metadata.url) }}{% endif %}" />
 </head>
