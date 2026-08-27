@@ -22,7 +22,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "autoprefixer": "^10.5.4",
@@ -33,7 +33,7 @@
     "luxon": "^3.7.2",
     "markdown-it": "^14.3.0",
     "markdown-it-anchor": "^9.2.1",
-    "markdown-it-attrs": "^4.5.0",
+    "markdown-it-attrs": "^5.0.1",
     "markdown-it-eleventy-img": "^0.10.2",
     "markdown-it-for-inline": "^2.0.1",
     "pagefind": "^1.5.2",
